@@ -7,4 +7,15 @@ Author: JOHN MARKTON M. OLARTE
 ## HOW TO RUN
 Detailed Procedures to Run the Program
 
-## 
+## TO DO
+LABELS:
+➖ - NOT YET START
+🟡 - IN PROGRESS
+✅ - COMPLETED/DONE
+❌ - CANCELLED
+
+-----------------------------
+1. ➖ Setup Docker
+2. ➖ Setup MongoDB
+3. ➖ Setup dev_setup
+4. 

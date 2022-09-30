@@ -1,0 +1,11 @@
+For Data Scrapping use:
+
+For Activating Local Host for WAN use:
+https://ngrok.com/pricing
+https://expose.dev/
+
+For database:
+MongoDB
+
+Integration of FASTAPI with MongoDB:
+https://hevodata.com/learn/fastapi-mongodb/
