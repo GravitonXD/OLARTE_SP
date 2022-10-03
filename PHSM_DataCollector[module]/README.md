@@ -32,9 +32,17 @@ NOTE: This coloring can only work on powershell and unix terminals, Windows CMD 
 
 ## INSTRUCTIONS FOR SETTING UP THE API_KEY IN THE ENVIRONMENT VARIABLES
 ### FOR WINDOWS SYSTEM
-
-### FOR LINUX SYSTEM
-Follow these steps:
+Follow these steps: https://www.computerhope.com/issues/ch000549.htm
 
 Name: EOD_API_KEY
 Value: "Your API key from EODHD"
+
+### FOR LINUX SYSTEM
+Follow these steps: 
+
+Name: EOD_API_KEY
+Value: "Your API key from EODHD"
+
+
+## Current Bugs
+Content is not writing properly and updating.
