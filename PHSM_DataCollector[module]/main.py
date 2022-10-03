@@ -58,15 +58,15 @@ def save_historical_data(response, file_name, url, stock_symbol):
                 # Write the data to the file if not empty
                 if df.empty:
                     ### LOG ###
-                    # Log the error in the error_log.txt file
-                    action = "a" if os.path.exists("./module_logs/error_log.txt") else "w"
-                    with open("./module_logs/error_log.txt", action) as error_log:
+                    # Log the error in the warning_log.txt file
+                    action = "a" if os.path.exists("./module_logs/warning_log.txt") else "w"
+                    with open("./module_logs/warning_log.txt", action) as error_log:
                         error_log.write(f"[WARNING]//{current_date()}::{log_time()}: No new data to appended to {file_name}\n")
                     error_log.close()
 
                     ### ALERT ###
                     # Alert the user that there is no new data to append to the file
-                    print(f"[WARNING] No new data to append to {file_name}")
+                    print(f"\033[1;33m [WARNING] \033[m No new data to append to {file_name}")
                     # Exit the function
                     return
 
@@ -83,7 +83,7 @@ def save_historical_data(response, file_name, url, stock_symbol):
 
         ### ALERT ###
         # Alert the user that the saving/update of the historical data failed
-        print(f"[ERROR] Saving/Update of historical data failed for {stock_symbol}")
+        print(f"\033[1;31m [ERROR] \033[m Saving/Update of historical data failed for {stock_symbol}")
 
 
 
@@ -102,7 +102,7 @@ def main():
 
         ### ALERT ###
         # Alert the user that the API key is not defined in the environment variable
-        print("[ERROR] API key not defined in the environment variable!\nSee error_log file for more details\nExiting...\n")
+        print("\033[1;31m [ERROR] \033[m API key not defined in the environment variable!\nSee error_log file for more details\nExiting...\n")
         exit()
 
     # Print Symbol List
@@ -126,7 +126,7 @@ def main():
 
             ### ALERT ###
             # Alert the user that the data collection was successful
-            print(f"[SUCCESS] Successfully collected data for {stock_symbol}")
+            print(f"\033[1;32m [SUCCESS] \033[m Successfully collected data for {stock_symbol}")
 
         else:
             ### LOG ###
@@ -138,7 +138,7 @@ def main():
 
             ### ALERT ###
             # Alert the user that the data collection was unsuccessful
-            print(f"[ERROR] {response.status_code} - {response.reason}\nSee error_log file for more details\n\n")
+            print(f"\033[1;31m [ERROR] \033[m {response.status_code} - {response.reason}\nSee error_log file for more details\n\n")
     
     ### LOG ###
     # Log the successful completion of the Python Script in the success_log.txt file
@@ -149,6 +149,6 @@ def main():
 
     ### ALERT ###
     # Alert the user that the Python Script was successfully completed
-    print("[SUCCESS] Successfully completed the PHSM_DataCollector Python Script\n")
+    print("\033[1;32m [SUCCESS] \033[m Successfully completed the PHSM_DataCollector Python Script\n")
 if __name__ == "__main__":
     main()
