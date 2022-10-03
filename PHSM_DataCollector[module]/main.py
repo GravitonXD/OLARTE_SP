@@ -66,7 +66,7 @@ def save_historical_data(response, file_name, url, stock_symbol):
 
                     ### ALERT ###
                     # Alert the user that there is no new data to append to the file
-                    print(f"\033[1;33m [WARNING] \033[m No new data to append to {file_name}")
+                    print(f"{current_date()}::{log_time()}: \033[1;33m [WARNING] \033[m No new data to append to {file_name}")
                     # Exit the function
                     return
 
@@ -83,11 +83,12 @@ def save_historical_data(response, file_name, url, stock_symbol):
 
         ### ALERT ###
         # Alert the user that the saving/update of the historical data failed
-        print(f"\033[1;31m [ERROR] \033[m Saving/Update of historical data failed for {stock_symbol}")
+        print(f"{current_date()}::{log_time()}: \033[1;31m [ERROR] \033[m Saving/Update of historical data failed for {stock_symbol}")
 
 
 
 def main():
+    print("------------------- STARTING PHSM_DC MAIN.PY ---------------------\n")
     # Check if the API key is defined in the environment variable
     try:
         API_KEY = get_APIKey()
@@ -102,7 +103,7 @@ def main():
 
         ### ALERT ###
         # Alert the user that the API key is not defined in the environment variable
-        print("\033[1;31m [ERROR] \033[m API key not defined in the environment variable!\nSee error_log file for more details\nExiting...\n")
+        print(f"{current_date()}::{log_time()}: \033[1;31m [ERROR] \033[m API key not defined in the environment variable!\nSee error_log file for more details\nExiting...\n")
         exit()
 
     # Print Symbol List
@@ -126,7 +127,7 @@ def main():
 
             ### ALERT ###
             # Alert the user that the data collection was successful
-            print(f"\033[1;32m [SUCCESS] \033[m Successfully collected data for {stock_symbol}")
+            print(f"{current_date()}::{log_time()}: \033[1;32m [SUCCESS] \033[m Successfully collected data for {stock_symbol}")
 
         else:
             ### LOG ###
@@ -138,7 +139,7 @@ def main():
 
             ### ALERT ###
             # Alert the user that the data collection was unsuccessful
-            print(f"\033[1;31m [ERROR] \033[m {response.status_code} - {response.reason}\nSee error_log file for more details\n\n")
+            print(f"{current_date()}::{log_time()}: \033[1;31m [ERROR] \033[m {response.status_code} - {response.reason}\nSee error_log file for more details\n\n")
     
     ### LOG ###
     # Log the successful completion of the Python Script in the success_log.txt file
@@ -149,6 +150,7 @@ def main():
 
     ### ALERT ###
     # Alert the user that the Python Script was successfully completed
-    print("\033[1;32m [SUCCESS] \033[m Successfully completed the PHSM_DataCollector Python Script\n")
+    print(f"{current_date()}::{log_time()}: \033[1;32m [SUCCESS] \033[m Successfully completed the PHSMData Collector Module\n")
+    print("------------------- EXITING PHSM_DC MAIN.PY ---------------------\n")
 if __name__ == "__main__":
     main()
