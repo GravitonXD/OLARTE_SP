@@ -14,7 +14,6 @@
 
 # Importing the necessary modules
 import requests
-import pandas as pd
 import datetime
 import os
 import tools.stock_symbols as sb
@@ -36,49 +35,29 @@ def log_time():
     return datetime.datetime.now().strftime("%H:%M:%S")
 
 
-def save_historical_data(response, file_name, url, stock_symbol):
-    # Check if the file exists
-    # If it does, then append the data to the file
-    # If it doesn't, then create the file and write the data to it
-    file_action = "a" if os.path.exists(file_name) else "w"
+def save_historical_data(response, file_name, stock_symbol):
     try:
-        with open(file_name, file_action) as file:
-            if file_action == "w":
-                file.write(response.content)
-            else:
-                # Use the pandas library to read the CSV file, and check the last date
-                df = pd.read_csv(file_name)
-                last_date = df["Date"].iloc[-1]
-                last_date = datetime.datetime.strptime(last_date, "%Y-%m-%d")
+        # Save the data in a CSV file
+        with open(file_name, "w") as f:
+            f.write(response.text)
+        f.close()
 
-                # Compare the last date with the current date
-                df = pd.read_csv(url)
-                df = df[df["Date"] > last_date.strftime("%Y-%m-%d")]
+        ### LOG ###
+        # Log the successful data collection in the success_log.txt file
+        action = "a" if os.path.exists("./module_logs/success_log.txt") else "w"
+        with open("./module_logs/success_log.txt", action) as success_log:
+            success_log.write(f"[SUCCESS] {current_date()}::{log_time()}: Successfully collected data for {stock_symbol}.\n")
+        success_log.close()
 
-                # Write the data to the file if not empty
-                if df.empty:
-                    ### LOG ###
-                    # Log the error in the warning_log.txt file
-                    action = "a" if os.path.exists("./module_logs/warning_log.txt") else "w"
-                    with open("./module_logs/warning_log.txt", action) as error_log:
-                        error_log.write(f"[WARNING]//{current_date()}::{log_time()}: No new data to appended to {file_name}\n")
-                    error_log.close()
-
-                    ### ALERT ###
-                    # Alert the user that there is no new data to append to the file
-                    print(f"{current_date()}::{log_time()}: \033[1;33m [WARNING] \033[m No new data to append to {file_name}")
-                    # Exit the function
-                    return
-
-                # Append the data to the file
-                df.to_csv(file, header=False, index=False)
-        file.close()
+        ### ALERT ###
+        # Alert the user that the data collection was successful
+        print(f"{current_date()}::{log_time()}: \033[1;32m [SUCCESS] \033[m Successfully collected data for {stock_symbol}.\n")
     except:
         ### LOG ###
         # Log the error in the error_log.txt file
         action = "a" if os.path.exists("./module_logs/error_log.txt") else "w"
         with open("./module_logs/error_log.txt", action) as error_log:
-            error_log.write(f"[ERROR]//{current_date}::{log_time()}: Saving/Update of historical data failed for {stock_symbol}\n")
+            error_log.write(f"[ERROR] {current_date}::{log_time()}: Saving/Update of historical data failed for {stock_symbol}\n")
         error_log.close()
 
         ### ALERT ###
@@ -98,7 +77,7 @@ def main():
         # Check if the error_log file exists
         action = "a" if os.path.exists("./module_logs/error_log.txt") else "w"
         with open("./module_logs/error_log.txt", action) as error_log:
-            error_log.write(f"[ERROR]//{current_date()}::{log_time()}: API key not defined in the environment variable!\n")
+            error_log.write(f"[ERROR] {current_date()}::{log_time()}: API key not defined in the environment variable!\n")
         error_log.close()
 
         ### ALERT ###
@@ -117,24 +96,24 @@ def main():
 
         # Check if the response is successful
         if response.status_code == 200:
-            save_historical_data(response, file_name, url, stock_symbol)
-
             ### LOG ###
-            # Log the successful data collection in the success_log.txt file
+            # Log the successful request in the success_log.txt file
             action = "a" if os.path.exists("./module_logs/success_log.txt") else "w"
             with open("./module_logs/success_log.txt", action) as success_log:
-                success_log.write(f"[SUCCESS]//{current_date()}::{log_time()}: Successfully collected data for {stock_symbol}\n")
+                success_log.write(f"[SUCCESS] {current_date()}::{log_time()}: Request to get {stock_symbol} historical data was successful\n")
 
             ### ALERT ###
-            # Alert the user that the data collection was successful
-            print(f"{current_date()}::{log_time()}: \033[1;32m [SUCCESS] \033[m Successfully collected data for {stock_symbol}")
+            # Alert the user that the request was successful
+            print(f"{current_date()}::{log_time()}: \033[1;32m [SUCCESS] \033[m Request to get {stock_symbol} historical data was successful")
 
+            # Save the data in a CSV file
+            save_historical_data(response, file_name, stock_symbol)
         else:
             ### LOG ###
             # Log the error in the error_log.txt file
             action = "a" if os.path.exists("./module_logs/error_log.txt") else "w"
             with open("./module_logs/error_log.txt", action) as error_log:
-                error_log.write(f"[ERROR]//{current_date()}::{log_time()}: {response.status_code} - {response.reason}, Failed to get historical data of {stock_symbol}\n")
+                error_log.write(f"[ERROR] {current_date()}::{log_time()}: {response.status_code} - {response.reason}, Failed to get historical data of {stock_symbol}\n")
             error_log.close()
 
             ### ALERT ###
@@ -145,12 +124,14 @@ def main():
     # Log the successful completion of the Python Script in the success_log.txt file
     action = "a" if os.path.exists("./module_logs/success_log.txt") else "w"
     with open("./module_logs/success_log.txt", action) as success_log:
-        success_log.write(f"[SUCCESS]//{current_date()}::{log_time()}: Successfully completed the PHSM_DataCollector Python Script\n")
+        success_log.write(f"[SUCCESS] {current_date()}::{log_time()}: Successfully completed the PHSM_DataCollector Python Script\n")
     success_log.close()
 
     ### ALERT ###
     # Alert the user that the Python Script was successfully completed
     print(f"{current_date()}::{log_time()}: \033[1;32m [SUCCESS] \033[m Successfully completed the PHSMData Collector Module\n")
     print("------------------- EXITING PHSM_DC MAIN.PY ---------------------\n")
+
+
 if __name__ == "__main__":
     main()
