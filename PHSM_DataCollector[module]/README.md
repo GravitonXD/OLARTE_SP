@@ -27,3 +27,5 @@ ALERT TYPE COLORS (ANSI Code):
 😡 Red - Error (\033[1;31m ERROR \033[m)
 🟢 Green - Success (\033[1;32m SUCCESS \033[m)
 🟡 Yellow - Warning (\033[1;33m WARNING \033[m)
+
+NOTE: This coloring can only work on powershell and unix terminals, Windows CMD will not output the color and will have strange chars instead.
