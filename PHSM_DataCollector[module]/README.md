@@ -29,3 +29,12 @@ ALERT TYPE COLORS (ANSI Code):
 🟡 Yellow - Warning (\033[1;33m WARNING \033[m)
 
 NOTE: This coloring can only work on powershell and unix terminals, Windows CMD will not output the color and will have strange chars instead.
+
+## INSTRUCTIONS FOR SETTING UP THE API_KEY IN THE ENVIRONMENT VARIABLES
+### FOR WINDOWS SYSTEM
+
+### FOR LINUX SYSTEM
+Follow these steps:
+
+Name: EOD_API_KEY
+Value: "Your API key from EODHD"
