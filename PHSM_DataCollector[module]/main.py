@@ -86,7 +86,8 @@ def main():
         exit()
 
     # Print Symbol List
-    stock_symbols = sb.get_stock_symbols()
+    # TODO: Change to sb.get_stock_symbols() for production
+    stock_symbols = sb.get_test_symbols()
     
     # LOOP THROUGH THE STOCK SYMBOLS
     for stock_symbol in stock_symbols:
