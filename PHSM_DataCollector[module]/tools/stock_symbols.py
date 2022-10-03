@@ -1,4 +1,4 @@
-stock_symbols = [
+test_symbols = [
     "AC", 
     "ALI",
     "AP",
@@ -14,12 +14,9 @@ stock_symbols = [
     "URC"
 ]
 
-def get_stock_symbols():
-    return stock_symbols
-
-"""
-
-Use this once we are out of the testing phase
+# Use this function for prototype testing
+def get_test_symbols():
+    return test_symbols
 
 stock_symbols = [
     "2GO",
@@ -360,5 +357,6 @@ stock_symbols = [
     "ZHI"
 ]
 
-
-"""
+# Get the list of all stocks in the PSEi
+def get_stock_symbols():
+    return stock_symbols
