@@ -9,3 +9,7 @@ MongoDB
 
 Integration of FASTAPI with MongoDB:
 https://hevodata.com/learn/fastapi-mongodb/
+
+Stock Market Data: https://eodhistoricaldata.com/
+
+NewsAPI: https://newsapi.org/docs/client-libraries/python
