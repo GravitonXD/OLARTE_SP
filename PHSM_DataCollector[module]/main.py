@@ -21,7 +21,18 @@ import tools.stock_symbols as sb
 def get_APIKey():
     # Get the API key as defined from the environment variable
     # NOTE: Please define the API key in the environment variable as EOD_API_KEY
-    API_KEY = os.environ.get("EOD_API_KEY")
+    #      Otherwise create a file named "API_KEY.txt" in the tools directory and place the API key in the file
+
+    # Initialize the API key
+    API_KEY = ""
+    # Get the API key from the environment variable if it exists
+    # Otherwise, get the API key from the APIKey.txt file
+    if os.environ.get("EOD_API_KEY") != None:
+        API_KEY = os.environ.get("EOD_API_KEY")
+    else:
+        with open("./tools/API_KEY.txt", "r") as f:
+            API_KEY = f.read()
+        f.close()
     return API_KEY
 
 
