@@ -18,21 +18,20 @@ import datetime
 import os
 import tools.stock_symbols as sb
 
-def get_APIKey():
+def get_API_Key():
     # Get the API key as defined from the environment variable
     # NOTE: Please define the API key in the environment variable as EOD_API_KEY
     #      Otherwise create a file named "API_KEY.txt" in the tools directory and place the API key in the file
 
-    # Initialize the API key
-    API_KEY = ""
     # Get the API key from the environment variable if it exists
     # Otherwise, get the API key from the APIKey.txt file
     if os.environ.get("EOD_API_KEY") != None:
         API_KEY = os.environ.get("EOD_API_KEY")
-    else:
-        with open("./tools/API_KEY.txt", "r") as f:
-            API_KEY = f.read()
-        f.close()
+        return API_KEY
+
+    with open("./tools/API_KEY.txt", "r") as f:
+        API_KEY = f.read()
+    f.close()
     return API_KEY
 
 
@@ -81,19 +80,19 @@ def main():
     print("------------------- STARTING PHSM_DC MAIN.PY ---------------------\n")
     # Check if the API key is defined in the environment variable
     try:
-        API_KEY = get_APIKey()
+        API_KEY = get_API_Key()
     except:
         ### LOG ###
         # Log the API key error in the error_log.txt file
         # Check if the error_log file exists
         action = "a" if os.path.exists("./module_logs/error_log.txt") else "w"
         with open("./module_logs/error_log.txt", action) as error_log:
-            error_log.write(f"[ERROR] {current_date()}::{log_time()}: API key not defined in the environment variable!\n")
+            error_log.write(f"[ERROR] {current_date()}::{log_time()}: API key not defined in the system's environment variable or in ./tools/API_KEY.txt!\n")
         error_log.close()
 
         ### ALERT ###
         # Alert the user that the API key is not defined in the environment variable
-        print(f"{current_date()}::{log_time()}: \033[1;31m [ERROR] \033[m API key not defined in the environment variable!\nSee error_log file for more details\nExiting...\n")
+        print(f"{current_date()}::{log_time()}: \033[1;31m [ERROR] \033[m API key not defined in the system's environment variable or in ./tools/API_KEY.txt!\nSee error_log file for more details\nExiting...\n")
         exit()
 
     # Print Symbol List
