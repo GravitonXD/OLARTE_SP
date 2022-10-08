@@ -1,0 +1,14 @@
+[
+{
+    "stock_symbol": "JFC",
+    "last_closing": 100.00
+},
+{
+    "stock_symbol": "TEL",
+    "last_closing": 200.00
+},
+{
+    "stock_symbol": "MER",
+    "last_closing": 300.00
+}
+]
