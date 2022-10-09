@@ -1,4 +1,4 @@
-from mongoengine import Document, StringField, IntField, FloatField
+from mongoengine import Document, StringField, FloatField
 # Models for the database in MongoDB
 
 # NOTE: CONFIGURE SCHEMA, THIS IS FOR EXAMPLE ONLY
