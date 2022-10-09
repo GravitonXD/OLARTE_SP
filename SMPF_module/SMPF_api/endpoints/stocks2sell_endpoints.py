@@ -2,7 +2,7 @@
 import json
 from SMPF_database.models import Sell
 
-class Stocks2BuyEndpoints:
+class Stocks2SellEndpoints:
     def __init__(self):
         pass
 
