@@ -6,7 +6,7 @@ class Stocks2SellEndpoints:
     def __init__(self):
         pass
 
-    def get_all_stocks_to_buy(self, data):
+    def get_all_stocks_to_buy(self):
         # Get all data from the "Buy" collection
         data = Sell.objects().to_json()
         json_data = json.loads(data)

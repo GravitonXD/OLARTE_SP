@@ -7,10 +7,9 @@ class Stocks2BuyEndpoints:
     def __init__(self):
         pass
 
-    def _current_datetime(self):
-        return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
 
-    def get_all_stocks_to_buy(self, data):
+    def get_all_stocks_to_buy(self):
         # Get all data from the "Buy" collection
         data = Buy.objects().to_json()
         json_data = json.loads(data)
