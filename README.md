@@ -4,19 +4,11 @@ xxxx
 
 Author: JOHN MARKTON M. OLARTE
 
-## HOW TO RUN
-Detailed Procedures to Run the Program
+## HOW TO RUN (FOR DEVELOPMENT/TESTING)
+Detailed Procedures to Run the Program when developing or testing
 
-## TO DO
-LABELS:
-➖ - NOT YET START
-🟡 - IN PROGRESS
-✅ - COMPLETED/DONE
-❌ - CANCELLED
 
------------------------------
-1. ➖ Setup Docker
-2. ➖ Setup MongoDB
-3. ➖ Setup dev_setup
-4. ✅ Create PHSM Data Collector Module
-  4.a. 🟡 Test PHSM Data Collector Module
+## HOW TO RUN (FOR DEPLOYMENT)
+Detailed Procedures to Run the Program when deploying
+1. Build docker-compose
+2. Run docker-compose

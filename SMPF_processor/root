@@ -1,5 +1,2 @@
 # root defines the CRON job to run every 6PM (Monday to Friday)
-# 0 18 * * 1-5 python3 /bin/task_scheduler *UNCOMMENT THIS LINE TO ACTIVATE CRON JOB WHEN NOT TESTING*
-
-# FOR TESTING PURPOSES ONLY, run the task_scheduler script every 1 minute
-*/1 * * * * python3 /bin/task_scheduler
+33 19 * * 1-5 python3 /bin/task_scheduler

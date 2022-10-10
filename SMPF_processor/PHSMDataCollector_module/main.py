@@ -16,7 +16,7 @@
 import requests
 import datetime
 import os
-import tools.stock_symbols as sb
+from processor_utils import stock_symbols as ss
 
 def get_API_Key():
     # Get the API key as defined from the environment variable
@@ -54,8 +54,8 @@ def save_historical_data(response, file_name, stock_symbol):
 
         ### LOG ###
         # Log the successful data collection in the success_log.txt file
-        action = "a" if os.path.exists("./module_logs/success_log.txt") else "w"
-        with open("./module_logs/success_log.txt", action) as success_log:
+        action = "a" if os.path.exists("/data/db/data-collector_logs/success_log.txt") else "w"
+        with open("/data/db/data-collector_logs/success_log.txt", action) as success_log:
             success_log.write(f"[SUCCESS] {current_date()}::{log_time()}: Successfully collected data for {stock_symbol}.\n")
         success_log.close()
 
@@ -65,8 +65,8 @@ def save_historical_data(response, file_name, stock_symbol):
     except:
         ### LOG ###
         # Log the error in the error_log.txt file
-        action = "a" if os.path.exists("./module_logs/error_log.txt") else "w"
-        with open("./module_logs/error_log.txt", action) as error_log:
+        action = "a" if os.path.exists("/data/db/data-collector_logs/error_log.txt") else "w"
+        with open("/data/db/data-collector_logs/error_log.txt", action) as error_log:
             error_log.write(f"[ERROR] {current_date}::{log_time()}: Saving/Update of historical data failed for {stock_symbol}\n")
         error_log.close()
 
@@ -85,8 +85,8 @@ def main():
         ### LOG ###
         # Log the API key error in the error_log.txt file
         # Check if the error_log file exists
-        action = "a" if os.path.exists("./module_logs/error_log.txt") else "w"
-        with open("./module_logs/error_log.txt", action) as error_log:
+        action = "a" if os.path.exists("/data/db/data-collector_logs/error_log.txt") else "w"
+        with open("/data/db/data-collector_logs/error_log.txt", action) as error_log:
             error_log.write(f"[ERROR] {current_date()}::{log_time()}: API key not defined in the system's environment variable or in ./tools/API_KEY.txt!\n")
         error_log.close()
 
@@ -97,20 +97,20 @@ def main():
 
     # Print Symbol List
     # TODO: Change to sb.get_stock_symbols() for production
-    stock_symbols = sb.get_test_symbols()
+    stock_symbols = ss.get_test_symbols()
     
     # LOOP THROUGH THE STOCK SYMBOLS
     for stock_symbol in stock_symbols:
         url = f"https://eodhistoricaldata.com/api/eod/{stock_symbol}.PSE?api_token={API_KEY}&period=d"
         response = requests.get(url)
-        file_name = f"./PHSM_historical_data/{stock_symbol}.csv"
+        file_name = f"/data/db/stock_data/{stock_symbol}.csv"
 
         # Check if the response is successful
         if response.status_code == 200:
             ### LOG ###
             # Log the successful request in the success_log.txt file
-            action = "a" if os.path.exists("./module_logs/success_log.txt") else "w"
-            with open("./module_logs/success_log.txt", action) as success_log:
+            action = "a" if os.path.exists("/data/db/data-collector_logs/success_log.txt") else "w"
+            with open("/data/db/data-collector_logs/success_log.txt", action) as success_log:
                 success_log.write(f"[SUCCESS] {current_date()}::{log_time()}: Request to get {stock_symbol} historical data was successful\n")
 
             ### ALERT ###
@@ -122,8 +122,8 @@ def main():
         else:
             ### LOG ###
             # Log the error in the error_log.txt file
-            action = "a" if os.path.exists("./module_logs/error_log.txt") else "w"
-            with open("./module_logs/error_log.txt", action) as error_log:
+            action = "a" if os.path.exists("/data/db/data-collector_logs/error_log.txt") else "w"
+            with open("/data/db/data-collector_logs/error_log.txt", action) as error_log:
                 error_log.write(f"[ERROR] {current_date()}::{log_time()}: {response.status_code} - {response.reason}, Failed to get historical data of {stock_symbol}\n")
             error_log.close()
 
@@ -133,8 +133,8 @@ def main():
     
     ### LOG ###
     # Log the successful completion of the Python Script in the success_log.txt file
-    action = "a" if os.path.exists("./module_logs/success_log.txt") else "w"
-    with open("./module_logs/success_log.txt", action) as success_log:
+    action = "a" if os.path.exists("/data/db/data-collector_logs/success_log.txt") else "w"
+    with open("/data/db/data-collector_logs/success_log.txt", action) as success_log:
         success_log.write(f"[SUCCESS] {current_date()}::{log_time()}: Successfully completed the PHSM_DataCollector Python Script\n")
     success_log.close()
 
@@ -145,4 +145,9 @@ def main():
 
 
 if __name__ == "__main__":
+    # Make this directories under /data/db of the container
+    os.makedirs("/data/db/stock_data", exist_ok=True)
+    os.makedirs("/data/db/data-collector_logs", exist_ok=True)
+    
+    # Run the main function
     main()
