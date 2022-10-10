@@ -1,2 +1,6 @@
 # root defines the CRON job to run every 6PM (Monday to Friday)
-33 19 * * 1-5 python3 /bin/task_scheduler
+* 18 * * 1 python3 /bin/task_scheduler
+5 18 * * 2 python3 /bin/task_scheduler
+10 18 * * 3 python3 /bin/task_scheduler
+15 18 * * 4 python3 /bin/task_scheduler
+20 18 * * 5 python3 /bin/task_scheduler
