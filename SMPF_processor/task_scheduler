@@ -1,0 +1,10 @@
+#!/usr/bin/python
+import datetime
+
+# NOTE: THIS IS FOR INITIAL TESTING ONLY
+# run test.py inside of PHSMDataCollector_module
+import PHSMDataCollector_module.test as test
+
+# Get the current date and time
+now = datetime.datetime.now()
+test.main(now)
