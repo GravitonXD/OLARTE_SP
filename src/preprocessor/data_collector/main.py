@@ -8,7 +8,7 @@
     The data will be stored in a CSV file for further analysis.
 
     Author: JOHN MARKTON M. OLARTE
-    Last Modified: October 02, 2022
+    Last Modified: October 11, 2022
 
 """
 
@@ -16,7 +16,7 @@
 import requests
 import datetime
 import os
-from processor_utils import stock_symbols as ss
+from utils import stock_symbols as ss
 
 def get_API_Key():
     # Get the API key as defined from the environment variable

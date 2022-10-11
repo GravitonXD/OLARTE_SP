@@ -1,12 +1,12 @@
 version: "3.8"
 services:
   api:
-    build: ./SMPF_module
+    build: ./API_DB_module
     ports:
       - 8000:8000
     environment:
       # Connect to the database in mongo_db container
-      MONGO_INITDB_DATABASE: "smpf"
+      MONGO_INITDB_DATABASE: "smpft"
       MONGO_HOST: mongo_db
       MONGO_PORT: 27017
       TZ: Asia/Hong_Kong
@@ -15,19 +15,19 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - smpf:/data/db
+      - smpft:/data/db
     environment:
       TZ: Asia/Hong_Kong
-  processor:
-    build: ./SMPF_processor
+  preprocessor:
+    build: ./preprocessor
     environment:
-      MONGO_INITDB_DATABASE: "smpf"
+      MONGO_INITDB_DATABASE: "smpft"
       MONGO_HOST: mongo_db
       MONGO_PORT: 27017
       TZ: Asia/Hong_Kong
     env_file:
       - .env
     volumes:
-      - smpf:/data/db
+      - smpft:/data/db
 volumes:
-  smpf: 
+  smpft: 

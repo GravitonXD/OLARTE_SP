@@ -5,9 +5,9 @@ import json
 from datetime import datetime
 import os
 
-# Local imports
-from SMPF_database.models import Buy
-from SMPF_database.models import Sell
+# Import models
+from DB_model.models import Buy
+from DB_model.models import Sell
 
 # Create the FastAPI app
 app = FastAPI()

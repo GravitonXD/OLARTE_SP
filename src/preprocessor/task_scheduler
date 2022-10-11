@@ -2,9 +2,9 @@
 import datetime
 
 # NOTE: THIS IS FOR INITIAL TESTING ONLY
-# run test.py inside of PHSMDataCollector_module
-import PHSMDataCollector_module.main as data_collector
+# run test.py inside of data_collector
+import data_collector as collector
 
 # Get the current date and time
 now = datetime.datetime.now()
-data_collector.main()
+collector.main()
