@@ -6,7 +6,7 @@ services:
       - 8000:8000
     environment:
       # Connect to the database in mongo_db container
-      MONGO_INITDB_DATABASE: "smpft"
+      MONGO_INITDB_DATABASE: "smptf"
       MONGO_HOST: mongo_db
       MONGO_PORT: 27017
       TZ: Asia/Hong_Kong
@@ -15,19 +15,19 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - smpft:/data/db
+      - smptf:/data/db
     environment:
       TZ: Asia/Hong_Kong
   preprocessor:
     build: ./preprocessor
     environment:
-      MONGO_INITDB_DATABASE: "smpft"
+      MONGO_INITDB_DATABASE: "smptf"
       MONGO_HOST: mongo_db
       MONGO_PORT: 27017
       TZ: Asia/Hong_Kong
     env_file:
       - .env
     volumes:
-      - smpft:/data/db
+      - smptf:/data/db
 volumes:
-  smpft: 
+  smptf: 
