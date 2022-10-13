@@ -3,8 +3,8 @@ import datetime
 
 # NOTE: THIS IS FOR INITIAL TESTING ONLY
 # run test.py inside of data_collector
-import data_collector as collector
+from data_collector import main
 
 # Get the current date and time
 now = datetime.datetime.now()
-collector.main()
+main.main()

@@ -1,6 +1,6 @@
 FROM python:alpine3.16
 
-# Copy the task_scheduler to /preprocessor/task_scheduler
+# Copy the task_scheduler to /bin/task_scheduler
 COPY task_scheduler /preprocessor/task_scheduler
 # Copy root to the root of crontabs
 COPY root /var/spool/cron/crontabs/root
@@ -14,9 +14,13 @@ COPY data_collector /preprocessor/data_collector
 COPY utils /preprocessor/utils
 COPY ML_model_processor /preprocessor/ML_model_processor
 
+# Initialize the python path for the data_collector, utils, and ML_model_processor
+ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/data_collector"
+ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/ML_model_processor"
+ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/utils"
+
 # Set working directory
 WORKDIR /preprocessor
-
 
 # Install the required packages
 RUN pip3 install -r /preprocessor/requirements.txt

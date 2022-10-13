@@ -77,6 +77,10 @@ def save_historical_data(response, file_name, stock_symbol):
 
 
 def main():
+    # Make this directories under /data/db of the container
+    os.makedirs("/data/db/stock_data/", exist_ok=True)
+    os.makedirs("/data/db/data-collector_logs/", exist_ok=True)
+    
     print("------------------- STARTING PHSM_DC MAIN.PY ---------------------\n")
     # Check if the API key is defined in the environment variable
     try:
@@ -142,12 +146,3 @@ def main():
     # Alert the user that the Python Script was successfully completed
     print(f"{current_date()}::{log_time()}: \033[1;32m [SUCCESS] \033[m Successfully completed the PHSMData Collector Module\n")
     print("------------------- EXITING PHSM_DC MAIN.PY ---------------------\n")
-
-
-if __name__ == "__main__":
-    # Make this directories under /data/db of the container
-    os.makedirs("/data/db/stock_data", exist_ok=True)
-    os.makedirs("/data/db/data-collector_logs", exist_ok=True)
-    
-    # Run the main function
-    main()
