@@ -16,7 +16,7 @@ COPY ML_model_processor /preprocessor/ML_model_processor
 
 # Initialize the python path for the data_collector, utils, and ML_model_processor
 ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/data_collector"
-ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/ML_model_processor"
+ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/data_processor"
 ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/utils"
 
 # Set working directory
