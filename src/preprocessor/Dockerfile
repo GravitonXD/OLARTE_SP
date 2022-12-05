@@ -13,13 +13,13 @@ RUN chmod +x /preprocessor/task_scheduler
 COPY data_collector /preprocessor/data_collector
 COPY utils /preprocessor/utils
 COPY data_processor /preprocessor/data_processor
-COPY ml_model /preprocessor/ml_model
+COPY data_processor/ml_model /preprocessor/data_processor/ml_model
 
 # Initialize the python path for the data_collector, utils, data_processor, and ml_model
 ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/data_collector"
 ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/data_processor"
 ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/utils"
-ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/ml_model"
+ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/data_processor/ml_model"
 
 # Set working directory
 WORKDIR /preprocessor
