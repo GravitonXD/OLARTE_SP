@@ -99,9 +99,8 @@ def main():
         print(f"{current_date()}::{log_time()}: \033[1;31m [ERROR] \033[m API key not defined in the system's environment variable or in ./tools/API_KEY.txt!\nSee error_log file for more details\nExiting...\n")
         exit()
 
-    # Print Symbol List
-    # TODO: Change to sb.get_stock_symbols() for production
-    stock_symbols = ss.get_test_symbols()
+    # Get the list of stock symbols
+    stock_symbols = ss.get_stock_symbols()
     
     # LOOP THROUGH THE STOCK SYMBOLS
     for stock_symbol in stock_symbols:
