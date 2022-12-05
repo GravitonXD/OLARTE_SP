@@ -102,6 +102,9 @@ def get_all_stocks_info():
 # ===== END STOCKS INFO =================================================
 
 if __name__ == "__main__":
+#     # Initialize the database
+#     import DB_model.db_init as db_init
+#     db_init.main()
     # Run the app
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
