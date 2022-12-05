@@ -4,29 +4,20 @@ services:
     build: ./API_DB_module
     ports:
       - 8000:8000
-    environment:
-      # Connect to the database in mongo_db container
-      MONGO_INITDB_DATABASE: "smptf"
-      MONGO_HOST: mongo_db
-      MONGO_PORT: 27017
-      TZ: Asia/Hong_Kong
+    env_file:
+      - db.env
   mongo_db:
     image: mongo:latest
     ports:
       - 27017:27017
     volumes:
       - smptf:/data/db
-    environment:
-      TZ: Asia/Hong_Kong
+    env_file:
+      - db.env
   preprocessor:
     build: ./preprocessor
-    environment:
-      MONGO_INITDB_DATABASE: "smptf"
-      MONGO_HOST: mongo_db
-      MONGO_PORT: 27017
-      TZ: Asia/Hong_Kong
     env_file:
-      - .env
+      - preprocessor.env
     volumes:
       - smptf:/data/db
 volumes:

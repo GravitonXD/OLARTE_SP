@@ -1,24 +1,19 @@
 # ABOUT THIS PROJECT
 This project aims to develop a RESTful API (alamAPI) for the Philippine Stock Market Price Trend Forecasting (PH-SMPTF) System, developed by John Markton M. Olarte, as part of his requirement for his bachelor's degree in Computer Science at the University of the Philippines - Visayas.
 
+
 ## About the alamAPI
-
 ### What is alamAPI?
-
 ### Features
 alamAPI is a RESTful API that provides the following features:
 - <b> API endpoints are publicly accessible. </b> 
 Since the goal of the alamAPI is to provide an easy access to information about the forecasted market trend in the Philippine Stock Market and help Filipinos in their investment journey.
-
 - <b> API endpoints are secured. </b> The main system (PH-SMPTF System) is physically isolated from the API endpoints. This is to ensure that the API endpoints are not accessible from the main system. This is to prevent the main system from being compromised by malicious users.
-
 - <b> Easy to develop, use, and integrate. </b> Third-party developers can easily adopt the API workflow since it is simplified to only having 3 endpoints: (a) Stocks to Buy, (b) Stocks to Sell, and (c) Stock Info. Moreover, anyone may add additional features in the API easily as it uses fastAPI framework.
 
 
 ## About the Philippine Stock Market Price Trend Forecasting (PH-SMPTF) System
-
 ### What is PH-SMPTF System?
-
 ### Features
 The features of the underlying system (PH-SMPTF System) is as follows:
 1. <b>Dockerized source codes</b> allows it to be deployed on any system.
