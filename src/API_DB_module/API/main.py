@@ -8,6 +8,7 @@ import os
 # Import models
 from DB_model.models import Buy
 from DB_model.models import Sell
+from DB_model.models import Info
 
 # Create the FastAPI app
 app = FastAPI(
@@ -91,7 +92,7 @@ def get_all_stocks_to_sell():
 @app.get("/stocks_info/all", tags=["Stocks Info"])
 def get_all_stocks_info():
         # Get all data from the "Buy" collection
-                data = Buy.objects().to_json()
+                data = Info.objects().to_json()
                 json_data = json.loads(data)
                 # Return the data and the current datetime
                 return {
