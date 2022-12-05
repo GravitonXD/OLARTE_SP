@@ -99,6 +99,21 @@ def get_all_stocks_info():
                         "All Stocks Info": json_data,
                         "Last Updated": _current_datetime()
                 }
+
+# Get a specific stock info
+# This is a public endpoint and does not require authentication
+@app.get("/stocks_info/{stock_code}", tags=["Stocks Info"])
+def get_stock_info(stock_code: str):
+        stock_code_query = stock_code.upper()
+        # Get stock info from the "Info" collection
+        data = Info.objects(stock_symbol=stock_code_query).to_json()
+        json_data = json.loads(data)
+        # Return the data and the current datetime
+        return {
+                # Rturn the stock info, if the stock code is not found, return "Stock not found"
+                "Stock Info": json_data if json_data else "Stock not found",
+                "Last Updated": _current_datetime()
+        }
 # ===== END STOCKS INFO =================================================
 
 if __name__ == "__main__":
