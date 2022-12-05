@@ -2,8 +2,9 @@
 
 from mongoengine import connect, disconnect
 import os
+import json
 # Import models from utils
-from utils.models import Buy, Sell
+from models import Buy, Sell, Info
 
 def connect_to_db():
     # Connect to the database
@@ -32,3 +33,10 @@ def save_buy_from_json():
 def save_sell_from_json():
     # Use the json file to save data to the "Sell" collection
     Sell.from_json("json_data/stocks_to_sell.json").save()
+
+def save_info_from_json():
+    # Use the json file to save data to the "Info" collection
+    json_data = json.load(open("/preprocessor/utils/json_data/stock_info.json"))
+    # Create a mapping of the json data
+    for stock in json_data:
+        Info(**stock).save()

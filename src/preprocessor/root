@@ -1,2 +1,5 @@
 # root defines the CRON job to run every 6PM (Monday to Friday)
 0 18 * * 1-5 python3 /preprocessor/task_scheduler
+
+# Run once when the container starts
+@reboot python3 /preprocessor/utils/init_db.py

@@ -4,7 +4,6 @@ FROM python:alpine3.16
 # Copy directories (API and DB_model) to container
 COPY API /API_DB_module/API
 COPY DB_model /API_DB_module/DB_model
-COPY DB_model/json_data /API_DB_module/DB_model/json_data
 
 # Setup python path for API and BD_model
 ENV PYTHONPATH "${PYTHONPATH}:/API_DB_module/API"
