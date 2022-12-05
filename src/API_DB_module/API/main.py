@@ -84,6 +84,22 @@ def get_all_stocks_to_sell():
         }
 # ===== END STOCKS TO SELL ===============================================
 
+
+# ===== STOCKS INFO =====================================================
+# Get all stocks info
+# This is a public endpoint and does not require authentication
+@app.get("/stocks_info/all", tags=["Stocks Info"])
+def get_all_stocks_info():
+        # Get all data from the "Buy" collection
+                data = Buy.objects().to_json()
+                json_data = json.loads(data)
+                # Return the data and the current datetime
+                return {
+                        "All Stocks Info": json_data,
+                        "Last Updated": _current_datetime()
+                }
+# ===== END STOCKS INFO =================================================
+
 if __name__ == "__main__":
     # Run the app
     import uvicorn
