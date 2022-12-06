@@ -24,3 +24,7 @@ def main():
     db_actions.save_sell_from_json()
     # disconnect from the database
     db_actions.disconnect_from_db()
+
+
+if __name__ == "__main__":
+    main()
