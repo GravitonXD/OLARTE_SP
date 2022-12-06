@@ -45,4 +45,4 @@ Value: "Your API key from EODHD"
 
 
 ## Current Bugs
-Content is not writing properly and updating.
+None
