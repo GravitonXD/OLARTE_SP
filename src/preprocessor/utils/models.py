@@ -15,12 +15,6 @@ class Buy(Document):
     # Predicted Closing is a list of predicted closing prices for the stock
     predicted_closing = ListField()
 
-    # When putting data to the "Buy" collection, the data will be in this format
-    def from_json(self, json_data):
-        self.stock_symbol = json_data.get("stock_symbol")
-        self.last_closing = json_data.get("last_closing")
-        self.predicted_closing = json_data.get("predicted_closing")
-
     # Format the data to JSON
     def to_json(self):
         return {
@@ -28,7 +22,6 @@ class Buy(Document):
             "last_closing": self.last_closing,
             "predicted_closing": self.predicted_closing
         }
-
 
 
 # Define class "Sell" and inherit from "Document"
@@ -44,12 +37,6 @@ class Sell(Document):
     last_closing =  FloatField()
     # Predicted Closing is a list of predicted closing prices for the stock
     predicted_closing = ListField()
-
-    # When putting data to the "Sell" collection, the data will be in this format
-    def from_json(self, json_data):
-        self.stock_symbol = json_data.get("stock_symbol")
-        self.last_closing = json_data.get("last_closing")
-        self.predicted_closing = json_data.get("predicted_closing")
 
     # Format the data to JSON
     def to_json(self):
@@ -85,17 +72,6 @@ class Info(Document):
     industry = StringField()
     # Key Executives is a  list of tuples of the key executives of the company and their positions
     key_executives = ListField()
-
-    def from_json(self, json_data):
-        self.stock_symbol = json_data.get("stock_symbol")
-        self.stock_name = json_data.get("stock_name")
-        self.company_site = json_data.get("company_site")
-        self.company_address = json_data.get("company_address")
-        self.company_email = json_data.get("company_email")
-        self.company_phone = json_data.get("company_phone")
-        self.sector = json_data.get("sector")
-        self.industry = json_data.get("industry")
-        self.key_executives = json_data.get("key_executives")
     
     def to_json(self):
         return {
