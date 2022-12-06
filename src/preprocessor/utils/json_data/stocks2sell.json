@@ -1,14 +1,35 @@
 [
 {
-    "stock_symbol": "DITO",
-    "last_closing": 100.00
+    "stock_symbol": "PGOLD",
+    "last_closing": 100.00,
+    "predicted_closing": [
+        98.00,
+        97.50,
+        97.00,
+        96.50,
+        96.00
+    ]
 },
 {
-    "stock_symbol": "DD",
-    "last_closing": 200.00
+    "stock_symbol": "ALI",
+    "last_closing": 98.50,
+    "predicted_closing": [
+        98.00,
+        97.50,
+        97.00,
+        96.50,
+        96.00
+    ]
 },
 {
-    "stock_symbol": "AC",
-    "last_closing": 300.00
+    "stock_symbol": "MER",
+    "last_closing": 99.00,
+    "predicted_closing": [
+        98.00,
+        97.50,
+        97.00,
+        96.50,
+        96.00
+    ]
 }
 ]

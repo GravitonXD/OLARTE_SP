@@ -1,14 +1,35 @@
 [
-{
-    "stock_symbol": "JFC",
-    "last_closing": 100.00
-},
-{
-    "stock_symbol": "TEL",
-    "last_closing": 200.00
-},
-{
-    "stock_symbol": "MER",
-    "last_closing": 300.00
-}
-]
+    {
+        "stock_symbol": "BDO",
+        "last_closing": 101.00,
+        "predicted_closing": [
+            105.00,
+            110.00,
+            120.00,
+            130.00,
+            140.00
+        ]
+    },
+    {
+        "stock_symbol": "FGEN",
+        "last_closing": 103.20,
+        "predicted_closing": [
+            105.00,
+            110.00,
+            115.00,
+            120.00,
+            125.00
+        ]
+    },
+    {
+        "stock_symbol": "URC",
+        "last_closing": 106.70,
+        "predicted_closing": [
+            106.00,
+            107.00,
+            108.00,
+            109.00,
+            110.00
+        ]
+    }
+    ]
