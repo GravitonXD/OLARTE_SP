@@ -16,7 +16,9 @@
 import requests
 import datetime
 import os
+# importing modules from utils
 from utils import stock_symbols as ss
+from utils import logs_and_alerts as la
 
 def get_API_Key():
     # Get the API key as defined from the environment variable
@@ -52,51 +54,55 @@ def save_historical_data(response, file_name, stock_symbol):
             f.write(response.text)
         f.close()
 
-        ### LOG ###
+        ### LOG AND ALERT ###
+        message = f"Successfully collected historical data for {stock_symbol}"
+        log_directory = "data_collector_logs"
         # Log the successful data collection in the success_log.txt file
-        action = "a" if os.path.exists("/data/db/data-collector_logs/success_log.txt") else "w"
-        with open("/data/db/data-collector_logs/success_log.txt", action) as success_log:
-            success_log.write(f"[SUCCESS] {current_date()}::{log_time()}: Successfully collected data for {stock_symbol}.\n")
-        success_log.close()
-
-        ### ALERT ###
-        # Alert the user that the data collection was successful
-        print(f"{current_date()}::{log_time()}: \033[1;32m [SUCCESS] \033[m Successfully collected data for {stock_symbol}.\n")
+        la.Logs().success_log(message, log_directory)
+        # Alert the successful data collection
+        la.Alerts().success_alert(message)
+        ######################
     except:
-        ### LOG ###
-        # Log the error in the error_log.txt file
-        action = "a" if os.path.exists("/data/db/data-collector_logs/error_log.txt") else "w"
-        with open("/data/db/data-collector_logs/error_log.txt", action) as error_log:
-            error_log.write(f"[ERROR] {current_date}::{log_time()}: Saving/Update of historical data failed for {stock_symbol}\n")
-        error_log.close()
-
-        ### ALERT ###
-        # Alert the user that the saving/update of the historical data failed
-        print(f"{current_date()}::{log_time()}: \033[1;31m [ERROR] \033[m Saving/Update of historical data failed for {stock_symbol}")
-
+        ### LOG AND ALERT ###
+        message = f"Failed to save historical data for {stock_symbol}"
+        log_directory = "data_collector_logs"
+        # Log the failed data collection in the error_log.txt file
+        la.Logs().error_log(message, log_directory)
+        # Alert the failed data collection
+        la.Alerts().error_alert(message)
+        ######################
 
 
 def main():
+    # Initialize Reusable Variables
+    log_directory = "data_collector_logs" # Directory for the logs
+
     # Make this directories under /data/db of the container
     os.makedirs("/data/db/stock_data/", exist_ok=True)
     os.makedirs("/data/db/data-collector_logs/", exist_ok=True)
     
-    print("------------------- STARTING PHSM_DC MAIN.PY ---------------------\n")
+    print("------------------- STARTING DATA COLLECTOR MODULE ---------------------\n")
     # Check if the API key is defined in the environment variable
     try:
         API_KEY = get_API_Key()
-    except:
-        ### LOG ###
-        # Log the API key error in the error_log.txt file
-        # Check if the error_log file exists
-        action = "a" if os.path.exists("/data/db/data-collector_logs/error_log.txt") else "w"
-        with open("/data/db/data-collector_logs/error_log.txt", action) as error_log:
-            error_log.write(f"[ERROR] {current_date()}::{log_time()}: API key not defined in the system's environment variable or in ./tools/API_KEY.txt!\n")
-        error_log.close()
 
-        ### ALERT ###
-        # Alert the user that the API key is not defined in the environment variable
-        print(f"{current_date()}::{log_time()}: \033[1;31m [ERROR] \033[m API key not defined in the system's environment variable or in ./tools/API_KEY.txt!\nSee error_log file for more details\nExiting...\n")
+        ### LOG AND ALERT ###
+        message = "Successfully retrieved API key"
+        # Log the successful API key retrieval in the success_log.txt file
+        la.Logs().success_log(message, log_directory)
+        # Alert the successful API key retrieval
+        la.Alerts().success_alert(message)
+        ######################
+    except:
+        ### LOG AND ALERT ###
+        message = "Failed to retrieve API key"
+        # Log the failed API key retrieval in the error_log.txt file
+        la.Logs().error_log(message, log_directory)
+        # Alert the failed API key retrieval
+        la.Alerts().error_alert(message)
+        ######################
+
+        # Exit the program
         exit()
 
     # Get the list of stock symbols
@@ -110,38 +116,31 @@ def main():
 
         # Check if the response is successful
         if response.status_code == 200:
-            ### LOG ###
-            # Log the successful request in the success_log.txt file
-            action = "a" if os.path.exists("/data/db/data-collector_logs/success_log.txt") else "w"
-            with open("/data/db/data-collector_logs/success_log.txt", action) as success_log:
-                success_log.write(f"[SUCCESS] {current_date()}::{log_time()}: Request to get {stock_symbol} historical data was successful\n")
-
-            ### ALERT ###
-            # Alert the user that the request was successful
-            print(f"{current_date()}::{log_time()}: \033[1;32m [SUCCESS] \033[m Request to get {stock_symbol} historical data was successful")
+            ### LOG AND ALERT ###
+            message = f"Successfully collected historical data for {stock_symbol}"
+            # Log the successful data collection in the success_log.txt file
+            la.Logs().success_log(message, log_directory)
+            # Alert the successful data collection
+            la.Alerts().success_alert(message)
+            ######################
 
             # Save the data in a CSV file
             save_historical_data(response, file_name, stock_symbol)
+
         else:
-            ### LOG ###
-            # Log the error in the error_log.txt file
-            action = "a" if os.path.exists("/data/db/data-collector_logs/error_log.txt") else "w"
-            with open("/data/db/data-collector_logs/error_log.txt", action) as error_log:
-                error_log.write(f"[ERROR] {current_date()}::{log_time()}: {response.status_code} - {response.reason}, Failed to get historical data of {stock_symbol}\n")
-            error_log.close()
-
-            ### ALERT ###
-            # Alert the user that the data collection was unsuccessful
-            print(f"{current_date()}::{log_time()}: \033[1;31m [ERROR] \033[m {response.status_code} - {response.reason}\nSee error_log file for more details\n\n")
+            ### LOG AND ALERT ###
+            message = f"Failed to collect historical data for {stock_symbol} with status code {response.status_code}"
+            # Log the failed data collection in the error_log.txt file
+            la.Logs().error_log(message, log_directory)
+            # Alert the failed data collection
+            la.Alerts().error_alert(message)
+            ######################
     
-    ### LOG ###
-    # Log the successful completion of the Python Script in the success_log.txt file
-    action = "a" if os.path.exists("/data/db/data-collector_logs/success_log.txt") else "w"
-    with open("/data/db/data-collector_logs/success_log.txt", action) as success_log:
-        success_log.write(f"[SUCCESS] {current_date()}::{log_time()}: Successfully completed the PHSM_DataCollector Python Script\n")
-    success_log.close()
-
-    ### ALERT ###
-    # Alert the user that the Python Script was successfully completed
-    print(f"{current_date()}::{log_time()}: \033[1;32m [SUCCESS] \033[m Successfully completed the PHSMData Collector Module\n")
-    print("------------------- EXITING PHSM_DC MAIN.PY ---------------------\n")
+    ### LOG AND ALERT ###
+    message = "Data Collector Module Finished"
+    # Log the successful data collection in the success_log.txt file
+    la.Logs().success_log(message, log_directory)
+    # Alert the successful data collection
+    la.Alerts().success_alert(message)
+    ######################
+    print("------------------- EXITING DATA COLLECTOR MODULE ---------------------\n")
