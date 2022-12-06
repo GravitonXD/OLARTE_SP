@@ -1,0 +1,12 @@
+Log Format:
+Date, Time, Message
+
+Message => {Action} Successful
+
+Alert Format: 
+\033[1;31m [ERROR] \033[m {date} {time} : {action}
+\033[1;32m [SUCCESS] \033[m {data} {time} : {action}
+
+
+Log Directories:
+data_collector == data-collector-logs
