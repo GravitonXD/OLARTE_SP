@@ -5,7 +5,7 @@ import db_actions
 import logs_and_alerts as la
 
 if __name__ == "__main__":
-    log_directory = "preprocessor_utils_logs" # Directory for the logs
+    log_directory = "preprocessor_utils_logs/init_db" # Directory for the logs
     try:
         # Connect to the database
         db_actions.connect_to_db()
