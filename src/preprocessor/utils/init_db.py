@@ -62,3 +62,6 @@ if __name__ == "__main__":
     # Alert the successful database initialization
     la.Alerts().success_alert(message)
     ######################
+
+    # Close the connection to the database
+    db_actions.close_connection()
