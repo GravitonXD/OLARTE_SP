@@ -9,4 +9,4 @@ Alert Format:
 
 
 Log Directories:
-data_collector == data-collector-logs
+data_collector == data_collector_logs
