@@ -22,6 +22,10 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
+Warning--entry type for "USSecAndExComm" isn't style-file defined
+--line 1 of file references.bib
+Warning--entry type for "tradingEconomics" isn't style-file defined
+--line 13 of file references.bib
 Warning--entry type for "TradeBrains" isn't style-file defined
 --line 25 of file references.bib
 Warning--entry type for "PSECompanyList" isn't style-file defined
@@ -29,67 +33,79 @@ Warning--entry type for "PSECompanyList" isn't style-file defined
 Warning--entry type for "PSECompanyInfo" isn't style-file defined
 --line 53 of file references.bib
 Warning--entry type for "TheEconomicTimes" isn't style-file defined
---line 67 of file references.bib
+--line 65 of file references.bib
 Warning--entry type for "Summers2022" isn't style-file defined
---line 81 of file references.bib
+--line 77 of file references.bib
+Warning--entry type for "Strader2020" isn't style-file defined
+--line 93 of file references.bib
 Warning--entry type for "Schwab-Pomerantz2021" isn't style-file defined
---line 153 of file references.bib
+--line 149 of file references.bib
+Warning--entry type for "Savas2017" isn't style-file defined
+--line 165 of file references.bib
+Warning--entry type for "Rea2020" isn't style-file defined
+--line 203 of file references.bib
 Warning--entry type for "Hall2022" isn't style-file defined
---line 345 of file references.bib
+--line 335 of file references.bib
+Warning--entry type for "Guo2022" isn't style-file defined
+--line 351 of file references.bib
 Warning--entry type for "Fayed2022" isn't style-file defined
---line 373 of file references.bib
+--line 363 of file references.bib
+Warning--entry type for "EdwardJones" isn't style-file defined
+--line 379 of file references.bib
 Warning--entry type for "Chen2022" isn't style-file defined
---line 413 of file references.bib
+--line 403 of file references.bib
 Warning--entry type for "Campbell2021" isn't style-file defined
---line 445 of file references.bib
+--line 435 of file references.bib
+Warning--entry type for "BSP19" isn't style-file defined
+--line 465 of file references.bib
 Warning--entry type for "BSP" isn't style-file defined
---line 485 of file references.bib
+--line 475 of file references.bib
 Warning--entry type for "Balaba2017" isn't style-file defined
---line 495 of file references.bib
+--line 485 of file references.bib
 Warning--entry type for "Bae2017" isn't style-file defined
---line 511 of file references.bib
+--line 501 of file references.bib
 Warning--entry type for "Adams2022" isn't style-file defined
---line 545 of file references.bib
+--line 531 of file references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 14 entries,
+You've used 28 entries,
             6951 wiz_defined-function locations,
-            1353 strings with 13046 characters,
-and the built_in function-call counts, 23546 in all, are:
-= -- 3454
-> -- 145
-< -- 819
-+ -- 707
-- -- 39
-* -- 1087
-:= -- 3457
-add.period$ -- 56
-call.type$ -- 14
-change.case$ -- 202
+            1444 strings with 15929 characters,
+and the built_in function-call counts, 50251 in all, are:
+= -- 7012
+> -- 344
+< -- 2009
++ -- 1847
+- -- 77
+* -- 2604
+:= -- 7945
+add.period$ -- 114
+call.type$ -- 28
+change.case$ -- 385
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 457
-empty$ -- 977
-format.name$ -- 206
-if$ -- 5046
+cite$ -- 56
+duplicate$ -- 1093
+empty$ -- 2013
+format.name$ -- 511
+if$ -- 10359
 int.to.chr$ -- 0
-int.to.str$ -- 46
+int.to.str$ -- 88
 missing$ -- 0
-newline$ -- 314
-num.names$ -- 112
-pop$ -- 283
+newline$ -- 661
+num.names$ -- 224
+pop$ -- 639
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 129
 quote$ -- 0
-skip$ -- 2434
+skip$ -- 4615
 stack$ -- 0
-substring$ -- 780
-swap$ -- 211
-text.length$ -- 45
+substring$ -- 2026
+swap$ -- 536
+text.length$ -- 91
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2128
+type$ -- 3888
 warning$ -- 0
-while$ -- 84
+while$ -- 197
 width$ -- 0
-write$ -- 345
-(There were 14 warnings)
+write$ -- 758
+(There were 22 warnings)

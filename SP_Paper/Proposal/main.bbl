@@ -103,6 +103,62 @@ BSP}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Budiharto%
+}{%
+Budiharto%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+Budiharto2021}
+\APACinsertmetastar {%
+Budiharto2021}%
+\begin{APACrefauthors}%
+Budiharto, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Data science approach to stock prices forecasting in
+  Indonesia during Covid-19 using Long Short-Term Memory ({LSTM})} {Data
+  science approach to stock prices forecasting in indonesia during covid-19
+  using long short-term memory ({LSTM})}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Big Data}{8}{1}{}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1186%2Fs40537-021-00430-0}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1186/s40537-021-00430-0} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Bureau of the Treasury Bangko Sentral ng Pilipinas}%
+}{%
+{Bureau of the Treasury Bangko Sentral ng Pilipinas}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+BSP19}
+\APACinsertmetastar {%
+BSP19}%
+\begin{APACrefauthors}%
+{Bureau of the Treasury Bangko Sentral ng Pilipinas}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {19 SELECTED DOMESTIC INTEREST RATES weighted average in percent
+  per annum for periods indicated.} {19 selected domestic interest rates
+  weighted average in percent per annum for periods indicated.}
+\newblock
+\begin{APACrefURL}
+  \url{www.bsp.gov.ph/Statistics/Financial%20System%20Accounts/tab19_dir.aspx}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Campbell%
 }{%
 Campbell%
@@ -152,6 +208,31 @@ Chen, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+EdwardJones%
+}{%
+EdwardJones%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+EdwardJones}
+\APACinsertmetastar {%
+EdwardJones}%
+\begin{APACrefauthors}%
+EdwardJones.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Why invest in stocks? Retrieved September 19, 2022.} {Why
+  invest in stocks? retrieved september 19, 2022.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.edwardjones.com/us-en/market-news-insights/guidance-perspective/benefits-investing-stock}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Fayed%
 }{%
 Fayed%
@@ -173,6 +254,31 @@ Fayed, A.%
 \newblock
 \begin{APACrefURL}
   \url{https://adamfayed.com/a-list-of-14-blue-chip-companies-in-the-philippines/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guo%
+}{%
+Guo%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Guo2022}
+\APACinsertmetastar {%
+Guo2022}%
+\begin{APACrefauthors}%
+Guo, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Stock Price Prediction Using Machine Learning.} {Stock price
+  prediction using machine learning.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.diva-portal.org/smash/get/diva2:1672304/FULLTEXT01.pdf}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -202,6 +308,173 @@ Hall, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kumbure%
+, Lohrmann%
+, Luukka%
+\BCBL {}\ \BBA {} Porras%
+}{%
+Kumbure%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Kumbure2022}
+\APACinsertmetastar {%
+Kumbure2022}%
+\begin{APACrefauthors}%
+Kumbure, M\BPBI M.%
+, Lohrmann, C.%
+, Luukka, P.%
+\BCBL {}\ \BBA {} Porras, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{7}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine learning techniques and data for stock market
+  forecasting: A literature review} {Machine learning techniques and data for
+  stock market forecasting: A literature review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Expert Systems with Applications}{197}{}{116659}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.eswa.2022.116659} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kuttichira%
+, Gopalakrishnan%
+, Menon%
+\BCBL {}\ \BBA {} Soman%
+}{%
+Kuttichira%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+Kuttichira2017}
+\APACinsertmetastar {%
+Kuttichira2017}%
+\begin{APACrefauthors}%
+Kuttichira, D\BPBI P.%
+, Gopalakrishnan, E\BPBI A.%
+, Menon, V\BPBI K.%
+\BCBL {}\ \BBA {} Soman, K\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{9}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stock price prediction using dynamic mode decomposition}
+  {Stock price prediction using dynamic mode decomposition}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~55-60).
+\newblock
+\APACaddressPublisher{}{IEEE}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ICACCI.2017.8125816} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lu%
+\ \BBA {} Tartakovsky%
+}{%
+Lu%
+\ \BBA {} Tartakovsky%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Lu2020}
+\APACinsertmetastar {%
+Lu2020}%
+\begin{APACrefauthors}%
+Lu, H.%
+\BCBT {}\ \BBA {} Tartakovsky, D\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{1}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Prediction Accuracy of Dynamic Mode Decomposition}
+  {Prediction accuracy of dynamic mode decomposition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{SIAM Journal on Scientific
+  Computing}{42}{}{A1639-A1662}.
+\newblock
+\begin{APACrefDOI} \doi{10.1137/19M1259948} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rea%
+}{%
+Rea%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Rea2020}
+\APACinsertmetastar {%
+Rea2020}%
+\begin{APACrefauthors}%
+Rea, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{8}{}.
+\newblock
+\APACrefbtitle {Predicting Future Stock Market Trends with Python and Machine
+  Learning.} {Predicting future stock market trends with python and machine
+  learning.}
+\newblock
+\begin{APACrefURL}
+  \url{https://towardsdatascience.com/predicting-future-stock-market-trends-with-python-machine-learning-2bf3f1633b3c}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Royal Bank of Canada Direct Investing Inc.}%
+}{%
+{Royal Bank of Canada Direct Investing Inc.}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+RBC}
+\APACinsertmetastar {%
+RBC}%
+\begin{APACrefauthors}%
+{Royal Bank of Canada Direct Investing Inc.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Key Benefits of Investing in Stocks} {Key benefits of
+  investing in stocks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Royal Bank of Canada Direct Investing Inc.}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{www6.royalbank.com/en/di/hubs/investing-academy/chapter/key-benefits-of-investing-in-stocks/jv7atg13/jv7atg1j}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Savas%
+}{%
+Savas%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Savas2017}
+\APACinsertmetastar {%
+Savas2017}%
+\begin{APACrefauthors}%
+Savas, M\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Examining Committee Members.} {Examining committee members.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Schwab-Pomerantz%
 }{%
 Schwab-Pomerantz%
@@ -223,6 +496,67 @@ Schwab-Pomerantz, C.%
 \newblock
 \begin{APACrefURL}
   \url{https://www.schwab.com/learn/story/is-investing-stock-market-gambling}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Soni%
+, Tewari%
+\BCBL {}\ \BBA {} Krishnan%
+}{%
+Soni%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Soni2022}
+\APACinsertmetastar {%
+Soni2022}%
+\begin{APACrefauthors}%
+Soni, P.%
+, Tewari, Y.%
+\BCBL {}\ \BBA {} Krishnan, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{1}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine Learning Approaches in Stock Price Prediction: A
+  Systematic Review} {Machine learning approaches in stock price prediction: A
+  systematic review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Physics: Conference Series}{2161}{}{012065}.
+\newblock
+\begin{APACrefDOI} \doi{10.1088/1742-6596/2161/1/012065} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Strader%
+, Rozycki%
+, Root%
+\BCBL {}\ \BBA {} Huang%
+}{%
+Strader%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Strader2020}
+\APACinsertmetastar {%
+Strader2020}%
+\begin{APACrefauthors}%
+Strader, T\BPBI J.%
+, Rozycki, J\BPBI J.%
+, Root, T\BPBI H.%
+\BCBL {}\ \BBA {} Huang, Y\BHBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+\APACrefbtitle {Machine Learning Stock Market Prediction Studies: Review and
+  Research Directions} {Machine learning stock market prediction studies:
+  Review and research directions}\ (\BVOL~28).
+\newblock
+\begin{APACrefURL} \url{https://scholarworks.lib.csusb.edu/jitim/vol28/iss4/3}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -344,6 +678,53 @@ TradeBrains}%
 \newblock
 \begin{APACrefURL}
   \url{https://tradebrains.in/how-stock-market-affect-the-economy/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Trading Economics}%
+}{%
+{Trading Economics}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+tradingEconomics}
+\APACinsertmetastar {%
+tradingEconomics}%
+\begin{APACrefauthors}%
+{Trading Economics}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Philippines Inflation Rate.} {Philippines inflation rate.}
+\newblock
+\begin{APACrefURL} \url{https://tradingeconomics.com/philippines/inflation-cpi}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{U.S. Securities and Exchange Commission}%
+}{%
+{U.S. Securities and Exchange Commission}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+USSecAndExComm}
+\APACinsertmetastar {%
+USSecAndExComm}%
+\begin{APACrefauthors}%
+{U.S. Securities and Exchange Commission}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {What are Stocks?} {What are stocks?}
+\newblock
+\begin{APACrefURL}
+  \url{www.investor.gov/introduction-investing/investing-basics/investment-products/stocks}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
