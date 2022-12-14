@@ -1,0 +1,95 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: title_page.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_1.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_2.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_3.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: references.bib
+Warning--entry type for "TradeBrains" isn't style-file defined
+--line 25 of file references.bib
+Warning--entry type for "PSECompanyList" isn't style-file defined
+--line 41 of file references.bib
+Warning--entry type for "PSECompanyInfo" isn't style-file defined
+--line 53 of file references.bib
+Warning--entry type for "TheEconomicTimes" isn't style-file defined
+--line 67 of file references.bib
+Warning--entry type for "Summers2022" isn't style-file defined
+--line 81 of file references.bib
+Warning--entry type for "Schwab-Pomerantz2021" isn't style-file defined
+--line 153 of file references.bib
+Warning--entry type for "Hall2022" isn't style-file defined
+--line 345 of file references.bib
+Warning--entry type for "Fayed2022" isn't style-file defined
+--line 373 of file references.bib
+Warning--entry type for "Chen2022" isn't style-file defined
+--line 413 of file references.bib
+Warning--entry type for "Campbell2021" isn't style-file defined
+--line 445 of file references.bib
+Warning--entry type for "BSP" isn't style-file defined
+--line 485 of file references.bib
+Warning--entry type for "Balaba2017" isn't style-file defined
+--line 495 of file references.bib
+Warning--entry type for "Bae2017" isn't style-file defined
+--line 511 of file references.bib
+Warning--entry type for "Adams2022" isn't style-file defined
+--line 545 of file references.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 14 entries,
+            6951 wiz_defined-function locations,
+            1353 strings with 13046 characters,
+and the built_in function-call counts, 23546 in all, are:
+= -- 3454
+> -- 145
+< -- 819
++ -- 707
+- -- 39
+* -- 1087
+:= -- 3457
+add.period$ -- 56
+call.type$ -- 14
+change.case$ -- 202
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 457
+empty$ -- 977
+format.name$ -- 206
+if$ -- 5046
+int.to.chr$ -- 0
+int.to.str$ -- 46
+missing$ -- 0
+newline$ -- 314
+num.names$ -- 112
+pop$ -- 283
+preamble$ -- 1
+purify$ -- 68
+quote$ -- 0
+skip$ -- 2434
+stack$ -- 0
+substring$ -- 780
+swap$ -- 211
+text.length$ -- 45
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 2128
+warning$ -- 0
+while$ -- 84
+width$ -- 0
+write$ -- 345
+(There were 14 warnings)
