@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  15 DEC 2022 13:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  15 DEC 2022 14:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -277,147 +277,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (chapter_1.tex
 Chapter 1.
-
-LaTeX Warning: Citation `Chen2022' undefined on input line 15.
-
-
-LaTeX Warning: Citation `TheEconomicTimes' undefined on input line 15.
-
-
-LaTeX Warning: Citation `Schwab-Pomerantz2021' undefined on input line 22.
-
-
-LaTeX Warning: Citation `Adams2022' undefined on input line 22.
-
-
-LaTeX Warning: Citation `Summers2022' undefined on input line 22.
-
-
-LaTeX Warning: Citation `PSECompanyInfo' undefined on input line 30.
-
-
-LaTeX Warning: Citation `BSP' undefined on input line 38.
-
-
-LaTeX Warning: Citation `Fayed2022' undefined on input line 43.
-
-
-LaTeX Warning: Citation `PSECompanyList' undefined on input line 43.
-
 [1
 
 
-]
-
-LaTeX Warning: Citation `TradeBrains' undefined on input line 51.
-
-
-LaTeX Warning: Citation `Hall2022' undefined on input line 51.
-
-
-LaTeX Warning: Citation `Bae2017' undefined on input line 51.
-
-
-LaTeX Warning: Citation `Campbell2021' undefined on input line 54.
-
-
-LaTeX Warning: Citation `Balaba2017' undefined on input line 55.
-
-
-LaTeX Warning: Citation `tradingEconomics' undefined on input line 70.
-
-
-LaTeX Warning: Citation `BSP19' undefined on input line 72.
-
-
-LaTeX Warning: Citation `RBC' undefined on input line 75.
-
-
-LaTeX Warning: Citation `EdwardJones' undefined on input line 75.
-
-
-LaTeX Warning: Citation `USSecAndExComm' undefined on input line 82.
-
-[2]
-
-LaTeX Warning: Citation `Kumbure2022' undefined on input line 93.
-
-
-LaTeX Warning: Citation `Strader2020' undefined on input line 93.
-
-
-LaTeX Warning: Citation `Soni2022' undefined on input line 93.
-
-
-LaTeX Warning: Citation `Rea2020' undefined on input line 93.
-
-
-LaTeX Warning: Citation `Guo2022' undefined on input line 93.
-
-
-LaTeX Warning: Citation `Budiharto2021' undefined on input line 96.
-
-
-LaTeX Warning: Citation `Lu2020' undefined on input line 107.
-
-
-LaTeX Warning: Citation `Savas2017' undefined on input line 112.
-
-
-LaTeX Warning: Citation `Kuttichira2017' undefined on input line 112.
-
-
-LaTeX Warning: Citation `Alegado2022' undefined on input line 121.
-
-
-LaTeX Warning: Citation `Canto2022' undefined on input line 121.
-
-
-LaTeX Warning: Citation `Reuters2022' undefined on input line 121.
-
-
-LaTeX Warning: Citation `Kim2022' undefined on input line 127.
-
-
-LaTeX Warning: Citation `BusinessWorld2022' undefined on input line 135.
-
-
-LaTeX Warning: Citation `Statista2022' undefined on input line 148.
-
-
-LaTeX Warning: Citation `POPCOMM2021' undefined on input line 148.
-
-[3] [4] [5] [6]) [7] [8]
+] [2] [3] [4] [5] [6] [7]) [8]
 \openout2 = `chapter_2.aux'.
 
  (chapter_2.tex)
 \openout2 = `chapter_3.aux'.
 
- (chapter_3.tex) (main.bbl)
-Runaway argument?
-{Philippine Economic Growth Slows to 7.4{Philippine economic growth s\ETC.
-d:/Documents/ACD/SUBS/CMSC 198.1/OLARTE_SP/SP_Paper/Proposal/main.tex:29: File ended while scanning use of \APACrefbtitle.
-<inserted text> 
-                \par 
-l.29 \bibliography{references.bib}
-                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+ (chapter_3.tex) (main.bbl
+Underfull \hbox (badness 5050) in paragraph at lines 41--56
+[]\OT1/cmr/m/n/12 Alegado, S., Lopez, D. B., & Calonzo, A.  (2022, 8).  \OT1/cmr/m/it/12 Philip-
+ []
 
 
-d:/Documents/ACD/SUBS/CMSC 198.1/OLARTE_SP/SP_Paper/Proposal/main.tex:31: LaTeX Error: \begin{thebibliography} on input line 1 ended by \end{document}.
+Underfull \hbox (badness 7540) in paragraph at lines 41--56
+\OT1/cmr/m/it/12 pine eco-nomic growth slows to 7.4% as in-fla-tion bites.  \OT1/cmr/m/n/12 Re-
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--84
+\OT1/cmtt/m/n/12 papers / Does % 20the % 20Stock % 20Market % 20Benefit % 20the % 20Economy %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--109
+\OT1/cmtt/m/n/12 pdf / conferences / research [] -congress [] -proceedings / 2017 / RVREBM /
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 201--214
+\OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .bworldonline [] .com / stock [] -market / 2022 / 05 /
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 253--267
+[]\OT1/cmr/m/n/12 Canto, J., & Ro-mano, K.  (2022, 4).  \OT1/cmr/m/it/12 Philip-pines eco-nomic out-look
+ []
 
 [9
 
@@ -429,27 +326,119 @@ or  <return>  to continue without it.
 
 
 
-] (main.aux (title_page.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux))
+]
+Underfull \hbox (badness 1147) in paragraph at lines 303--318
+\OT1/cmr/m/it/12 fil-ipinos in 2021 es-ti-mated at 110.8 mil-lion, sizes of fam-i-lies trend-
+ []
 
-LaTeX Warning: There were undefined references.
 
- )
-(\end occurred inside a group at level 1)
+Underfull \hbox (badness 1383) in paragraph at lines 303--318
+\OT1/cmr/m/it/12 ing lower at 4 mem-bers.  \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// popcom [] .gov [] .ph /
+ []
 
-### semi simple group (level 1) entered at line 1 (\begingroup)
-### bottom level 
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--318
+\OT1/cmtt/m/n/12 popcom [] -number [] -of [] -filipinos [] -in [] -2021 [] -estimated [] -at [] -110 [] -8 [] -million []
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 330--343
+[]\OT1/cmr/m/n/12 Department, S. R.  (2022).  \OT1/cmr/m/it/12 Num-ber of stock mar-ket ac-counts philip-
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 355--368
+[]\OT1/cmr/m/n/12 EdwardJones.  (n.d.[]).  \OT1/cmr/m/it/12 Why in-vest in stocks? re-trieved septem-ber 19,
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 355--368
+\OT1/cmr/m/it/12 2022.  \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// www [] .edwardjones [] .com / us [] -en / market []
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 380--393
+[]\OT1/cmr/m/n/12 Fayed, A.  (2022, 4).  \OT1/cmr/m/it/12 A list of 14 blue chip com-pa-nies in the philip-
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 405--418
+[]\OT1/cmr/m/n/12 Guo, Y.  (2022).  \OT1/cmr/m/it/12 Stock price pre-dic-tion us-ing ma-chine learn-ing.  \OT1/cmr/m/n/12 Re-
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 430--443
+[]\OT1/cmr/m/n/12 Hall, M.  (2022, 9).  \OT1/cmr/m/it/12 How the stock mar-ket af-fects gdp.  \OT1/cmr/m/n/12 Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--589
+\OT1/cmtt/m/n/12 predicting [] -future [] -stock [] -market [] -trends [] -with [] -python [] -machine []
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 601--615
+\OT1/cmtt/m/n/12 markets / asia / philippines [] -economy [] -seen [] -growing [] -65 [] -2022 [] -50 [] -2023 []
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 627--642
+[]\OT1/cmr/m/n/12 Royal Bank of Canada Di-rect In-vest-ing Inc.  (n.d.[]).  Key ben-e-fits of
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 627--642
+\OT1/cmr/m/n/12 in-vest-ing in stocks.  \OT1/cmr/m/it/12 Royal Bank of Canada Di-rect In-vest-ing Inc.\OT1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 627--642
+\OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 www6 [] .royalbank [] .com / en / di / hubs / investing [] -academy /
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 677--690
+\OT1/cmr/m/it/12 bling?  \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// www [] .schwab [] .com / learn / story / is []
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 763--776
+\OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .forbes [] .com / sites / forbesfinancecouncil /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 763--776
+\OT1/cmtt/m/n/12 2022 / 06 / 01 / investing [] -vs [] -gambling [] -understanding [] -risk [] -adjusted []
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 812--824
+\OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// edge [] .pse [] .com [] .ph / companyInformation / form [] .do []
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 859--872
+[]\OT1/cmr/m/n/12 Trade Brains.  (2022, 7).  \OT1/cmr/m/it/12 How does the stock mar-ket af-fect the econ-
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 907--919
+[]\OT1/cmr/m/n/12 U.S. Se-cu-ri-ties and Ex-change Com-mis-sion.  (n.d.[]).  \OT1/cmr/m/it/12 What are stocks?
+ []
+
+) [11] (main.aux (title_page.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux)) ) 
 Here is how much of TeX's memory you used:
- 4835 strings out of 475281
- 76164 string characters out of 2774064
- 425018 words of memory out of 3000000
- 26219 multiletter control sequences out of 15000+600000
- 476845 words of font info for 56 fonts, out of 8000000 for 9000
+ 4873 strings out of 475281
+ 76740 string characters out of 2774064
+ 434869 words of memory out of 3000000
+ 26256 multiletter control sequences out of 15000+600000
+ 477181 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 77i,5n,81p,319b,317s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 77i,5n,81p,319b,377s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (12 pages, 98835 bytes).
+Output written on main.pdf (14 pages, 121585 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

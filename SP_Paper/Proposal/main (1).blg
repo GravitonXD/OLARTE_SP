@@ -32,50 +32,51 @@ Warning--entry type for "BSP19" isn't style-file defined
 --line 467 of file references.bib
 Warning--entry type for "BSP" isn't style-file defined
 --line 477 of file references.bib
-Warning--entry type for "Balaba2017" isn't style-file defined
---line 487 of file references.bib
-Warning--entry type for "Bae2017" isn't style-file defined
---line 503 of file references.bib
+Warning--I didn't find a database entry for "Adams2022"
+Warning--I didn't find a database entry for "Bae2017"
+Warning--I didn't find a database entry for "Balaba2017"
+Warning--I didn't find a database entry for "Budiharto2021"
+Warning--I didn't find a database entry for "Alegado2022"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 35 entries,
+You've used 30 entries,
             6951 wiz_defined-function locations,
-            1483 strings with 17557 characters,
-and the built_in function-call counts, 58683 in all, are:
-= -- 7430
-> -- 427
-< -- 2701
-+ -- 2471
-- -- 97
-* -- 3382
-:= -- 10440
-add.period$ -- 142
-call.type$ -- 35
-change.case$ -- 514
+            1465 strings with 16558 characters,
+and the built_in function-call counts, 49264 in all, are:
+= -- 6194
+> -- 364
+< -- 2248
++ -- 2038
+- -- 87
+* -- 2832
+:= -- 8758
+add.period$ -- 122
+call.type$ -- 30
+change.case$ -- 425
 chr.to.int$ -- 0
-cite$ -- 70
-duplicate$ -- 1336
-empty$ -- 2511
-format.name$ -- 637
-if$ -- 11614
+cite$ -- 60
+duplicate$ -- 1127
+empty$ -- 2149
+format.name$ -- 539
+if$ -- 9774
 int.to.chr$ -- 0
-int.to.str$ -- 109
+int.to.str$ -- 94
 missing$ -- 0
-newline$ -- 822
-num.names$ -- 280
-pop$ -- 1865
+newline$ -- 701
+num.names$ -- 240
+pop$ -- 1660
 preamble$ -- 1
-purify$ -- 167
+purify$ -- 143
 quote$ -- 0
-skip$ -- 3610
+skip$ -- 2960
 stack$ -- 0
-substring$ -- 2689
-swap$ -- 651
-text.length$ -- 118
+substring$ -- 2222
+swap$ -- 552
+text.length$ -- 104
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3368
+type$ -- 2824
 warning$ -- 0
-while$ -- 251
+while$ -- 213
 width$ -- 0
-write$ -- 944
-(There were 7 warnings)
+write$ -- 802
+(There were 10 warnings)
