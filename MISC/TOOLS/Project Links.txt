@@ -1,0 +1,2 @@
+Gantt Chart : https://app.teamgantt.com/projects/gantt?ids=3301379
+GitHub Repository: https://github.com/GravitonXD/OLARTE_SP
