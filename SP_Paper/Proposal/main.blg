@@ -27,55 +27,56 @@ Warning--entry type for "Strader2020" isn't style-file defined
 Warning--entry type for "Savas2017" isn't style-file defined
 --line 165 of file references.bib
 Warning--entry type for "Guo2022" isn't style-file defined
---line 351 of file references.bib
+--line 353 of file references.bib
 Warning--entry type for "BSP19" isn't style-file defined
---line 467 of file references.bib
+--line 469 of file references.bib
 Warning--entry type for "BSP" isn't style-file defined
---line 477 of file references.bib
+--line 479 of file references.bib
 Warning--entry type for "Balaba2017" isn't style-file defined
---line 487 of file references.bib
+--line 489 of file references.bib
 Warning--entry type for "Bae2017" isn't style-file defined
---line 503 of file references.bib
+--line 505 of file references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 35 entries,
+Warning--No journal in Mann2015
+You've used 46 entries,
             6951 wiz_defined-function locations,
-            1483 strings with 17557 characters,
-and the built_in function-call counts, 58683 in all, are:
-= -- 7430
-> -- 427
-< -- 2701
-+ -- 2471
-- -- 97
-* -- 3382
-:= -- 10440
-add.period$ -- 142
-call.type$ -- 35
-change.case$ -- 514
+            1566 strings with 20111 characters,
+and the built_in function-call counts, 82818 in all, are:
+= -- 10377
+> -- 630
+< -- 3962
++ -- 3751
+- -- 121
+* -- 4983
+:= -- 15020
+add.period$ -- 190
+call.type$ -- 46
+change.case$ -- 719
 chr.to.int$ -- 0
-cite$ -- 70
-duplicate$ -- 1336
-empty$ -- 2511
-format.name$ -- 637
-if$ -- 11614
+cite$ -- 93
+duplicate$ -- 1951
+empty$ -- 3389
+format.name$ -- 966
+if$ -- 16071
 int.to.chr$ -- 0
-int.to.str$ -- 109
+int.to.str$ -- 142
 missing$ -- 0
-newline$ -- 822
-num.names$ -- 280
-pop$ -- 1865
+newline$ -- 1130
+num.names$ -- 368
+pop$ -- 2266
 preamble$ -- 1
-purify$ -- 167
+purify$ -- 229
 quote$ -- 0
-skip$ -- 3610
+skip$ -- 5068
 stack$ -- 0
-substring$ -- 2689
-swap$ -- 651
-text.length$ -- 118
+substring$ -- 4086
+swap$ -- 996
+text.length$ -- 171
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3368
-warning$ -- 0
-while$ -- 251
+type$ -- 4376
+warning$ -- 1
+while$ -- 379
 width$ -- 0
-write$ -- 944
-(There were 7 warnings)
+write$ -- 1335
+(There were 8 warnings)

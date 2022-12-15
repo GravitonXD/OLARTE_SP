@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  15 DEC 2022 14:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  15 DEC 2022 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -258,19 +258,19 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [2
+
+
+
+])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [2
-
-
-
-] (main.lof)
+ [3] (main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [3
+ [4
 
 ]
 \openout2 = `chapter_1.aux'.
@@ -280,13 +280,32 @@ Chapter 1.
 [1
 
 
-] [2] [3] [4] [5] [6] [7]) [8]
+] [2] [3] [4] [5] [6] [7] [8]) [9]
 \openout2 = `chapter_2.aux'.
 
- (chapter_2.tex)
+ (chapter_2.tex
+Chapter 2.
+[10
+
+
+
+
+] [11]
+Overfull \hbox (1.89531pt too wide) in paragraph at lines 73--73
+[]\OT1/cmr/bx/n/17.28 Utilization of Dy-namic Mode De-com-po-si-tion 
+ []
+
+[12] [13]) [14] [15]
 \openout2 = `chapter_3.aux'.
 
- (chapter_3.tex) (main.bbl
+ (chapter_3.tex
+Chapter 3.
+) [16
+
+
+
+
+] (main.bbl
 Underfull \hbox (badness 5050) in paragraph at lines 41--56
 []\OT1/cmr/m/n/12 Alegado, S., Lopez, D. B., & Calonzo, A.  (2022, 8).  \OT1/cmr/m/it/12 Philip-
  []
@@ -311,22 +330,16 @@ Underfull \hbox (badness 1931) in paragraph at lines 201--214
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .bworldonline [] .com / stock [] -market / 2022 / 05 /
  []
 
-
-Underfull \hbox (badness 2582) in paragraph at lines 253--267
-[]\OT1/cmr/m/n/12 Canto, J., & Ro-mano, K.  (2022, 4).  \OT1/cmr/m/it/12 Philip-pines eco-nomic out-look
- []
-
-[9
-
-
-
-
-
-
+[17
 
 
 
 ]
+Underfull \hbox (badness 2582) in paragraph at lines 253--267
+[]\OT1/cmr/m/n/12 Canto, J., & Ro-mano, K.  (2022, 4).  \OT1/cmr/m/it/12 Philip-pines eco-nomic out-look
+ []
+
+
 Underfull \hbox (badness 1147) in paragraph at lines 303--318
 \OT1/cmr/m/it/12 fil-ipinos in 2021 es-ti-mated at 110.8 mil-lion, sizes of fam-i-lies trend-
  []
@@ -342,103 +355,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--318
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 330--343
+Underfull \hbox (badness 2057) in paragraph at lines 389--402
 []\OT1/cmr/m/n/12 Department, S. R.  (2022).  \OT1/cmr/m/it/12 Num-ber of stock mar-ket ac-counts philip-
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 355--368
+Underfull \hbox (badness 1681) in paragraph at lines 414--427
 []\OT1/cmr/m/n/12 EdwardJones.  (n.d.[]).  \OT1/cmr/m/it/12 Why in-vest in stocks? re-trieved septem-ber 19,
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 355--368
+Underfull \hbox (badness 1803) in paragraph at lines 414--427
 \OT1/cmr/m/it/12 2022.  \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// www [] .edwardjones [] .com / us [] -en / market []
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 380--393
+Underfull \hbox (badness 1077) in paragraph at lines 439--452
 []\OT1/cmr/m/n/12 Fayed, A.  (2022, 4).  \OT1/cmr/m/it/12 A list of 14 blue chip com-pa-nies in the philip-
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 405--418
+Underfull \hbox (badness 1337) in paragraph at lines 464--477
 []\OT1/cmr/m/n/12 Guo, Y.  (2022).  \OT1/cmr/m/it/12 Stock price pre-dic-tion us-ing ma-chine learn-ing.  \OT1/cmr/m/n/12 Re-
  []
 
 
-Underfull \hbox (badness 5388) in paragraph at lines 430--443
+Underfull \hbox (badness 5388) in paragraph at lines 489--502
 []\OT1/cmr/m/n/12 Hall, M.  (2022, 9).  \OT1/cmr/m/it/12 How the stock mar-ket af-fects gdp.  \OT1/cmr/m/n/12 Re-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 575--589
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 796--810
 \OT1/cmtt/m/n/12 predicting [] -future [] -stock [] -market [] -trends [] -with [] -python [] -machine []
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 601--615
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 822--836
 \OT1/cmtt/m/n/12 markets / asia / philippines [] -economy [] -seen [] -growing [] -65 [] -2022 [] -50 [] -2023 []
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 627--642
+Underfull \hbox (badness 1675) in paragraph at lines 848--863
 []\OT1/cmr/m/n/12 Royal Bank of Canada Di-rect In-vest-ing Inc.  (n.d.[]).  Key ben-e-fits of
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 627--642
+Underfull \hbox (badness 1838) in paragraph at lines 848--863
 \OT1/cmr/m/n/12 in-vest-ing in stocks.  \OT1/cmr/m/it/12 Royal Bank of Canada Di-rect In-vest-ing Inc.\OT1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 627--642
+Underfull \hbox (badness 1210) in paragraph at lines 848--863
 \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 www6 [] .royalbank [] .com / en / di / hubs / investing [] -academy /
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 677--690
+Underfull \hbox (badness 2302) in paragraph at lines 926--939
 \OT1/cmr/m/it/12 bling?  \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// www [] .schwab [] .com / learn / story / is []
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 763--776
+Underfull \hbox (badness 1931) in paragraph at lines 1043--1056
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .forbes [] .com / sites / forbesfinancecouncil /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 763--776
+Underfull \hbox (badness 10000) in paragraph at lines 1043--1056
 \OT1/cmtt/m/n/12 2022 / 06 / 01 / investing [] -vs [] -gambling [] -understanding [] -risk [] -adjusted []
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 812--824
+Underfull \hbox (badness 1931) in paragraph at lines 1092--1104
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// edge [] .pse [] .com [] .ph / companyInformation / form [] .do []
  []
 
-
-Underfull \hbox (badness 1337) in paragraph at lines 859--872
+[20]
+Underfull \hbox (badness 1337) in paragraph at lines 1139--1152
 []\OT1/cmr/m/n/12 Trade Brains.  (2022, 7).  \OT1/cmr/m/it/12 How does the stock mar-ket af-fect the econ-
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 907--919
+Underfull \hbox (badness 2293) in paragraph at lines 1218--1230
 []\OT1/cmr/m/n/12 U.S. Se-cu-ri-ties and Ex-change Com-mis-sion.  (n.d.[]).  \OT1/cmr/m/it/12 What are stocks?
  []
 
-) [11] (main.aux (title_page.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux)) ) 
+
+Underfull \hbox (badness 1132) in paragraph at lines 1242--1255
+[]\OT1/cmr/m/n/12 Williamson, J. G.  (2015).  \OT1/cmr/m/it/12 Hand-book of the eco-nomics of in-ter-na-tional
+ []
+
+) [21] (main.aux (title_page.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux)) ) 
 Here is how much of TeX's memory you used:
- 4873 strings out of 475281
- 76740 string characters out of 2774064
- 434869 words of memory out of 3000000
- 26256 multiletter control sequences out of 15000+600000
+ 4922 strings out of 475281
+ 77542 string characters out of 2774064
+ 435249 words of memory out of 3000000
+ 26305 multiletter control sequences out of 15000+600000
  477181 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 77i,5n,81p,319b,377s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (14 pages, 121585 bytes).
+ 77i,6n,81p,323b,379s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (25 pages, 149683 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
