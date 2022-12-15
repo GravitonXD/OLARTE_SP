@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  15 DEC 2022 15:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  15 DEC 2022 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -446,15 +446,15 @@ Underfull \hbox (badness 1132) in paragraph at lines 1242--1255
 
 ) [21] (main.aux (title_page.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux)) ) 
 Here is how much of TeX's memory you used:
- 4922 strings out of 475281
- 77542 string characters out of 2774064
- 435249 words of memory out of 3000000
- 26305 multiletter control sequences out of 15000+600000
+ 4928 strings out of 475281
+ 77640 string characters out of 2774064
+ 435313 words of memory out of 3000000
+ 26311 multiletter control sequences out of 15000+600000
  477181 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 77i,6n,81p,323b,379s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 77i,6n,81p,323b,377s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (25 pages, 149683 bytes).
+Output written on main.pdf (25 pages, 150721 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
