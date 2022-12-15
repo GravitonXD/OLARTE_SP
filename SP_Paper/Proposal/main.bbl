@@ -17,11 +17,40 @@ Adams, R.%
 \newblock
 \APACrefYearMonthDay{2022}{7}{}.
 \newblock
-\APACrefbtitle {Is Investing in Stocks Gambling? No, Investing Isn’t Zero
-  Sum.} {Is investing in stocks gambling? no, investing isn’t zero sum.}
+\APACrefbtitle {{Is Investing in Stocks Gambling? No, Investing Isn’t Zero
+  Sum}.} {{Is Investing in Stocks Gambling? No, Investing Isn’t Zero Sum}.}
 \newblock
 \begin{APACrefURL}
   \url{https://youngandtheinvested.com/is-investing-in-the-stock-market-gambling/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alegado%
+, Lopez%
+\BCBL {}\ \BBA {} Calonzo%
+}{%
+Alegado%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Alegado2022}
+\APACinsertmetastar {%
+Alegado2022}%
+\begin{APACrefauthors}%
+Alegado, S.%
+, Lopez, D\BPBI B.%
+\BCBL {}\ \BBA {} Calonzo, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{8}{}.
+\newblock
+\APACrefbtitle {Philippine Economic Growth Slows to 7.4% as Inflation Bites.}
+  {Philippine economic growth slows to 7.4% as inflation bites.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.bloomberg.com/news/articles/2022-08-09/philippine-economy-expands-7-4-last-quarter-below-estimate}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -159,6 +188,31 @@ BSP19}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{Business World}%
+}{%
+{Business World}%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+BusinessWorld2022}
+\APACinsertmetastar {%
+BusinessWorld2022}%
+\begin{APACrefauthors}%
+{Business World}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{5}{}.
+\newblock
+\APACrefbtitle {PSEi sinks further as net foreign selling surges.} {Psei sinks
+  further as net foreign selling surges.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.bworldonline.com/stock-market/2022/05/24/450559/psei-sinks-further-as-net-foreign-selling-surges/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Campbell%
 }{%
 Campbell%
@@ -184,6 +238,34 @@ Campbell, G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Canto%
+\ \BBA {} Romano%
+}{%
+Canto%
+\ \BBA {} Romano%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Canto2022}
+\APACinsertmetastar {%
+Canto2022}%
+\begin{APACrefauthors}%
+Canto, J.%
+\BCBT {}\ \BBA {} Romano, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{4}{}.
+\newblock
+\APACrefbtitle {Philippines economic outlook 2022.} {Philippines economic
+  outlook 2022.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.mckinsey.com/featured-insights/asia-pacific/philippines-economic-outlook-2022}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Chen%
 }{%
 Chen%
@@ -204,6 +286,58 @@ Chen, J.%
   Work?} {What is the stock market, what does it do, and how does it work?}
 \newblock
 \begin{APACrefURL} \url{https://www.investopedia.com/terms/s/stockmarket.asp}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Commission on Population and Development}%
+}{%
+{Commission on Population and Development}%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+POPCOMM2021}
+\APACinsertmetastar {%
+POPCOMM2021}%
+\begin{APACrefauthors}%
+{Commission on Population and Development}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+\APACrefbtitle {POPCOM: Number of Filipinos in 2021 estimated at 110.8 million,
+  Sizes of Families Trending Lower at 4 Members.} {Popcom: Number of filipinos
+  in 2021 estimated at 110.8 million, sizes of families trending lower at 4
+  members.}
+\newblock
+\begin{APACrefURL}
+  \url{https://popcom.gov.ph/popcom-number-of-filipinos-in-2021-estimated-at-110-8-million-sizes-of-families-trending-lower-at-4-members.}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Department%
+}{%
+Department%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Statista2022}
+\APACinsertmetastar {%
+Statista2022}%
+\begin{APACrefauthors}%
+Department, S\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Number of Stock Market Accounts Philippines 2021.} {Number of
+  stock market accounts philippines 2021.}
+\newblock
+\begin{APACrefURL}
+  \url{www.statista.com/statistics/1194840/philippines-number-of-stock-market-accounts-by-type}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -304,6 +438,32 @@ Hall, M.%
 \newblock
 \begin{APACrefURL}
   \url{https://www.investopedia.com/ask/answers/033015/how-does-stock-market-affect-gross-domestic-product-gdp.asp}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kim%
+}{%
+Kim%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Kim2022}
+\APACinsertmetastar {%
+Kim2022}%
+\begin{APACrefauthors}%
+Kim, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{7}{}.
+\newblock
+\APACrefbtitle {Alternative Data for Hedge Funds: The Competitive Edge to
+  Investing.} {Alternative data for hedge funds: The competitive edge to
+  investing.}
+\newblock
+\begin{APACrefURL}
+  \url{{https://www.similarweb.com/corp/blog/investor/asset-research/hedge-funds-use-alternative-data}}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -424,6 +584,32 @@ Rea, L.%
 \newblock
 \begin{APACrefURL}
   \url{https://towardsdatascience.com/predicting-future-stock-market-trends-with-python-machine-learning-2bf3f1633b3c}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Reuters}%
+}{%
+{Reuters}%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Reuters2022}
+\APACinsertmetastar {%
+Reuters2022}%
+\begin{APACrefauthors}%
+{Reuters}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{9}{}.
+\newblock
+\APACrefbtitle {Philippine economy to grow more slowly than previously thought
+  in 2022, IMF says.} {Philippine economy to grow more slowly than previously
+  thought in 2022, imf says.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.reuters.com/markets/asia/philippines-economy-seen-growing-65-2022-50-2023-imf-2022-09-26/}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 

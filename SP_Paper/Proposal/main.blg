@@ -22,90 +22,60 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
-Warning--entry type for "USSecAndExComm" isn't style-file defined
---line 1 of file references.bib
-Warning--entry type for "tradingEconomics" isn't style-file defined
---line 13 of file references.bib
-Warning--entry type for "TradeBrains" isn't style-file defined
---line 25 of file references.bib
-Warning--entry type for "PSECompanyList" isn't style-file defined
---line 41 of file references.bib
-Warning--entry type for "PSECompanyInfo" isn't style-file defined
---line 53 of file references.bib
-Warning--entry type for "TheEconomicTimes" isn't style-file defined
---line 65 of file references.bib
-Warning--entry type for "Summers2022" isn't style-file defined
---line 77 of file references.bib
 Warning--entry type for "Strader2020" isn't style-file defined
 --line 93 of file references.bib
-Warning--entry type for "Schwab-Pomerantz2021" isn't style-file defined
---line 149 of file references.bib
 Warning--entry type for "Savas2017" isn't style-file defined
 --line 165 of file references.bib
-Warning--entry type for "Rea2020" isn't style-file defined
---line 203 of file references.bib
-Warning--entry type for "Hall2022" isn't style-file defined
---line 335 of file references.bib
 Warning--entry type for "Guo2022" isn't style-file defined
 --line 351 of file references.bib
-Warning--entry type for "Fayed2022" isn't style-file defined
---line 363 of file references.bib
-Warning--entry type for "EdwardJones" isn't style-file defined
---line 379 of file references.bib
-Warning--entry type for "Chen2022" isn't style-file defined
---line 403 of file references.bib
-Warning--entry type for "Campbell2021" isn't style-file defined
---line 435 of file references.bib
 Warning--entry type for "BSP19" isn't style-file defined
---line 465 of file references.bib
+--line 467 of file references.bib
 Warning--entry type for "BSP" isn't style-file defined
---line 475 of file references.bib
+--line 477 of file references.bib
 Warning--entry type for "Balaba2017" isn't style-file defined
---line 485 of file references.bib
+--line 487 of file references.bib
 Warning--entry type for "Bae2017" isn't style-file defined
---line 501 of file references.bib
-Warning--entry type for "Adams2022" isn't style-file defined
---line 531 of file references.bib
+--line 503 of file references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 28 entries,
+You've used 35 entries,
             6951 wiz_defined-function locations,
-            1444 strings with 15929 characters,
-and the built_in function-call counts, 50251 in all, are:
-= -- 7012
-> -- 344
-< -- 2009
-+ -- 1847
-- -- 77
-* -- 2604
-:= -- 7945
-add.period$ -- 114
-call.type$ -- 28
-change.case$ -- 385
+            1483 strings with 17489 characters,
+and the built_in function-call counts, 58080 in all, are:
+= -- 7362
+> -- 427
+< -- 2633
++ -- 2403
+- -- 97
+* -- 3323
+:= -- 10245
+add.period$ -- 142
+call.type$ -- 35
+change.case$ -- 514
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 1093
-empty$ -- 2013
-format.name$ -- 511
-if$ -- 10359
+cite$ -- 70
+duplicate$ -- 1336
+empty$ -- 2511
+format.name$ -- 637
+if$ -- 11546
 int.to.chr$ -- 0
-int.to.str$ -- 88
+int.to.str$ -- 109
 missing$ -- 0
-newline$ -- 661
-num.names$ -- 224
-pop$ -- 639
+newline$ -- 822
+num.names$ -- 280
+pop$ -- 1865
 preamble$ -- 1
-purify$ -- 129
+purify$ -- 167
 quote$ -- 0
-skip$ -- 4615
+skip$ -- 3601
 stack$ -- 0
-substring$ -- 2026
-swap$ -- 536
-text.length$ -- 91
+substring$ -- 2621
+swap$ -- 651
+text.length$ -- 118
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3888
+type$ -- 3368
 warning$ -- 0
-while$ -- 197
+while$ -- 251
 width$ -- 0
-write$ -- 758
-(There were 22 warnings)
+write$ -- 944
+(There were 7 warnings)
