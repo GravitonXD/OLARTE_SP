@@ -7,8 +7,8 @@ Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: ./chapter_1/0_chapter_1.aux
 Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: ./chapter_2/0_chapter_2.aux
-Reallocating 'name_of_file' (item size: 1) to 26 items.
-A level-1 auxiliary file: ./chapter_3/chapter_3.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: ./chapter_3/0_chapter_3.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apacite.bst
 Reallocating 'name_of_file' (item size: 1) to 15 items.
@@ -40,7 +40,7 @@ apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Mann2015
 You've used 46 entries,
             6951 wiz_defined-function locations,
-            1566 strings with 20151 characters,
+            1566 strings with 20153 characters,
 and the built_in function-call counts, 82818 in all, are:
 = -- 10377
 > -- 630
