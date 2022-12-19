@@ -1,0 +1,38 @@
+% Objectives
+\section{Objectives}
+\label{sec:objectives}
+The main objective of this special problem is to develop a 
+system that will make investing easier, more publicly available, 
+data-driven, and more approachable to the public by minimizing both the 
+time required for stock price trend analysis, and potential financial risk 
+by using a predictive model. Specifically, it aims to do following:
+\begin{itemize}
+  \item[(a)] Develop a RESTful API, which will be referred to as alamAPI, 
+  using the combination of Python libraries and MongoDB for the backend 
+  services and database, respectively.
+  \\Whereas this backend service will be using Python’s 
+  FastAPI that will enable different user to connect to 
+  the database and collect the information provided by the 
+  Stock Market Price Trend Forecasting Model.
+  \\Specifically, this will be done by doing the following:
+  \subitem 1.	Develop a Data Collector Module (DCM), 
+  which will get the historical data every day for 
+  the past 200 days every after market close from Mondays to Fridays. 
+  The data collected will be eventually processed by the Pre-Database Processor 
+  (PDB) with the help of the Preprocessor Utilities Module (PUD). 
+  Wherein, DCM, PDB, and PUD will be part of the Preprocessor Module 
+  (PPD) of alamAPI.
+  \subitem 2.	Develop a database that will store the results provided by the PPD,
+  and other essential data about the stock market that is needed to be provided
+  in the backend service.
+  \subitem 3.	Develop the necessary API endpoints 
+  that will provide recommendation on which stocks to buy or sell. 
+  Additionally, it provides the general information about these stocks.
+  \item[(b)] Develop a Stock Market Price Trend Forecasting Machine Learning Model. 
+  Using Dynamic Mode Decomposition (DMD) and Arnaud Legoux Moving Average (ALMA)
+   for data preprocessing. 
+   Afterwards the preprocessed data will be fed to a Long Short-Term Memory (LSTM)
+    Neural Network which will be responsible for predicting future stock prices.
+  \item[(c)] Finally, develop a mobile-based test application to showcase 
+  the main functionalities of the developed RESTful API.
+\end{itemize}
