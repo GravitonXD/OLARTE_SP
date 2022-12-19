@@ -401,6 +401,31 @@ Department, S\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{Docker}%
+}{%
+{Docker}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Docker}
+\APACinsertmetastar {%
+Docker}%
+\begin{APACrefauthors}%
+{Docker}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Use Containers to Build, Share and Run Your Applications.
+  Docker + WASM.} {Use containers to build, share and run your applications.
+  docker + wasm.}
+\newblock
+\begin{APACrefURL} \url{https://www.docker.com/resources/what-container/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 EdwardJones%
 }{%
 EdwardJones%
@@ -422,6 +447,30 @@ EdwardJones.%
 \newblock
 \begin{APACrefURL}
   \url{https://www.edwardjones.com/us-en/market-news-insights/guidance-perspective/benefits-investing-stock}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{EODHD}%
+}{%
+{EODHD}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+EODHD}
+\APACinsertmetastar {%
+EODHD}%
+\begin{APACrefauthors}%
+{EODHD}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Financial APIs Documentation. Fundamental and Historical Data
+  APIs.} {Financial apis documentation. fundamental and historical data apis.}
+\newblock
+\begin{APACrefURL} \url{https://eodhistoricaldata.com/financial-apis/}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -712,6 +761,28 @@ Mann, J.%
   strategies}.{\BBCQ}
 \newblock
 
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{MongoEngine}%
+}{%
+{MongoEngine}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+MongoEngine}
+\APACinsertmetastar {%
+MongoEngine}%
+\begin{APACrefauthors}%
+{MongoEngine}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {MongoEngine Documentation.} {Mongoengine documentation.}
+\newblock
+\begin{APACrefURL} \url{https://docs.mongoengine.org/} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1123,6 +1194,28 @@ PSECompanyList}%
 \newblock
 \begin{APACrefURL} \url{https://edge.pse.com.ph/companyDirectory/form.do}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Tiangolo}%
+}{%
+{Tiangolo}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Tiangolo}
+\APACinsertmetastar {%
+Tiangolo}%
+\begin{APACrefauthors}%
+{Tiangolo}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {FastAPI Documentation.} {Fastapi documentation.}
+\newblock
+\begin{APACrefURL} \url{https://fastapi.tiangolo.com/} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

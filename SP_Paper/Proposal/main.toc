@@ -25,8 +25,10 @@
 \contentsline {section}{\numberline {2.3}Synthesis}{14}{}%
 \contentsline {chapter}{\numberline {3}Materials and Methods}{16}{}%
 \contentsline {section}{\numberline {3.1}Development Tools and\\Software Requirements}{16}{}%
-\contentsline {section}{\numberline {3.2}System Diagrams}{16}{}%
-\contentsline {section}{\numberline {3.3}Hardware Requirements}{16}{}%
-\contentsline {section}{\numberline {3.4}Methodology}{16}{}%
-\contentsline {section}{\numberline {3.5}Gantt Chart}{16}{}%
-\contentsline {chapter}{References}{17}{}%
+\contentsline {subsection}{\numberline {3.1.1}Development Tools}{17}{}%
+\contentsline {subsection}{\numberline {3.1.2}Software Requirements}{17}{}%
+\contentsline {section}{\numberline {3.2}System Diagrams}{19}{}%
+\contentsline {section}{\numberline {3.3}Hardware Requirements}{19}{}%
+\contentsline {section}{\numberline {3.4}Methodology}{19}{}%
+\contentsline {section}{\numberline {3.5}Gantt Chart}{19}{}%
+\contentsline {chapter}{References}{20}{}%
