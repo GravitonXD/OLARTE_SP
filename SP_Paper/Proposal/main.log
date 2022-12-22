@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  19 DEC 2022 23:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  23 DEC 2022 01:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,7 +319,58 @@ Overfull \hbox (13.52669pt too wide) in paragraph at lines 20--25
 \OT1/cmr/m/n/12 with Mon-goDB []MongoEngine, n.d.[]) This will be used in the alamAPI
  []
 
-[17] [18])) (chapter_3/2_section/system_diagrams.tex) (chapter_3/3_section/hardware.tex) (chapter_3/4_section/methodology.tex) (chapter_3/5_section/gantt_chart.tex)) [19] (main.bbl
+[17] [18])) (chapter_3/2_section/system_diagrams.tex
+<./assets/SystemOverview.png, id=77, 658.3797pt x 376.5267pt>
+File: ./assets/SystemOverview.png Graphic file (type png)
+<use ./assets/SystemOverview.png>
+Package pdftex.def Info: ./assets/SystemOverview.png  used on input line 8.
+(pdftex.def)             Requested size: 415.55249pt x 237.64972pt.
+<./assets/ProcessFlowchart.png, id=79, 695.9601pt x 1144.0341pt>
+File: ./assets/ProcessFlowchart.png Graphic file (type png)
+<use ./assets/ProcessFlowchart.png>
+Package pdftex.def Info: ./assets/ProcessFlowchart.png  used on input line 16.
+(pdftex.def)             Requested size: 332.44325pt x 546.47675pt.
+<./assets/Data Flow Diagram-01.png, id=80, 794.97pt x 614.295pt>
+File: ./assets/Data Flow Diagram-01.png Graphic file (type png)
+<use ./assets/Data Flow Diagram-01.png>
+Package pdftex.def Info: ./assets/Data Flow Diagram-01.png  used on input line 29.
+(pdftex.def)             Requested size: 415.55249pt x 321.11307pt.
+<./assets//Data Flow Diagram-02.png, id=81, 794.97pt x 801.2334pt>
+File: ./assets//Data Flow Diagram-02.png Graphic file (type png)
+<use ./assets//Data Flow Diagram-02.png>
+Package pdftex.def Info: ./assets//Data Flow Diagram-02.png  used on input line 37.
+(pdftex.def)             Requested size: 415.55249pt x 418.83218pt.
+<./assets/Data Flow Diagram-03.png, id=82, 964.3227pt x 733.5405pt>
+File: ./assets/Data Flow Diagram-03.png Graphic file (type png)
+<use ./assets/Data Flow Diagram-03.png>
+Package pdftex.def Info: ./assets/Data Flow Diagram-03.png  used on input line 45.
+(pdftex.def)             Requested size: 415.55249pt x 316.09903pt.
+<./assets/Data Flow Diagram-04.png, id=83, 794.97pt x 614.295pt>
+File: ./assets/Data Flow Diagram-04.png Graphic file (type png)
+<use ./assets/Data Flow Diagram-04.png>
+Package pdftex.def Info: ./assets/Data Flow Diagram-04.png  used on input line 53.
+(pdftex.def)             Requested size: 415.55249pt x 321.11307pt.
+<./assets/Data Flow Diagram-05.png, id=84, 943.8462pt x 741.0084pt>
+File: ./assets/Data Flow Diagram-05.png Graphic file (type png)
+<use ./assets/Data Flow Diagram-05.png>
+Package pdftex.def Info: ./assets/Data Flow Diagram-05.png  used on input line 61.
+(pdftex.def)             Requested size: 415.55249pt x 326.23692pt.
+<./assets/ODM.png, id=85, 542.7477pt x 357.0138pt>
+File: ./assets/ODM.png Graphic file (type png)
+<use ./assets/ODM.png>
+Package pdftex.def Info: ./assets/ODM.png  used on input line 69.
+(pdftex.def)             Requested size: 415.55249pt x 273.35979pt.
+<./assets/Machine Learning Model.png, id=86, 481.3182pt x 673.5564pt>
+File: ./assets/Machine Learning Model.png Graphic file (type png)
+<use ./assets/Machine Learning Model.png>
+Package pdftex.def Info: ./assets/Machine Learning Model.png  used on input line 77.
+(pdftex.def)             Requested size: 373.99469pt x 523.36774pt.
+<./assets/Docker-Compose Layout.png, id=87, 521.7894pt x 232.7094pt>
+File: ./assets/Docker-Compose Layout.png Graphic file (type png)
+<use ./assets/Docker-Compose Layout.png>
+Package pdftex.def Info: ./assets/Docker-Compose Layout.png  used on input line 85.
+(pdftex.def)             Requested size: 415.55249pt x 185.32976pt.
+) (chapter_3/3_section/hardware.tex) (chapter_3/4_section/methodology.tex) (chapter_3/5_section/gantt_chart.tex)) [19] [20 <./assets/SystemOverview.png>] [21 <./assets/ProcessFlowchart.png>] [22 <./assets/Data Flow Diagram-01.png (PNG copy)>] [23 <./assets//Data Flow Diagram-02.png (PNG copy)>] [24 <./assets/Data Flow Diagram-03.png (PNG copy)>] [25 <./assets/Data Flow Diagram-04.png (PNG copy)>] [26 <./assets/Data Flow Diagram-05.png (PNG copy)>] [27 <./assets/ODM.png>] [28 <./assets/Machine Learning Model.png>] [29 <./assets/Docker-Compose Layout.png>] (main.bbl
 Underfull \hbox (badness 5050) in paragraph at lines 41--56
 []\OT1/cmr/m/n/12 Alegado, S., Lopez, D. B., & Calonzo, A.  (2022, 8).  \OT1/cmr/m/it/12 Philip-
  []
@@ -344,7 +395,7 @@ Underfull \hbox (badness 1931) in paragraph at lines 201--214
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .bworldonline [] .com / stock [] -market / 2022 / 05 /
  []
 
-[20
+[30
 
 
 
@@ -388,7 +439,7 @@ Underfull \hbox (badness 1077) in paragraph at lines 488--501
 []\OT1/cmr/m/n/12 Fayed, A.  (2022, 4).  \OT1/cmr/m/it/12 A list of 14 blue chip com-pa-nies in the philip-
  []
 
-[21]
+[31]
 Underfull \hbox (badness 1337) in paragraph at lines 513--526
 []\OT1/cmr/m/n/12 Guo, Y.  (2022).  \OT1/cmr/m/it/12 Stock price pre-dic-tion us-ing ma-chine learn-ing.  \OT1/cmr/m/n/12 Re-
  []
@@ -398,7 +449,7 @@ Underfull \hbox (badness 5388) in paragraph at lines 538--551
 []\OT1/cmr/m/n/12 Hall, M.  (2022, 9).  \OT1/cmr/m/it/12 How the stock mar-ket af-fects gdp.  \OT1/cmr/m/n/12 Re-
  []
 
-[22]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 867--881
 \OT1/cmtt/m/n/12 predicting [] -future [] -stock [] -market [] -trends [] -with [] -python [] -machine []
  []
@@ -428,7 +479,7 @@ Underfull \hbox (badness 2302) in paragraph at lines 997--1010
 \OT1/cmr/m/it/12 bling?  \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// www [] .schwab [] .com / learn / story / is []
  []
 
-[23]
+[33]
 Underfull \hbox (badness 1931) in paragraph at lines 1114--1127
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .forbes [] .com / sites / forbesfinancecouncil /
  []
@@ -458,19 +509,19 @@ Underfull \hbox (badness 1132) in paragraph at lines 1335--1348
 []\OT1/cmr/m/n/12 Williamson, J. G.  (2015).  \OT1/cmr/m/it/12 Hand-book of the eco-nomics of in-ter-na-tional
  []
 
-) [24] (main.aux (title_page.aux) (chapter_1/0_chapter_1.aux) (chapter_2/0_chapter_2.aux) (chapter_3/0_chapter_3.aux)) ) 
+) [34] (main.aux (title_page.aux) (chapter_1/0_chapter_1.aux) (chapter_2/0_chapter_2.aux) (chapter_3/0_chapter_3.aux)) ) 
 Here is how much of TeX's memory you used:
- 5172 strings out of 475281
- 88863 string characters out of 2774064
- 435209 words of memory out of 3000000
- 26440 multiletter control sequences out of 15000+600000
+ 5255 strings out of 475281
+ 91421 string characters out of 2774064
+ 435321 words of memory out of 3000000
+ 26510 multiletter control sequences out of 15000+600000
  477871 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  77i,6n,81p,396b,377s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (28 pages, 160511 bytes).
+Output written on main.pdf (38 pages, 3028463 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 177 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
