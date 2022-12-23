@@ -30,11 +30,12 @@ by using a predictive model. Specifically, it aims to do following:
   \subitem 3.	Develop the necessary API endpoints 
   that will provide recommendation on which stocks to buy or sell. 
   Additionally, it provides the general information about these stocks.
-  \item[(b)] Develop a Stock Market Price Trend Forecasting Machine Learning Model. 
-  Using Dynamic Mode Decomposition (DMD) and Arnaud Legoux Moving Average (ALMA)
-   for data preprocessing. 
-   Afterwards the preprocessed data will be fed to a Long Short-Term Memory (LSTM)
-    Neural Network which will be responsible for predicting future stock prices.
+  \item[(b)] Develop the following Stock Market Price Trend Forecasting 
+  Machine Learning Models:
+    \subitem 1.	Model A (DMD-LSTM) – Utilize the dynamic modes in DMD as a 
+    parameter to the LSTM model.
+    \subitem 2. Model B (ARIALMA) – Modify ARIMA by using 
+    the optimized parameters for ALMA instead of the traditional MAs.
   \item[(c)] Finally, develop a mobile-based test application to showcase 
   the main functionalities of the developed RESTful API.
 \end{itemize}
