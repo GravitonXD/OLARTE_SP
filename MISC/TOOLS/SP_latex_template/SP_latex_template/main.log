@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  14 DEC 2022 14:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  23 DEC 2022 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/Downloads/ACD/SP_latex_template/SP_latex_template/main.tex
-(d:/Downloads/ACD/SP_latex_template/SP_latex_template/main.tex
+**"d:/Documents/ACD/SUBS/CMSC 198.1/OLARTE_SP/MISC/TOOLS/SP_latex_template/SP_latex_template/main.tex"
+(d:/Documents/ACD/SUBS/CMSC 198.1/OLARTE_SP/MISC/TOOLS/SP_latex_template/SP_latex_template/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-11-02>
 
@@ -429,12 +429,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
  ) 
 Here is how much of TeX's memory you used:
  4896 strings out of 475281
- 78667 string characters out of 2774064
+ 79561 string characters out of 2774064
  425721 words of memory out of 3000000
  26270 multiletter control sequences out of 15000+600000
  477171 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 77i,10n,81p,408b,295s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 77i,10n,81p,447b,295s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\johnm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on main.pdf (16 pages, 116522 bytes).
 PDF statistics:

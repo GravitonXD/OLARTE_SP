@@ -481,6 +481,10 @@ INPUT .\chapter_1\5_section\scope.tex
 INPUT chapter_1\5_section\scope.tex
 INPUT .\chapter_1\5_section\scope.tex
 INPUT chapter_1\5_section\scope.tex
+INPUT .\chapter_1\6_section\def_terms.tex
+INPUT chapter_1\6_section\def_terms.tex
+INPUT .\chapter_1\6_section\def_terms.tex
+INPUT chapter_1\6_section\def_terms.tex
 INPUT .\chapter_2\0_chapter_2.tex
 OUTPUT .\chapter_2\0_chapter_2.aux
 INPUT .\chapter_2\0_chapter_2.tex

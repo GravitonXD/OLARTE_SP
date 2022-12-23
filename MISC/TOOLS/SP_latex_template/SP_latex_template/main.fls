@@ -1,6 +1,6 @@
-PWD d:\Downloads\ACD\SP_latex_template\SP_latex_template
+PWD d:\Documents\ACD\SUBS\CMSC 198.1\OLARTE_SP\MISC\TOOLS\SP_latex_template\SP_latex_template
 INPUT C:\Users\johnm\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Downloads\ACD\SP_latex_template\SP_latex_template\main.tex
+INPUT d:\Documents\ACD\SUBS\CMSC 198.1\OLARTE_SP\MISC\TOOLS\SP_latex_template\SP_latex_template\main.tex
 OUTPUT main.log
 INPUT .\preamble.tex
 INPUT .\preamble.tex
