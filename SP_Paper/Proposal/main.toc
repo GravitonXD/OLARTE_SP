@@ -4,31 +4,31 @@
 \contentsline {subsection}{\numberline {1.1.2}Economic Relevance and Benefits of Stock Market Investment}{2}{}%
 \contentsline {subsection}{\numberline {1.1.3}Benefits of Investing for the Individual}{3}{}%
 \contentsline {subsection}{\numberline {1.1.4}Utilization of Machine Learning in Stock Market Trading}{3}{}%
-\contentsline {section}{\numberline {1.2}Statement of the Problem}{4}{}%
+\contentsline {section}{\numberline {1.2}Statement of the Problem}{5}{}%
 \contentsline {section}{\numberline {1.3}Significance of the Study}{6}{}%
-\contentsline {section}{\numberline {1.4}Objectives}{8}{}%
-\contentsline {section}{\numberline {1.5}Scope and Limitations}{9}{}%
-\contentsline {chapter}{\numberline {2}Review of Related Works and Literature}{10}{}%
-\contentsline {section}{\numberline {2.1}Integration of Machine Learning based \\Trading Algorithms}{10}{}%
-\contentsline {subsection}{\numberline {2.1.1}Comparison of Machine Learning Models in Stock Market Predictions}{11}{}%
-\contentsline {subsubsection}{Combination of Computational Efficient Functional Link Artificial Neural Network (CEFLANN) and Traditional Technical Analysis}{11}{}%
-\contentsline {subsubsection}{Deep Long Short-Term Neural Network (LSTM) with Embedded Layer}{11}{}%
-\contentsline {subsubsection}{LSTM with Automatic Encoder}{11}{}%
-\contentsline {subsubsection}{Optimal Deep Learning (ODL)}{12}{}%
-\contentsline {subsubsection}{NMC-BERT-LSTM-DQN-X Algorithm}{12}{}%
-\contentsline {section}{\numberline {2.2}Utilization of Dynamic Mode Decomposition\\(DMD) on the Financial Markets}{12}{}%
-\contentsline {subsection}{\numberline {2.2.1}Chronological Utilization of DMD in the Financial Markets}{13}{}%
-\contentsline {subsubsection}{Utilization of DMD for Determining the Cyclic Behavior in the Stock Market (2016)}{13}{}%
-\contentsline {subsubsection}{Utilization of DMD as part of an Algorithmic Trading Strategies for the Turkish Stock Market (2015 and 2017)}{13}{}%
-\contentsline {subsubsection}{Utilization of DMD-based Trading Strategy in the Chinese Stock Market (2016)}{14}{}%
-\contentsline {subsubsection}{Utilization of Adaptive Elastic DMD to Improve Momentum Strategies (2021)}{14}{}%
-\contentsline {section}{\numberline {2.3}Synthesis}{14}{}%
-\contentsline {chapter}{\numberline {3}Materials and Methods}{16}{}%
-\contentsline {section}{\numberline {3.1}Development Tools and\\Software Requirements}{16}{}%
-\contentsline {subsection}{\numberline {3.1.1}Development Tools}{17}{}%
-\contentsline {subsection}{\numberline {3.1.2}Software Requirements}{17}{}%
-\contentsline {section}{\numberline {3.2}System Diagrams}{19}{}%
-\contentsline {section}{\numberline {3.3}Hardware Requirements}{19}{}%
-\contentsline {section}{\numberline {3.4}Methodology}{19}{}%
-\contentsline {section}{\numberline {3.5}Gantt Chart}{19}{}%
-\contentsline {chapter}{References}{30}{}%
+\contentsline {section}{\numberline {1.4}Objectives}{9}{}%
+\contentsline {section}{\numberline {1.5}Scope and Limitations}{10}{}%
+\contentsline {chapter}{\numberline {2}Review of Related Works and Literature}{11}{}%
+\contentsline {section}{\numberline {2.1}Integration of Machine Learning based \\Trading Algorithms}{11}{}%
+\contentsline {subsection}{\numberline {2.1.1}Comparison of Machine Learning Models in Stock Market Predictions}{12}{}%
+\contentsline {subsubsection}{Combination of Computational Efficient Functional Link Artificial Neural Network (CEFLANN) and Traditional Technical Analysis}{12}{}%
+\contentsline {subsubsection}{Deep Long Short-Term Neural Network (LSTM) with Embedded Layer}{12}{}%
+\contentsline {subsubsection}{LSTM with Automatic Encoder}{12}{}%
+\contentsline {subsubsection}{Optimal Deep Learning (ODL)}{13}{}%
+\contentsline {subsubsection}{NMC-BERT-LSTM-DQN-X Algorithm}{13}{}%
+\contentsline {section}{\numberline {2.2}Utilization of Dynamic Mode Decomposition\\(DMD) on the Financial Markets}{13}{}%
+\contentsline {subsection}{\numberline {2.2.1}Chronological Utilization of DMD in the Financial Markets}{14}{}%
+\contentsline {subsubsection}{Utilization of DMD for Determining the Cyclic Behavior in the Stock Market (2016)}{14}{}%
+\contentsline {subsubsection}{Utilization of DMD as part of an Algorithmic Trading Strategies for the Turkish Stock Market (2015 and 2017)}{14}{}%
+\contentsline {subsubsection}{Utilization of DMD-based Trading Strategy in the Chinese Stock Market (2016)}{15}{}%
+\contentsline {subsubsection}{Utilization of Adaptive Elastic DMD to Improve Momentum Strategies (2021)}{15}{}%
+\contentsline {section}{\numberline {2.3}Synthesis}{15}{}%
+\contentsline {chapter}{\numberline {3}Materials and Methods}{17}{}%
+\contentsline {section}{\numberline {3.1}Development Tools and\\Software Requirements}{17}{}%
+\contentsline {subsection}{\numberline {3.1.1}Development Tools}{18}{}%
+\contentsline {subsection}{\numberline {3.1.2}Software Requirements}{18}{}%
+\contentsline {section}{\numberline {3.2}System Diagrams}{20}{}%
+\contentsline {section}{\numberline {3.3}Hardware Requirements}{20}{}%
+\contentsline {section}{\numberline {3.4}Methodology}{20}{}%
+\contentsline {section}{\numberline {3.5}Gantt Chart}{20}{}%
+\contentsline {chapter}{References}{32}{}%

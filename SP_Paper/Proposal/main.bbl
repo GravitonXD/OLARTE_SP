@@ -55,6 +55,33 @@ Alegado, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ayodele Ariyo~Adebiyi%
+}{%
+Ayodele Ariyo~Adebiyi%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Adebiyi2014}
+\APACinsertmetastar {%
+Adebiyi2014}%
+\begin{APACrefauthors}%
+Ayodele Ariyo~Adebiyi, C\BPBI A., Aderemi~Adewumi.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stock price prediction using the (ARIMA) model} {Stock
+  price prediction using the (arima) model}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2014 (UKSim-AMSS) 16th International Conference on
+  Computer Modelling and Simulation.} {2014 (uksim-amss) 16th international
+  conference on computer modelling and simulation.}
+\newblock
+\APACaddressPublisher{}{IEEE}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Bae%
 \ \BBA {} Kang%
 }{%
@@ -929,6 +956,31 @@ RBC}%
 \newblock
 \begin{APACrefURL}
   \url{www6.royalbank.com/en/di/hubs/investing-academy/chapter/key-benefits-of-investing-in-stocks/jv7atg13/jv7atg1j}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sarkar%
+}{%
+Sarkar%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+Sarkar2019}
+\APACinsertmetastar {%
+Sarkar2019}%
+\begin{APACrefauthors}%
+Sarkar, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {Arnaud Legoux Moving Average Indicator, Settings.} {Arnaud
+  legoux moving average indicator, settings.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.stockmaniacs.net/arnaud-legoux-moving-average-indicator/}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 

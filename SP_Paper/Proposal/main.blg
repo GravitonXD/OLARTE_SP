@@ -38,45 +38,45 @@ Warning--entry type for "Bae2017" isn't style-file defined
 --line 505 of file references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Mann2015
-You've used 50 entries,
+You've used 52 entries,
             6951 wiz_defined-function locations,
-            1586 strings with 20585 characters,
-and the built_in function-call counts, 88145 in all, are:
-= -- 10999
-> -- 670
-< -- 4209
-+ -- 3942
-- -- 137
-* -- 5286
-:= -- 15985
-add.period$ -- 206
-call.type$ -- 50
-change.case$ -- 735
+            1597 strings with 20941 characters,
+and the built_in function-call counts, 91454 in all, are:
+= -- 11442
+> -- 690
+< -- 4342
++ -- 4065
+- -- 141
+* -- 5463
+:= -- 16518
+add.period$ -- 216
+call.type$ -- 52
+change.case$ -- 770
 chr.to.int$ -- 0
-cite$ -- 101
-duplicate$ -- 2075
-empty$ -- 3661
-format.name$ -- 1022
-if$ -- 17153
+cite$ -- 105
+duplicate$ -- 2153
+empty$ -- 3811
+format.name$ -- 1050
+if$ -- 17834
 int.to.chr$ -- 0
-int.to.str$ -- 154
+int.to.str$ -- 160
 missing$ -- 0
-newline$ -- 1218
-num.names$ -- 400
-pop$ -- 2548
+newline$ -- 1264
+num.names$ -- 416
+pop$ -- 2678
 preamble$ -- 1
-purify$ -- 241
+purify$ -- 249
 quote$ -- 0
-skip$ -- 5304
+skip$ -- 5523
 stack$ -- 0
-substring$ -- 4293
-swap$ -- 1052
-text.length$ -- 179
+substring$ -- 4428
+swap$ -- 1092
+text.length$ -- 183
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4696
+type$ -- 4920
 warning$ -- 1
-while$ -- 395
+while$ -- 405
 width$ -- 0
-write$ -- 1431
+write$ -- 1481
 (There were 8 warnings)
