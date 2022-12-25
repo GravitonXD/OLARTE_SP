@@ -50,5 +50,5 @@
 \contentsline {section}{\numberline {3.4}Methodology}{36}{}%
 \contentsline {subsection}{\numberline {3.4.1}Software Development Process}{36}{}%
 \contentsline {subsection}{\numberline {3.4.2}Procedures}{43}{}%
-\contentsline {section}{\numberline {3.5}Gantt Chart}{43}{}%
-\contentsline {chapter}{References}{46}{}%
+\contentsline {section}{\numberline {3.5}Gantt Chart}{44}{}%
+\contentsline {chapter}{References}{47}{}%

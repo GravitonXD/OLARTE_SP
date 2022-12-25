@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  26 DEC 2022 01:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.14)  26 DEC 2022 01:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -653,45 +653,45 @@ Underfull \hbox (badness 7064) in paragraph at lines 148--150
 \OT1/cmr/m/n/12 tion slide deck for
  []
 
-[36] [37] [38] [39] [40] [41]) (chapter_3/4_section/subsections/procedures.tex [42])) (chapter_3/5_section/gantt_chart.tex [43]
-<./assets/Gantt_Chart_Sprint1.png, id=184, 1154.06157pt x 249.18094pt>
+[36] [37] [38] [39] [40] [41]) (chapter_3/4_section/subsections/procedures.tex [42] [43])) (chapter_3/5_section/gantt_chart.tex [44]
+<./assets/Gantt_Chart_Sprint1.png, id=187, 1154.06157pt x 249.18094pt>
 File: ./assets/Gantt_Chart_Sprint1.png Graphic file (type png)
 <use ./assets/Gantt_Chart_Sprint1.png>
 Package pdftex.def Info: ./assets/Gantt_Chart_Sprint1.png  used on input line 9.
 (pdftex.def)             Requested size: 415.55249pt x 89.72408pt.
-<./assets/Gantt_Chart_Sprint2.png, id=185, 1253.43282pt x 179.92218pt>
+<./assets/Gantt_Chart_Sprint2.png, id=188, 1253.43282pt x 179.92218pt>
 File: ./assets/Gantt_Chart_Sprint2.png Graphic file (type png)
 <use ./assets/Gantt_Chart_Sprint2.png>
 Package pdftex.def Info: ./assets/Gantt_Chart_Sprint2.png  used on input line 17.
 (pdftex.def)             Requested size: 415.55249pt x 59.64903pt.
-<./assets/Gantt_Chart_Sprint3.png, id=186, 931.22906pt x 180.675pt>
+<./assets/Gantt_Chart_Sprint3.png, id=189, 931.22906pt x 180.675pt>
 File: ./assets/Gantt_Chart_Sprint3.png Graphic file (type png)
 <use ./assets/Gantt_Chart_Sprint3.png>
 Package pdftex.def Info: ./assets/Gantt_Chart_Sprint3.png  used on input line 25.
 (pdftex.def)             Requested size: 415.55249pt x 80.6248pt.
-<./assets/Gantt_Chart_Sprint4.png, id=187, 829.59938pt x 143.78719pt>
+<./assets/Gantt_Chart_Sprint4.png, id=190, 829.59938pt x 143.78719pt>
 File: ./assets/Gantt_Chart_Sprint4.png Graphic file (type png)
 <use ./assets/Gantt_Chart_Sprint4.png>
 Package pdftex.def Info: ./assets/Gantt_Chart_Sprint4.png  used on input line 33.
 (pdftex.def)             Requested size: 415.55249pt x 72.02286pt.
-<./assets/Gantt_Chart_Sprint5.png, id=188, 823.57687pt x 163.3603pt>
+<./assets/Gantt_Chart_Sprint5.png, id=191, 823.57687pt x 163.3603pt>
 File: ./assets/Gantt_Chart_Sprint5.png Graphic file (type png)
 <use ./assets/Gantt_Chart_Sprint5.png>
 Package pdftex.def Info: ./assets/Gantt_Chart_Sprint5.png  used on input line 41.
 (pdftex.def)             Requested size: 415.55249pt x 82.42773pt.
-<./assets/Gantt_Chart_Sprint6.png, id=189, 822.07124pt x 145.29282pt>
+<./assets/Gantt_Chart_Sprint6.png, id=192, 822.07124pt x 145.29282pt>
 File: ./assets/Gantt_Chart_Sprint6.png Graphic file (type png)
 <use ./assets/Gantt_Chart_Sprint6.png>
 Package pdftex.def Info: ./assets/Gantt_Chart_Sprint6.png  used on input line 49.
 (pdftex.def)             Requested size: 415.55249pt x 73.44434pt.
-<./assets/Gantt_Chart_Full.png, id=190, 1281.28688pt x 161.85469pt>
+<./assets/Gantt_Chart_Full.png, id=193, 1281.28688pt x 161.85469pt>
 File: ./assets/Gantt_Chart_Full.png Graphic file (type png)
 <use ./assets/Gantt_Chart_Full.png>
 Package pdftex.def Info: ./assets/Gantt_Chart_Full.png  used on input line 57.
 (pdftex.def)             Requested size: 415.55249pt x 52.49347pt.
-)) [44
+)) [45
 
- <./assets/Gantt_Chart_Sprint1.png> <./assets/Gantt_Chart_Sprint2.png> <./assets/Gantt_Chart_Sprint3.png>] [45 <./assets/Gantt_Chart_Sprint4.png> <./assets/Gantt_Chart_Sprint5.png> <./assets/Gantt_Chart_Sprint6.png> <./assets/Gantt_Chart_Full.png>] (main.bbl
+ <./assets/Gantt_Chart_Sprint1.png> <./assets/Gantt_Chart_Sprint2.png> <./assets/Gantt_Chart_Sprint3.png>] [46 <./assets/Gantt_Chart_Sprint4.png> <./assets/Gantt_Chart_Sprint5.png> <./assets/Gantt_Chart_Sprint6.png> <./assets/Gantt_Chart_Full.png>] (main.bbl
 Underfull \hbox (badness 5050) in paragraph at lines 41--56
 []\OT1/cmr/m/n/12 Alegado, S., Lopez, D. B., & Calonzo, A.  (2022, 8).  \OT1/cmr/m/it/12 Philip-
  []
@@ -711,7 +711,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--136
 \OT1/cmtt/m/n/12 pdf / conferences / research [] -congress [] -proceedings / 2017 / RVREBM /
  []
 
-[46
+[47
 
 
 
@@ -755,7 +755,7 @@ Underfull \hbox (badness 1803) in paragraph at lines 466--479
 \OT1/cmr/m/it/12 2022.  \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// www [] .edwardjones [] .com / us [] -en / market []
  []
 
-[47]
+[48]
 Underfull \hbox (badness 1077) in paragraph at lines 515--528
 []\OT1/cmr/m/n/12 Fayed, A.  (2022, 4).  \OT1/cmr/m/it/12 A list of 14 blue chip com-pa-nies in the philip-
  []
@@ -770,7 +770,7 @@ Underfull \hbox (badness 5388) in paragraph at lines 565--578
 []\OT1/cmr/m/n/12 Hall, M.  (2022, 9).  \OT1/cmr/m/it/12 How the stock mar-ket af-fects gdp.  \OT1/cmr/m/n/12 Re-
  []
 
-[48]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 894--908
 \OT1/cmtt/m/n/12 predicting [] -future [] -stock [] -market [] -trends [] -with [] -python [] -machine []
  []
@@ -805,7 +805,7 @@ Underfull \hbox (badness 2302) in paragraph at lines 1049--1062
 \OT1/cmr/m/it/12 bling?  \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// www [] .schwab [] .com / learn / story / is []
  []
 
-[49]
+[50]
 Underfull \hbox (badness 1931) in paragraph at lines 1166--1179
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .forbes [] .com / sites / forbesfinancecouncil /
  []
@@ -840,7 +840,7 @@ Underfull \hbox (badness 1132) in paragraph at lines 1412--1425
 []\OT1/cmr/m/n/12 Williamson, J. G.  (2015).  \OT1/cmr/m/it/12 Hand-book of the eco-nomics of in-ter-na-tional
  []
 
-[50]) [51] (main.aux (title_page.aux) (chapter_1/0_chapter_1.aux) (chapter_2/0_chapter_2.aux) (chapter_3/0_chapter_3.aux))
+[51]) [52] (main.aux (title_page.aux) (chapter_1/0_chapter_1.aux) (chapter_2/0_chapter_2.aux) (chapter_3/0_chapter_3.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -854,9 +854,9 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  77i,12n,81p,396b,377s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\johnm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/johnm/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (57 pages, 3243788 bytes).
+Output written on main.pdf (58 pages, 3245419 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
+ 279 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
