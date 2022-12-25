@@ -1,88 +1,20 @@
 % System Diagrams
 \section{System Diagrams}
 \label{sec:system_diagrams}
+In this chapter, the appropriate system diagrams will be shown and discussed. 
+This shall help in the understanding of the system’s features, data flow, and 
+processes. Whereas all the diagrams can be viewed in full resolution, using the 
+GitHub repository, provided in the author’s note at the title page.
 
-% Sytem Overview
-\begin{figure}
-    \centering
-    \includegraphics[width=1\textwidth]{./assets/SystemOverview.png}
-    \caption{Top-Level Overview of the alamAPI and Interactions with External Applications/Systems}
-    \label{fig:system_overview}
-\end{figure}
-
-% Process Flowchart
-\begin{figure}
-    \centering
-    \includegraphics[width=0.8\textwidth]{./assets/ProcessFlowchart.png}
-    \caption{Full Overview of the Process Flow Diagram for the alamAPI}
-    \label{fig:process_flowchart}
-\end{figure}
-
-% Process Flowchart (Scheduler)
-% Process Flowchart (Data Collector)
-% Process Flowchart (Data Processor-Machine Learning Model Application)
-% Process Flowchart (Data Processor-Databas Updater)
-
-% Data-Flow Diagram (Context Diagram)
-\begin{figure}
-    \centering
-    \includegraphics[width=1\textwidth]{./assets/Data Flow Diagram-01.png}
-    \caption{Data-Flow Diagram for the alamAPI}
-    \label{fig:context_dfd}
-\end{figure}
-
-% DFD 0
-\begin{figure}
-    \centering
-    \includegraphics[width=1\textwidth]{./assets//Data Flow Diagram-02.png}
-    \caption{DFD 0: Data-Flow Diagram for the alamAPI}
-    \label{fig:dfd0}
-\end{figure}
-
-% DFD 1
-\begin{figure}
-    \centering
-    \includegraphics[width=1\textwidth]{./assets/Data Flow Diagram-03.png}
-    \caption{DFD 1: Data-Flow Diagram for the alamAPI}
-    \label{fig:dfd1}
-\end{figure}
-
-% DFD 1.2
-\begin{figure}
-    \centering
-    \includegraphics[width=1\textwidth]{./assets/Data Flow Diagram-04.png}
-    \caption{DFD 1.2: Data-Flow Diagram for the alamAPI}
-    \label{fig:dfd1.2}
-\end{figure}
-
-% DFD 2
-\begin{figure}
-    \centering
-    \includegraphics[width=1\textwidth]{./assets/Data Flow Diagram-05.png}
-    \caption{DFD 2: Data-Flow Diagram for the alamAPI}
-    \label{fig:dfd2}
-\end{figure}
-
+% Top-Level Overview Diagram
+\input{{./chapter_3/2_section/subsections/top_level.tex}}
+% Process Flow Diagram
+\input{{./chapter_3/2_section/subsections/process_flow.tex}}
+% DFD
+\input{{./chapter_3/2_section/subsections/dfd.tex}}
 % ODM
-\begin{figure}
-    \centering
-    \includegraphics[width=1\textwidth]{./assets/ODM.png}
-    \caption{Object-Data-Model for the alamAPI}
-    \label{fig:odm}
-\end{figure}
-
-% Machine Learning Model
-\begin{figure}
-    \centering
-    \includegraphics[width=0.9\textwidth]{./assets/Machine Learning Model.png}
-    \caption{Machine Learning Model for the alamAPI}
-    \label{fig:ml_model}
-\end{figure}
-
+\input{{./chapter_3/2_section/subsections/odm.tex}}
+% ML Model Diagram
+\input{{./chapter_3/2_section/subsections/ml_diagram.tex}}
 % Docker-Compose Layer Diagram
-\begin{figure}
-    \centering
-    \includegraphics[width=1\textwidth]{./assets/Docker-Compose Layout.png}
-    \caption{Docker-Compose Layer Diagram for the alamAPI}
-    \label{fig:docker_compose_layout}
-\end{figure}
+\input{{./chapter_3/2_section/subsections/docker-compose_diagram.tex}}

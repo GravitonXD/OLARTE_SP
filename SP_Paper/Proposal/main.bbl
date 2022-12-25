@@ -1374,6 +1374,31 @@ USSecAndExComm}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{VisualParadigm}%
+}{%
+{VisualParadigm}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+VisualParadigm}
+\APACinsertmetastar {%
+VisualParadigm}%
+\begin{APACrefauthors}%
+{VisualParadigm}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Gane-Sarson Data Flow Diagram Tutorial.} {Gane-sarson data flow
+  diagram tutorial.}
+\newblock
+\begin{APACrefURL}
+  \url{https://online.visual-paradigm.com/knowledge/software-design/gane-sarson-dfd-tutorial/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Williamson%
 }{%
 Williamson%

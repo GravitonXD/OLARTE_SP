@@ -1,0 +1,184 @@
+\subsection{Software Development Process}
+\label{subsec:soft_dev}
+Due to the expected heavy time constraints of the development of the system, 
+the author of this paper decided to follow an Agile Software Development Process, 
+primarily it will be using Agile Sprints for an efficient time management 
+during the whole software development process. Wherein the following are the 
+list of Sprints and sub-activities that will be followed are shown in the 
+Table below:
+
+% TABLE: SPRINTS AND SUB-ACTIVITIES
+\begin{longtable}{|c|l|l|}
+    \caption{Summary of Sprints and Target Activities}
+    \label{summary-sprints}\\
+    \hline
+    % Header
+    \textbf{Sprint Number} & 
+    \multicolumn{1}{c|}{\textbf{Target Activities}} & 
+    \multicolumn{1}{c|}{\textbf{Allotted Time$^1$}} \\ \hline
+    \endfirsthead
+    % Continued Header
+    \multicolumn{3}{c}%
+    {{\bfseries Table \thetable\ continued from previous page}} \\
+    \hline
+    \textbf{Sprint Number} & 
+    \multicolumn{1}{c|}{\textbf{Target Activities}} & 
+    \multicolumn{1}{c|}{\textbf{Allotted Time$^1$}}\\ \hline
+    \endhead
+    % Row 1
+    1 &
+    \begin{tabular}{p{0.35\textwidth}}
+        \textbf{Main Activity:} System Planning and Evaluation \\
+        \vspace{0.5cm}
+        \textbf{Sub-Activities:}
+        \begin{itemize}
+            \item Topic Proposal 
+            \item Drafting of Chapters 1 to 3 for the Special Problem Proposal
+            \item System Architecture and User Requirement Analysis
+        \end{itemize}
+    \end{tabular} &
+    \begin{tabular}{p{0.20\textwidth}}
+        \textbf{12 Weeks}
+        \\Start: \\September 15, 2022
+        \\End: \\December 9, 2022
+    \end{tabular} \\ \hline
+    % Row 2
+    2 &
+    \begin{tabular}{p{0.35\textwidth}}
+        \textbf{Main Activity:} System Prototyping \\
+        \vspace{0.5cm}
+        \textbf{Sub-Activities:}
+        \begin{itemize}
+            \item Build the different component of the alamAPI as 
+            indicated in the top-level overview diagram of the system, 
+            the following prototype will be developed:
+            \subitem[1.] API endpoints
+            \subitem[2.] Database
+            \subitem[3.] Preprocessor
+            \item Testing of the build prototype. This also 
+            include creating unit test cases for each component.
+            \item Initial Documentations, this will be done 
+            inside the GitHub repository.
+        \end{itemize}
+    \end{tabular} &
+    \begin{tabular}{p{0.20\textwidth}}
+        \textbf{12 Weeks}
+        \\Start: \\September 30, 2022
+        \\End: \\April 3, 2023
+    \end{tabular} \\ \hline
+    % Row 3
+    3 &
+    \begin{tabular}{p{0.35\textwidth}}
+        \textbf{Main Activity:} Machine Learning Model Training, 
+        Testing, and Evaluation \\
+        \vspace{0.5cm}
+        \textbf{Sub-Activities:}
+        \begin{itemize}
+            \item Collection of Historical Data, outside the 
+            Data Collector module of the system. As the full 
+            data will be needed for each stock for the training, 
+            rather the 200-day only historical data. Whereas the last 
+            date on the market data should be January 13, 2023.
+            \item Development of the Machine Learning Model. 
+            This includes data standardization, data splitting, 
+            and data training.
+            \item Machine Learning model testing and evaluation.
+            \item Revision of Chapter 1-3, in preparation 
+            for the final paper submission.
+        \end{itemize}
+    \end{tabular} &
+    \begin{tabular}{p{0.20\textwidth}}
+        \textbf{10 Weeks}
+        \\Start: \\January 15, 2023
+        \\End: \\March 30, 2023
+    \end{tabular} \\ \hline
+    % Row 4
+    4 &
+    \begin{tabular}{p{0.35\textwidth}}
+        \textbf{Main Activity:} Integration of Machine Learning Model 
+        to the alamAPI and Additional Data Collection \\
+        \vspace{0.5cm}
+        \textbf{Sub-Activities:}
+        \begin{itemize}
+            \item Testing and Evaluation of alamAPI with the 
+            integration of the Machine Learning Model.
+            \item System Testing, this will be done to verify 
+            the functionality of the whole system, given a test 
+            deployment environment. Moreover, this will be done 
+            in a span of 4 weeks
+            \item Drafting of Chapter 4 and 5
+        \end{itemize}
+    \end{tabular} &
+    \begin{tabular}{p{0.20\textwidth}}
+        \textbf{6 Weeks}
+        \\Start: \\March 31, 2023
+        \\End: \\May 12, 2023
+    \end{tabular} \\ \hline
+    % Row 5
+    5$^2$ &
+    \begin{tabular}{p{0.35\textwidth}}
+        \textbf{Main Activity:} System Documentation \\
+        \vspace{0.5cm}
+        \textbf{Sub-Activities:}
+        \begin{itemize}
+            \item Updating and Finalization of Documentations 
+            included in the GitHub Repository.
+            \item Writing of the results, discussions, conclusions, 
+            and recommendations for Chapter 4 – 5
+            \item Special problem paper revisions
+            \item Start the development of the test application 
+            (for showcasing of the system features)
+        \end{itemize}
+    \end{tabular} &
+    \begin{tabular}{p{0.20\textwidth}}
+        \textbf{6 Weeks}
+        \\Start: \\April 14, 2023
+        \\End: \\May 26, 2023
+    \end{tabular} \\ \hline
+    % Row 6
+    6$^2$ &
+    \begin{tabular}{p{0.35\textwidth}}
+        \textbf{Main Activity:} Preparation for Final 
+        Defense and System Presentation \\
+        \vspace{0.5cm}
+        \textbf{Sub-Activities:}
+        \begin{itemize}
+            \item Finalization of the mobile-based test application
+            \item Revisions and Finalization of the special problem paper.
+            \item Creation of presentation slide deck for the presentation 
+            of the special problem.
+        \end{itemize}
+    \end{tabular} &
+    \begin{tabular}{p{0.20\textwidth}}
+        \textbf{3 Weeks}
+        \\Start: \\May 27, 2023
+        \\End: \\June 17, 2023
+    \end{tabular} \\ \hline
+    \caption*{
+        1. Start and End Dates are based on 
+        the University’s Academic Calendar 
+        and the Schedule provided by the 
+        Special Problem Adviser.\\
+        2. Sprints 5 and 6 are no longer part of the 
+        actual system development but is still included as 
+        a basis for the Gantt chart. Moreover, these 
+        activities can still be considered as part of the 
+        documentation process.
+    }
+\end{longtable}
+
+\vspace{0.5cm}
+From the given table above, it is 
+shown that there is a total of 39 weeks; from September 15, 2022, 
+to June 17, 2023, however it must be noted that an additional 1 week 
+was added to each sprint’s allotted time to compensate for any unforeseen 
+events during each sprint.
+\vspace{0.5cm}
+\\ It should also be noted that Sprint 1 and Sprint 2 overlaps as 
+the development of the prototype will start at Week 3, this will 
+be possible as there will already be an initial system design to be followed, 
+and any changes made during Sprint 1 can easily be adjusted to the creation of 
+the prototype of the system in Sprint 2. This is also the case for Sprints 4 and 5, 
+since their activities overlaps with each other, such that there are things in 
+Sprint 4 that are unsupervised, hence, to better manage the time it is reasonable 
+to start the activities of Sprint 5 along side the later parts of Sprint 4.

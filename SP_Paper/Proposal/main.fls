@@ -288,6 +288,50 @@ INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
@@ -540,6 +584,10 @@ INPUT .\chapter_3\2_section\system_diagrams.tex
 INPUT chapter_3\2_section\system_diagrams.tex
 INPUT .\chapter_3\2_section\system_diagrams.tex
 INPUT chapter_3\2_section\system_diagrams.tex
+INPUT .\chapter_3\2_section\subsections\top_level.tex
+INPUT chapter_3\2_section\subsections\top_level.tex
+INPUT .\chapter_3\2_section\subsections\top_level.tex
+INPUT chapter_3\2_section\subsections\top_level.tex
 INPUT .\assets\SystemOverview.png
 INPUT .\assets\SystemOverview.png
 INPUT assets\SystemOverview.png
@@ -547,6 +595,10 @@ INPUT .\assets\SystemOverview.png
 INPUT .\assets\SystemOverview.png
 INPUT .\assets\SystemOverview.png
 INPUT .\assets\SystemOverview.png
+INPUT .\chapter_3\2_section\subsections\process_flow.tex
+INPUT chapter_3\2_section\subsections\process_flow.tex
+INPUT .\chapter_3\2_section\subsections\process_flow.tex
+INPUT chapter_3\2_section\subsections\process_flow.tex
 INPUT .\assets\ProcessFlowchart.png
 INPUT .\assets\ProcessFlowchart.png
 INPUT assets\ProcessFlowchart.png
@@ -554,6 +606,10 @@ INPUT .\assets\ProcessFlowchart.png
 INPUT .\assets\ProcessFlowchart.png
 INPUT .\assets\ProcessFlowchart.png
 INPUT .\assets\ProcessFlowchart.png
+INPUT .\chapter_3\2_section\subsections\dfd.tex
+INPUT chapter_3\2_section\subsections\dfd.tex
+INPUT .\chapter_3\2_section\subsections\dfd.tex
+INPUT chapter_3\2_section\subsections\dfd.tex
 INPUT .\assets\Data Flow Diagram-01.png
 INPUT .\assets\Data Flow Diagram-01.png
 INPUT assets\Data Flow Diagram-01.png
@@ -589,6 +645,10 @@ INPUT .\assets\Data Flow Diagram-05.png
 INPUT .\assets\Data Flow Diagram-05.png
 INPUT .\assets\Data Flow Diagram-05.png
 INPUT .\assets\Data Flow Diagram-05.png
+INPUT .\chapter_3\2_section\subsections\odm.tex
+INPUT chapter_3\2_section\subsections\odm.tex
+INPUT .\chapter_3\2_section\subsections\odm.tex
+INPUT chapter_3\2_section\subsections\odm.tex
 INPUT .\assets\ODM.png
 INPUT .\assets\ODM.png
 INPUT assets\ODM.png
@@ -596,6 +656,10 @@ INPUT .\assets\ODM.png
 INPUT .\assets\ODM.png
 INPUT .\assets\ODM.png
 INPUT .\assets\ODM.png
+INPUT .\chapter_3\2_section\subsections\ml_diagram.tex
+INPUT chapter_3\2_section\subsections\ml_diagram.tex
+INPUT .\chapter_3\2_section\subsections\ml_diagram.tex
+INPUT chapter_3\2_section\subsections\ml_diagram.tex
 INPUT .\assets\Machine Learning Model.png
 INPUT .\assets\Machine Learning Model.png
 INPUT assets\Machine Learning Model.png
@@ -603,6 +667,10 @@ INPUT .\assets\Machine Learning Model.png
 INPUT .\assets\Machine Learning Model.png
 INPUT .\assets\Machine Learning Model.png
 INPUT .\assets\Machine Learning Model.png
+INPUT .\chapter_3\2_section\subsections\docker-compose_diagram.tex
+INPUT chapter_3\2_section\subsections\docker-compose_diagram.tex
+INPUT .\chapter_3\2_section\subsections\docker-compose_diagram.tex
+INPUT chapter_3\2_section\subsections\docker-compose_diagram.tex
 INPUT .\assets\Docker-Compose Layout.png
 INPUT .\assets\Docker-Compose Layout.png
 INPUT assets\Docker-Compose Layout.png
@@ -614,10 +682,27 @@ INPUT .\chapter_3\3_section\hardware.tex
 INPUT chapter_3\3_section\hardware.tex
 INPUT .\chapter_3\3_section\hardware.tex
 INPUT chapter_3\3_section\hardware.tex
+INPUT .\chapter_3\3_section\subsections\dev_alamAPI.tex
+INPUT chapter_3\3_section\subsections\dev_alamAPI.tex
+INPUT .\chapter_3\3_section\subsections\dev_alamAPI.tex
+INPUT chapter_3\3_section\subsections\dev_alamAPI.tex
+INPUT .\chapter_3\3_section\subsections\dev_test_app.tex
+INPUT chapter_3\3_section\subsections\dev_test_app.tex
+INPUT .\chapter_3\3_section\subsections\dev_test_app.tex
+INPUT chapter_3\3_section\subsections\dev_test_app.tex
 INPUT .\chapter_3\4_section\methodology.tex
 INPUT chapter_3\4_section\methodology.tex
 INPUT .\chapter_3\4_section\methodology.tex
 INPUT chapter_3\4_section\methodology.tex
+INPUT .\chapter_3\4_section\subsections\soft_dev.tex
+INPUT chapter_3\4_section\subsections\soft_dev.tex
+INPUT .\chapter_3\4_section\subsections\soft_dev.tex
+INPUT chapter_3\4_section\subsections\soft_dev.tex
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT .\chapter_3\4_section\subsections\procedures.tex
+INPUT chapter_3\4_section\subsections\procedures.tex
+INPUT .\chapter_3\4_section\subsections\procedures.tex
+INPUT chapter_3\4_section\subsections\procedures.tex
 INPUT .\chapter_3\5_section\gantt_chart.tex
 INPUT chapter_3\5_section\gantt_chart.tex
 INPUT .\chapter_3\5_section\gantt_chart.tex
@@ -691,14 +776,24 @@ INPUT chapter_2\0_chapter_2.aux
 INPUT .\chapter_3\0_chapter_3.aux
 INPUT chapter_3\0_chapter_3.aux
 INPUT chapter_3\0_chapter_3.aux
+INPUT C:\Users\johnm\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\johnm\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\johnm\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb

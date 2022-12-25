@@ -29,7 +29,26 @@
 \contentsline {subsection}{\numberline {3.1.1}Development Tools}{19}{}%
 \contentsline {subsection}{\numberline {3.1.2}Software Requirements}{19}{}%
 \contentsline {section}{\numberline {3.2}System Diagrams}{21}{}%
-\contentsline {section}{\numberline {3.3}Hardware Requirements}{21}{}%
-\contentsline {section}{\numberline {3.4}Methodology}{21}{}%
-\contentsline {section}{\numberline {3.5}Gantt Chart}{21}{}%
-\contentsline {chapter}{References}{33}{}%
+\contentsline {subsection}{\numberline {3.2.1}Top-Level Overview Diagram of the alamAPI and Its Interactions to External Systems}{21}{}%
+\contentsline {subsection}{\numberline {3.2.2}Process Flow Diagram}{23}{}%
+\contentsline {subsubsection}{Scheduler}{24}{}%
+\contentsline {subsubsection}{Data Collector}{24}{}%
+\contentsline {subsubsection}{Machine Learning Model Application}{25}{}%
+\contentsline {subsubsection}{Database Updater}{25}{}%
+\contentsline {subsection}{\numberline {3.2.3}Data-Flow Diagram (DFD)}{25}{}%
+\contentsline {subsubsection}{Context Diagram}{26}{}%
+\contentsline {subsubsection}{DFD of Diagram 0}{28}{}%
+\contentsline {subsubsection}{DFD of Diagram 1}{29}{}%
+\contentsline {subsubsection}{DFD of Diagram 1.2}{30}{}%
+\contentsline {subsubsection}{DFD of Diagram 2}{31}{}%
+\contentsline {subsection}{\numberline {3.2.4}Object Document Mapper (ODM) Diagram}{32}{}%
+\contentsline {subsection}{\numberline {3.2.5}Machine Learning Model Diagram}{33}{}%
+\contentsline {subsection}{\numberline {3.2.6}Docker-Compose Layer Diagram}{34}{}%
+\contentsline {section}{\numberline {3.3}Hardware Requirements}{35}{}%
+\contentsline {subsection}{\numberline {3.3.1}For the Development of the alamAPI, and Training and Testing of the Machine Learning Model}{35}{}%
+\contentsline {subsection}{\numberline {3.3.2}For the Development of the Test Application and System Testing}{36}{}%
+\contentsline {section}{\numberline {3.4}Methodology}{36}{}%
+\contentsline {subsection}{\numberline {3.4.1}Software Development Process}{36}{}%
+\contentsline {subsection}{\numberline {3.4.2}Procedures}{43}{}%
+\contentsline {section}{\numberline {3.5}Gantt Chart}{43}{}%
+\contentsline {chapter}{References}{46}{}%
