@@ -51,4 +51,11 @@
 \contentsline {subsection}{\numberline {3.4.1}Software Development Process}{36}{}%
 \contentsline {subsection}{\numberline {3.4.2}Procedures}{43}{}%
 \contentsline {section}{\numberline {3.5}Gantt Chart}{44}{}%
-\contentsline {chapter}{References}{47}{}%
+\contentsline {subsection}{\numberline {3.5.1}Gantt Chart for Sprint 1}{44}{}%
+\contentsline {subsection}{\numberline {3.5.2}Gantt Chart for Sprint 2}{44}{}%
+\contentsline {subsection}{\numberline {3.5.3}Gantt Chart for Sprint 3}{45}{}%
+\contentsline {subsection}{\numberline {3.5.4}Gantt Chart for Sprint 4}{45}{}%
+\contentsline {subsection}{\numberline {3.5.5}Gantt Chart for Sprint 5}{46}{}%
+\contentsline {subsection}{\numberline {3.5.6}Gantt Chart for Sprint 6}{46}{}%
+\contentsline {subsection}{\numberline {3.5.7}Full Gantt Chart}{46}{}%
+\contentsline {chapter}{References}{48}{}%
