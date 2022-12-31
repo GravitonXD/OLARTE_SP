@@ -8,8 +8,9 @@ as it shows the overview of the security of the data by showing how it can be
 accessed. In the case of alamAPI, the data that can only be accessed publicly is 
 the listed stock to buy and sell, as well as the stock information as provided 
 in its database, and as allowed by the API endpoints.
-\vspace{0.5cm}
-\\Moreover, the DFD paradigm used in the diagrams presented in this 
+\hfill \\
+
+Moreover, the DFD paradigm used in the diagrams presented in this 
 section follows the Gane-Sarson DFD symbols, which utilizes four basic symbols: 
 (1) Entity / External Entity; 
 (2) Data Flow; 
@@ -38,8 +39,9 @@ which will be EODHD; (3) Machine Learning Model, which will be developed
 along side the development of the system; and (4) Third-Party Application, 
 which will also be developed in the conduct of this special problem as the 
 test application for accessing, testing, and showcase of the features of alamAPI.
-\vspace{0.5cm}
-\\Moreover, all the necessary data flow lines can also be observed: 
+\hfill \\
+
+Moreover, all the necessary data flow lines can also be observed: 
 (1) Scheduled task, which is the committed task on schedule as indicated 
 in the CRON application; 
 (2) API Request: Stock Market Historical Data, which is the request 
@@ -69,6 +71,7 @@ particular stock, this will be further discussed in the Object-Document Mapped
 (11) API Response: Stock Info, upon the request of the third-party application, 
 the root process will process the request to the API and sends back the information 
 of the stock based on what was requested.
+
 % DFD 0
 \subsubsection{DFD of Diagram 0}
 \label{subsubsec:dfd0}
@@ -83,11 +86,12 @@ as provided in Figure \ref{fig:dfd0}.
     \label{fig:dfd0}
 \end{figure}
 \FloatBarrier
-\vspace{0.5cm}
+
 From the figure above, the root process, has two main processes: 
 (1) SMPFT System Pre-Processor, which is the system’s data processing unit; and 
 (2) SMPFT System API and DB Model Module, which processes the API 
 requests and responses, as well as the database of the system.
+
 % DFD 1
 \subsubsection{DFD of Diagram 1}
 \label{subsubsec:dfd1}
@@ -101,7 +105,7 @@ which is provided in Figure \ref{fig:dfd1}
     \label{fig:dfd1}
 \end{figure}
 \FloatBarrier
-\vspace{0.5cm}
+
 From the figure shown above, it can be observed that Process 1 
 is composed of 4 internal processes, namely, 
 (1) Data Collector, which is the main process responsible 
@@ -117,6 +121,7 @@ pre-database processor; and
 (4) Preprocessor Utilities, this will be the processes the process any 
 system utilities such as the database actions, database models, and 
 stores temporary data and system variables.
+
 % DFD 1.2
 \subsubsection{DFD of Diagram 1.2}
 \label{subsubsec: dfd1.2}
@@ -129,7 +134,7 @@ Pre-database Processor.
     \label{fig:dfd1.2}
 \end{figure}
 \FloatBarrier
-\vspace{0.5cm}
+
 As previously discussed, the pre-database processor consists of processes 
 inside that processes the data before it will be eventually sent to the database 
 of the system. Wherein the process and data flow is shown in the figure above. 
@@ -137,7 +142,8 @@ Namely: (1) Machine Learning Applicator, which applies the trained machine learn
 model to the collected data; and 
 (2) Database Updater, which processes the document outputs from the Machine 
 Learning Applicator process, to be used in the database of the system.
-\vspace{0.5cm}
+
+
 % DFD 2
 \subsubsection{DFD of Diagram 2}
 \label{subsubsec:dfd2}
