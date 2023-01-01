@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   api:
-    build: ./API_DB_module
+    build: ./alamAPI
     ports:
       - 8000:8000
     env_file:

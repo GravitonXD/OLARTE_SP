@@ -2,18 +2,18 @@
 FROM python:alpine3.16
 
 # Copy directories (API and DB_model) to container
-COPY API /API_DB_module/API
-COPY DB_model /API_DB_module/DB_model
+COPY API /alamAPI/API
+COPY DB_model /alamAPI/DB_model
 
 # Setup python path for API and BD_model
-ENV PYTHONPATH "${PYTHONPATH}:/API_DB_module/API"
-ENV PYTHONPATH "${PYTHONPATH}:/API_DB_module/DB_module"
+ENV PYTHONPATH "${PYTHONPATH}:/alamAPI/API"
+ENV PYTHONPATH "${PYTHONPATH}:/alamAPI/DB_module"
 
 # Copy requirements.txt to container
-COPY requirements.txt /API_DB_module
+COPY requirements.txt /alamAPI
 
 # Set working directory
-WORKDIR /API_DB_module
+WORKDIR /alamAPI
 
 # pip install requirements
 RUN pip install -r requirements.txt
@@ -22,4 +22,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8000
 
 # Run main.py when the container launches
-CMD ["python3","/API_DB_module/API/main.py"]
+CMD ["python3","/alamAPI/API/main.py"]
