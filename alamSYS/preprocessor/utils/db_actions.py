@@ -1,6 +1,7 @@
 # NOTE: Script not yet finalized, this is just a template
 
-from mongoengine import connect, disconnect
+from mongoengine import connect
+from mongoengine.connection import disconnect
 import os
 import json
 from models import Buy, Sell, Info
@@ -39,7 +40,7 @@ def disconnect_from_db():
         # Disconnect from the database
         disconnect(db=os.environ['MONGO_INITDB_DATABASE'], 
                 host=os.environ['MONGO_HOST'], 
-                port=int(os.environ['MONGO_PORT']))\
+                port=int(os.environ['MONGO_PORT']))
         
         ### LOG AND ALERT ###
         message = "Successfully disconnected from the database"

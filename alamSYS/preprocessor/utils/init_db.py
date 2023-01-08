@@ -64,4 +64,4 @@ if __name__ == "__main__":
     ######################
 
     # Close the connection to the database
-    db_actions.close_connection()
+    db_actions.disconnect_from_db()
