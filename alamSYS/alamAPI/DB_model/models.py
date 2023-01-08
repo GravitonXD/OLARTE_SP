@@ -1,4 +1,4 @@
-from mongoengine import Document, StringField, FloatField, ListField, IntField
+from mongoengine import Document, StringField, FloatField, ListField, IntField, DictField
 # Models for the database in MongoDB
 
 # Define class "Buy" and inherit from "Document"
@@ -12,8 +12,8 @@ class Buy(Document):
     stock_symbol =  StringField()
     # Last Closing refers to the last closing price of the stock
     last_closing =  FloatField()
-    # Predicted Closing is a list of predicted closing prices for the stock
-    predicted_closing = ListField()
+    # Predicted Closing is a dictionary of predicted closing prices for the stock with a specific ML model used
+    predicted_closing = DictField()
 
     # Format the data to JSON
     def to_json(self):
@@ -35,8 +35,8 @@ class Sell(Document):
     stock_symbol =  StringField()
     # Last Closing refers to the last closing price of the stock
     last_closing =  FloatField()
-    # Predicted Closing is a list of predicted closing prices for the stock
-    predicted_closing = ListField()
+    # Predicted Closing is a dictionary of predicted closing prices for the stock with a specific ML model used
+    predicted_closing = DictField()
 
     # Format the data to JSON
     def to_json(self):
@@ -51,7 +51,7 @@ class Sell(Document):
 """
 About the Info class:
     - This class is used to define the structure of the "info" collection in the MongoDB database
-    - This document contains the general information of the stocks included in the Philippine Stock Market Price Trend Forecasting System
+    - This document contains the general information of the stocks included in the alamSYS
 """
 class Info(Document):
     # Stock Symbol refers to the stock symbol of the stock
@@ -84,4 +84,22 @@ class Info(Document):
             "sector": self.sector,
             "industry": self.industry,
             "key_executives": self.key_executives
+        }
+
+# Define "ML_Models_Info" and inherit from "Document"
+"""
+About the ML_Models_Info class:
+    - This class is used to define the structure of the "ml_models_info" collection in the MongoDB database
+    - This document contains the information of the Machine Learning models used in the alamSYS
+"""
+class ML_Models_Info(Document):
+    model_name = StringField()
+    model_description = StringField()
+    model_scores = DictField()
+
+    def to_json(self):
+        return {
+            "model_name": self.model_name,
+            "model_description": self.model_description,
+            "model_scores": self.model_scores
         }
