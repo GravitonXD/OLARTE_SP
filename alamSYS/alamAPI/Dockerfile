@@ -4,6 +4,7 @@ FROM python:alpine3.16
 # Copy directories (API and DB_model) to container
 COPY API /alamAPI/API
 COPY DB_model /alamAPI/DB_model
+COPY API/routers /alamAPI/API/routers
 
 # Setup python path for API and BD_model
 ENV PYTHONPATH "${PYTHONPATH}:/alamAPI/API"

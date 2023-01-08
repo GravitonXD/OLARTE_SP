@@ -11,7 +11,7 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - smptf:/data/db
+      - alamAPI_DB:/data/db
     env_file:
       - db.env
   preprocessor:
@@ -19,6 +19,6 @@ services:
     env_file:
       - preprocessor.env
     volumes:
-      - smptf:/data/db
+      - alamAPI_DB:/data/db
 volumes:
-  smptf: 
+  alamAPI_DB: 

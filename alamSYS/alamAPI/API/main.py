@@ -1,19 +1,16 @@
 # Python Imports
 from fastapi import FastAPI
 from mongoengine import connect
-import json
-from datetime import datetime
 import os
 
-# Import models
-from DB_model.models import Buy
-from DB_model.models import Sell
-from DB_model.models import Info
+# Import routers
+from routers import home, stocks_to_buy, stocks_to_sell, stocks_info, ml_model_info
+
 
 # Create the FastAPI app
 app = FastAPI(
         title="alamAPI",
-        description="""alamAPI is an API for the Philippine Stock Market Price Trend Forecasting System (SMPTF System)
+        description="""alamAPI is an API for the alamSYS, a Philippine Stock Market Price Trend Forecasting System
                         \nThis project is part of the requirements for the completion of BS Computer Science at the University of the Philippines Visayas
                         \nDeveloped solely by: John Markton M. Olarte""",
         version="1.0.0",
@@ -39,82 +36,29 @@ app = FastAPI(
                 },
                 {
                         "name": "Stocks Info",
-                        "description": "This API endpoint outputs a list of stocks included in the Philippine Stock Market Price Trend Forecasting System and their corresponding information."
+                        "description": "This API endpoint outputs a list of stocks included in the alamSYS and their corresponding information."
+                },
+                {
+                        "name": "ML Model Info",
+                        "description": "This API endpoint outputs a list of the Machine Learning Models used in the alamSYS and their corresponding information."
                 }
         ]
 )
 # Connect to the database, using the environment variables (set in the docker-compose.yml file)
 connect(db=os.environ['MONGO_INITDB_DATABASE'], host=os.environ['MONGO_HOST'], port=int(os.environ['MONGO_PORT']))
 
-# Current datetime
-def _current_datetime():
-        return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-# ROOT
-@app.get("/", tags=["Home"])
-def home():
-    return {"message": "Welcome to alamAPI an API for the Philippine Stock Market Price Trend Forecasting System, developed by John Markton M. Olarte"}
+# HOME
+app.include_router(home.router)
+# STOCKS TO BUY
+app.include_router(stocks_to_buy.router)
+# STOCKS TO SELL
+app.include_router(stocks_to_sell.router)
+# STOCKS INFO
+app.include_router(stocks_info.router)
+# ML MODEL INFO
+app.include_router(ml_model_info.router)
 
-# ====== STOCKS TO BUY ==================================================
-# Get all stocks to buy
-# This is a public endpoint and does not require authentication
-@app.get("/stocks_to_buy/all", tags=["Stocks to Buy"])
-def get_all_stocks_to_buy():
-    # Get all data from the "Buy" collection
-        data = Buy.objects().to_json()
-        json_data = json.loads(data)
-        # Return the data and the current datetime
-        return {
-                "All Stocks to Buy": json_data,
-                "Last Updated": _current_datetime()
-        }
-# ====== END STOCKS TO BUY ==============================================
-
-# ===== STOCKS TO SELL ==================================================
-# get all stocks to sell
-# This is a public endpoint and does not require authentication
-@app.get("/stocks_to_sell/all", tags=["Stocks to Sell"])
-def get_all_stocks_to_sell():
-    # Get all data from the "Buy" collection
-        data = Sell.objects().to_json()
-        json_data = json.loads(data)
-        # Return the data and the current datetime
-        return {
-                "All Stocks to Sell": json_data,
-                "Last Updated": _current_datetime()
-        }
-# ===== END STOCKS TO SELL ===============================================
-
-
-# ===== STOCKS INFO =====================================================
-# Get all stocks info
-# This is a public endpoint and does not require authentication
-@app.get("/stocks_info/all", tags=["Stocks Info"])
-def get_all_stocks_info():
-        # Get all data from the "Buy" collection
-                data = Info.objects().to_json()
-                json_data = json.loads(data)
-                # Return the data and the current datetime
-                return {
-                        "All Stocks Info": json_data,
-                        "Last Updated": _current_datetime()
-                }
-
-# Get a specific stock info
-# This is a public endpoint and does not require authentication
-@app.get("/stocks_info/{stock_code}", tags=["Stocks Info"])
-def get_stock_info(stock_code: str):
-        stock_code_query = stock_code.upper()
-        # Get stock info from the "Info" collection
-        data = Info.objects(stock_symbol=stock_code_query).to_json()
-        json_data = json.loads(data)
-        # Return the data and the current datetime
-        return {
-                # Rturn the stock info, if the stock code is not found, return "Stock not found"
-                "Stock Info": json_data if json_data else "Stock not found",
-                "Last Updated": _current_datetime()
-        }
-# ===== END STOCKS INFO =================================================
 
 if __name__ == "__main__":
     # Run the app
