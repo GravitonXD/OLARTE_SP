@@ -28,8 +28,7 @@ stock_symbols = [
     'MPI',
     'AP',
     'RRHI',
-    'URC',
-    ''
+    'URC'
 ]
 
 # Get the list of all stocks in the PSEi
