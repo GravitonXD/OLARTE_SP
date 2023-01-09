@@ -27,6 +27,7 @@ ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/data_processor/ml_model"
 WORKDIR /preprocessor
 
 # Install the required packages
+RUN apk --no-cache add musl-dev linux-headers g++
 RUN pip install --upgrade pip
 RUN pip3 install -r /preprocessor/requirements.txt
 
