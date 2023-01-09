@@ -65,14 +65,14 @@ def post_processing(processed_data, minimum_score=0.1):
 
     # Iterate through the processed data
     for stock in stock_symbols:
-        predictions = process_data[stock][1]
+        predictions = processed_data[stock][1]
         # Calculate the percentile increase form last actual closing to the last prediction
         #   and add it to the stocks_to_buy or stocks_to_sell dictionary
         #   depending on the value of the percentile increase
         percentile_increase = (predictions[-1] - last_actual_closing[stock]) / last_actual_closing[stock]
         if percentile_increase > minimum_score:
-            stocks_to_buy[stock] = predictions
+            stocks_to_buy[stock] = processed_data[stock]
         else:
-            stocks_to_sell[stock] = predictions
+            stocks_to_sell[stock] = processed_data[stock]
     
     return stocks_to_buy, stocks_to_sell

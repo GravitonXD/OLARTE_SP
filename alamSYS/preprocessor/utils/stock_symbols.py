@@ -5,8 +5,6 @@ In order to select the 19 stocks, the following method was used:
     b. Used random.shuffle() to shuffle the list
     c. Selected the first 19 stocks in the shuffled list
 
-Note: the blank item in the list is used to represent the PSE index itself
-
 All Stock Information was taken from https://edge.pse.com.ph/companyPage/
 """
 stock_symbols = [
