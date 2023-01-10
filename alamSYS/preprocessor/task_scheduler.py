@@ -16,7 +16,7 @@ def scheduled_task():
 
 # Schedule every Monday to Friday at 6PM
 schedule.every().monday.at("18:00").do(scheduled_task)
-schedule.every().tuesday.at("21:25").do(scheduled_task)
+schedule.every().tuesday.at("18:00").do(scheduled_task)
 schedule.every().wednesday.at("18:00").do(scheduled_task)
 schedule.every().thursday.at("18:00").do(scheduled_task)
 schedule.every().friday.at("18:00").do(scheduled_task)
