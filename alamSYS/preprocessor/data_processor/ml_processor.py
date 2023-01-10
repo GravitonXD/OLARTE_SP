@@ -1,4 +1,4 @@
-import pickle
+import joblib
 import numpy as np
 import json
 import os
@@ -12,9 +12,10 @@ from utils import stock_symbols as ss
 
 
 # This function will load a model based on the path and model_name provided
-def load_model(model_name: str, path="./ml_model/"):
+def load_model(model_name: str, path="/preprocessor/data_processor/ml_model/"):
     model_path = f"{path}{model_name}.joblib"
-    return pickle.load(open(model_path, "rb"))
+    loaded_model = joblib.load(model_path)
+    return loaded_model
 
 # This function will allow us to iterate through the 20 stock data files 
 #   and predict their future movement using the loaded model
