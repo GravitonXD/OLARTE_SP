@@ -13,12 +13,12 @@ class Logs:
         self.time = datetime.datetime.now().strftime("%H:%M:%S")
     
     def success_log(self, message, log_directory):
+        # Create the folder if it does not exist
+        makedirs(f"/data/db/{log_directory}/", exist_ok=True)
         # Log Format: Date, Time, Message
         self.logs = f"{self.date}, {self.time}, {message}\n"
         # Define the action to be taken (If no file exists, create a new file)
         action = "a" if path.exists(f"/data/db/{log_directory}/success_log.csv") else "w"
-        # Create the folder if it does not exist
-        makedirs(f"/data/db/{log_directory}/", exist_ok=True)
         with open(f"/data/db/{log_directory}/success_log.csv", action) as success_log:
             # Write the log to the file
             success_log.write(self.logs)
@@ -26,12 +26,12 @@ class Logs:
         success_log.close()
     
     def error_log(self, message, log_directory):
+        # Create the folder if it does not exist
+        makedirs(f"/data/db/{log_directory}/", exist_ok=True)
         # Log Format: Date, Time, Message
         self.logs = f"{self.date}, {self.time}, {message}\n"
         # Define the action to be taken (If no file exists, create a new file)
         action = "a" if path.exists(f"/data/db/{log_directory}/error_log.csv") else "w"
-        # Create the folder if it does not exist
-        makedirs(f"/data/db/{log_directory}/", exist_ok=True)
         with open(f"/data/db/{log_directory}/error_log.csv", action) as error_log:
             # Write the log to the file
             error_log.write(self.logs)
