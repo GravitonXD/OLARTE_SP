@@ -4,7 +4,7 @@ Database Initialization Upon Startup of the Docker Container
 import db_actions
 import logs_and_alerts as la
 
-if __name__ == "__main__":
+def main():
     log_directory = "preprocessor_utils_logs/init_db" # Directory for the logs
     try:
         # Connect to the database

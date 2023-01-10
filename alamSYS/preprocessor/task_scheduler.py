@@ -4,6 +4,7 @@ import time
 # Local Imports
 from data_collector import collector
 from data_processor import process
+from utils import init_db
 
 def scheduled_task():
     try:
