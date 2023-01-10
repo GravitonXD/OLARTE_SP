@@ -77,9 +77,8 @@ def main():
     # Initialize Reusable Variables
     log_directory = "data_collector_logs" # Directory for the logs
 
-    # Make this directories under /data/db of the container
+    # Make this directory under /data/db of the container
     os.makedirs("/data/db/stock_data/", exist_ok=True)
-    os.makedirs("/data/db/data-collector_logs/", exist_ok=True)
     
     print("------------------- STARTING DATA COLLECTOR MODULE ---------------------\n")
     # Check if the API key is defined in the environment variable
