@@ -22,6 +22,7 @@ def main():
         buy_list = []
         sell_list = []
         for model in model_names:
+            # Load the model
             try:
                 loaded_model = mp.load_model(model)
                 la.Logs().success_log(f"Successfully loaded model: {model}", log_directory)
@@ -30,6 +31,7 @@ def main():
                 la.Logs().error_log(f"Failed to load model: {model}", log_directory)
                 la.Alerts().error_alert(f"Failed to load model: {model}. Program will exit")
                 exit(1)
+            # Process the data using the model
             try:
                 processed_data = mp.process_data(loaded_model)
                 la.Logs().success_log(f"Successfully processed data for model: {model}", log_directory)
@@ -38,6 +40,7 @@ def main():
                 la.Logs().error_log(f"Failed to process data for model: {model}", log_directory)
                 la.Alerts().error_alert(f"Failed to process data for model: {model}. Program will exit")
                 exit(1)
+            # Post process the data
             try:
                 stocks_to_buy, stocks_to_sell = mp.post_processing(processed_data)
                 la.Logs().success_log(f"Successfully processed data for model: {model}", log_directory)
@@ -48,7 +51,6 @@ def main():
                 exit(1)
 
             # Save the stocks to buy and stocks to sell to json files in utils/json_data
-            
             try:
                 for stock in stocks_to_buy:
                     preJSON = {
@@ -65,7 +67,6 @@ def main():
                 exit(1)
             
             try:
-                # Save the stocks to sell to json file
                 for stock in stocks_to_sell:
                     preJSON = {
                         "stock_symbol": stocks_to_sell[stock],

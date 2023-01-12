@@ -25,7 +25,8 @@ WORKDIR /preprocessor
 RUN pip install --upgrade pip
 RUN pip3 install -r /preprocessor/requirements.txt
 
-# Initialize the database
-RUN python /preprocessor/utils/init_db.py
+# Run the task_scheduler
+CMD ["python", "-u", "/preprocessor/task_scheduler.py"]
 
-CMD ["python", "/preprocessor/task_scheduler.py"]
+# For testing a specific module
+#CMD ["python", "-u", "/preprocessor/data_processor/process.py"]
