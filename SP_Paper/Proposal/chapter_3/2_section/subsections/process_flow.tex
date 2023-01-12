@@ -7,7 +7,7 @@ that the system will undergo once it has been deployed in the server.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.6\textwidth]{./assets/ProcessFlowchart.png}
-    \caption{Full Overview of the Process Flow Diagram for the alamAPI}
+    \caption{Full Overview of the Process Flow Diagram for the alamSYS}
     \label{fig:process_flowchart}
 \end{figure}
 \FloatBarrier
@@ -59,7 +59,7 @@ Wherein, if the error message shows “Error 406” of “Payment Needed”,
 then the scheduled task will end in this section. This is also the reason why 
 the end of each process ends in logging the activities of the system, so that 
 the maintainers of the system can easily pin-point the problem to be fixed during 
-the actual deployment of the alamAPI. Moreover, if the error is anything else, 
+the actual deployment of the alamSYS. Moreover, if the error is anything else, 
 then the system will retry to collect the data for a maximum of five tries, and 
 if it still encounters an error during the retry window, the session will also end.
 \hfill \\

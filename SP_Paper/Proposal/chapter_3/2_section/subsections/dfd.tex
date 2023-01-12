@@ -1,11 +1,10 @@
 \subsection{Data-Flow Diagram (DFD)}
 \label{subsec:dfd}
-In this section the DFD of the alamAPI, specifically the Stock 
-Market Price Trend Forecasting System will be presented and discussed. 
-A data-flow diagram will help to better understand how the processes works, 
+In this section the DFD of the alamSYS will be presented and discussed. 
+Whereas a data-flow diagram will help to better understand how the processes works, 
 and how data flows from one process to another. This is specifically important 
 as it shows the overview of the security of the data by showing how it can be 
-accessed. In the case of alamAPI, the data that can only be accessed publicly is 
+accessed. In the case of alamSYS, the data that can only be accessed publicly is 
 the listed stock to buy and sell, as well as the stock information as provided 
 in its database, and as allowed by the API endpoints.
 \hfill \\
@@ -20,25 +19,24 @@ section follows the Gane-Sarson DFD symbols, which utilizes four basic symbols:
 % Context Diagram
 \subsubsection{Context Diagram}
 \label{subsubsec:context_dfd}
-First, let us start by showing the overview of 
-the whole process by showing the context diagram of the system itself as 
-process 0, which can be seen in the provided in Figure \ref{fig:context_dfd}.
+The overview of the whole process is shown in a context diagram of the system,
+labelled as process 0, which can be seen in the provided in Figure 
+\ref{fig:context_dfd}.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{./assets/Data Flow Diagram-01.png}
-    \caption{Context Diagram of the Stock Market Price Trend Forecasting System}
+    \caption{Context Diagram of the alamSYS}
     \label{fig:context_dfd}
 \end{figure}
 \FloatBarrier
 \vspace{0.5cm}
 The above figure shows the root process (process 0), which is the underlying 
-system of the alamAPI itself: Stock Market Price Trend Forecasting (SMPTF) 
-System which is connected to four external entities: (1) Scheduler, 
+system of the alamSYS which is connected to four external entities: (1) Scheduler, 
 which will be provided by CRON; (2) Stock Market Historical Data Provider, 
 which will be EODHD; (3) Machine Learning Model, which will be developed 
 along side the development of the system; and (4) Third-Party Application, 
 which will also be developed in the conduct of this special problem as the 
-test application for accessing, testing, and showcase of the features of alamAPI.
+test application for accessing, testing, and showcase of the features of alamSYS.
 \hfill \\
 
 Moreover, all the necessary data flow lines can also be observed: 
@@ -88,9 +86,9 @@ as provided in Figure \ref{fig:dfd0}.
 \FloatBarrier
 
 From the figure above, the root process, has two main processes: 
-(1) SMPFT System Pre-Processor, which is the system’s data processing unit; and 
-(2) SMPFT System API and DB Model Module, which processes the API 
-requests and responses, as well as the database of the system.
+(1) alamSYS Preprocessor, which is the system’s data processing unit; and 
+(2) alamAPI module, which processes the API 
+requests and responses by utilizing the database of the system.
 
 % DFD 1
 \subsubsection{DFD of Diagram 1}
@@ -148,17 +146,17 @@ Learning Applicator process, to be used in the database of the system.
 \subsubsection{DFD of Diagram 2}
 \label{subsubsec:dfd2}
 The final diagram will show the inner processes of 
-the Process 2: SMPFT System API and DB Model Module.
+the Process 2: alamAPI module.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{./assets/Data Flow Diagram-04.png}
-    \caption{DFD 2: Data-Flow Diagram for the alamAPI}
+    \caption{DFD 2: Data-Flow Diagram for the alamSYS}
     \label{fig:dfd2}
 \end{figure}
 \FloatBarrier
 \vspace{0.5cm}
 The figure above shows two internal processes of the Process 2, namely, 
-(1) SMPFT DB Model, which the database model that is used to process and 
+(1) alamAPI: Database Module, which the database model that is used to process and 
 connect MongoDB to the Python program; and 
-(2) SMPFT API, which is composed of the API endpoints that processes 
+(2) alamAPI: API Module, which is composed of the API endpoints that processes 
 the requests and response to and from the system, respectively.
