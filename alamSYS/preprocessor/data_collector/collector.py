@@ -81,6 +81,10 @@ def main():
     os.makedirs("/data/db/stock_data/", exist_ok=True)
     
     print("------------------- STARTING DATA COLLECTOR MODULE ---------------------\n")
+    # Log the start of the data collector module
+    la.Logs().success_log("Data collector module has successfully started", log_directory)
+    la.Alerts().success_alert("Data collector module has successfully started")
+
     # Check if the API key is defined in the environment variable
     try:
         API_KEY = get_API_Key()
@@ -134,6 +138,31 @@ def main():
             # Alert the failed data collection
             la.Alerts().error_alert(message)
             ######################
+    
+    # GET THE HISTORICAL DATA FOR THE PSEI
+    url = f"https://eodhistoricaldata.com/api/eod/PSEI.INDX?api_token={API_KEY}&period=d"
+    response = requests.get(url)
+
+    # Check if the response is successful
+    if response.status_code == 200:
+        ### LOG AND ALERT ###
+        message = "Successfully collected historical data for PSEI"
+        # Log the successful data collection in the success_log.txt file
+        la.Logs().success_log(message, log_directory)
+        # Alert the successful data collection
+        la.Alerts().success_alert(message)
+        ######################
+
+        # Save the data in a CSV file
+        save_historical_data(response, "/data/db/stock_data/PSEI.csv", "PSEI")
+    else:
+        ### LOG AND ALERT ###
+        message = f"Failed to collect historical data for PSEi with status code {response.status_code}"
+        # Log the failed data collection in the error_log.txt file
+        la.Logs().error_log(message, log_directory)
+        # Alert the failed data collection
+        la.Alerts().error_alert(message)
+        ######################
     
     ### LOG AND ALERT ###
     message = "Data Collector Module Finished"

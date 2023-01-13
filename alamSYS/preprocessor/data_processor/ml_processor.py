@@ -21,7 +21,7 @@ def process_data(loaded_model, predict_len=5):
     # Iterate through the 20 stock data files from /data/db/stock_data/{stock_symbol}.csv
     stock_symbols = ss.get_stock_symbols()
     # Appeend PSEI to the list of stock symbols
-    #stock_symbols.append("PSEI")
+    stock_symbols.append("PSEI")
 
     # Initialize the dictionary that will hold the processed data
     # key = stock symbol
@@ -62,6 +62,8 @@ def process_data(loaded_model, predict_len=5):
 #   By default it is set to 10% or 0.1
 def post_processing(processed_data, minimum_score=0.1):
     stock_symbols = ss.get_stock_symbols()
+    # Appeend PSEI to the list of stock symbols
+    stock_symbols.append("PSEI")
 
     # Dictionary containing the last acutaul closing price of each stock
     last_actual_closing = {stock:processed_data[stock][0] for stock in stock_symbols}
