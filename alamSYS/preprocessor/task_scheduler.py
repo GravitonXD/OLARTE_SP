@@ -8,7 +8,8 @@ from utils import init_db
 from utils import logs_and_alerts as la
 
 def status_update():
-    print("[STATUS UPDATE] Task Scheduler still running...")
+    # Print rthe current time
+    print(f"[STATUS UPDATE] {time.ctime()} :: Task Scheduler still running...")
 
 def scheduled_task():
     log_directory = "scheduled_task_logs"
