@@ -7,10 +7,6 @@ from data_processor import process
 from utils import init_db
 from utils import logs_and_alerts as la
 
-def status_update():
-    # Print rthe current time
-    print(f"[STATUS UPDATE] {time.ctime()} :: Task Scheduler still running...")
-
 def scheduled_task():
     log_directory = "scheduled_task_logs"
 
@@ -39,9 +35,6 @@ schedule.every().tuesday.at("18:00").do(scheduled_task)
 schedule.every().wednesday.at("18:00").do(scheduled_task)
 schedule.every().thursday.at("18:00").do(scheduled_task)
 schedule.every().friday.at("18:00").do(scheduled_task)
-
-# Update Status every 5 mins
-schedule.every(5).minutes.do(status_update)
 
 init_db.main()
 while True:
