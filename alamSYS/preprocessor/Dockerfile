@@ -1,7 +1,7 @@
 FROM python:3.11
 
-# Copy the task_scheduler to /bin/task_scheduler
-COPY task_scheduler.py /preprocessor/task_scheduler.py
+# Copy the main to /preprocessor/main
+COPY main.py /preprocessor/main.py
 
 # Copy local directories to container
 COPY data_collector /preprocessor/data_collector
@@ -25,8 +25,8 @@ WORKDIR /preprocessor
 RUN pip install --upgrade pip
 RUN pip3 install -r /preprocessor/requirements.txt
 
-# Run the task_scheduler
-CMD ["python", "-u", "/preprocessor/task_scheduler.py"]
+# Run the main
+CMD ["python", "-u", "/preprocessor/main.py"]
 
 # For testing a specific module
 #CMD ["python", "-u", "/preprocessor/data_processor/process.py"]
