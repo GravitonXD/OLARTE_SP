@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
         ),
         child: NavigationBar(
           backgroundColor: const Color.fromARGB(255, 227, 242, 253),
-          animationDuration: const Duration(milliseconds: 750),
+          animationDuration: const Duration(milliseconds: 500),
           labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
           height: 75,
           selectedIndex: _bottomNavPage,
