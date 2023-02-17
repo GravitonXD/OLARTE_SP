@@ -1,4 +1,5 @@
-FROM python:3.11
+# Using Python 3.10.10 for specific libraries compatibility
+FROM python:3.10.10
 
 # Copy the main to /preprocessor/main
 COPY main.py /preprocessor/main.py

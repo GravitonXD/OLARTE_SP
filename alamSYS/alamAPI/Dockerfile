@@ -1,4 +1,4 @@
-# Use mongodb as base image
+# Use alpine since it is lightweight
 FROM python:alpine3.16
 
 # Copy directories (API and DB_model) to container
