@@ -16,7 +16,7 @@ def main():
     log_directory = "data_processor_logs"
     try:
         # MACHINE LEARNING APPLICATION
-        model_names = ["sample_model"]
+        model_names = ["dmd_lstm"]
 
         # Loop through the models to generate a buy and sell list
         buy_list = []
