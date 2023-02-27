@@ -12,6 +12,9 @@ COPY data_processor /preprocessor/data_processor
 COPY data_processor/ml_model /preprocessor/data_processor/ml_model
 COPY requirements.txt /preprocessor/requirements.txt
 
+# Install vim for additional debugging capabilities
+RUN apt-get update && apt-get install -y vim
+
 # Initialize the python path for the data_collector, utils, data_processor, and ml_model
 ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/data_collector"
 ENV PYTHONPATH "${PYTHONPATH}:/preprocessor/data_processor"

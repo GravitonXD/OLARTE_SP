@@ -105,18 +105,18 @@ def purge_sell():
         ######################
 
 
-def save_buy_from_json():
+def save_buy():
     log_directory = "preprocessor_utils_logs/db_actions" # Directory for the logs
 
     # Use the json file to save data to the "Buy" collection
-    json_data = json.load(open("/preprocessor/utils/json_data/stocks2buy.json"))
+    stocks2buy = json.load(open("/data/db/json_data/stocks2buy.json"))
     # Create a mapping of the json data
-    for stock in json_data:
+    for stock in stocks2buy:
         try:
-            Buy(**stock).save()
+            Buy(stock_symbol=stock, last_closing=stocks2buy[stock][0], predicted_closing=stocks2buy[stock][1]).save()
 
             ### LOG AND ALERT ###
-            message = f"Successfully saved {stock['stock_symbol']} to the Buy Collection"
+            message = f"Successfully saved {stock} to the Buy Collection"
             # Log the successful saving of the stock to the Buy Collection in the success_log.txt file
             la.Logs().success_log(message, log_directory)
             # Alert the successful saving of the stock to the Buy Collection
@@ -131,18 +131,18 @@ def save_buy_from_json():
             # Continue to the next stock
             continue
 
-def save_sell_from_json():
+def save_sell():
     log_directory = "preprocessor_utils_logs/db_actions" # Directory for the logs
 
     # Use the json file to save data to the "Sell" collection
-    json_data = json.load(open("/preprocessor/utils/json_data/stocks2sell.json"))
+    stocks2sell = json.load(open("/data/db/json_data/stocks2sell.json"))
     # Create a mapping of the json data
-    for stock in json_data:
+    for stock in stocks2sell:
         try:
-            Sell(**stock).save()
+            Sell(stock_symbol=stock, last_closing=stocks2sell[stock][0], predicted_closing=stocks2sell[stock][1]).save()
 
             ### LOG AND ALERT ###
-            message = f"Successfully saved {stock['stock_symbol']} to the Sell Collection"
+            message = f"Successfully saved {stock} to the Sell Collection"
             # Log the successful saving of the stock to the Sell Collection in the success_log.txt file
             la.Logs().success_log(message, log_directory)
             # Alert the successful saving of the stock to the Sell Collection
@@ -163,7 +163,7 @@ def save_info_from_json():
     log_directory = "preprocessor_utils_logs/db_actions" # Directory for the logs
 
     # Use the json file to save data to the "Info" collection
-    json_data = json.load(open("/preprocessor/utils/json_data/stock_info.json"))
+    json_data = json.load(open("/data/db/json_data/stock_info.json"))
     # Create a mapping of the json data
     for stock in json_data:
         try:
