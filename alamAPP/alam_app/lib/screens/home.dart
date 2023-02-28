@@ -1,3 +1,4 @@
+import 'package:alam_app/utils/file_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:alam_app/screens/dashboard.dart';
 import 'package:alam_app/screens/to_buy.dart';
@@ -13,8 +14,12 @@ class _HomeState extends State<Home> {
   int _bottomNavPage = 0;
   final List<Widget> _screens = [
     DashboardScreen(),
-    BuyScreen(),
-    SellScreen(),
+    BuyScreen(
+      serverAddressProvider: ServerAddressProvider(),
+    ),
+    SellScreen(
+      serverAddressProvider: ServerAddressProvider(),
+    ),
   ];
 
   @override
