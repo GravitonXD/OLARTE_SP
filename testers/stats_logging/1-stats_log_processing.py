@@ -1,9 +1,8 @@
 import re
-import numpy as np
 
 stats = []
 # Read the file
-with open('./stats.txt', 'r') as f:
+with open('./raw_data/stats.txt', 'r') as f:
     line_counter = 0
     for line in f:
         words = line.split()
@@ -60,13 +59,13 @@ memory_stats_alamAPI_API = [i/1024 if j == 'MiB' else i for i, j in zip(memory_s
 memory_stats_alamAPI_DB = [i/1024 if j == 'MiB' else i for i, j in zip(memory_stats_alamAPI_DB, size_stats_alamAPI_DB)]
 
 # Save the processed stats (CPU) to a csv file (preprocessor, alamAPI_API, alamAPI_DB)
-with open('cpu_stats.csv', 'w') as f:
+with open('./processed_data/cpu_stats.csv', 'w') as f:
     f.write("time(s),preprocessor,alamAPI_API,alamAPI_DB\n")
     for i in range(len(cpu_stats_preprocessor)):
         f.write(f"{i},{cpu_stats_preprocessor[i]},{cpu_stats_alamAPI_API[i]},{cpu_stats_alamAPI_DB[i]}\n")
 
 # Save the processed stats (Memory) to a csv file (preprocessor, alamAPI_API, alamAPI_DB)
-with open('memory_stats.csv', 'w') as f:
+with open('./processed_data/memory_stats.csv', 'w') as f:
     f.write("time(s),preprocessor,alamAPI_API,alamAPI_DB\n")
     for i in range(len(memory_stats_preprocessor)):
         f.write(f"{i},{memory_stats_preprocessor[i]},{memory_stats_alamAPI_API[i]},{memory_stats_alamAPI_DB[i]}\n")
