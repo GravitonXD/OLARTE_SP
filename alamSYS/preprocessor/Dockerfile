@@ -3,6 +3,7 @@ FROM python:3.10.10
 
 # Copy the main to /preprocessor/main
 COPY main.py /preprocessor/main.py
+COPY manual_run.py /preprocessor/manual_run.py
 
 # Copy local directories to container
 COPY data_collector /preprocessor/data_collector
