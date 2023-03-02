@@ -25,7 +25,6 @@ def scheduled_task():
         la.Alerts().success_alert("Scheduled task has successfully completed")
 
     except:
-        print("Preprocessesing failed see data logs for more details")
         la.Logs().error_log("Scheduled task has failed", log_directory)
         la.Alerts().error_alert("Scheduled task has failed")
 
