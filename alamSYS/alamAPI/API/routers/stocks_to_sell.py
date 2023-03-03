@@ -19,7 +19,7 @@ def get_all_stocks_to_sell():
         json_data = json.loads(data)
         # Return the data and the current datetime
         return {
-                "All Stocks to Sell": json_data,
-                "Date and Time": datetime.now()
+                "Stocks": json_data,
+                "DateTime": datetime.now()
         }
 # ===== END STOCKS TO SELL ===============================================
