@@ -55,12 +55,33 @@ class StandardFontStyle {
   static TextStyle captionBlack = GoogleFonts.openSans(
     fontSize: 12,
     fontWeight: FontWeight.w400,
+    fontStyle: FontStyle.italic,
     color: Colors.black,
   );
 
   static TextStyle captionWhite = GoogleFonts.openSans(
     fontSize: 12,
     fontWeight: FontWeight.w400,
+    fontStyle: FontStyle.italic,
     color: Colors.white,
+  );
+
+  static TextStyle headingGreen = GoogleFonts.openSans(
+    fontSize: 24,
+    fontWeight: FontWeight.w600,
+    color: Colors.green,
+  );
+
+  static TextStyle headingRed = GoogleFonts.openSans(
+    fontSize: 24,
+    fontWeight: FontWeight.w600,
+    color: Colors.red,
+  );
+
+  static TextStyle chartTitle = GoogleFonts.openSans(
+    fontSize: 8,
+    fontWeight: FontWeight.w500,
+    fontStyle: FontStyle.italic,
+    color: Colors.black,
   );
 }

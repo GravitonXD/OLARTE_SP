@@ -38,6 +38,8 @@ dependencies:
   google_fonts: ^2.1.0
   path_provider: ^2.0.13
   http: ^0.13.5
+  syncfusion_flutter_charts: ^20.4.52
+  
 
 dev_dependencies:
   flutter_test:
