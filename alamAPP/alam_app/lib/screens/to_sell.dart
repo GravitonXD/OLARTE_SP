@@ -361,7 +361,7 @@ class _SellScreenState extends State<SellScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.end,
                                 children: [
                                   Text(
-                                    '-${stock.predictedClosing?.dmdLstm?.last.toStringAsFixed(2)}',
+                                    '${stock.predictedClosing?.dmdLstm?.last.toStringAsFixed(2)}',
                                     style: StandardFontStyle.headingRed,
                                   ),
                                   Text('in 5 trading days',
