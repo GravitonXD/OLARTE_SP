@@ -41,10 +41,10 @@ def main():
             # Post process the data
             try:
                 stocks_to_buy, stocks_to_sell = mp.post_processing(processed_data, model_name=model)
-                la.Logs().success_log(f"Successfully processed data for model: {model}", log_directory)
+                la.Logs().success_log(f"Successfully post processed data for model: {model}", log_directory)
                 la.Alerts().success_alert(f"Successfully processed data for model: {model}")
             except Exception as e:
-                la.Logs().error_log(f"Failed to process data for model: {model}. Error_Info:{e}", log_directory)
+                la.Logs().error_log(f"Failed to post process data for model: {model}. Error_Info:{e}", log_directory)
                 la.Alerts().error_alert(f"Failed to process data for model: {model}. Error_Info:{e}. Program will exit")
                 exit(1)
 

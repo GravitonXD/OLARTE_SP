@@ -12,6 +12,8 @@ class Buy(Document):
     stock_symbol =  StringField()
     # Last Closing refers to the last closing price of the stock
     last_closing =  FloatField()
+    # Last Date refers to the last date of the stock
+    last_date = StringField()
     # Predicted Closing is a dictionary of predicted closing prices for the stock with a specific ML model used
     predicted_closing = DictField()
 
@@ -20,6 +22,7 @@ class Buy(Document):
         return {
             "stock_symbol": self.stock_symbol,
             "last_closing": self.last_closing,
+            "last_date": self.last_date,
             "predicted_closing": self.predicted_closing
         }
 
@@ -35,6 +38,8 @@ class Sell(Document):
     stock_symbol =  StringField()
     # Last Closing refers to the last closing price of the stock
     last_closing =  FloatField()
+    # Last Date refers to the last date of the stock
+    last_date = StringField()
     # Predicted Closing is a dictionary of predicted closing prices for the stock with a specific ML model used
     predicted_closing = DictField()
 
@@ -43,8 +48,10 @@ class Sell(Document):
         return {
             "stock_symbol": self.stock_symbol,
             "last_closing": self.last_closing,
+            "last_date": self.last_date,
             "predicted_closing": self.predicted_closing
         }
+
 
 
 # Define class "Info" and inherit from "Document"

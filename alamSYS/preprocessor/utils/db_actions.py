@@ -6,7 +6,7 @@ import os
 import json
 from models import Buy, Sell, Info
 import logs_and_alerts as la
-
+from datetime import datetime
 
 def connect_to_db():
     log_directory = "preprocessor_utils_logs/db_actions" # Directory for the logs
@@ -24,7 +24,8 @@ def connect_to_db():
         # Alert the successful connection to the database
         la.Alerts().success_alert(message)
         ######################
-    except:
+    except Exception as e:
+        print(e)
         ### LOG AND ALERT ###
         message = "Failed to connect to the database"
         # Log the failed connection to the database in the error_log.txt file
@@ -49,7 +50,8 @@ def disconnect_from_db():
         # Alert the successful disconnection from the database
         la.Alerts().success_alert(message)
         ######################
-    except:
+    except Exception as e:
+        print(e)
         ### LOG AND ALERT ###
         message = "Failed to disconnect from the database"
         # Log the failed disconnection from the database in the error_log.txt file
@@ -72,7 +74,8 @@ def purge_buy():
         # Alert the successful purging of the Buy Collection
         la.Alerts().success_alert(message)
         ######################
-    except:
+    except Exception as e:
+        print(e)
         ### LOG AND ALERT ###
         message = "Failed to purge the Buy Collection"
         # Log the failed purging of the Buy Collection in the error_log.txt file
@@ -95,7 +98,8 @@ def purge_sell():
         # Alert the successful purging of the Sell Collection
         la.Alerts().success_alert(message)
         ######################
-    except:
+    except Exception as e:
+        print(e)
         ### LOG AND ALERT ###
         message = "Failed to purge the Sell Collection"
         # Log the failed purging of the Sell Collection in the error_log.txt file
@@ -113,7 +117,10 @@ def save_buy():
     # Create a mapping of the json data
     for stock in stocks2buy:
         try:
-            Buy(stock_symbol=stock, last_closing=stocks2buy[stock][0], predicted_closing=stocks2buy[stock][1]).save()
+            Buy(stock_symbol=stock, 
+                last_closing=stocks2buy[stock][0][0],
+                last_date=stocks2buy[stock][0][1], 
+                predicted_closing=stocks2buy[stock][1]).save()
 
             ### LOG AND ALERT ###
             message = f"Successfully saved {stock} to the Buy Collection"
@@ -121,7 +128,8 @@ def save_buy():
             la.Logs().success_log(message, log_directory)
             # Alert the successful saving of the stock to the Buy Collection
             la.Alerts().success_alert(message)
-        except:
+        except Exception as e:
+            print(e)
             ### LOG AND ALERT ###
             message = f"Failed to save {stock['stock_symbol']} to the Buy Collection"
             # Log the failed saving of the stock to the Buy Collection in the error_log.txt file
@@ -139,7 +147,10 @@ def save_sell():
     # Create a mapping of the json data
     for stock in stocks2sell:
         try:
-            Sell(stock_symbol=stock, last_closing=stocks2sell[stock][0], predicted_closing=stocks2sell[stock][1]).save()
+            Sell(stock_symbol=stock, 
+                 last_closing=stocks2sell[stock][0][0],
+                 last_date=stocks2sell[stock][0][1], 
+                 predicted_closing=stocks2sell[stock][1]).save()
 
             ### LOG AND ALERT ###
             message = f"Successfully saved {stock} to the Sell Collection"
@@ -147,7 +158,8 @@ def save_sell():
             la.Logs().success_log(message, log_directory)
             # Alert the successful saving of the stock to the Sell Collection
             la.Alerts().success_alert(message)
-        except:
+        except Exception as e:
+            print(e)
             ### LOG AND ALERT ###
             message = f"Failed to save {stock['stock_symbol']} to the Sell Collection"
             # Log the failed saving of the stock to the Sell Collection in the error_log.txt file
@@ -175,7 +187,8 @@ def save_info_from_json():
             la.Logs().success_log(message, log_directory)
             # Alert the successful saving of the stock to the Info Collection
             la.Alerts().success_alert(message)
-        except:
+        except Exception as e:
+            print(e)
             ### LOG AND ALERT ###
             message = f"Failed to save {stock['stock_symbol']} to the Info Collection"
             # Log the failed saving of the stock to the Info Collection in the error_log.txt file

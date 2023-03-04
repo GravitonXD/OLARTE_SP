@@ -42,8 +42,15 @@ def process_data(loaded_model, model_name:str, len_predictions:int=5):
                                         skip_header=1,
                                         usecols=4)
         closing_prices = closing_prices[-(window_size):]
-        # Get the last actual closing price
-        last_actual = closing_prices[-1]
+        # Get the last actual closing price and date
+        last_closing = closing_prices[-1]
+        last_date = np.genfromtxt(f'/data/db/stock_data/{stock}.csv',
+                                    delimiter=',',
+                                    skip_header=1,
+                                    usecols=0,
+                                    dtype=str)
+        last_date = last_date[-1]
+        last_actual = [last_closing, last_date]
 
         """
             PREDICTED CLOSINGS:
@@ -74,7 +81,7 @@ def post_processing(processed_data, model_name:str, minimum_score:float=0.01):
     stock_symbols.append("PSEI")
 
     # Dictionary containing the last acutaul closing price of each stock
-    last_actual_closing = {stock:processed_data[stock][0] for stock in stock_symbols}
+    last_actual_closing = {stock:processed_data[stock][0][0] for stock in stock_symbols}
     
     # Initialize the dictionaries for the stocks to buy and stocks to sell
     stocks_to_buy = {}
