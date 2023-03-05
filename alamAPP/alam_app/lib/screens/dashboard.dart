@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:alam_app/standards/font_styles.dart';
+import 'package:lottie/lottie.dart';
 
 class DashboardScreen extends StatefulWidget {
   @override
@@ -23,10 +24,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 // Circular Avatar
                 CircleAvatar(
                   radius: 45,
-                  backgroundColor: Colors.grey[300],
+                  backgroundColor: const Color.fromARGB(255, 227, 242, 253),
                   child: ClipOval(
-                    child: Image.network(
-                      "https://img.freepik.com/premium-vector/stylish-flat-black-white-human-avatar-social-media-presentation-people-avatar-icon-avatar-face-head-with-forearm-human-portrait-isolated-blue-background-vector-graphics_589396-126.jpg?w=2000",
+                    child: Lottie.asset(
+                      'lib/assets/avatar.json',
                     ),
                   ),
                 ),
@@ -102,6 +103,14 @@ class _DashboardScreenState extends State<DashboardScreen> {
             ),
             // Portfolio List Tiles
             Row(),
+
+            // UNDER CONSTRUCTION
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.6,
+              child: Lottie.asset(
+                "lib/assets/underConstruction.json",
+              ),
+            ),
           ],
         ),
       ),
