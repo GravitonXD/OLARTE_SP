@@ -28,7 +28,7 @@ class _BuyScreenState extends State<BuyScreen> {
   void initState() {
     super.initState();
     widget.serverAddressProvider = ServerAddressProvider();
-    widget.serverAddressProvider.readServerAddress().then((value) {
+    widget.serverAddressProvider.readFile().then((value) {
       setState(() {
         _serverAddress = value;
       });
@@ -167,7 +167,8 @@ class _BuyScreenState extends State<BuyScreen> {
                                     builder: (context) {
                                       List<String> getDates() {
                                         List<String> dates = [];
-                                        var date = DateTime.now();
+                                        var date =
+                                            DateTime.parse(stock.lastDate!);
                                         // Add the number of days to the current date (excluding weekends)
                                         while (dates.length <= 6) {
                                           if (date.weekday != 6 &&
