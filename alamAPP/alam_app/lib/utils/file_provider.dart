@@ -36,27 +36,3 @@ class FileProvider {
     return file.writeAsString(serverAddress);
   }
 }
-
-class ServerAddressProvider extends FileProvider {
-  ServerAddressProvider() {
-    fileName = 'server_address.txt';
-  }
-}
-
-class ToBuyProvider extends FileProvider {
-  ToBuyProvider() {
-    fileName = 'to_buy.json';
-  }
-}
-
-class ToSellProvider extends FileProvider {
-  ToSellProvider() {
-    fileName = 'to_sell.json';
-  }
-}
-
-class InfoProvider extends FileProvider {
-  InfoProvider() {
-    fileName = 'info.json';
-  }
-}

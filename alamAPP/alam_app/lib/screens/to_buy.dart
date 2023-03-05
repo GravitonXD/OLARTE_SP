@@ -1,18 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:alam_app/standards/font_styles.dart';
-import 'package:alam_app/utils/file_provider.dart';
 import 'package:alam_app/utils/stock_to_buy.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class BuyScreen extends StatefulWidget {
-  ServerAddressProvider serverAddressProvider;
-
-  BuyScreen({super.key, required this.serverAddressProvider});
-
   @override
-  // ignore: library_private_types_in_public_api
   _BuyScreenState createState() => _BuyScreenState();
 }
 
@@ -20,20 +14,6 @@ class _BuyScreenState extends State<BuyScreen> {
   // Search Bar Controller
   final searchController = TextEditingController();
   String searchText = "";
-
-  // Server Address
-  String _serverAddress = '';
-
-  @override
-  void initState() {
-    super.initState();
-    widget.serverAddressProvider = ServerAddressProvider();
-    widget.serverAddressProvider.readFile().then((value) {
-      setState(() {
-        _serverAddress = value;
-      });
-    });
-  }
 
   // Return an alert dialog
   Widget _alertDialog(String title, String content) {
@@ -54,7 +34,7 @@ class _BuyScreenState extends State<BuyScreen> {
   @override
   Widget build(BuildContext context) {
     Future<List<Stocks>> stocksToBuy() async {
-      var url = 'http://$_serverAddress:8000/stocks_to_buy/all';
+      var url = 'https://alam.ap.loclx.io/stocks_to_buy/all';
       var response = await http.get(Uri.parse(url));
       var data = jsonDecode(response.body);
       List<Stocks> stocksToBuy = [];

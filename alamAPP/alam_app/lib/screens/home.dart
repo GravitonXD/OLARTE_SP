@@ -14,12 +14,8 @@ class _HomeState extends State<Home> {
   int _bottomNavPage = 0;
   final List<Widget> _screens = [
     DashboardScreen(),
-    BuyScreen(
-      serverAddressProvider: ServerAddressProvider(),
-    ),
-    SellScreen(
-      serverAddressProvider: ServerAddressProvider(),
-    ),
+    BuyScreen(),
+    SellScreen(),
   ];
 
   @override

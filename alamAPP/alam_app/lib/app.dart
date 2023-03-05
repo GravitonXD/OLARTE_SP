@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:alam_app/screens/home.dart';
-import 'package:alam_app/screens/initializer.dart';
 
 class AlamApp extends StatelessWidget {
   @override
@@ -8,9 +7,8 @@ class AlamApp extends StatelessWidget {
     return MaterialApp(
       title: 'Alam',
       theme: _alamAppTheme,
-      initialRoute: '/initializer',
+      initialRoute: '/home',
       routes: {
-        '/initializer': (context) => Initializer(),
         '/home': (context) => Home(),
       },
     );
