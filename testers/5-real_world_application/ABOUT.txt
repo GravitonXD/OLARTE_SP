@@ -1,0 +1,9 @@
+Using the Virtual Trading Platform from Investagram
+
+We have set to buy the stocks listed as a buy from the API.
+
+RULES
+1. We just follow the recommendations, there's no checking or applying additional analysis
+2. If the stock bought yesterday was flagged for selling in the current day then we need to sell it regardless of the profit/loss. This also applies if we need to hold it. This is just to eliminate the bias in the testing, moreover in the actual application, users can decided wether to sell or hold their bought stocks.
+
+All infos are logged on the excel file.
