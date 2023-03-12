@@ -1,0 +1,36 @@
+1. Idle Performance Testing
+Duration: 24 hours (Do it on Weekends, no scheduled activity for alamSYS)
+Schedule:  April 15-16
+Device/s Needed: Personal Laptop
+Description: Idle Performance Testing, takes the CPU and Memory Utilization of alamSYS while it is idle, this shall give us the baseline perfomance of the System to determine possible minimum computer/server specifications to run the system.
+Instructions: Run 0-stats_logging for 1 day (Saturday)
+
+2. Internal System Stress Testing
+Duration: 2 hours
+Schedule: April 3, 2023
+Device/s Needed: Personal Laptop
+Description: This will run the scheduled automated task of the alamSYS for 100 times within the duration of the test, this stress test will allow us to see 100 times the load the system will handle on a regular day. Which shall allow us to gauge its performance under stress.
+Instructions: Copy the code in 2-stress_testing inside the docker container of alamSYS and run it accordingly. Afterwards collect the test data from the attached volume.
+
+3. Load Testing
+Duration: 2 hours
+Schedule: April 5, 2023 (Test will automatically execute at exactly 10:30 AM)
+Device/s Needed: (10x Computer Systems) CL1 and Laptop (as Server)
+Description: To simulate a load from different users, we will run 10 concurrent requests from 10 different computers. Essentially simulating a total of 200,000 requests within the duration of the test.
+Instructions: On the server run the server_logger (in 3-load_testing) and on the 10 computers open 10 load_testing binary executable for each computer system. Collect the data afterwards.
+
+Note: Run 5 speed tests before starting the test (As the speed of the internet will affect the performance and results of the system)
+
+4. Reliability Testing
+Duration: 2 Weeks
+Schedule: April 17 - 28, 2023 (excluding weekends)
+Device/s Needed: Laptop (as Server)
+Description: Reliability Testing will last for a total of 2 weeks, this will test if the system reliably runs everything it needed to run without any failure. And if it discuss how the system handle the error by itself.
+Instructions: Just run the docker containers for the alamSYS, then at the end of the duration of the test gather all logs created by the system.
+
+5. Real World Application
+Duration: 2 Trading Weeks
+Schedule: March 6 - 17, 2023
+Device/s Needed: Laptop (as server), Phone to check stock statuses
+Description: This test will simulate the real world utilization of the system, additional information was included in the directory.
+Instructions: Follow the instructions included in the test's directory

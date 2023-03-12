@@ -53,7 +53,7 @@ def scheduled_task():
 
     base_url = f'https://alam.ap.loclx.io'
 
-    list_of_requests = [10, 100, 1_000, 10_000, 100_000]
+    list_of_requests = [10, 100, 1_000]
     
     print("Running load test, please wait...\n")
     # Testing for stocks to buy endpoint
