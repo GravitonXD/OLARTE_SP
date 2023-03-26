@@ -1,10 +1,8 @@
 import os
 import time
+import schedule
 
-def main():
-    # Create a directory to store the results
-    os.makedirs("/data/db/stress_test_results", exist_ok=True)
-
+def task():
     # Run 'manual_run.py' 100 times
     for i in range(100):
         start_time = time.time()
@@ -22,6 +20,22 @@ def main():
             with open("/data/db/stress_test_results/results.csv", "a") as f:
                 # Run Number, Start Time, End Time, Total Time, Status (0 - Failure)
                 f.write(f"{i+1},{start_time},{end_time},{end_time-start_time},{0}\n")
+
+
+def main():
+    # Create a directory to store the results
+    os.makedirs("/data/db/stress_test_results", exist_ok=True)
+
+    # Run a task every 11:15 PM
+    schedule.every().day.at("23:15").do(task)
+
+    while True:
+        # Print the remaining time until the next scheduled job
+        print(f'Next task will run in {schedule.idle_seconds()} seconds', end='\r')
+        # Run pending tasks
+        schedule.run_pending()
+        time.sleep(1)
+    
     
 
 if __name__ == '__main__':
