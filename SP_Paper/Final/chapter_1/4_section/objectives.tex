@@ -1,47 +1,47 @@
 % Objectives
 \section{Objectives}
 \label{sec:objectives}
-The main objective of this special problem is to develop a 
-system that will make investing easier, more publicly available, 
-data-driven, and more approachable to the public by minimizing both the 
+This special problem aims to develop a system that makes investing easier, 
+more publicly available, data-driven, and more approachable by minimizing both the 
 time required for stock price trend analysis, and potential financial risk 
-by using DMD-LSTM and ARIALMA \textit{Modified ARIMA}. Specifically, it aims to do following:
+by using DMD-LSTM and integrate Arnaud Legoux Moving Average Convergence-Divergence (ALMACD)
+as a trading algorithm. More specifically, it aims to do following:
 \begin{itemize}
-  \item[(a)] Develop a RESTful API, which will be referred to as alamSYS, 
-  using the combination of Python libraries and MongoDB for the backend 
-  services and database, respectively.
+  \item[(a)] Develop a Data Preprocessor. Which includes a Data Collector Module (DCM), 
+  which collects the end-of-day historical data of a stock from Mondays to Fridays. 
+  The data collected is then processed by the Data Processor Module (DPM), which applies the
+  deep learning model and integrate the trading algorithm to the data. Finally, the
+  processed data is given to the Database Updater Module (DUM).
+  \item[(b)] Develop a RESTful API, referred to as alamSYS, 
+  using the combination of Python's FastAPI and MongoDB for API 
+  endpoints and database, respectively.
   \hfill \\
   
-  Whereas this backend service will be using Python’s 
-  FastAPI that will enable different user to connect to 
-  the database and collect the information provided by the 
-  Stock Market Price Trend Forecasting Machine Learning Model.
-  \hfill \\
-  
-  Specifically, this will be done by doing the following:
+  Specifically, this was done by doing the following:
   \begin{itemize}
-    \item[1.]	Develop a Data Collector Module (DCM), 
-    which will get the historical data every day for 
-    the past 200 days every after market close from Mondays to Fridays. 
-    The data collected will be eventually processed by the Pre-Database Processor 
-    (PDP) with the help of the Preprocessor Utilities Module (PUM). 
-    Wherein, DCM, PDP, and PUM will be part of the Preprocessor Module 
-    (PPM) of alamSYS.
-    \item[2.]	Develop a database that will store the results provided by the PPD,
-    and other essential data about the stock market that is needed to be provided
-    in the backend service.
-    \item[3.]	Develop the necessary API endpoints 
-    that will provide recommendation on which stocks to buy or sell. 
-    Additionally, it provides the general information about these stocks.
+    \item[1.]	Develop the following API endpoints:
+      \subitem 1.1	\texttt{Home} – This API endpoint outputs a welcome message. 
+      Which should inform the user that they have successfully connected to the alamAPI.
+      \subitem 1.2	\texttt{Stocks to Buy} – This API endpoint outputs a list of suggested 
+      stocks to buy based from the current market price and the predicted price up-trend.
+      \subitem 1.3 \texttt{Stocks to Sell} – This API endpoint outputs a list of suggested
+      stocks to sell based from the current market price and the predicted price down-trend.
+      \subitem 1.4  \texttt{Stocks Info} - This API endpoint outputs a list of stocks included 
+      in the alamSYS and their corresponding information.
+      \subitem 1.5  \texttt{ML Model Info} - This API endpoint outputs a list of the 
+      Machine Learning Models used in the alamSYS and their corresponding information.
+      \subitem 1.6 \texttt{Stocks Risks Info} - This API endpoint outputs a list 
+      of the stocks included in the alamSYS and their corresponding 
+      risks values based on value at risk (\%), volatility (\%), and drawdown (\%).
+    \item[2.]	Develop a database that stores the results provided by the DPM,
+    and other essential data such as stock information, deep learning model information,
+    and stock risks information about the stock market that is needed to be provided.
   \end{itemize}
-  \item[(b)] Develop the following Stock Market Price Trend Forecasting 
-  Machine Learning Models:
-  \begin{itemize}
-    \item[1.]	Model A (DMD-LSTM) – Utilize the dynamic modes in DMD as a 
-    parameter to the LSTM model.
-    \item[2.] Model B (ARIALMA) – Modify ARIMA by using 
-    the optimized parameters for ALMA instead of the traditional MAs.
-  \end{itemize}
-  \item[(c)] Finally, develop a mobile-based test application to showcase 
-  the main functionalities of the developed RESTful API.
+  \item[(c)] Develop a Stock Market Price Trend Forecasting 
+  Deep Learning Models by utilizing the dynamic modes in DMD as an additional input 
+  parameter to an LSTM model. Afterwards, integrate the forecasting with ALMACD as
+  a trading algorithm and basis for entry and exit positions.
+  \item[(d)] Finally, develop a mobile-based test application to showcase 
+  the main functionalities of the developed RESTful API. Specifically which stocks
+  to buy and to sell for a given period of time.
 \end{itemize}
