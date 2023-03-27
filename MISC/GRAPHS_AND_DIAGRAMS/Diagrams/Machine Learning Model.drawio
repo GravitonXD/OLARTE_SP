@@ -1,0 +1,155 @@
+<mxfile host="65bd71144e" scale="5" border="0">
+    <diagram id="94scwhOmTTR12zCoKxJa" name="Page-1">
+        <mxGraphModel dx="2132" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="COLLECT EOD HISTORICAL MARKET DATA OF PSEI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="190" y="60" width="470" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;i style=&quot;font-weight: normal;&quot;&gt;Data Preprocessing&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="140" width="470" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;Model Training and Testing&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="420" width="470" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;SPLITTING OF DATA&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="270" width="430" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;DATA CLEANING&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;(Removal of missing values, if any)&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="190" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;" edge="1" parent="1" source="8" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="540" y="250"/>
+                            <mxPoint x="425" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;FEATURE SELECTION&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;(Closing Prices)&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="190" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;rounded=0;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="425" y="130"/>
+                            <mxPoint x="310" y="130"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;rounded=0;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;" edge="1" parent="1" source="12" target="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="200" y="340"/>
+                            <mxPoint x="200" y="495"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Training Dataset&lt;br&gt;&lt;i&gt;80%&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=#FFFFFF;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="320" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="530" y="410"/>
+                            <mxPoint x="550" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Evaluation Dataset&lt;br&gt;&lt;i&gt;20%&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=#FFFFFF;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="320" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;" edge="1" parent="1" source="16" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;EXTRACTION OF DYNAMIC MODES&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;(Using pyDMD)&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="470" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;" edge="1" parent="1" source="17" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="550" y="550"/>
+                            <mxPoint x="425" y="550"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fillColor=#dae8fc;strokeColor=#0000FF;" edge="1" parent="1" source="17" target="60">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="680" y="495"/>
+                            <mxPoint x="680" y="465"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;LSTM&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;(Using Tensorflow Keras)&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="470" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;Model Evaluation&lt;br&gt;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="570" width="470" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Loss&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="610" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;MAPE&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="610" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;MSE&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="610" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;RMSE&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="610" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="COLLECT EOD HISTORICAL MARKET DATA FOR OTHER STOCKS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="720" y="180" width="470" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;i style=&quot;font-weight: normal;&quot;&gt;Data Preprocessing&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="270" width="470" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;" edge="1" parent="1" source="49" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;DATA CLEANING&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;(Removal of missing values, if any)&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="320" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fillColor=#dae8fc;strokeColor=#0000FF;" edge="1" parent="1" source="51" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1070" y="410"/>
+                            <mxPoint x="600" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;FEATURE SELECTION&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;(Closing Prices)&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="320" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;Model Validation&lt;br&gt;&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="420" width="470" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Loss&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="460" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;MAPE&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="460" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;MSE&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="460" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;RMSE&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="460" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=CMU;fontSource=https%3A%2F%2Ffontlibrary.org%2F%2Fface%2Fcmu-serif;" edge="1" parent="1" source="31" target="49">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="955" y="260"/>
+                            <mxPoint x="840" y="260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
