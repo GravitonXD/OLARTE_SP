@@ -2,78 +2,114 @@
 \label{sec:software_requirements}
 \begin{itemize}
     % Python
-    \item[(a)] Python (version 3.11.x) – this will serve as the main programming 
-    language for the development of the different components of alamSYS, more 
-    specifically the following libraries will be used:
+    \item[(a)] Python (version 3.9.x) – This served as the primary 
+    programming language for the development of the various 
+    components of alamSYS, with the following libraries specifically 
+    used:
         \begin{itemize}
             \item[\ding{108}] For the development of the API and Database ODM
                 \begin{itemize}
-                    \item[\ding{109}] FastAPI (version 0.85.0) – This is a library primarily 
-                    used for building modern, fast, and high-performing web framework APIs 
+                    \item[\ding{109}] FastAPI (version 0.85.0) – A library that is 
+                    primarily used to create modern, fast, and 
+                    high-performance web framework APIs. 
                     \cite{Tiangolo}.
-                    This will be utilized in the development of the project because of its 
+                    Specifically, utilized in the development of the project 
+                    because of its 
                     (1) ease of utilization; 
                     (2) fast implementation; 
                     (3) high-performance; 
                     (4) built-in robust API documentation; and 
                     (5) high scalability.
-                    \item[\ding{109}] mongoengine (version 0.24.2) – This is a library developed 
-                    as an Object-Document Mapper, which lets Python connect and work with MongoDB 
+                    \item[\ding{109}] mongoengine (version 0.24.2) – A library 
+                    designed as an Object-Document Mapper that allows Python to 
+                    connect to and work with MongoDB.
                     \cite{MongoEngine}
-                    This will be used in the alamSYS to connect the API endpoints to the 
-                    MongoDB database.
-                    \item[\ding{109}] json (pre-installed) – This is a python library that 
-                    can transform Python dictionary into json object, and vice versa. 
-                    This will be used in the development of alamSYS for parsing and conversion of 
-                    the data from the API and to the MongoDB database through an ODM.
-                    \item[\ding{109}] datetime (pre-installed) – This python library is used for creating 
-                    a datatime object, which as the name suggests is an object that contains the date 
-                    and time information. This will be used in the development to keep track with all 
-                    the processes that is happening in the system through a date and time logs.
-                    \item[\ding{109}] os (pre-installed) – This is a python library that enables 
-                    the user to do operations in the operating system such as creating directories, 
-                    files, accessing operating system information, etc. This will be used to access 
-                    the operating system’s environment variables, and to help in other OS-based functions.
+                    This was used in the alamSYS to connect the API endpoints to the 
+                    MongoDB database, and vice versa.
+                    \item[\ding{109}] json (pre-installed) – This is a Python library for 
+                    converting a Python dictionary to a JSON object and vice versa. 
+                    This was used in the development of alamSYS for data 
+                    parsing and conversion from the API to the MongoDB database 
+                    via an ODM.
+                    \item[\ding{109}] datetime (pre-installed) – This python library was
+                    used for creating a datatime object, which as the name 
+                    suggests is an object that contains the date 
+                    and time information. This was used in the system to 
+                    keep track of all the processes that occur in the 
+                    system using date and time logs.
+                    \item[\ding{109}] os (pre-installed) – A Python library that allows 
+                    the user to perform operating system operations such as creating 
+                    directories and files, accessing operating system information, 
+                    and so on. This was used to access the operating system's 
+                    environment variables as well as to assist with other OS-based 
+                    functions.
                 \end{itemize}
-            \item[\ding{108}] For the pre-processor (data collector)
+            \item[\ding{108}] For the preprocessor (main)
+                    \begin{itemize}
+                        \item[\ding{109}] schedule (version 1.1.0) – This library allows 
+                        the user to schedule a function to be executed at a specific
+                        date and time. This was used in the system to schedule the
+                        processes that occurs in the alamSYS.
+                    \end{itemize}
+            \item[\ding{108}] For the preprocessor (data collector)
                 \begin{itemize}
                     \item[\ding{109}] requests (version 2.28.1) – This library allows the user to create web 
-                    requests to an external or internal servers. This will be used to connect and collect 
+                    requests to an external or internal servers. This was used to connect and collect 
                     the current EOD market data from the third-party market historical data provider: EODHD.
                     \\ EODHD – A third-party market fundamental and historical data APIs provider
                     \cite{EODHD}.
                 \end{itemize}
-            \item[\ding{108}] For the pre-processor (machine learning processor):
-            \\ \textit{Note that these libraries will also be used in the development of the machine learning model.}
+            \item[\ding{108}] For the preprocessor (data processor):
+            \\ \textit{Note that some of these libraries are also used in the development of the DMD-LSTM model.}
                 \begin{itemize}
-                    \item[\ding{109}] joblib (version 1.2.0) – This allows an object to be 
-                    saved and reloaded as a variable in Python, as such this will be used to 
-                    save the machine learning developed and be utilized to process the new and 
-                    updated data provided by the data collector.
-                    \item[\ding{109}] numpy (version 1.23.5) - This will be used for handling large data arrays. Whereas,
-                    compared to Python's List, numpy is better in terms of performance and memory utilization \cite{GeekforGeeks_numpyVSlist}.
-                    \item[\ding{109}] scikit-learn (version 1.1.3) - This will be used for the utilization of the created Machine Learning Models.
+                    \item[\ding{109}] numpy (version 1.23.5) - Utilized for handling large 
+                    data arrays. This is because, compared to Python's 
+                    List, numpy is better in terms of performance 
+                    and memory utilization 
+                    \cite{GeekforGeeks_numpyVSlist}.
+                    \item[\ding{109}] tensorflow (version 2.11.0) - Utilized for the development of 
+                    the DMD-LSTM model.
+                    \item[\ding{109}] matplotlib (version 3.7.0) - Utilized for creating 
+                    graphical diagrams and plots for the results of the data 
+                    gathering during the developmental stages of the system, 
+                    specifically during the development of the DMD-LSTM model.
+                    \item[\ding{109}] pyDMD (version 0.4.0post2301) - This library was used to extract 
+                    the dynamic modes from the stock market data as an additional 
+                    training input for the DMD-LSTM model.
+                    \item[\ding{109}] pandas (version 1.5.3) - This library was used to 
+                    handle the dataframes during the testing period of the alamSYS.
                 \end{itemize}
-            \item[(b)] MongoDB – This will be used as the non-relational (document-based) database, 
-            that will hold the stock information, stocks to buy, and stocks to sell.
-            \item[(c)] Jupyter Notebook – This will be used during the training and testing of 
-            the machine learning model that will be developed as part of the alamSYS.
-            \item[(d)] CRON – A Linux-based scheduler. This will be used in the system to set a 
-            schedule for the historical data collection and processing for each market end-of-day 
-            (EOD) every 5 PM from Mondays to Fridays. Moreover, the scheduler is part of the 
-            pre-processor module of the system.
-            \item[(e)] Docker – This is a very useful tool to creating containers, 
-            whereas a container contains a code and all its dependencies in one standard unit of software, 
+            \item[(b)] MongoDB – A non-relational (document-based) database, 
+            used to hold the necessary data for the alamSYS. Such as stocks info, which stocks to buy or to sell, 
+            and the risk profile of each stocks.
+            \item[(c)] Jupyter Notebook – This was used during the training and testing of 
+            the DMD-LSTM model.
+            \item[(e)] Docker – A useful tool to creating containers.
+            Containers contains the source code and all its dependencies in one standard unit of software, 
             which can be run in different machines regardless of its difference from the development machine 
             used \cite{Docker}.
-            As such this will be used to create containers for each of the component of alamSYS, 
+            As such this was used to create containers for each of the component of alamSYS, 
             to enable it to run in different deployment machines.
             \item[(f)] Docker-compose – In order to run multiple containers at once, 
-            docker-compose will be used. This will be further discussed in the Container Diagram 
+            docker-compose was used. This is further discussed in the Container Diagram 
             section of this chapter.
-            \item[(g)] Dart and Flutter - This will be specifically used for the development of the mobile-based 
-            test application to showcase how the alamSYS can be used in an actual application.
-            \item[(h)] Git - This will be used as the version control system for the development of the alamSYS.
-            \item[(i)] GitHub - This will be used as the repository for the alamSYS.
+            \item[(g)] Dart and Flutter - This was used for the development of the mobile-based 
+            test application (alamAPP) to showcase how the alamSYS can be used in an actual application. 
+            In addition, the following libraries were used:
+                \begin{itemize}
+                    \item[\ding{108}] http (version 0.13.5) - This library was used to create 
+                    HTTP requests to the API endpoints of the alamSYS.
+                    \item[\ding{108}] path\_provider (version 2.0.13) - This library was used to allow the 
+                    alamAPP to access the storage of the device, which then allows the application to save the 
+                    details collected from alamAPI through the http request library.
+                    \item[\ding{108}] syncfusion\_flutter\_charts (version 20.4.52) - This library was used to show or visualize 
+                    the predicted graph based on the price predictions given by the alamSYS.
+                    \item[\ding{108}] lottie (version 2.2.0) - This was used to show the loading animation 
+                    when the alamAPP is waiting for the response from the alamSYS, as well as animations when the alamAPP
+                    failed to connect to the alamSYS through the alamAPI. Overall, this library makes the application
+                    more dynamic, interactive, and more user-friendly.
+                \end{itemize}
+            \item[(h)] Git - Used as the version control system for the development of the alamSYS.
+            \item[(i)] GitHub - Used as the repository for the alamSYS.
         \end{itemize}
 \end{itemize}
