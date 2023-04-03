@@ -9,7 +9,7 @@ def job():
         os.system("docker stats --no-stream >> ./server_performance_stress/stats.txt")
 
 def main():
-    schedule.every().day.at("23:15").do(job)
+    schedule.every().day.at("18:05").do(job)
 
     while True:
         schedule.run_pending()

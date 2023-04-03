@@ -1,0 +1,1656 @@
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192MiB / 7.684GiB     2.44%     1.23MB / 623kB   54.5MB / 33.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.18%    1.055GiB / 7.684GiB   13.73%    154MB / 7.54MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.10%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192MiB / 7.684GiB     2.44%     1.23MB / 623kB   54.5MB / 33.2MB   29
+650af2d6431c   alamPREPROCESSOR   97.02%    1.063GiB / 7.684GiB   13.84%    154MB / 7.54MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.10%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192MiB / 7.684GiB     2.44%     1.23MB / 624kB   54.5MB / 33.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.16%    1.075GiB / 7.684GiB   14.00%    154MB / 7.54MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.14%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.21%     192MiB / 7.684GiB     2.44%     1.24MB / 627kB   54.5MB / 33.2MB   29
+650af2d6431c   alamPREPROCESSOR   168.69%   930.9MiB / 7.684GiB   11.83%    154MB / 7.55MB   354MB / 528MB     26
+8302c7cefe70   alamAPI            0.12%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192MiB / 7.684GiB     2.44%     1.24MB / 627kB   54.5MB / 33.2MB   29
+650af2d6431c   alamPREPROCESSOR   122.66%   1.058GiB / 7.684GiB   13.77%    154MB / 7.55MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.11%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192MiB / 7.684GiB     2.44%     1.24MB / 627kB   54.5MB / 33.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.37%    1.071GiB / 7.684GiB   13.94%    154MB / 7.55MB   354MB / 528MB     62
+8302c7cefe70   alamAPI            0.10%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192MiB / 7.684GiB     2.44%     1.24MB / 627kB   54.5MB / 33.2MB   29
+650af2d6431c   alamPREPROCESSOR   96.23%    1.083GiB / 7.684GiB   14.09%    154MB / 7.55MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.13%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.38%     192MiB / 7.684GiB     2.44%     1.25MB / 631kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   162.19%   921.1MiB / 7.684GiB   11.71%    154MB / 7.56MB   354MB / 528MB     26
+8302c7cefe70   alamAPI            0.21%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192MiB / 7.684GiB     2.44%     1.25MB / 631kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.91%    1.066GiB / 7.684GiB   13.88%    154MB / 7.56MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.13%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192MiB / 7.684GiB     2.44%     1.25MB / 631kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   97.54%    1.077GiB / 7.684GiB   14.01%    154MB / 7.56MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.10%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192MiB / 7.684GiB     2.44%     1.25MB / 631kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   96.04%    1.088GiB / 7.684GiB   14.16%    154MB / 7.56MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.10%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.31%     192MiB / 7.684GiB     2.44%     1.26MB / 634kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   173.40%   949.6MiB / 7.684GiB   12.07%    154MB / 7.57MB   354MB / 528MB     26
+8302c7cefe70   alamAPI            0.13%     45.91MiB / 7.684GiB   0.58%     275kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192MiB / 7.684GiB     2.44%     1.26MB / 635kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   99.72%    1.068GiB / 7.684GiB   13.91%    154MB / 7.57MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.13%     45.91MiB / 7.684GiB   0.58%     276kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192MiB / 7.684GiB     2.44%     1.26MB / 635kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   99.57%    1.077GiB / 7.684GiB   14.02%    154MB / 7.57MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.10%     45.91MiB / 7.684GiB   0.58%     276kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192MiB / 7.684GiB     2.44%     1.26MB / 635kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.30%    1.089GiB / 7.684GiB   14.18%    154MB / 7.57MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.13%     45.91MiB / 7.684GiB   0.58%     276kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.37%     192MiB / 7.684GiB     2.44%     1.27MB / 638kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   174.59%   957.1MiB / 7.684GiB   12.16%    154MB / 7.58MB   354MB / 528MB     26
+8302c7cefe70   alamAPI            0.12%     45.91MiB / 7.684GiB   0.58%     276kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.18%     192MiB / 7.684GiB     2.44%     1.27MB / 638kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   99.17%    1.068GiB / 7.684GiB   13.90%    154MB / 7.58MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.12%     45.91MiB / 7.684GiB   0.58%     276kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192MiB / 7.684GiB     2.44%     1.27MB / 638kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.54%    1.079GiB / 7.684GiB   14.04%    154MB / 7.58MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.14%     45.91MiB / 7.684GiB   0.58%     276kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192MiB / 7.684GiB     2.44%     1.27MB / 638kB   54.5MB / 33.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.78%    1.088GiB / 7.684GiB   14.17%    154MB / 7.58MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.12%     45.91MiB / 7.684GiB   0.58%     276kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.20%     192MiB / 7.684GiB     2.44%     1.28MB / 642kB   54.5MB / 33.4MB   29
+650af2d6431c   alamPREPROCESSOR   180.03%   961.2MiB / 7.684GiB   12.22%    154MB / 7.59MB   354MB / 528MB     26
+8302c7cefe70   alamAPI            0.12%     45.91MiB / 7.684GiB   0.58%     276kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.33%     192MiB / 7.684GiB     2.44%     1.28MB / 642kB   54.5MB / 33.4MB   29
+650af2d6431c   alamPREPROCESSOR   98.68%    1.066GiB / 7.684GiB   13.88%    154MB / 7.59MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.11%     45.91MiB / 7.684GiB   0.58%     276kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192MiB / 7.684GiB     2.44%     1.28MB / 642kB   54.5MB / 33.4MB   29
+650af2d6431c   alamPREPROCESSOR   95.75%    1.079GiB / 7.684GiB   14.04%    154MB / 7.59MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.10%     45.91MiB / 7.684GiB   0.58%     276kB / 192kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192MiB / 7.684GiB     2.44%     1.28MB / 642kB   54.5MB / 33.4MB   29
+650af2d6431c   alamPREPROCESSOR   95.85%    1.091GiB / 7.684GiB   14.19%    154MB / 7.59MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.16%     45.91MiB / 7.684GiB   0.58%     276kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.26%     191.6MiB / 7.684GiB   2.43%     1.29MB / 646kB   54.5MB / 33.4MB   29
+650af2d6431c   alamPREPROCESSOR   178.35%   958.4MiB / 7.684GiB   12.18%    154MB / 7.6MB    354MB / 528MB     26
+8302c7cefe70   alamAPI            0.12%     45.88MiB / 7.684GiB   0.58%     276kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.6MiB / 7.684GiB   2.43%     1.29MB / 646kB   54.5MB / 33.4MB   29
+650af2d6431c   alamPREPROCESSOR   99.91%    1.074GiB / 7.684GiB   13.98%    154MB / 7.6MB    354MB / 528MB     51
+8302c7cefe70   alamAPI            0.10%     45.88MiB / 7.684GiB   0.58%     276kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.42%     191.6MiB / 7.684GiB   2.43%     1.29MB / 646kB   54.5MB / 33.4MB   29
+650af2d6431c   alamPREPROCESSOR   98.00%    1.086GiB / 7.684GiB   14.14%    154MB / 7.6MB    354MB / 528MB     51
+8302c7cefe70   alamAPI            0.10%     45.88MiB / 7.684GiB   0.58%     276kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.38%     191.6MiB / 7.684GiB   2.44%     1.29MB / 646kB   54.5MB / 33.5MB   29
+650af2d6431c   alamPREPROCESSOR   97.57%    1.095GiB / 7.684GiB   14.25%    154MB / 7.6MB    354MB / 528MB     51
+8302c7cefe70   alamAPI            0.10%     45.88MiB / 7.684GiB   0.58%     276kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.23%     191.7MiB / 7.684GiB   2.44%     1.3MB / 649kB    54.5MB / 33.5MB   29
+650af2d6431c   alamPREPROCESSOR   161.60%   933.7MiB / 7.684GiB   11.87%    154MB / 7.61MB   354MB / 528MB     26
+8302c7cefe70   alamAPI            0.16%     45.89MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.7MiB / 7.684GiB   2.44%     1.3MB / 649kB    54.5MB / 33.5MB   29
+650af2d6431c   alamPREPROCESSOR   97.81%    1.069GiB / 7.684GiB   13.91%    154MB / 7.61MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.10%     45.89MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.7MiB / 7.684GiB   2.44%     1.3MB / 649kB    54.5MB / 33.5MB   29
+650af2d6431c   alamPREPROCESSOR   98.76%    1.08GiB / 7.684GiB    14.06%    154MB / 7.61MB   354MB / 528MB     62
+8302c7cefe70   alamAPI            0.10%     45.89MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.39%     191.7MiB / 7.684GiB   2.44%     1.3MB / 649kB    54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   96.00%    1.092GiB / 7.684GiB   14.21%    154MB / 7.61MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.13%     45.89MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.82%     191.7MiB / 7.684GiB   2.44%     1.31MB / 653kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   151.28%   925.6MiB / 7.684GiB   11.76%    154MB / 7.62MB   354MB / 528MB     26
+8302c7cefe70   alamAPI            0.16%     45.89MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.7MiB / 7.684GiB   2.44%     1.31MB / 653kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   178.54%   1.076GiB / 7.684GiB   14.01%    154MB / 7.62MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.19%     191.8MiB / 7.684GiB   2.44%     1.31MB / 653kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   98.22%    1.086GiB / 7.684GiB   14.13%    154MB / 7.62MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.10%     45.89MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.12%     191.9MiB / 7.684GiB   2.44%     1.31MB / 653kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   96.12%    1.096GiB / 7.684GiB   14.26%    154MB / 7.62MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.10%     45.9MiB / 7.684GiB    0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.81%     191.9MiB / 7.684GiB   2.44%     1.32MB / 657kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   52.14%    890.9MiB / 7.684GiB   11.32%    154MB / 7.63MB   354MB / 528MB     19
+8302c7cefe70   alamAPI            0.17%     45.9MiB / 7.684GiB    0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.18%     191.9MiB / 7.684GiB   2.44%     1.32MB / 657kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   175.19%   1.058GiB / 7.684GiB   13.77%    154MB / 7.63MB   354MB / 528MB     33
+8302c7cefe70   alamAPI            0.12%     45.9MiB / 7.684GiB    0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.9MiB / 7.684GiB   2.44%     1.32MB / 657kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   98.54%    1.087GiB / 7.684GiB   14.15%    154MB / 7.63MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.12%     45.9MiB / 7.684GiB    0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192MiB / 7.684GiB     2.44%     1.32MB / 657kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   97.51%    1.096GiB / 7.684GiB   14.26%    154MB / 7.63MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.15%     45.91MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             2.09%     192.2MiB / 7.684GiB   2.44%     1.33MB / 660kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   53.62%    1.1GiB / 7.684GiB     14.31%    154MB / 7.64MB   354MB / 528MB     50
+8302c7cefe70   alamAPI            0.13%     45.93MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.41%     192.2MiB / 7.684GiB   2.44%     1.33MB / 660kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   178.62%   1.039GiB / 7.684GiB   13.52%    154MB / 7.64MB   354MB / 528MB     33
+8302c7cefe70   alamAPI            0.11%     45.93MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.2MiB / 7.684GiB   2.44%     1.33MB / 660kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   98.21%    1.08GiB / 7.684GiB    14.06%    154MB / 7.64MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.10%     45.93MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.2MiB / 7.684GiB   2.44%     1.33MB / 661kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   97.61%    1.092GiB / 7.684GiB   14.21%    154MB / 7.64MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.10%     45.93MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.88%     192.4MiB / 7.684GiB   2.45%     1.34MB / 664kB   54.5MB / 33.6MB   31
+650af2d6431c   alamPREPROCESSOR   53.26%    1.098GiB / 7.684GiB   14.29%    154MB / 7.65MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.14%     45.95MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.3MiB / 7.684GiB   2.44%     1.34MB / 664kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   181.79%   1.029GiB / 7.684GiB   13.39%    154MB / 7.65MB   354MB / 528MB     33
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.40%     192.3MiB / 7.684GiB   2.44%     1.34MB / 664kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   99.38%    1.08GiB / 7.684GiB    14.06%    154MB / 7.65MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.3MiB / 7.684GiB   2.44%     1.34MB / 664kB   54.5MB / 33.6MB   29
+650af2d6431c   alamPREPROCESSOR   98.04%    1.092GiB / 7.684GiB   14.21%    154MB / 7.65MB   354MB / 528MB     59
+8302c7cefe70   alamAPI            0.12%     45.95MiB / 7.684GiB   0.58%     277kB / 193kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.77%     192.4MiB / 7.684GiB   2.45%     1.35MB / 668kB   54.5MB / 33.7MB   31
+650af2d6431c   alamPREPROCESSOR   61.25%    1.1GiB / 7.684GiB     14.31%    154MB / 7.66MB   354MB / 528MB     53
+8302c7cefe70   alamAPI            0.12%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.3MiB / 7.684GiB   2.44%     1.35MB / 668kB   54.5MB / 33.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.76%    1.001GiB / 7.684GiB   13.02%    154MB / 7.66MB   354MB / 528MB     26
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.3MiB / 7.684GiB   2.44%     1.35MB / 668kB   54.5MB / 33.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.50%    1.085GiB / 7.684GiB   14.11%    154MB / 7.66MB   354MB / 528MB     51
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.37%     192.3MiB / 7.684GiB   2.44%     1.35MB / 668kB   54.5MB / 33.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.01%    1.095GiB / 7.684GiB   14.25%    154MB / 7.66MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.3MiB / 7.684GiB   2.44%     1.35MB / 668kB   54.5MB / 33.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.62%    1.105GiB / 7.684GiB   14.39%    154MB / 7.66MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.20%     192.4MiB / 7.684GiB   2.45%     1.36MB / 672kB   54.5MB / 33.7MB   29
+650af2d6431c   alamPREPROCESSOR   180.14%   1018MiB / 7.684GiB    12.94%    154MB / 7.67MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.4MiB / 7.684GiB   2.45%     1.36MB / 672kB   54.5MB / 33.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.64%    1.085GiB / 7.684GiB   14.12%    154MB / 7.67MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.4MiB / 7.684GiB   2.45%     1.36MB / 672kB   54.5MB / 33.7MB   29
+650af2d6431c   alamPREPROCESSOR   96.84%    1.096GiB / 7.684GiB   14.26%    154MB / 7.67MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.13%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192.4MiB / 7.684GiB   2.45%     1.36MB / 672kB   54.5MB / 33.7MB   29
+650af2d6431c   alamPREPROCESSOR   98.32%    1.107GiB / 7.684GiB   14.41%    154MB / 7.67MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.4MiB / 7.684GiB   2.45%     1.37MB / 675kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   179.46%   1000MiB / 7.684GiB    12.72%    154MB / 7.68MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.4MiB / 7.684GiB   2.45%     1.37MB / 675kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   98.60%    1.086GiB / 7.684GiB   14.13%    154MB / 7.68MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.4MiB / 7.684GiB   2.45%     1.37MB / 675kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   98.20%    1.096GiB / 7.684GiB   14.26%    154MB / 7.68MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.4MiB / 7.684GiB   2.45%     1.37MB / 675kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   97.10%    1.109GiB / 7.684GiB   14.44%    154MB / 7.68MB   354MB / 529MB     61
+8302c7cefe70   alamAPI            0.10%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.5MiB / 7.684GiB   2.45%     1.38MB / 679kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   176.22%   991.9MiB / 7.684GiB   12.61%    154MB / 7.69MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.16%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.26%     192.5MiB / 7.684GiB   2.45%     1.38MB / 679kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   100.92%   1.089GiB / 7.684GiB   14.18%    154MB / 7.69MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.14%     45.95MiB / 7.684GiB   0.58%     278kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.44%     192.4MiB / 7.684GiB   2.45%     1.38MB / 679kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   101.95%   1.093GiB / 7.684GiB   14.22%    154MB / 7.69MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.19%     45.95MiB / 7.684GiB   0.58%     279kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.5MiB / 7.684GiB   2.45%     1.38MB / 679kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   96.90%    1.1GiB / 7.684GiB     14.31%    154MB / 7.69MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     279kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.4MiB / 7.684GiB   2.45%     1.38MB / 679kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   97.42%    1.111GiB / 7.684GiB   14.46%    154MB / 7.69MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.95MiB / 7.684GiB   0.58%     279kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.20%     192.5MiB / 7.684GiB   2.45%     1.39MB / 683kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   176.45%   997MiB / 7.684GiB     12.67%    154MB / 7.7MB    354MB / 529MB     26
+8302c7cefe70   alamAPI            0.12%     45.95MiB / 7.684GiB   0.58%     279kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.23%     192.5MiB / 7.684GiB   2.45%     1.39MB / 683kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   95.46%    1.097GiB / 7.684GiB   14.27%    154MB / 7.7MB    354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.95MiB / 7.684GiB   0.58%     279kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.5MiB / 7.684GiB   2.45%     1.39MB / 683kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   98.20%    1.107GiB / 7.684GiB   14.41%    154MB / 7.7MB    354MB / 529MB     51
+8302c7cefe70   alamAPI            0.13%     45.95MiB / 7.684GiB   0.58%     279kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.4MiB / 7.684GiB   2.45%     1.39MB / 683kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   94.47%    1.12GiB / 7.684GiB    14.57%    154MB / 7.7MB    354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.95MiB / 7.684GiB   0.58%     279kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.19%     192.6MiB / 7.684GiB   2.45%     1.41MB / 686kB   54.5MB / 33.9MB   29
+650af2d6431c   alamPREPROCESSOR   161.56%   950.2MiB / 7.684GiB   12.08%    154MB / 7.71MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.13%     45.97MiB / 7.684GiB   0.58%     279kB / 194kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     192.6MiB / 7.684GiB   2.45%     1.41MB / 686kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   132.16%   1.092GiB / 7.684GiB   14.21%    154MB / 7.71MB   354MB / 529MB   59
+8302c7cefe70   alamAPI            0.12%     45.97MiB / 7.684GiB   0.58%     279kB / 194kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     192.6MiB / 7.684GiB   2.45%     1.41MB / 687kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   96.60%    1.099GiB / 7.684GiB   14.30%    154MB / 7.71MB   354MB / 529MB   51
+8302c7cefe70   alamAPI            0.14%     45.97MiB / 7.684GiB   0.58%     279kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     192.6MiB / 7.684GiB   2.45%     1.41MB / 687kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   97.02%    1.111GiB / 7.684GiB   14.46%    154MB / 7.71MB   354MB / 529MB   51
+8302c7cefe70   alamAPI            0.10%     45.97MiB / 7.684GiB   0.58%     279kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.83%     192.6MiB / 7.684GiB   2.45%     1.42MB / 690kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   51.51%    909.6MiB / 7.684GiB   11.56%    154MB / 7.72MB   354MB / 529MB   19
+8302c7cefe70   alamAPI            0.14%     45.97MiB / 7.684GiB   0.58%     279kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     192.6MiB / 7.684GiB   2.45%     1.42MB / 690kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   180.82%   1.072GiB / 7.684GiB   13.95%    154MB / 7.72MB   354MB / 529MB   33
+8302c7cefe70   alamAPI            0.11%     45.97MiB / 7.684GiB   0.58%     279kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     192.6MiB / 7.684GiB   2.45%     1.42MB / 690kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   99.81%    1.096GiB / 7.684GiB   14.27%    154MB / 7.72MB   354MB / 529MB   51
+8302c7cefe70   alamAPI            0.10%     45.97MiB / 7.684GiB   0.58%     279kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     192.6MiB / 7.684GiB   2.45%     1.42MB / 690kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   99.44%    1.109GiB / 7.684GiB   14.43%    154MB / 7.72MB   354MB / 529MB   51
+8302c7cefe70   alamAPI            0.14%     45.97MiB / 7.684GiB   0.58%     279kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.79%     192.6MiB / 7.684GiB   2.45%     1.43MB / 694kB   54.5MB / 34MB   31
+650af2d6431c   alamPREPROCESSOR   52.79%    1.113GiB / 7.684GiB   14.49%    154MB / 7.73MB   354MB / 529MB   50
+8302c7cefe70   alamAPI            0.19%     45.97MiB / 7.684GiB   0.58%     279kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     192.6MiB / 7.684GiB   2.45%     1.43MB / 694kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   180.58%   1.06GiB / 7.684GiB    13.80%    154MB / 7.73MB   354MB / 529MB   33
+8302c7cefe70   alamAPI            0.11%     45.97MiB / 7.684GiB   0.58%     279kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.12%     192.6MiB / 7.684GiB   2.45%     1.43MB / 694kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   97.68%    1.11GiB / 7.684GiB    14.44%    154MB / 7.73MB   354MB / 529MB   51
+8302c7cefe70   alamAPI            0.10%     45.97MiB / 7.684GiB   0.58%     279kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.13%     192.6MiB / 7.684GiB   2.45%     1.43MB / 694kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   98.41%    1.12GiB / 7.684GiB    14.58%    154MB / 7.73MB   354MB / 529MB   62
+8302c7cefe70   alamAPI            0.11%     45.97MiB / 7.684GiB   0.58%     279kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.81%     192.7MiB / 7.684GiB   2.45%     1.44MB / 697kB   54.5MB / 34MB   31
+650af2d6431c   alamPREPROCESSOR   65.93%    1.126GiB / 7.684GiB   14.66%    154MB / 7.74MB   354MB / 529MB   53
+8302c7cefe70   alamAPI            0.16%     45.98MiB / 7.684GiB   0.58%     280kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     192.7MiB / 7.684GiB   2.45%     1.44MB / 698kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   165.66%   1.041GiB / 7.684GiB   13.55%    154MB / 7.75MB   354MB / 529MB   33
+8302c7cefe70   alamAPI            0.11%     45.98MiB / 7.684GiB   0.58%     280kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     192.7MiB / 7.684GiB   2.45%     1.44MB / 698kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   96.81%    1.103GiB / 7.684GiB   14.36%    154MB / 7.75MB   354MB / 529MB   51
+8302c7cefe70   alamAPI            0.11%     45.98MiB / 7.684GiB   0.58%     280kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.18%     192.7MiB / 7.684GiB   2.45%     1.44MB / 698kB   54.5MB / 34MB   29
+650af2d6431c   alamPREPROCESSOR   98.10%    1.114GiB / 7.684GiB   14.50%    154MB / 7.75MB   354MB / 529MB   51
+8302c7cefe70   alamAPI            0.10%     45.98MiB / 7.684GiB   0.58%     280kB / 195kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.14%     192.7MiB / 7.684GiB   2.45%     1.45MB / 701kB   54.5MB / 34.2MB   31
+650af2d6431c   alamPREPROCESSOR   86.63%    1.125GiB / 7.684GiB   14.65%    154MB / 7.76MB   354MB / 529MB     53
+8302c7cefe70   alamAPI            0.12%     45.98MiB / 7.684GiB   0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192.8MiB / 7.684GiB   2.45%     1.45MB / 701kB   54.5MB / 34.2MB   29
+650af2d6431c   alamPREPROCESSOR   99.70%    1.023GiB / 7.684GiB   13.31%    154MB / 7.76MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.15%     46MiB / 7.684GiB      0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.8MiB / 7.684GiB   2.45%     1.45MB / 701kB   54.5MB / 34.2MB   29
+650af2d6431c   alamPREPROCESSOR   97.88%    1.106GiB / 7.684GiB   14.39%    154MB / 7.76MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     46MiB / 7.684GiB      0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.8MiB / 7.684GiB   2.45%     1.45MB / 701kB   54.5MB / 34.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.47%    1.117GiB / 7.684GiB   14.53%    154MB / 7.76MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.15%     46MiB / 7.684GiB      0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.8MiB / 7.684GiB   2.45%     1.45MB / 701kB   54.5MB / 34.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.41%    1.128GiB / 7.684GiB   14.68%    154MB / 7.76MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     46MiB / 7.684GiB      0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.18%     192.8MiB / 7.684GiB   2.45%     1.46MB / 705kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   175.90%   1.001GiB / 7.684GiB   13.03%    154MB / 7.77MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.13%     46MiB / 7.684GiB      0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.8MiB / 7.684GiB   2.45%     1.46MB / 705kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.64%    1.105GiB / 7.684GiB   14.38%    154MB / 7.77MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.13%     46MiB / 7.684GiB      0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.8MiB / 7.684GiB   2.45%     1.46MB / 705kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.64%    1.116GiB / 7.684GiB   14.53%    154MB / 7.77MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.11%     46MiB / 7.684GiB      0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.8MiB / 7.684GiB   2.45%     1.46MB / 705kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   99.35%    1.124GiB / 7.684GiB   14.62%    154MB / 7.77MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.14%     46MiB / 7.684GiB      0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.19%     192.9MiB / 7.684GiB   2.45%     1.47MB / 709kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   124.26%   941.2MiB / 7.684GiB   11.96%    154MB / 7.78MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     46MiB / 7.684GiB      0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.47MB / 709kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   178.51%   1.086GiB / 7.684GiB   14.14%    154MB / 7.78MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.11%     46MiB / 7.684GiB      0.58%     280kB / 195kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.22%     192.9MiB / 7.684GiB   2.45%     1.47MB / 709kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.67%    1.111GiB / 7.684GiB   14.46%    154MB / 7.78MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.15%     46MiB / 7.684GiB      0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.47MB / 709kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.78%    1.12GiB / 7.684GiB    14.58%    154MB / 7.78MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.50%     193MiB / 7.684GiB     2.45%     1.48MB / 712kB   54.5MB / 34.3MB   31
+650af2d6431c   alamPREPROCESSOR   53.31%    1.131GiB / 7.684GiB   14.72%    154MB / 7.79MB   354MB / 529MB     50
+8302c7cefe70   alamAPI            0.14%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.46%     192.9MiB / 7.684GiB   2.45%     1.48MB / 712kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   179.48%   1.075GiB / 7.684GiB   13.99%    154MB / 7.79MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.12%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     193MiB / 7.684GiB     2.45%     1.48MB / 712kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   96.07%    1.113GiB / 7.684GiB   14.49%    154MB / 7.79MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     193MiB / 7.684GiB     2.45%     1.48MB / 713kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.53%    1.124GiB / 7.684GiB   14.63%    154MB / 7.79MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.14%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.90%     193.1MiB / 7.684GiB   2.45%     1.49MB / 716kB   54.5MB / 34.3MB   31
+650af2d6431c   alamPREPROCESSOR   68.65%    1.132GiB / 7.684GiB   14.74%    154MB / 7.8MB    354MB / 529MB     53
+8302c7cefe70   alamAPI            0.12%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     193MiB / 7.684GiB     2.45%     1.49MB / 716kB   54.5MB / 34.3MB   29
+650af2d6431c   alamPREPROCESSOR   122.01%   1.054GiB / 7.684GiB   13.71%    154MB / 7.8MB    354MB / 529MB     33
+8302c7cefe70   alamAPI            0.12%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.48%     193MiB / 7.684GiB     2.45%     1.49MB / 716kB   54.5MB / 34.4MB   29
+650af2d6431c   alamPREPROCESSOR   96.94%    1.118GiB / 7.684GiB   14.55%    154MB / 7.8MB    354MB / 529MB     51
+8302c7cefe70   alamAPI            0.13%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     193MiB / 7.684GiB     2.45%     1.49MB / 716kB   54.5MB / 34.4MB   29
+650af2d6431c   alamPREPROCESSOR   96.45%    1.127GiB / 7.684GiB   14.67%    154MB / 7.8MB    354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.79%     193.2MiB / 7.684GiB   2.46%     1.5MB / 720kB    54.5MB / 34.4MB   31
+650af2d6431c   alamPREPROCESSOR   88.90%    1.135GiB / 7.684GiB   14.77%    154MB / 7.81MB   354MB / 529MB     53
+8302c7cefe70   alamAPI            0.14%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     193.1MiB / 7.684GiB   2.45%     1.5MB / 720kB    54.5MB / 34.4MB   29
+650af2d6431c   alamPREPROCESSOR   98.39%    1.022GiB / 7.684GiB   13.31%    154MB / 7.81MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     193.1MiB / 7.684GiB   2.45%     1.5MB / 720kB    54.5MB / 34.4MB   29
+650af2d6431c   alamPREPROCESSOR   97.42%    1.109GiB / 7.684GiB   14.43%    154MB / 7.81MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.54%     193.1MiB / 7.684GiB   2.45%     1.5MB / 720kB    54.5MB / 34.4MB   29
+650af2d6431c   alamPREPROCESSOR   97.64%    1.12GiB / 7.684GiB    14.58%    154MB / 7.81MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.18%     193.1MiB / 7.684GiB   2.45%     1.5MB / 720kB    54.5MB / 34.4MB   29
+650af2d6431c   alamPREPROCESSOR   95.01%    1.131GiB / 7.684GiB   14.71%    154MB / 7.81MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     193.1MiB / 7.684GiB   2.45%     1.51MB / 724kB   54.5MB / 34.4MB   29
+650af2d6431c   alamPREPROCESSOR   179.08%   1.015GiB / 7.684GiB   13.21%    154MB / 7.82MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.20%     193.1MiB / 7.684GiB   2.45%     1.51MB / 724kB   54.5MB / 34.4MB   29
+650af2d6431c   alamPREPROCESSOR   98.93%    1.117GiB / 7.684GiB   14.53%    154MB / 7.82MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.13%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     193.1MiB / 7.684GiB   2.45%     1.51MB / 724kB   54.5MB / 34.4MB   29
+650af2d6431c   alamPREPROCESSOR   99.31%    1.127GiB / 7.684GiB   14.67%    154MB / 7.82MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.53%     193.1MiB / 7.684GiB   2.45%     1.51MB / 724kB   54.5MB / 34.5MB   29
+650af2d6431c   alamPREPROCESSOR   97.24%    1.141GiB / 7.684GiB   14.85%    154MB / 7.82MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.10%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.65%     193.2MiB / 7.684GiB   2.46%     1.52MB / 727kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   177.07%   1.003GiB / 7.684GiB   13.06%    154MB / 7.83MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     46.01MiB / 7.684GiB   0.58%     281kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.19%     193.2MiB / 7.684GiB   2.45%     1.52MB / 727kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   100.36%   1.123GiB / 7.684GiB   14.62%    154MB / 7.83MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.10%     46.01MiB / 7.684GiB   0.58%     282kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     193.2MiB / 7.684GiB   2.45%     1.52MB / 727kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.68%    1.134GiB / 7.684GiB   14.75%    154MB / 7.83MB   354MB / 529MB     61
+8302c7cefe70   alamAPI            0.10%     46.01MiB / 7.684GiB   0.58%     282kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     193.1MiB / 7.684GiB   2.45%     1.52MB / 727kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.30%    1.142GiB / 7.684GiB   14.87%    154MB / 7.83MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     46MiB / 7.684GiB      0.58%     282kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.87%     193.1MiB / 7.684GiB   2.45%     1.53MB / 731kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   176.20%   1019MiB / 7.684GiB    12.96%    154MB / 7.84MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.12%     46MiB / 7.684GiB      0.58%     282kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     193.1MiB / 7.684GiB   2.45%     1.53MB / 731kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.63%    1.12GiB / 7.684GiB    14.58%    154MB / 7.84MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     46MiB / 7.684GiB      0.58%     282kB / 196kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     193.1MiB / 7.684GiB   2.45%     1.53MB / 731kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   93.93%    1.132GiB / 7.684GiB   14.74%    154MB / 7.84MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.11%     46MiB / 7.684GiB      0.58%     282kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     193MiB / 7.684GiB     2.45%     1.53MB / 731kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.21%    1.138GiB / 7.684GiB   14.81%    154MB / 7.84MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     46MiB / 7.684GiB      0.58%     282kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.83%     193MiB / 7.684GiB     2.45%     1.54MB / 735kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   143.86%   958.6MiB / 7.684GiB   12.18%    154MB / 7.85MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.16%     46MiB / 7.684GiB      0.58%     282kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.58%     193MiB / 7.684GiB     2.45%     1.54MB / 735kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   178.35%   1.111GiB / 7.684GiB   14.46%    154MB / 7.85MB   354MB / 529MB     50
+8302c7cefe70   alamAPI            0.11%     46MiB / 7.684GiB      0.58%     282kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     193MiB / 7.684GiB     2.45%     1.54MB / 735kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.18%    1.123GiB / 7.684GiB   14.61%    154MB / 7.85MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     46MiB / 7.684GiB      0.58%     282kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     193MiB / 7.684GiB     2.45%     1.54MB / 735kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   95.49%    1.134GiB / 7.684GiB   14.76%    154MB / 7.85MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     46MiB / 7.684GiB      0.58%     282kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.81%     193MiB / 7.684GiB    2.45%     1.55MB / 738kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   52.49%    1.14GiB / 7.684GiB   14.84%    154MB / 7.86MB   354MB / 529MB     50
+8302c7cefe70   alamAPI            0.15%     46MiB / 7.684GiB     0.58%     282kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     193MiB / 7.684GiB     2.45%     1.55MB / 738kB   54.5MB / 34.7MB   29
+650af2d6431c   alamPREPROCESSOR   180.69%   1.091GiB / 7.684GiB   14.20%    154MB / 7.86MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.11%     46MiB / 7.684GiB      0.58%     282kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.51%     193MiB / 7.684GiB     2.45%     1.55MB / 738kB   54.5MB / 34.8MB   29
+650af2d6431c   alamPREPROCESSOR   98.37%    1.134GiB / 7.684GiB   14.76%    154MB / 7.86MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.11%     46MiB / 7.684GiB      0.58%     282kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     193MiB / 7.684GiB     2.45%     1.55MB / 738kB   54.5MB / 34.8MB   29
+650af2d6431c   alamPREPROCESSOR   97.51%    1.145GiB / 7.684GiB   14.90%    154MB / 7.86MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.10%     46MiB / 7.684GiB      0.58%     282kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.91%     192.9MiB / 7.684GiB   2.45%     1.56MB / 742kB   54.5MB / 34.8MB   31
+650af2d6431c   alamPREPROCESSOR   53.60%    1.151GiB / 7.684GiB   14.98%    154MB / 7.87MB   354MB / 529MB     53
+8302c7cefe70   alamAPI            0.14%     45.99MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192.9MiB / 7.684GiB   2.45%     1.56MB / 742kB   54.5MB / 34.8MB   29
+650af2d6431c   alamPREPROCESSOR   179.34%   1.075GiB / 7.684GiB   13.99%    154MB / 7.87MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.12%     45.99MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.56MB / 742kB   54.5MB / 34.8MB   29
+650af2d6431c   alamPREPROCESSOR   97.10%    1.134GiB / 7.684GiB   14.75%    154MB / 7.87MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.99MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.56%     192.9MiB / 7.684GiB   2.45%     1.56MB / 742kB   54.5MB / 34.8MB   29
+650af2d6431c   alamPREPROCESSOR   95.78%    1.144GiB / 7.684GiB   14.89%    154MB / 7.87MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.15%     45.99MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.70%     192.9MiB / 7.684GiB   2.45%     1.57MB / 745kB   54.5MB / 34.8MB   31
+650af2d6431c   alamPREPROCESSOR   77.43%    1.151GiB / 7.684GiB   14.98%    154MB / 7.88MB   354MB / 529MB     53
+8302c7cefe70   alamAPI            0.12%     45.99MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.9MiB / 7.684GiB   2.45%     1.57MB / 746kB   54.5MB / 34.8MB   29
+650af2d6431c   alamPREPROCESSOR   100.26%   1.061GiB / 7.684GiB   13.81%    154MB / 7.88MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.12%     45.99MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.9MiB / 7.684GiB   2.45%     1.57MB / 746kB   54.5MB / 34.8MB   29
+650af2d6431c   alamPREPROCESSOR   96.57%    1.136GiB / 7.684GiB   14.79%    154MB / 7.88MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.99MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.57MB / 746kB   54.5MB / 34.8MB   29
+650af2d6431c   alamPREPROCESSOR   98.39%    1.147GiB / 7.684GiB   14.93%    154MB / 7.88MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.99MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.45%     192.8MiB / 7.684GiB   2.45%     1.57MB / 746kB   54.5MB / 34.9MB   29
+650af2d6431c   alamPREPROCESSOR   98.60%    1.156GiB / 7.684GiB   15.05%    154MB / 7.88MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.98MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.58MB / 749kB   54.5MB / 34.9MB   29
+650af2d6431c   alamPREPROCESSOR   180.06%   1.033GiB / 7.684GiB   13.44%    154MB / 7.89MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     45.98MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.58MB / 750kB   54.5MB / 34.9MB   29
+650af2d6431c   alamPREPROCESSOR   99.16%    1.131GiB / 7.684GiB   14.72%    154MB / 7.89MB   354MB / 529MB     62
+8302c7cefe70   alamAPI            0.12%     45.98MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.9MiB / 7.684GiB   2.45%     1.58MB / 750kB   54.5MB / 34.9MB   29
+650af2d6431c   alamPREPROCESSOR   99.12%    1.139GiB / 7.684GiB   14.82%    154MB / 7.89MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.14%     45.98MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.53%     192.9MiB / 7.684GiB   2.45%     1.58MB / 750kB   54.5MB / 34.9MB   29
+650af2d6431c   alamPREPROCESSOR   99.53%    1.15GiB / 7.684GiB    14.97%    154MB / 7.89MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.98MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.9MiB / 7.684GiB   2.45%     1.59MB / 753kB   54.5MB / 34.9MB   29
+650af2d6431c   alamPREPROCESSOR   177.50%   1.011GiB / 7.684GiB   13.16%    154MB / 7.9MB    354MB / 529MB     26
+8302c7cefe70   alamAPI            0.12%     45.98MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     192.9MiB / 7.684GiB   2.45%     1.59MB / 753kB   54.5MB / 35MB   29
+650af2d6431c   alamPREPROCESSOR   98.29%    1.134GiB / 7.684GiB   14.76%    154MB / 7.9MB    354MB / 529MB   51
+8302c7cefe70   alamAPI            0.10%     45.98MiB / 7.684GiB   0.58%     283kB / 197kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.12%     192.9MiB / 7.684GiB   2.45%     1.59MB / 753kB   54.5MB / 35MB   29
+650af2d6431c   alamPREPROCESSOR   94.35%    1.145GiB / 7.684GiB   14.90%    154MB / 7.9MB    354MB / 529MB   51
+8302c7cefe70   alamAPI            0.10%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.59MB / 753kB   54.5MB / 35MB   29
+650af2d6431c   alamPREPROCESSOR   97.38%    1.156GiB / 7.684GiB   15.04%    154MB / 7.9MB    354MB / 529MB   51
+8302c7cefe70   alamAPI            0.12%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.21%     192.9MiB / 7.684GiB   2.45%     1.6MB / 757kB    54.5MB / 35MB   29
+650af2d6431c   alamPREPROCESSOR   164.59%   1000MiB / 7.684GiB    12.71%    154MB / 7.91MB   354MB / 529MB   26
+8302c7cefe70   alamAPI            0.12%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.6MB / 757kB    54.5MB / 35MB   29
+650af2d6431c   alamPREPROCESSOR   98.06%    1.134GiB / 7.684GiB   14.75%    154MB / 7.91MB   354MB / 529MB   51
+8302c7cefe70   alamAPI            0.12%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.12%     192.9MiB / 7.684GiB   2.45%     1.6MB / 757kB    54.5MB / 35MB   29
+650af2d6431c   alamPREPROCESSOR   97.94%    1.142GiB / 7.684GiB   14.87%    154MB / 7.91MB   354MB / 529MB   51
+8302c7cefe70   alamAPI            0.10%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.16%     192.9MiB / 7.684GiB   2.45%     1.6MB / 757kB    54.5MB / 35MB   29
+650af2d6431c   alamPREPROCESSOR   97.85%    1.157GiB / 7.684GiB   15.05%    154MB / 7.91MB   354MB / 529MB   59
+8302c7cefe70   alamAPI            0.10%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.20%     192.9MiB / 7.684GiB   2.45%     1.61MB / 761kB   54.5MB / 35MB   29
+650af2d6431c   alamPREPROCESSOR   144.19%   986.2MiB / 7.684GiB   12.53%    154MB / 7.92MB   354MB / 529MB   26
+8302c7cefe70   alamAPI            0.13%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.61MB / 761kB   54.5MB / 35MB   29
+650af2d6431c   alamPREPROCESSOR   179.11%   1.138GiB / 7.684GiB   14.81%    154MB / 7.92MB   354MB / 529MB   59
+8302c7cefe70   alamAPI            0.11%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.9MiB / 7.684GiB   2.45%     1.61MB / 761kB   54.5MB / 35.1MB   29
+650af2d6431c   alamPREPROCESSOR   98.51%    1.146GiB / 7.684GiB   14.92%    154MB / 7.92MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.8MiB / 7.684GiB   2.45%     1.61MB / 761kB   54.5MB / 35.1MB   29
+650af2d6431c   alamPREPROCESSOR   96.48%    1.157GiB / 7.684GiB   15.06%    154MB / 7.92MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.15%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.99%     192.8MiB / 7.684GiB   2.45%     1.62MB / 764kB   54.5MB / 35.1MB   29
+650af2d6431c   alamPREPROCESSOR   57.18%    978.1MiB / 7.684GiB   12.43%    154MB / 7.93MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.16%     45.97MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192.8MiB / 7.684GiB   2.45%     1.62MB / 764kB   54.5MB / 35.1MB   29
+650af2d6431c   alamPREPROCESSOR   181.44%   1.127GiB / 7.684GiB   14.67%    154MB / 7.93MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.12%     45.97MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.12%     192.8MiB / 7.684GiB   2.45%     1.62MB / 764kB   54.5MB / 35.1MB   29
+650af2d6431c   alamPREPROCESSOR   96.84%    1.155GiB / 7.684GiB   15.04%    154MB / 7.93MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.97MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.8MiB / 7.684GiB   2.45%     1.62MB / 764kB   54.5MB / 35.1MB   29
+650af2d6431c   alamPREPROCESSOR   92.76%    1.165GiB / 7.684GiB   15.17%    154MB / 7.93MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.97MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.99%     192.9MiB / 7.684GiB   2.45%     1.64MB / 768kB   54.5MB / 35.1MB   29
+650af2d6431c   alamPREPROCESSOR   53.76%    1.17GiB / 7.684GiB    15.23%    154MB / 7.94MB   354MB / 529MB     50
+8302c7cefe70   alamAPI            0.17%     45.98MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.64MB / 768kB   54.5MB / 35.1MB   29
+650af2d6431c   alamPREPROCESSOR   179.30%   1.107GiB / 7.684GiB   14.40%    154MB / 7.94MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.11%     45.97MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.64MB / 768kB   54.5MB / 35.1MB   29
+650af2d6431c   alamPREPROCESSOR   97.45%    1.149GiB / 7.684GiB   14.95%    154MB / 7.94MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.13%     45.97MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.64MB / 768kB   54.5MB / 35.1MB   29
+650af2d6431c   alamPREPROCESSOR   98.90%    1.159GiB / 7.684GiB   15.09%    154MB / 7.94MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.97MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             2.15%     192.9MiB / 7.684GiB   2.45%     1.65MB / 771kB   54.5MB / 35.2MB   31
+650af2d6431c   alamPREPROCESSOR   81.27%    1.166GiB / 7.684GiB   15.18%    154MB / 7.95MB   354MB / 529MB     53
+8302c7cefe70   alamAPI            0.14%     45.97MiB / 7.684GiB   0.58%     284kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.9MiB / 7.684GiB   2.45%     1.65MB / 772kB   54.5MB / 35.2MB   29
+650af2d6431c   alamPREPROCESSOR   99.66%    1.076GiB / 7.684GiB   14.01%    154MB / 7.95MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.14%     45.97MiB / 7.684GiB   0.58%     285kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.65MB / 772kB   54.5MB / 35.2MB   29
+650af2d6431c   alamPREPROCESSOR   97.66%    1.154GiB / 7.684GiB   15.02%    154MB / 7.95MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.10%     45.97MiB / 7.684GiB   0.58%     285kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.9MiB / 7.684GiB   2.45%     1.65MB / 772kB   54.5MB / 35.2MB   29
+650af2d6431c   alamPREPROCESSOR   99.75%    1.163GiB / 7.684GiB   15.13%    154MB / 7.95MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.14%     45.97MiB / 7.684GiB   0.58%     285kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.69%     193MiB / 7.684GiB     2.45%     1.66MB / 775kB   54.5MB / 35.2MB   31
+650af2d6431c   alamPREPROCESSOR   89.66%    1.175GiB / 7.684GiB   15.29%    154MB / 7.96MB   354MB / 529MB     53
+8302c7cefe70   alamAPI            0.10%     45.97MiB / 7.684GiB   0.58%     285kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.9MiB / 7.684GiB   2.45%     1.66MB / 775kB   54.5MB / 35.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.95%    1.066GiB / 7.684GiB   13.88%    154MB / 7.96MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.13%     45.97MiB / 7.684GiB   0.58%     285kB / 198kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.9MiB / 7.684GiB   2.45%     1.66MB / 776kB   54.5MB / 35.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.23%    1.155GiB / 7.684GiB   15.03%    154MB / 7.96MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.14%     45.97MiB / 7.684GiB   0.58%     285kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.9MiB / 7.684GiB   2.45%     1.66MB / 776kB   54.5MB / 35.2MB   29
+650af2d6431c   alamPREPROCESSOR   97.29%    1.168GiB / 7.684GiB   15.20%    154MB / 7.96MB   354MB / 529MB     62
+8302c7cefe70   alamAPI            0.10%     45.97MiB / 7.684GiB   0.58%     285kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.8MiB / 7.684GiB   2.45%     1.66MB / 776kB   54.5MB / 35.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.43%    1.175GiB / 7.684GiB   15.29%    154MB / 7.96MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.96MiB / 7.684GiB   0.58%     285kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.28%     192.8MiB / 7.684GiB   2.45%     1.67MB / 779kB   54.5MB / 35.2MB   29
+650af2d6431c   alamPREPROCESSOR   180.60%   1.06GiB / 7.684GiB    13.80%    154MB / 7.97MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     45.96MiB / 7.684GiB   0.58%     285kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.38%     192.8MiB / 7.684GiB   2.45%     1.67MB / 779kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   97.72%    1.156GiB / 7.684GiB   15.05%    154MB / 7.97MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.96MiB / 7.684GiB   0.58%     285kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.18%     192.8MiB / 7.684GiB   2.45%     1.67MB / 779kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   97.69%    1.167GiB / 7.684GiB   15.19%    154MB / 7.97MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.16%     45.96MiB / 7.684GiB   0.58%     285kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.8MiB / 7.684GiB   2.45%     1.67MB / 779kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   97.31%    1.178GiB / 7.684GiB   15.34%    154MB / 7.97MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.96MiB / 7.684GiB   0.58%     285kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.7MiB / 7.684GiB   2.45%     1.68MB / 783kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   178.74%   1.039GiB / 7.684GiB   13.53%    154MB / 7.98MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     45.96MiB / 7.684GiB   0.58%     285kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.7MiB / 7.684GiB   2.45%     1.68MB / 783kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   99.27%    1.158GiB / 7.684GiB   15.08%    154MB / 7.98MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.96MiB / 7.684GiB   0.58%     285kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.7MiB / 7.684GiB   2.45%     1.68MB / 783kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   98.66%    1.169GiB / 7.684GiB   15.21%    154MB / 7.98MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.96MiB / 7.684GiB   0.58%     285kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192.7MiB / 7.684GiB   2.45%     1.68MB / 783kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   97.89%    1.179GiB / 7.684GiB   15.35%    154MB / 7.98MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.15%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.22%     192.7MiB / 7.684GiB   2.45%     1.69MB / 787kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   172.04%   1021MiB / 7.684GiB    12.98%    154MB / 7.99MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.14%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.7MiB / 7.684GiB   2.45%     1.69MB / 787kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   144.79%   1.165GiB / 7.684GiB   15.16%    154MB / 7.99MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.37%     192.7MiB / 7.684GiB   2.45%     1.69MB / 787kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   97.90%    1.174GiB / 7.684GiB   15.28%    154MB / 7.99MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.13%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.8MiB / 7.684GiB   2.45%     1.69MB / 787kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   96.91%    1.184GiB / 7.684GiB   15.41%    154MB / 7.99MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.26%     192.8MiB / 7.684GiB   2.45%     1.7MB / 790kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   145.08%   1005MiB / 7.684GiB    12.77%    154MB / 8MB     354MB / 529MB     26
+8302c7cefe70   alamAPI            0.19%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.8MiB / 7.684GiB   2.45%     1.7MB / 790kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   176.99%   1.155GiB / 7.684GiB   15.03%    154MB / 8MB     354MB / 529MB     58
+8302c7cefe70   alamAPI            0.13%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.8MiB / 7.684GiB   2.45%     1.7MB / 790kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   98.28%    1.166GiB / 7.684GiB   15.17%    154MB / 8MB     354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.40%     192.8MiB / 7.684GiB   2.45%     1.7MB / 790kB   54.5MB / 35.4MB   29
+650af2d6431c   alamPREPROCESSOR   98.57%    1.178GiB / 7.684GiB   15.33%    154MB / 8MB     354MB / 529MB     59
+8302c7cefe70   alamAPI            0.11%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.81%     192.8MiB / 7.684GiB   2.45%     1.71MB / 794kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   52.53%    978.8MiB / 7.684GiB   12.44%    154MB / 8.01MB   354MB / 529MB     19
+8302c7cefe70   alamAPI            0.15%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192.8MiB / 7.684GiB   2.45%     1.71MB / 794kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   182.17%   1.148GiB / 7.684GiB   14.94%    154MB / 8.01MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.14%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.8MiB / 7.684GiB   2.45%     1.71MB / 794kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   97.90%    1.172GiB / 7.684GiB   15.25%    154MB / 8.01MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.13%     45.96MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.7MiB / 7.684GiB   2.45%     1.71MB / 794kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   97.79%    1.181GiB / 7.684GiB   15.37%    154MB / 8.01MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.95MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.48%     192.9MiB / 7.684GiB   2.45%     1.72MB / 798kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   50.17%    1.189GiB / 7.684GiB   15.47%    154MB / 8.02MB   354MB / 529MB     50
+8302c7cefe70   alamAPI            0.13%     45.95MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.19%     192.8MiB / 7.684GiB   2.45%     1.72MB / 798kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   178.56%   1.129GiB / 7.684GiB   14.69%    154MB / 8.02MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.13%     45.95MiB / 7.684GiB   0.58%     286kB / 199kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.20%     192.8MiB / 7.684GiB   2.45%     1.72MB / 798kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   96.82%    1.174GiB / 7.684GiB   15.28%    154MB / 8.02MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.95MiB / 7.684GiB   0.58%     286kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.8MiB / 7.684GiB   2.45%     1.72MB / 798kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   97.37%    1.187GiB / 7.684GiB   15.45%    154MB / 8.02MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.95MiB / 7.684GiB   0.58%     286kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.78%     192.6MiB / 7.684GiB   2.45%     1.73MB / 801kB   54.5MB / 35.5MB   31
+650af2d6431c   alamPREPROCESSOR   75.87%    1.192GiB / 7.684GiB   15.51%    154MB / 8.03MB   354MB / 529MB     53
+8302c7cefe70   alamAPI            0.11%     45.93MiB / 7.684GiB   0.58%     286kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.41%     192.6MiB / 7.684GiB   2.45%     1.73MB / 801kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   101.75%   1.101GiB / 7.684GiB   14.33%    154MB / 8.03MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.11%     45.93MiB / 7.684GiB   0.58%     286kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.22%     192.6MiB / 7.684GiB   2.45%     1.73MB / 801kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   97.41%    1.165GiB / 7.684GiB   15.17%    154MB / 8.03MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.93MiB / 7.684GiB   0.58%     286kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.6MiB / 7.684GiB   2.45%     1.73MB / 802kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   97.77%    1.179GiB / 7.684GiB   15.34%    154MB / 8.03MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.10%     45.93MiB / 7.684GiB   0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.87%     192.6MiB / 7.684GiB   2.45%     1.74MB / 805kB   54.5MB / 35.5MB   31
+650af2d6431c   alamPREPROCESSOR   95.12%    1.188GiB / 7.684GiB   15.46%    154MB / 8.04MB   354MB / 529MB     53
+8302c7cefe70   alamAPI            0.11%     45.93MiB / 7.684GiB   0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192.3MiB / 7.684GiB   2.44%     1.74MB / 805kB   54.5MB / 35.5MB   29
+650af2d6431c   alamPREPROCESSOR   138.78%   1.08GiB / 7.684GiB    14.06%    154MB / 8.04MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.12%     45.9MiB / 7.684GiB    0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.37%     192.3MiB / 7.684GiB   2.44%     1.74MB / 805kB   54.5MB / 35.6MB   29
+650af2d6431c   alamPREPROCESSOR   97.37%    1.169GiB / 7.684GiB   15.22%    154MB / 8.04MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.10%     45.9MiB / 7.684GiB    0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.41%     192.3MiB / 7.684GiB   2.44%     1.74MB / 805kB   54.5MB / 35.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.40%    1.177GiB / 7.684GiB   15.32%    154MB / 8.04MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.9MiB / 7.684GiB    0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.3MiB / 7.684GiB   2.44%     1.74MB / 805kB   54.5MB / 35.7MB   29
+650af2d6431c   alamPREPROCESSOR   98.13%    1.189GiB / 7.684GiB   15.47%    154MB / 8.04MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.9MiB / 7.684GiB    0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.3MiB / 7.684GiB   2.44%     1.75MB / 809kB   54.5MB / 35.7MB   29
+650af2d6431c   alamPREPROCESSOR   179.48%   1.064GiB / 7.684GiB   13.85%    154MB / 8.05MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     45.9MiB / 7.684GiB    0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.3MiB / 7.684GiB   2.44%     1.75MB / 809kB   54.5MB / 35.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.21%    1.171GiB / 7.684GiB   15.24%    154MB / 8.05MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.14%     45.9MiB / 7.684GiB    0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.40%     192.3MiB / 7.684GiB   2.44%     1.75MB / 809kB   54.5MB / 35.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.13%    1.182GiB / 7.684GiB   15.38%    154MB / 8.05MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.9MiB / 7.684GiB    0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.2MiB / 7.684GiB   2.44%     1.75MB / 809kB   54.5MB / 35.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.16%    1.192GiB / 7.684GiB   15.51%    154MB / 8.05MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.18%     192.2MiB / 7.684GiB   2.44%     1.76MB / 813kB   54.5MB / 35.7MB   29
+650af2d6431c   alamPREPROCESSOR   178.28%   1.053GiB / 7.684GiB   13.71%    154MB / 8.06MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.12%     45.89MiB / 7.684GiB   0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.2MiB / 7.684GiB   2.44%     1.76MB / 813kB   54.5MB / 35.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.51%    1.174GiB / 7.684GiB   15.28%    154MB / 8.06MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.2MiB / 7.684GiB   2.44%     1.76MB / 813kB   54.5MB / 35.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.86%    1.185GiB / 7.684GiB   15.42%    154MB / 8.06MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.89MiB / 7.684GiB   0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.39%     192.2MiB / 7.684GiB   2.44%     1.76MB / 813kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   98.71%    1.196GiB / 7.684GiB   15.57%    154MB / 8.06MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.19%     192.2MiB / 7.684GiB   2.44%     1.77MB / 816kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   172.59%   1.042GiB / 7.684GiB   13.56%    154MB / 8.07MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.12%     45.89MiB / 7.684GiB   0.58%     287kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.2MiB / 7.684GiB   2.44%     1.77MB / 816kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   98.97%    1.18GiB / 7.684GiB    15.36%    154MB / 8.07MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.13%     45.89MiB / 7.684GiB   0.58%     288kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.2MiB / 7.684GiB   2.44%     1.77MB / 816kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   97.84%    1.187GiB / 7.684GiB   15.45%    154MB / 8.07MB   354MB / 529MB     56
+8302c7cefe70   alamAPI            0.10%     45.89MiB / 7.684GiB   0.58%     288kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.2MiB / 7.684GiB   2.44%     1.77MB / 816kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   97.35%    1.199GiB / 7.684GiB   15.60%    154MB / 8.07MB   354MB / 529MB     59
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     288kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.19%     192.4MiB / 7.684GiB   2.45%     1.78MB / 820kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   149.01%   1.002GiB / 7.684GiB   13.04%    154MB / 8.08MB   354MB / 529MB     26
+8302c7cefe70   alamAPI            0.16%     45.89MiB / 7.684GiB   0.58%     288kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.18%     192.4MiB / 7.684GiB   2.45%     1.78MB / 820kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   179.99%   1.178GiB / 7.684GiB   15.33%    154MB / 8.08MB   354MB / 529MB     50
+8302c7cefe70   alamAPI            0.13%     45.89MiB / 7.684GiB   0.58%     288kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.4MiB / 7.684GiB   2.44%     1.78MB / 820kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   94.68%    1.19GiB / 7.684GiB    15.49%    154MB / 8.08MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     288kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     192.4MiB / 7.684GiB   2.44%     1.78MB / 820kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   98.11%    1.201GiB / 7.684GiB   15.63%    154MB / 8.08MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     288kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.98%     192.4MiB / 7.684GiB   2.45%     1.79MB / 824kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   52.56%    1.206GiB / 7.684GiB   15.70%    154MB / 8.09MB   354MB / 529MB     50
+8302c7cefe70   alamAPI            0.18%     45.89MiB / 7.684GiB   0.58%     288kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.41%     192.4MiB / 7.684GiB   2.45%     1.79MB / 824kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   177.22%   1.147GiB / 7.684GiB   14.93%    154MB / 8.09MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.12%     45.89MiB / 7.684GiB   0.58%     288kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.4MiB / 7.684GiB   2.45%     1.79MB / 824kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   97.03%    1.189GiB / 7.684GiB   15.48%    154MB / 8.09MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.89MiB / 7.684GiB   0.58%     288kB / 200kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.4MiB / 7.684GiB   2.45%     1.79MB / 824kB   54.5MB / 35.8MB   29
+650af2d6431c   alamPREPROCESSOR   98.82%    1.197GiB / 7.684GiB   15.58%    154MB / 8.09MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     288kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.79%     192.5MiB / 7.684GiB   2.45%     1.8MB / 827kB   54.5MB / 35.9MB   31
+650af2d6431c   alamPREPROCESSOR   53.21%    1.208GiB / 7.684GiB   15.72%    154MB / 8.1MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.13%     45.89MiB / 7.684GiB   0.58%     288kB / 201kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.4MiB / 7.684GiB   2.45%     1.8MB / 827kB   54.5MB / 35.9MB   29
+650af2d6431c   alamPREPROCESSOR   179.56%   1.131GiB / 7.684GiB   14.71%    154MB / 8.1MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     288kB / 201kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.4MiB / 7.684GiB   2.45%     1.8MB / 827kB   54.5MB / 35.9MB   29
+650af2d6431c   alamPREPROCESSOR   98.20%    1.18GiB / 7.684GiB    15.35%    154MB / 8.1MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     288kB / 201kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.4MiB / 7.684GiB   2.45%     1.8MB / 827kB   54.5MB / 35.9MB   29
+650af2d6431c   alamPREPROCESSOR   97.75%    1.193GiB / 7.684GiB   15.52%    154MB / 8.1MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     288kB / 201kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.77%     192.6MiB / 7.684GiB   2.45%     1.81MB / 831kB   54.5MB / 35.9MB   31
+650af2d6431c   alamPREPROCESSOR   67.26%    1.199GiB / 7.684GiB   15.61%    154MB / 8.11MB   354MB / 529MB     53
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     288kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.4MiB / 7.684GiB   2.45%     1.81MB / 831kB   54.5MB / 35.9MB   29
+650af2d6431c   alamPREPROCESSOR   108.04%   1.126GiB / 7.684GiB   14.65%    154MB / 8.12MB   354MB / 529MB     33
+8302c7cefe70   alamAPI            0.13%     45.89MiB / 7.684GiB   0.58%     288kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192.4MiB / 7.684GiB   2.45%     1.81MB / 831kB   54.5MB / 35.9MB   29
+650af2d6431c   alamPREPROCESSOR   98.89%    1.192GiB / 7.684GiB   15.51%    154MB / 8.12MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.89MiB / 7.684GiB   0.58%     288kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.4MiB / 7.684GiB   2.45%     1.81MB / 831kB   54.5MB / 35.9MB   29
+650af2d6431c   alamPREPROCESSOR   96.51%    1.202GiB / 7.684GiB   15.65%    154MB / 8.12MB   354MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.89MiB / 7.684GiB   0.58%     288kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.65%     192.3MiB / 7.684GiB   2.44%     1.82MB / 834kB   54.5MB / 36.1MB   31
+650af2d6431c   alamPREPROCESSOR   95.00%    1.209GiB / 7.684GiB   15.73%    154MB / 8.13MB   354MB / 529MB     53
+8302c7cefe70   alamAPI            0.14%     45.88MiB / 7.684GiB   0.58%     288kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.2MiB / 7.684GiB   2.44%     1.82MB / 835kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   132.16%   1.099GiB / 7.684GiB   14.30%    154MB / 8.13MB   355MB / 529MB     26
+8302c7cefe70   alamAPI            0.11%     45.88MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192.2MiB / 7.684GiB   2.44%     1.82MB / 835kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   98.84%    1.19GiB / 7.684GiB    15.49%    154MB / 8.13MB   355MB / 529MB     59
+8302c7cefe70   alamAPI            0.12%     45.88MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192.2MiB / 7.684GiB   2.44%     1.82MB / 835kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   97.48%    1.202GiB / 7.684GiB   15.64%    154MB / 8.13MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.88MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192.2MiB / 7.684GiB   2.44%     1.82MB / 835kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   98.58%    1.212GiB / 7.684GiB   15.78%    154MB / 8.13MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.88MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192MiB / 7.684GiB     2.44%     1.83MB / 838kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   178.58%   1.083GiB / 7.684GiB   14.10%    154MB / 8.14MB   355MB / 529MB     26
+8302c7cefe70   alamAPI            0.12%     45.86MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     192MiB / 7.684GiB     2.44%     1.83MB / 839kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   98.66%    1.187GiB / 7.684GiB   15.45%    154MB / 8.14MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.09%     45.86MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192MiB / 7.684GiB     2.44%     1.83MB / 839kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   97.70%    1.195GiB / 7.684GiB   15.55%    154MB / 8.14MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.86MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     192MiB / 7.684GiB     2.44%     1.83MB / 839kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   97.73%    1.209GiB / 7.684GiB   15.73%    154MB / 8.14MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.15%     45.86MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.28%     192MiB / 7.684GiB     2.44%     1.84MB / 842kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   176.23%   1.057GiB / 7.684GiB   13.75%    154MB / 8.15MB   355MB / 529MB     26
+8302c7cefe70   alamAPI            0.13%     45.86MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     192MiB / 7.684GiB     2.44%     1.84MB / 842kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   99.17%    1.191GiB / 7.684GiB   15.50%    154MB / 8.15MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.14%     45.86MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192MiB / 7.684GiB     2.44%     1.84MB / 842kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   96.61%    1.201GiB / 7.684GiB   15.63%    154MB / 8.15MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.11%     45.86MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     192MiB / 7.684GiB     2.44%     1.84MB / 842kB   54.5MB / 36.1MB   29
+650af2d6431c   alamPREPROCESSOR   98.79%    1.212GiB / 7.684GiB   15.77%    154MB / 8.15MB   355MB / 529MB     59
+8302c7cefe70   alamAPI            0.11%     45.86MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.22%     191.8MiB / 7.684GiB   2.44%     1.85MB / 846kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   161.26%   1.027GiB / 7.684GiB   13.37%    154MB / 8.16MB   355MB / 529MB     26
+8302c7cefe70   alamAPI            0.12%     45.84MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.8MiB / 7.684GiB   2.44%     1.85MB / 846kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   114.58%   1.19GiB / 7.684GiB    15.49%    154MB / 8.16MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.14%     45.84MiB / 7.684GiB   0.58%     289kB / 201kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.8MiB / 7.684GiB   2.44%     1.85MB / 846kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.35%    1.2GiB / 7.684GiB     15.62%    154MB / 8.16MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.13%     45.85MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.8MiB / 7.684GiB   2.44%     1.85MB / 846kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.48%    1.213GiB / 7.684GiB   15.79%    154MB / 8.16MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.26%     191.8MiB / 7.684GiB   2.44%     1.86MB / 850kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   141.82%   1.018GiB / 7.684GiB   13.25%    154MB / 8.17MB   355MB / 529MB     26
+8302c7cefe70   alamAPI            0.14%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.8MiB / 7.684GiB   2.44%     1.86MB / 850kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   183.42%   1.195GiB / 7.684GiB   15.55%    154MB / 8.17MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     191.8MiB / 7.684GiB   2.44%     1.86MB / 850kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   97.88%    1.204GiB / 7.684GiB   15.68%    154MB / 8.17MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.8MiB / 7.684GiB   2.44%     1.87MB / 850kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   95.88%    1.218GiB / 7.684GiB   15.85%    154MB / 8.17MB   355MB / 529MB     59
+8302c7cefe70   alamAPI            0.14%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.65%     191.9MiB / 7.684GiB   2.44%     1.88MB / 853kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   52.77%    1.221GiB / 7.684GiB   15.89%    154MB / 8.18MB   355MB / 529MB     50
+8302c7cefe70   alamAPI            0.15%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.8MiB / 7.684GiB   2.44%     1.88MB / 853kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   179.32%   1.167GiB / 7.684GiB   15.18%    154MB / 8.18MB   355MB / 529MB     33
+8302c7cefe70   alamAPI            0.12%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.8MiB / 7.684GiB   2.44%     1.88MB / 853kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   97.96%    1.205GiB / 7.684GiB   15.68%    154MB / 8.18MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     191.8MiB / 7.684GiB   2.44%     1.88MB / 853kB   54.5MB / 36.2MB   29
+650af2d6431c   alamPREPROCESSOR   98.20%    1.213GiB / 7.684GiB   15.79%    154MB / 8.18MB   355MB / 529MB     59
+8302c7cefe70   alamAPI            0.13%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.80%     191.9MiB / 7.684GiB   2.44%     1.89MB / 857kB   54.5MB / 36.3MB   31
+650af2d6431c   alamPREPROCESSOR   53.17%    1.222GiB / 7.684GiB   15.90%    154MB / 8.19MB   355MB / 529MB     50
+8302c7cefe70   alamAPI            0.30%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.8MiB / 7.684GiB   2.44%     1.89MB / 857kB   54.5MB / 36.3MB   29
+650af2d6431c   alamPREPROCESSOR   179.87%   1.159GiB / 7.684GiB   15.08%    154MB / 8.19MB   355MB / 529MB     33
+8302c7cefe70   alamAPI            0.12%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.8MiB / 7.684GiB   2.44%     1.89MB / 857kB   54.5MB / 36.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.89%    1.21GiB / 7.684GiB    15.75%    154MB / 8.19MB   355MB / 529MB     59
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.36%     191.8MiB / 7.684GiB   2.44%     1.89MB / 857kB   54.5MB / 36.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.40%    1.221GiB / 7.684GiB   15.89%    154MB / 8.19MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.10%     45.84MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             2.07%     191.9MiB / 7.684GiB   2.44%     1.9MB / 860kB   54.5MB / 36.5MB   31
+650af2d6431c   alamPREPROCESSOR   69.26%    1.228GiB / 7.684GiB   15.98%    154MB / 8.2MB   355MB / 529MB     53
+8302c7cefe70   alamAPI            0.12%     45.85MiB / 7.684GiB   0.58%     290kB / 202kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     191.8MiB / 7.684GiB   2.44%     1.9MB / 861kB   54.5MB / 36.5MB   29
+650af2d6431c   alamPREPROCESSOR   181.36%   1.147GiB / 7.684GiB   14.93%    154MB / 8.2MB   355MB / 529MB     33
+8302c7cefe70   alamAPI            0.15%     45.85MiB / 7.684GiB   0.58%     290kB / 202kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.8MiB / 7.684GiB   2.44%     1.9MB / 861kB   54.5MB / 36.5MB   29
+650af2d6431c   alamPREPROCESSOR   99.30%    1.208GiB / 7.684GiB   15.72%    154MB / 8.2MB   355MB / 529MB     59
+8302c7cefe70   alamAPI            0.12%     45.85MiB / 7.684GiB   0.58%     290kB / 202kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.27%     191.8MiB / 7.684GiB   2.44%     1.9MB / 861kB   54.5MB / 36.5MB   29
+650af2d6431c   alamPREPROCESSOR   99.45%    1.218GiB / 7.684GiB   15.86%    154MB / 8.2MB   355MB / 529MB     51
+8302c7cefe70   alamAPI            0.12%     45.85MiB / 7.684GiB   0.58%     290kB / 202kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.46%     191.9MiB / 7.684GiB   2.44%     1.91MB / 864kB   54.5MB / 36.5MB   31
+650af2d6431c   alamPREPROCESSOR   84.95%    1.228GiB / 7.684GiB   15.98%    154MB / 8.21MB   355MB / 529MB     53
+8302c7cefe70   alamAPI            0.10%     45.85MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.19%     191.8MiB / 7.684GiB   2.44%     1.91MB / 864kB   54.5MB / 36.5MB   29
+650af2d6431c   alamPREPROCESSOR   99.98%    1.122GiB / 7.684GiB   14.60%    154MB / 8.21MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.11%     45.85MiB / 7.684GiB   0.58%     290kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.8MiB / 7.684GiB   2.44%     1.91MB / 865kB   54.5MB / 36.5MB   29
+650af2d6431c   alamPREPROCESSOR   96.51%    1.21GiB / 7.684GiB    15.75%    154MB / 8.21MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.15%     45.85MiB / 7.684GiB   0.58%     291kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.8MiB / 7.684GiB   2.44%     1.91MB / 865kB   54.5MB / 36.5MB   29
+650af2d6431c   alamPREPROCESSOR   99.36%    1.22GiB / 7.684GiB    15.88%    154MB / 8.21MB   355MB / 530MB     62
+8302c7cefe70   alamAPI            0.11%     45.85MiB / 7.684GiB   0.58%     291kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.8MiB / 7.684GiB   2.44%     1.91MB / 865kB   54.5MB / 36.5MB   29
+650af2d6431c   alamPREPROCESSOR   98.54%    1.23GiB / 7.684GiB    16.01%    154MB / 8.21MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.85MiB / 7.684GiB   0.58%     291kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.50%     191.8MiB / 7.684GiB   2.44%     1.92MB / 868kB   54.5MB / 36.6MB   29
+650af2d6431c   alamPREPROCESSOR   179.71%   1.107GiB / 7.684GiB   14.40%    154MB / 8.22MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.12%     45.85MiB / 7.684GiB   0.58%     291kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     191.8MiB / 7.684GiB   2.44%     1.92MB / 868kB   54.5MB / 36.6MB   29
+650af2d6431c   alamPREPROCESSOR   98.64%    1.21GiB / 7.684GiB    15.75%    154MB / 8.22MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.85MiB / 7.684GiB   0.58%     291kB / 202kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     191.8MiB / 7.684GiB   2.44%     1.92MB / 868kB   54.5MB / 36.6MB   29
+650af2d6431c   alamPREPROCESSOR   97.09%    1.221GiB / 7.684GiB   15.90%    154MB / 8.22MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.16%     45.85MiB / 7.684GiB   0.58%     291kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     191.8MiB / 7.684GiB   2.44%     1.92MB / 868kB   54.5MB / 36.6MB   29
+650af2d6431c   alamPREPROCESSOR   95.17%    1.234GiB / 7.684GiB   16.07%    154MB / 8.22MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.10%     45.85MiB / 7.684GiB   0.58%     291kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.20%     191.8MiB / 7.684GiB   2.44%     1.93MB / 872kB   54.5MB / 36.6MB   29
+650af2d6431c   alamPREPROCESSOR   178.21%   1.086GiB / 7.684GiB   14.13%    154MB / 8.23MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.13%     45.85MiB / 7.684GiB   0.58%     291kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.50%     191.8MiB / 7.684GiB   2.44%     1.93MB / 872kB   54.5MB / 36.6MB   29
+650af2d6431c   alamPREPROCESSOR   99.15%    1.206GiB / 7.684GiB   15.70%    154MB / 8.23MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.85MiB / 7.684GiB   0.58%     291kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.8MiB / 7.684GiB   2.44%     1.93MB / 872kB   54.5MB / 36.6MB   29
+650af2d6431c   alamPREPROCESSOR   96.89%    1.221GiB / 7.684GiB   15.89%    154MB / 8.23MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.10%     45.85MiB / 7.684GiB   0.58%     291kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     191.8MiB / 7.684GiB   2.44%     1.93MB / 872kB   54.5MB / 36.6MB   29
+650af2d6431c   alamPREPROCESSOR   98.78%    1.228GiB / 7.684GiB   15.99%    154MB / 8.23MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.14%     45.85MiB / 7.684GiB   0.58%     291kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.31%     191.8MiB / 7.684GiB   2.44%     1.94MB / 875kB   54.5MB / 36.6MB   29
+650af2d6431c   alamPREPROCESSOR   168.87%   1.055GiB / 7.684GiB   13.73%    154MB / 8.24MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.13%     45.85MiB / 7.684GiB   0.58%     291kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.8MiB / 7.684GiB   2.44%     1.94MB / 875kB   54.5MB / 36.6MB   29
+650af2d6431c   alamPREPROCESSOR   132.18%   1.213GiB / 7.684GiB   15.79%    154MB / 8.24MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.85MiB / 7.684GiB   0.58%     291kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.59%     191.8MiB / 7.684GiB   2.44%     1.94MB / 875kB   54.5MB / 36.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.44%    1.224GiB / 7.684GiB   15.93%    154MB / 8.24MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.10%     45.85MiB / 7.684GiB   0.58%     291kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.19%     191.8MiB / 7.684GiB   2.44%     1.94MB / 875kB   54.5MB / 36.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.38%    1.231GiB / 7.684GiB   16.02%    154MB / 8.24MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.12%     45.85MiB / 7.684GiB   0.58%     291kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.26%     191.8MiB / 7.684GiB   2.44%     1.95MB / 879kB   54.5MB / 36.7MB   29
+650af2d6431c   alamPREPROCESSOR   129.90%   1.033GiB / 7.684GiB   13.44%    154MB / 8.25MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.17%     45.85MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     191.8MiB / 7.684GiB   2.44%     1.95MB / 879kB   54.5MB / 36.7MB   29
+650af2d6431c   alamPREPROCESSOR   176.96%   1.22GiB / 7.684GiB    15.88%    154MB / 8.25MB   355MB / 530MB     50
+8302c7cefe70   alamAPI            0.11%     45.85MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     191.8MiB / 7.684GiB   2.44%     1.95MB / 879kB   54.5MB / 36.7MB   29
+650af2d6431c   alamPREPROCESSOR   98.27%    1.229GiB / 7.684GiB   16.00%    154MB / 8.25MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.11%     45.85MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.53%     191.6MiB / 7.684GiB   2.44%     1.95MB / 879kB   54.5MB / 36.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.39%    1.238GiB / 7.684GiB   16.11%    154MB / 8.25MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.09%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.99%     191.7MiB / 7.684GiB   2.44%     1.96MB / 883kB   54.5MB / 36.7MB   29
+650af2d6431c   alamPREPROCESSOR   53.58%    1.244GiB / 7.684GiB   16.20%    154MB / 8.26MB   355MB / 530MB     50
+8302c7cefe70   alamAPI            0.14%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.24%     191.6MiB / 7.684GiB   2.44%     1.96MB / 883kB   54.5MB / 36.7MB   29
+650af2d6431c   alamPREPROCESSOR   180.63%   1.187GiB / 7.684GiB   15.45%    154MB / 8.26MB   355MB / 530MB     33
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.6MiB / 7.684GiB   2.44%     1.96MB / 883kB   54.5MB / 36.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.75%    1.225GiB / 7.684GiB   15.94%    154MB / 8.26MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191.6MiB / 7.684GiB   2.44%     1.96MB / 883kB   54.5MB / 36.7MB   29
+650af2d6431c   alamPREPROCESSOR   97.84%    1.234GiB / 7.684GiB   16.07%    154MB / 8.26MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.99%     191.7MiB / 7.684GiB   2.44%     1.97MB / 886kB   54.5MB / 36.7MB   31
+650af2d6431c   alamPREPROCESSOR   53.80%    1.239GiB / 7.684GiB   16.12%    154MB / 8.27MB   355MB / 530MB     50
+8302c7cefe70   alamAPI            0.15%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.35%     191.6MiB / 7.684GiB   2.44%     1.97MB / 886kB   54.5MB / 36.9MB   29
+650af2d6431c   alamPREPROCESSOR   178.91%   1.177GiB / 7.684GiB   15.32%    154MB / 8.27MB   355MB / 530MB     33
+8302c7cefe70   alamAPI            0.13%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.6MiB / 7.684GiB   2.44%     1.97MB / 887kB   54.5MB / 36.9MB   29
+650af2d6431c   alamPREPROCESSOR   97.95%    1.229GiB / 7.684GiB   15.99%    154MB / 8.27MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.6MiB / 7.684GiB   2.44%     1.97MB / 887kB   54.5MB / 36.9MB   29
+650af2d6431c   alamPREPROCESSOR   100.13%   1.24GiB / 7.684GiB    16.13%    154MB / 8.27MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.39%     191.7MiB / 7.684GiB   2.44%     1.98MB / 890kB   54.5MB / 36.9MB   31
+650af2d6431c   alamPREPROCESSOR   71.86%    1.248GiB / 7.684GiB   16.24%    154MB / 8.28MB   355MB / 530MB     53
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.33%     191.6MiB / 7.684GiB   2.44%     1.98MB / 890kB   54.5MB / 36.9MB   29
+650af2d6431c   alamPREPROCESSOR   99.75%    1.155GiB / 7.684GiB   15.03%    154MB / 8.28MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     191.6MiB / 7.684GiB   2.44%     1.98MB / 890kB   54.5MB / 36.9MB   29
+650af2d6431c   alamPREPROCESSOR   97.60%    1.225GiB / 7.684GiB   15.94%    154MB / 8.28MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.09%     45.84MiB / 7.684GiB   0.58%     292kB / 203kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     191.6MiB / 7.684GiB   2.44%     1.98MB / 891kB   54.5MB / 36.9MB   29
+650af2d6431c   alamPREPROCESSOR   96.65%    1.234GiB / 7.684GiB   16.06%    154MB / 8.28MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.12%     45.84MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.40%     191.7MiB / 7.684GiB   2.44%     1.98MB / 892kB   54.5MB / 36.9MB   31
+650af2d6431c   alamPREPROCESSOR   96.59%    1.244GiB / 7.684GiB   16.19%    154MB / 8.28MB   355MB / 530MB     53
+8302c7cefe70   alamAPI            0.10%     45.84MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.6MiB / 7.684GiB   2.43%     1.99MB / 894kB   54.5MB / 36.9MB   29
+650af2d6431c   alamPREPROCESSOR   173.88%   1.14GiB / 7.684GiB    14.84%    154MB / 8.29MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.34%     191.6MiB / 7.684GiB   2.43%     1.99MB / 894kB   54.5MB / 36.9MB   29
+650af2d6431c   alamPREPROCESSOR   98.05%    1.226GiB / 7.684GiB   15.96%    154MB / 8.29MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.13%     45.84MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.18%     191.6MiB / 7.684GiB   2.43%     1.99MB / 894kB   54.5MB / 36.9MB   29
+650af2d6431c   alamPREPROCESSOR   96.92%    1.237GiB / 7.684GiB   16.10%    154MB / 8.29MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.20%     191.6MiB / 7.684GiB   2.43%     1.99MB / 894kB   54.5MB / 36.9MB   29
+650af2d6431c   alamPREPROCESSOR   96.54%    1.251GiB / 7.684GiB   16.28%    154MB / 8.29MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.84MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     191.4MiB / 7.684GiB   2.43%     2MB / 898kB     54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   180.09%   1.12GiB / 7.684GiB    14.58%    154MB / 8.3MB   355MB / 530MB   26
+8302c7cefe70   alamAPI            0.12%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB   28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     191.4MiB / 7.684GiB   2.43%     2MB / 898kB     54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   100.06%   1.222GiB / 7.684GiB   15.91%    154MB / 8.3MB   355MB / 530MB   51
+8302c7cefe70   alamAPI            0.10%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB   28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.32%     191.4MiB / 7.684GiB   2.43%     2MB / 898kB     54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   100.21%   1.233GiB / 7.684GiB   16.04%    154MB / 8.3MB   355MB / 530MB   51
+8302c7cefe70   alamAPI            0.11%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB   28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.18%     191.4MiB / 7.684GiB   2.43%     2MB / 898kB     54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   99.42%    1.244GiB / 7.684GiB   16.19%    154MB / 8.3MB   355MB / 530MB   51
+8302c7cefe70   alamAPI            0.11%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB   28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.26%     191.5MiB / 7.684GiB   2.43%     2.01MB / 901kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   178.46%   1.11GiB / 7.684GiB    14.45%    154MB / 8.31MB   355MB / 530MB   26
+8302c7cefe70   alamAPI            0.11%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     191.4MiB / 7.684GiB   2.43%     2.01MB / 901kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   98.22%    1.228GiB / 7.684GiB   15.99%    154MB / 8.31MB   355MB / 530MB   59
+8302c7cefe70   alamAPI            0.12%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.13%     191.3MiB / 7.684GiB   2.43%     2.01MB / 901kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   99.57%    1.237GiB / 7.684GiB   16.11%    154MB / 8.31MB   355MB / 530MB   51
+8302c7cefe70   alamAPI            0.10%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     191.3MiB / 7.684GiB   2.43%     2.01MB / 901kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   98.61%    1.252GiB / 7.684GiB   16.29%    154MB / 8.31MB   355MB / 530MB   51
+8302c7cefe70   alamAPI            0.11%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.20%     191.3MiB / 7.684GiB   2.43%     2.02MB / 905kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   169.59%   1.078GiB / 7.684GiB   14.03%    154MB / 8.32MB   355MB / 530MB   26
+8302c7cefe70   alamAPI            0.15%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     191.3MiB / 7.684GiB   2.43%     2.02MB / 905kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   99.27%    1.234GiB / 7.684GiB   16.06%    154MB / 8.32MB   355MB / 530MB   51
+8302c7cefe70   alamAPI            0.12%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.17%     191.3MiB / 7.684GiB   2.43%     2.02MB / 905kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   97.21%    1.242GiB / 7.684GiB   16.17%    154MB / 8.32MB   355MB / 530MB   51
+8302c7cefe70   alamAPI            0.10%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.13%     191.3MiB / 7.684GiB   2.43%     2.02MB / 905kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   97.59%    1.257GiB / 7.684GiB   16.35%    154MB / 8.32MB   355MB / 530MB   61
+8302c7cefe70   alamAPI            0.11%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.30%     191.3MiB / 7.684GiB   2.43%     2.03MB / 909kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   153.75%   1.062GiB / 7.684GiB   13.82%    154MB / 8.33MB   355MB / 530MB   26
+8302c7cefe70   alamAPI            0.13%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     191.3MiB / 7.684GiB   2.43%     2.03MB / 909kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   178.44%   1.235GiB / 7.684GiB   16.07%    154MB / 8.33MB   355MB / 530MB   51
+8302c7cefe70   alamAPI            0.12%     45.82MiB / 7.684GiB   0.58%     293kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     191.2MiB / 7.684GiB   2.43%     2.03MB / 909kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   99.05%    1.246GiB / 7.684GiB   16.21%    154MB / 8.33MB   355MB / 530MB   62
+8302c7cefe70   alamAPI            0.10%     45.8MiB / 7.684GiB    0.58%     294kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     191.2MiB / 7.684GiB   2.43%     2.03MB / 909kB   54.5MB / 37MB   29
+650af2d6431c   alamPREPROCESSOR   99.22%    1.252GiB / 7.684GiB   16.29%    154MB / 8.33MB   355MB / 530MB   51
+8302c7cefe70   alamAPI            0.13%     45.8MiB / 7.684GiB    0.58%     294kB / 204kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.78%     191.2MiB / 7.684GiB   2.43%     2.04MB / 912kB   54.5MB / 37.1MB   29
+650af2d6431c   alamPREPROCESSOR   53.07%    1.031GiB / 7.684GiB   13.41%    154MB / 8.34MB   355MB / 530MB     19
+8302c7cefe70   alamAPI            0.13%     45.8MiB / 7.684GiB    0.58%     294kB / 204kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     191.2MiB / 7.684GiB   2.43%     2.04MB / 912kB   54.5MB / 37.1MB   29
+650af2d6431c   alamPREPROCESSOR   178.22%   1.211GiB / 7.684GiB   15.76%    154MB / 8.34MB   355MB / 530MB     33
+8302c7cefe70   alamAPI            0.12%     45.8MiB / 7.684GiB    0.58%     294kB / 204kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.2MiB / 7.684GiB   2.43%     2.04MB / 912kB   54.5MB / 37.2MB   29
+650af2d6431c   alamPREPROCESSOR   95.31%    1.244GiB / 7.684GiB   16.19%    154MB / 8.34MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.8MiB / 7.684GiB    0.58%     294kB / 204kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191.2MiB / 7.684GiB   2.43%     2.04MB / 913kB   54.5MB / 37.2MB   29
+650af2d6431c   alamPREPROCESSOR   97.42%    1.255GiB / 7.684GiB   16.34%    154MB / 8.34MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.8MiB / 7.684GiB    0.58%     294kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.12%     191MiB / 7.684GiB     2.43%     2.05MB / 916kB   54.5MB / 37.2MB   31
+650af2d6431c   alamPREPROCESSOR   53.03%    1.26GiB / 7.684GiB    16.40%    154MB / 8.35MB   355MB / 530MB     50
+8302c7cefe70   alamAPI            0.12%     45.79MiB / 7.684GiB   0.58%     294kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191MiB / 7.684GiB     2.43%     2.05MB / 916kB   54.5MB / 37.2MB   29
+650af2d6431c   alamPREPROCESSOR   179.49%   1.2GiB / 7.684GiB     15.61%    154MB / 8.35MB   355MB / 530MB     33
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     294kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191MiB / 7.684GiB     2.43%     2.05MB / 916kB   54.5MB / 37.2MB   29
+650af2d6431c   alamPREPROCESSOR   96.82%    1.241GiB / 7.684GiB   16.15%    154MB / 8.35MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     294kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191MiB / 7.684GiB     2.43%     2.05MB / 916kB   54.5MB / 37.2MB   29
+650af2d6431c   alamPREPROCESSOR   97.30%    1.254GiB / 7.684GiB   16.32%    154MB / 8.35MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     294kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.37%     191MiB / 7.684GiB     2.43%     2.06MB / 920kB   54.5MB / 37.3MB   31
+650af2d6431c   alamPREPROCESSOR   66.88%    1.262GiB / 7.684GiB   16.42%    154MB / 8.36MB   355MB / 530MB     53
+8302c7cefe70   alamAPI            0.15%     45.79MiB / 7.684GiB   0.58%     294kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191MiB / 7.684GiB     2.43%     2.06MB / 920kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   159.33%   1.183GiB / 7.684GiB   15.40%    154MB / 8.36MB   355MB / 530MB     33
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     294kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191MiB / 7.684GiB     2.43%     2.06MB / 920kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   99.12%    1.246GiB / 7.684GiB   16.21%    154MB / 8.36MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.79MiB / 7.684GiB   0.58%     294kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191MiB / 7.684GiB     2.43%     2.06MB / 920kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   99.11%    1.256GiB / 7.684GiB   16.35%    154MB / 8.36MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.14%     45.79MiB / 7.684GiB   0.58%     294kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.81%     191MiB / 7.684GiB     2.43%     2.07MB / 924kB   54.5MB / 37.3MB   31
+650af2d6431c   alamPREPROCESSOR   86.33%    1.265GiB / 7.684GiB   16.47%    154MB / 8.37MB   355MB / 530MB     53
+8302c7cefe70   alamAPI            0.15%     45.79MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191MiB / 7.684GiB     2.43%     2.07MB / 924kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   99.20%    1.167GiB / 7.684GiB   15.19%    154MB / 8.37MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     191MiB / 7.684GiB     2.43%     2.07MB / 924kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   100.41%   1.252GiB / 7.684GiB   16.29%    154MB / 8.37MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.12%     45.79MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     191MiB / 7.684GiB     2.43%     2.07MB / 924kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.95%    1.261GiB / 7.684GiB   16.41%    154MB / 8.37MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.10%     45.79MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190.8MiB / 7.684GiB   2.42%     2.07MB / 924kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   96.37%    1.269GiB / 7.684GiB   16.52%    154MB / 8.37MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.77MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     190.8MiB / 7.684GiB   2.42%     2.08MB / 927kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   180.52%   1.155GiB / 7.684GiB   15.03%    154MB / 8.38MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.16%     45.77MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     190.8MiB / 7.684GiB   2.42%     2.08MB / 927kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.66%    1.249GiB / 7.684GiB   16.25%    154MB / 8.38MB   355MB / 530MB     62
+8302c7cefe70   alamAPI            0.10%     45.77MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.21%     190.8MiB / 7.684GiB   2.42%     2.08MB / 927kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   100.16%   1.255GiB / 7.684GiB   16.33%    154MB / 8.38MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.12%     45.77MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.25%     190.8MiB / 7.684GiB   2.42%     2.08MB / 927kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   100.10%   1.263GiB / 7.684GiB   16.44%    154MB / 8.38MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.14%     45.77MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.27%     190.8MiB / 7.684GiB   2.42%     2.09MB / 931kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   59.61%    1.037GiB / 7.684GiB   13.50%    154MB / 8.39MB   355MB / 530MB     19
+8302c7cefe70   alamAPI            0.17%     45.77MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     190.8MiB / 7.684GiB   2.42%     2.09MB / 931kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   179.57%   1.218GiB / 7.684GiB   15.86%    154MB / 8.39MB   355MB / 530MB     33
+8302c7cefe70   alamAPI            0.14%     45.77MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     190.8MiB / 7.684GiB   2.42%     2.09MB / 931kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   99.93%    1.258GiB / 7.684GiB   16.37%    154MB / 8.39MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.77MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.18%     190.7MiB / 7.684GiB   2.42%     2.09MB / 931kB   54.5MB / 37.3MB   29
+650af2d6431c   alamPREPROCESSOR   98.29%    1.267GiB / 7.684GiB   16.49%    154MB / 8.39MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.15%     45.77MiB / 7.684GiB   0.58%     295kB / 205kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.94%     190.9MiB / 7.684GiB   2.43%     2.1MB / 935kB   54.5MB / 37.4MB   31
+650af2d6431c   alamPREPROCESSOR   83.87%    1.273GiB / 7.684GiB   16.57%    154MB / 8.4MB   355MB / 530MB     53
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     295kB / 205kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     190.9MiB / 7.684GiB   2.43%     2.1MB / 935kB   54.5MB / 37.4MB   29
+650af2d6431c   alamPREPROCESSOR   111.56%   1.169GiB / 7.684GiB   15.22%    154MB / 8.4MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.10%     45.79MiB / 7.684GiB   0.58%     295kB / 205kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.26%     190.9MiB / 7.684GiB   2.43%     2.11MB / 935kB   54.5MB / 37.4MB   29
+650af2d6431c   alamPREPROCESSOR   96.87%    1.251GiB / 7.684GiB   16.28%    154MB / 8.4MB    355MB / 530MB     51
+8302c7cefe70   alamAPI            0.16%     45.79MiB / 7.684GiB   0.58%     295kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190.9MiB / 7.684GiB   2.43%     2.11MB / 935kB   54.5MB / 37.4MB   29
+650af2d6431c   alamPREPROCESSOR   98.40%    1.261GiB / 7.684GiB   16.42%    154MB / 8.4MB    355MB / 530MB     51
+8302c7cefe70   alamAPI            0.12%     45.79MiB / 7.684GiB   0.58%     295kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190.9MiB / 7.684GiB   2.43%     2.11MB / 935kB   54.5MB / 37.4MB   29
+650af2d6431c   alamPREPROCESSOR   99.44%    1.272GiB / 7.684GiB   16.55%    154MB / 8.4MB    355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.79MiB / 7.684GiB   0.58%     295kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.44%     190.9MiB / 7.684GiB   2.43%     2.12MB / 938kB   54.5MB / 37.4MB   29
+650af2d6431c   alamPREPROCESSOR   179.48%   1.157GiB / 7.684GiB   15.06%    154MB / 8.41MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     295kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.42%     190.9MiB / 7.684GiB   2.43%     2.12MB / 938kB   54.5MB / 37.5MB   29
+650af2d6431c   alamPREPROCESSOR   98.39%    1.258GiB / 7.684GiB   16.37%    154MB / 8.41MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     295kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190.9MiB / 7.684GiB   2.43%     2.12MB / 939kB   54.5MB / 37.5MB   29
+650af2d6431c   alamPREPROCESSOR   97.61%    1.267GiB / 7.684GiB   16.49%    154MB / 8.41MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.16%     45.79MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190.8MiB / 7.684GiB   2.43%     2.12MB / 939kB   54.5MB / 37.5MB   29
+650af2d6431c   alamPREPROCESSOR   98.93%    1.277GiB / 7.684GiB   16.63%    154MB / 8.41MB   355MB / 530MB     54
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.21%     190.8MiB / 7.684GiB   2.43%     2.13MB / 942kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   179.87%   1.129GiB / 7.684GiB   14.69%    154MB / 8.42MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.39%     190.8MiB / 7.684GiB   2.43%     2.13MB / 942kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   99.92%    1.256GiB / 7.684GiB   16.35%    154MB / 8.42MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     190.8MiB / 7.684GiB   2.43%     2.13MB / 942kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   97.21%    1.263GiB / 7.684GiB   16.44%    154MB / 8.42MB   355MB / 530MB     54
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     190.8MiB / 7.684GiB   2.43%     2.13MB / 942kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   98.75%    1.273GiB / 7.684GiB   16.56%    154MB / 8.42MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.13%     45.79MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.29%     190.8MiB / 7.684GiB   2.43%     2.14MB / 946kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   157.51%   1.095GiB / 7.684GiB   14.25%    154MB / 8.43MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.15%     45.79MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190.8MiB / 7.684GiB   2.43%     2.14MB / 946kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   180.08%   1.258GiB / 7.684GiB   16.37%    154MB / 8.43MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.41%     190.8MiB / 7.684GiB   2.43%     2.14MB / 946kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   98.67%    1.264GiB / 7.684GiB   16.45%    154MB / 8.43MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     190.8MiB / 7.684GiB   2.43%     2.14MB / 946kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   98.80%    1.274GiB / 7.684GiB   16.59%    154MB / 8.43MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.79MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.45%     190.6MiB / 7.684GiB   2.42%     2.15MB / 950kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   86.34%    1.067GiB / 7.684GiB   13.88%    154MB / 8.44MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.23%     45.77MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     190.6MiB / 7.684GiB   2.42%     2.15MB / 950kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   175.07%   1.239GiB / 7.684GiB   16.12%    154MB / 8.44MB   355MB / 530MB     33
+8302c7cefe70   alamAPI            0.12%     45.77MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     190.6MiB / 7.684GiB   2.42%     2.15MB / 950kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   97.09%    1.267GiB / 7.684GiB   16.49%    154MB / 8.44MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.09%     45.77MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.57%     190.6MiB / 7.684GiB   2.42%     2.15MB / 950kB   54.5MB / 37.6MB   29
+650af2d6431c   alamPREPROCESSOR   99.05%    1.278GiB / 7.684GiB   16.63%    154MB / 8.44MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.10%     45.77MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.91%     190.6MiB / 7.684GiB   2.42%     2.16MB / 953kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   53.20%    1.28GiB / 7.684GiB    16.66%    154MB / 8.45MB   355MB / 530MB     50
+8302c7cefe70   alamAPI            0.14%     45.77MiB / 7.684GiB   0.58%     296kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     190.6MiB / 7.684GiB   2.42%     2.16MB / 953kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   179.50%   1.225GiB / 7.684GiB   15.95%    154MB / 8.45MB   355MB / 530MB     33
+8302c7cefe70   alamAPI            0.15%     45.77MiB / 7.684GiB   0.58%     297kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     190.6MiB / 7.684GiB   2.42%     2.16MB / 953kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   98.07%    1.266GiB / 7.684GiB   16.48%    154MB / 8.45MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.77MiB / 7.684GiB   0.58%     297kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     190.6MiB / 7.684GiB   2.42%     2.16MB / 953kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   98.41%    1.277GiB / 7.684GiB   16.62%    154MB / 8.45MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.77MiB / 7.684GiB   0.58%     297kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             1.87%     190.5MiB / 7.684GiB   2.42%     2.17MB / 957kB   54.5MB / 37.7MB   31
+650af2d6431c   alamPREPROCESSOR   59.25%    1.282GiB / 7.684GiB   16.68%    154MB / 8.46MB   355MB / 530MB     53
+8302c7cefe70   alamAPI            0.14%     45.76MiB / 7.684GiB   0.58%     297kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190.4MiB / 7.684GiB   2.42%     2.17MB / 957kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   176.90%   1.207GiB / 7.684GiB   15.71%    154MB / 8.46MB   355MB / 530MB     33
+8302c7cefe70   alamAPI            0.11%     45.76MiB / 7.684GiB   0.58%     297kB / 206kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     190.4MiB / 7.684GiB   2.42%     2.17MB / 957kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   96.89%    1.27GiB / 7.684GiB    16.53%    154MB / 8.46MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.76MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190.4MiB / 7.684GiB   2.42%     2.17MB / 957kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.27%    1.278GiB / 7.684GiB   16.64%    154MB / 8.46MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.76MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.73%     190.3MiB / 7.684GiB   2.42%     2.18MB / 961kB   54.5MB / 37.7MB   31
+650af2d6431c   alamPREPROCESSOR   84.53%    1.286GiB / 7.684GiB   16.74%    154MB / 8.47MB   355MB / 530MB     53
+8302c7cefe70   alamAPI            0.13%     45.74MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.43%     190.2MiB / 7.684GiB   2.42%     2.18MB / 961kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.07%    1.184GiB / 7.684GiB   15.41%    154MB / 8.47MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.10%     45.74MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     190.2MiB / 7.684GiB   2.42%     2.18MB / 961kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   98.03%    1.267GiB / 7.684GiB   16.50%    154MB / 8.47MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.74MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190.2MiB / 7.684GiB   2.42%     2.18MB / 961kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   99.58%    1.277GiB / 7.684GiB   16.62%    154MB / 8.47MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.10%     45.74MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190.2MiB / 7.684GiB   2.42%     2.18MB / 961kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   98.07%    1.289GiB / 7.684GiB   16.78%    154MB / 8.47MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.74MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.24%     190.1MiB / 7.684GiB   2.42%     2.19MB / 964kB   54.5MB / 37.7MB   29
+650af2d6431c   alamPREPROCESSOR   178.94%   1.157GiB / 7.684GiB   15.06%    154MB / 8.49MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.14%     45.73MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.43%     190MiB / 7.684GiB     2.42%     2.19MB / 964kB   54.5MB / 37.8MB   29
+650af2d6431c   alamPREPROCESSOR   101.64%   1.263GiB / 7.684GiB   16.44%    154MB / 8.49MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.12%     45.73MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.44%     190.1MiB / 7.684GiB   2.42%     2.19MB / 964kB   54.5MB / 37.9MB   29
+650af2d6431c   alamPREPROCESSOR   96.77%    1.273GiB / 7.684GiB   16.57%    154MB / 8.49MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.11%     45.73MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190MiB / 7.684GiB     2.42%     2.19MB / 965kB   54.5MB / 37.9MB   29
+650af2d6431c   alamPREPROCESSOR   97.44%    1.283GiB / 7.684GiB   16.70%    154MB / 8.49MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.73MiB / 7.684GiB   0.58%     297kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.20%     190.1MiB / 7.684GiB   2.42%     2.2MB / 968kB   54.5MB / 37.9MB   29
+650af2d6431c   alamPREPROCESSOR   179.66%   1.147GiB / 7.684GiB   14.93%    154MB / 8.5MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.13%     45.73MiB / 7.684GiB   0.58%     297kB / 207kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     190MiB / 7.684GiB     2.42%     2.2MB / 968kB   54.5MB / 37.9MB   29
+650af2d6431c   alamPREPROCESSOR   97.58%    1.264GiB / 7.684GiB   16.45%    154MB / 8.5MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.73MiB / 7.684GiB   0.58%     297kB / 207kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.46%     190MiB / 7.684GiB     2.42%     2.2MB / 968kB   54.5MB / 37.9MB   29
+650af2d6431c   alamPREPROCESSOR   98.30%    1.275GiB / 7.684GiB   16.59%    154MB / 8.5MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.73MiB / 7.684GiB   0.58%     297kB / 207kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     190MiB / 7.684GiB     2.42%     2.2MB / 968kB   54.5MB / 37.9MB   29
+650af2d6431c   alamPREPROCESSOR   97.47%    1.286GiB / 7.684GiB   16.74%    154MB / 8.5MB   355MB / 530MB     59
+8302c7cefe70   alamAPI            0.10%     45.73MiB / 7.684GiB   0.58%     297kB / 207kB   28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.88%     190.1MiB / 7.684GiB   2.42%     2.21MB / 972kB   54.5MB / 37.9MB   29
+650af2d6431c   alamPREPROCESSOR   172.66%   1.129GiB / 7.684GiB   14.70%    154MB / 8.51MB   355MB / 530MB     26
+8302c7cefe70   alamAPI            0.14%     45.73MiB / 7.684GiB   0.58%     298kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.24%     190.1MiB / 7.684GiB   2.42%     2.21MB / 972kB   54.5MB / 37.9MB   29
+650af2d6431c   alamPREPROCESSOR   106.14%   1.27GiB / 7.684GiB    16.53%    154MB / 8.51MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.11%     45.73MiB / 7.684GiB   0.58%     298kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     190MiB / 7.684GiB     2.42%     2.21MB / 972kB   54.5MB / 37.9MB   29
+650af2d6431c   alamPREPROCESSOR   96.90%    1.279GiB / 7.684GiB   16.65%    154MB / 8.51MB   355MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.73MiB / 7.684GiB   0.58%     298kB / 207kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.19%     190.1MiB / 7.684GiB   2.42%     2.21MB / 972kB   54.5MB / 38MB   29
+650af2d6431c   alamPREPROCESSOR   96.37%    1.291GiB / 7.684GiB   16.80%    154MB / 8.51MB   355MB / 530MB   59
+8302c7cefe70   alamAPI            0.13%     45.73MiB / 7.684GiB   0.58%     298kB / 207kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.91%     190.1MiB / 7.684GiB   2.42%     2.22MB / 975kB   54.5MB / 38MB   29
+650af2d6431c   alamPREPROCESSOR   52.97%    1.205GiB / 7.684GiB   15.69%    154MB / 8.52MB   355MB / 530MB   20
+8302c7cefe70   alamAPI            0.22%     45.73MiB / 7.684GiB   0.58%     298kB / 207kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.14%     190MiB / 7.684GiB     2.42%     2.22MB / 976kB   54.5MB / 38MB   29
+650af2d6431c   alamPREPROCESSOR   181.28%   1.25GiB / 7.684GiB    16.26%    154MB / 8.52MB   355MB / 530MB   33
+8302c7cefe70   alamAPI            0.11%     45.73MiB / 7.684GiB   0.58%     298kB / 207kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     190MiB / 7.684GiB     2.42%     2.22MB / 976kB   54.5MB / 38MB   29
+650af2d6431c   alamPREPROCESSOR   99.11%    1.274GiB / 7.684GiB   16.57%    154MB / 8.52MB   355MB / 530MB   51
+8302c7cefe70   alamAPI            0.11%     45.73MiB / 7.684GiB   0.58%     298kB / 207kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     190MiB / 7.684GiB     2.42%     2.22MB / 976kB   54.5MB / 38MB   29
+650af2d6431c   alamPREPROCESSOR   97.35%    1.289GiB / 7.684GiB   16.77%    154MB / 8.52MB   355MB / 530MB   59
+8302c7cefe70   alamAPI            0.11%     45.73MiB / 7.684GiB   0.58%     298kB / 207kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.89%     190.1MiB / 7.684GiB   2.42%     2.23MB / 979kB   54.5MB / 38MB   31
+650af2d6431c   alamPREPROCESSOR   53.34%    1.292GiB / 7.684GiB   16.81%    154MB / 8.53MB   355MB / 530MB   50
+8302c7cefe70   alamAPI            0.13%     45.73MiB / 7.684GiB   0.58%     298kB / 207kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.24%     190MiB / 7.684GiB     2.42%     2.23MB / 979kB   54.5MB / 38MB   29
+650af2d6431c   alamPREPROCESSOR   179.18%   1.226GiB / 7.684GiB   15.96%    154MB / 8.53MB   356MB / 530MB   33
+8302c7cefe70   alamAPI            0.12%     45.73MiB / 7.684GiB   0.58%     298kB / 207kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.15%     190MiB / 7.684GiB     2.42%     2.23MB / 979kB   54.5MB / 38MB   29
+650af2d6431c   alamPREPROCESSOR   98.11%    1.278GiB / 7.684GiB   16.64%    154MB / 8.53MB   356MB / 530MB   51
+8302c7cefe70   alamAPI            0.10%     45.73MiB / 7.684GiB   0.58%     298kB / 208kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.17%     190MiB / 7.684GiB     2.42%     2.23MB / 979kB   54.5MB / 38MB   29
+650af2d6431c   alamPREPROCESSOR   98.10%    1.288GiB / 7.684GiB   16.77%    154MB / 8.53MB   356MB / 530MB   59
+8302c7cefe70   alamAPI            0.13%     45.73MiB / 7.684GiB   0.58%     298kB / 208kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O       PIDS
+f10bc4b28a7e   alamDB             0.96%     189.9MiB / 7.684GiB   2.41%     2.24MB / 983kB   54.5MB / 38MB   31
+650af2d6431c   alamPREPROCESSOR   70.74%    1.293GiB / 7.684GiB   16.83%    154MB / 8.54MB   356MB / 530MB   53
+8302c7cefe70   alamAPI            0.14%     45.71MiB / 7.684GiB   0.58%     298kB / 208kB    28.5MB / 0B     3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     189.9MiB / 7.684GiB   2.41%     2.24MB / 983kB   54.5MB / 38.1MB   29
+650af2d6431c   alamPREPROCESSOR   99.99%    1.206GiB / 7.684GiB   15.70%    154MB / 8.54MB   356MB / 530MB     26
+8302c7cefe70   alamAPI            0.11%     45.71MiB / 7.684GiB   0.58%     298kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     189.9MiB / 7.684GiB   2.41%     2.24MB / 983kB   54.5MB / 38.1MB   29
+650af2d6431c   alamPREPROCESSOR   96.81%    1.276GiB / 7.684GiB   16.61%    154MB / 8.54MB   356MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.71MiB / 7.684GiB   0.58%     298kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     189.9MiB / 7.684GiB   2.41%     2.24MB / 983kB   54.5MB / 38.1MB   29
+650af2d6431c   alamPREPROCESSOR   98.24%    1.288GiB / 7.684GiB   16.76%    154MB / 8.54MB   356MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.71MiB / 7.684GiB   0.58%     299kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     189.7MiB / 7.684GiB   2.41%     2.24MB / 983kB   54.5MB / 38.1MB   29
+650af2d6431c   alamPREPROCESSOR   95.78%    1.299GiB / 7.684GiB   16.91%    154MB / 8.54MB   356MB / 530MB     51
+8302c7cefe70   alamAPI            0.12%     45.7MiB / 7.684GiB    0.58%     299kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.15%     189.7MiB / 7.684GiB   2.41%     2.25MB / 987kB   54.5MB / 38.1MB   29
+650af2d6431c   alamPREPROCESSOR   179.84%   1.188GiB / 7.684GiB   15.46%    154MB / 8.55MB   356MB / 530MB     26
+8302c7cefe70   alamAPI            0.12%     45.7MiB / 7.684GiB    0.58%     299kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.14%     189.7MiB / 7.684GiB   2.41%     2.25MB / 987kB   54.5MB / 38.1MB   29
+650af2d6431c   alamPREPROCESSOR   98.44%    1.279GiB / 7.684GiB   16.65%    154MB / 8.55MB   356MB / 530MB     59
+8302c7cefe70   alamAPI            0.11%     45.7MiB / 7.684GiB    0.58%     299kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.13%     189.7MiB / 7.684GiB   2.41%     2.25MB / 987kB   54.5MB / 38.1MB   29
+650af2d6431c   alamPREPROCESSOR   98.41%    1.29GiB / 7.684GiB    16.78%    154MB / 8.55MB   356MB / 530MB     51
+8302c7cefe70   alamAPI            0.13%     45.7MiB / 7.684GiB    0.58%     299kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.12%     189.7MiB / 7.684GiB   2.41%     2.25MB / 987kB   54.5MB / 38.1MB   29
+650af2d6431c   alamPREPROCESSOR   96.58%    1.3GiB / 7.684GiB     16.92%    154MB / 8.55MB   356MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.7MiB / 7.684GiB    0.58%     299kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.16%     189.7MiB / 7.684GiB   2.41%     2.26MB / 990kB   54.5MB / 38.1MB   29
+650af2d6431c   alamPREPROCESSOR   177.50%   1.168GiB / 7.684GiB   15.20%    154MB / 8.56MB   356MB / 530MB     26
+8302c7cefe70   alamAPI            0.12%     45.7MiB / 7.684GiB    0.58%     299kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.37%     189.7MiB / 7.684GiB   2.41%     2.26MB / 990kB   54.5MB / 38.1MB   29
+650af2d6431c   alamPREPROCESSOR   99.58%    1.284GiB / 7.684GiB   16.71%    154MB / 8.56MB   356MB / 530MB     51
+8302c7cefe70   alamAPI            0.15%     45.7MiB / 7.684GiB    0.58%     299kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.17%     189.7MiB / 7.684GiB   2.41%     2.26MB / 990kB   54.5MB / 38.2MB   29
+650af2d6431c   alamPREPROCESSOR   99.86%    1.294GiB / 7.684GiB   16.84%    154MB / 8.56MB   356MB / 530MB     51
+8302c7cefe70   alamAPI            0.10%     45.7MiB / 7.684GiB    0.58%     299kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.18%     189.5MiB / 7.684GiB   2.41%     2.26MB / 991kB   54.5MB / 38.3MB   29
+650af2d6431c   alamPREPROCESSOR   100.66%   1.301GiB / 7.684GiB   16.93%    154MB / 8.56MB   356MB / 530MB     51
+8302c7cefe70   alamAPI            0.15%     45.69MiB / 7.684GiB   0.58%     299kB / 208kB    28.5MB / 0B       3
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+f10bc4b28a7e   alamDB             0.46%     189.5MiB / 7.684GiB   2.41%     2.27MB / 994kB   54.5MB / 38.4MB   29
+650af2d6431c   alamPREPROCESSOR   40.26%    1.064GiB / 7.684GiB   13.85%    154MB / 8.57MB   356MB / 530MB     17
+8302c7cefe70   alamAPI            0.12%     45.68MiB / 7.684GiB   0.58%     299kB / 208kB    28.5MB / 0B       3

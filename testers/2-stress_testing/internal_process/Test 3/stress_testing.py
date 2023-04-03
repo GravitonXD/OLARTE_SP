@@ -6,7 +6,7 @@ def task():
     # Run 'manual_run.py' 100 times
     for i in range(100):
         start_time = time.time()
-        print(f"Running manual_run.py for the {i+1} time")
+        print(f"Running collector.py for the {i+1} time")
         try:
             os.system('python3 manual_run.py')
             end_time = time.time()
@@ -27,7 +27,7 @@ def main():
     os.makedirs("/data/db/stress_test_results", exist_ok=True)
 
     # Run a task every 11:15 PM
-    schedule.every().day.at("23:15").do(task)
+    schedule.every().day.at("18:05").do(task)
 
     while True:
         # Print the remaining time until the next scheduled job
