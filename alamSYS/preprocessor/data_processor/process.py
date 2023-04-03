@@ -1,22 +1,16 @@
-"""
-
-    This script will process the data and create the json files
-    for the stock to buy and stock to sell, which will be passed to the database.
-
-"""
-# Import local modules
 from utils import db_actions
 from utils import logs_and_alerts as la
 import ml_processor as mp
+import alma_processor as ap
 from json import dump
 from os import makedirs
 
+
 def main():
-    # Directory for the logs
     log_directory = "data_processor_logs"
 
     try:
-        # DEEP LEARNING MODELS APPLICATION
+        # DEEP LEARNING MODELS TO APPLY
         model_names = ["dmd_lstm"]
 
         for model in model_names:
@@ -40,7 +34,7 @@ def main():
                 exit(1)
             # Post process the data
             try:
-                stocks_to_buy, stocks_to_sell = mp.post_processing(processed_data, model_name=model)
+                stocks_to_buy, stocks_to_sell = ap.post_processing(processed_data, model)
                 la.Logs().success_log(f"Successfully post processed data for model: {model}", log_directory)
                 la.Alerts().success_alert(f"Successfully processed data for model: {model}")
             except Exception as e:
@@ -105,6 +99,7 @@ def main():
         la.Logs().error_log(f"Failed to save stocks to buy and sell to database. Error_Info:{e}", log_directory)
         la.Alerts().error_alert(f"Failed to save stocks to buy and sell to database. Error_Info:{e} Program will exit")
         exit(1)
+
 
 if __name__ == "__main__":
     main()

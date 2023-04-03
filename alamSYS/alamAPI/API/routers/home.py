@@ -9,5 +9,6 @@ router = APIRouter(
 # ====== HOME ==================================================
 @router.get("/")
 def home():
-    return {"message": "Welcome to alamAPI an API for the Philippine Stock Market Price Trend Forecasting System, developed by John Markton M. Olarte"}
+    message = " Welcome to alamAPI an API for the alamSYS a Philippine Stock Market Price Trend Forecasting System, developed by John Markton M. Olarte as a partial requirement for the degree of Bachelor of Science in Computer Science at the University of the Philippines - Visayas."
+    return {"message": message}
 # ====== END HOME ==============================================

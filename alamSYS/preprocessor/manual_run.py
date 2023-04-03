@@ -1,9 +1,12 @@
-# Local Imports
+"""
+    GENERAL ABOUT: For manual running of the tasks of the preprocessor
+"""
 from data_collector import collector
 from data_processor import process
 from utils import logs_and_alerts as la
-log_directory = "manual_run_logs"
 
+
+log_directory = "manual_run_logs"
 def task():
     print("----------------STARTING TASK MANUALLY----------------------")
     la.Logs().success_log("Task has successfully started", log_directory)
