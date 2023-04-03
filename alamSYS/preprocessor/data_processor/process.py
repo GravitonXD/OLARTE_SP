@@ -3,8 +3,15 @@ from utils import logs_and_alerts as la
 import ml_processor as mp
 import alma_processor as ap
 from json import dump
-from os import makedirs
+from os import makedirs, path, rename
+from datetime import datetime
 
+
+def date_now():
+    now = datetime.now()
+    # date = mm-dd-yyyy
+    date = now.strftime("%m-%d-%Y")
+    return date
 
 def main():
     log_directory = "data_processor_logs"
@@ -42,9 +49,35 @@ def main():
                 la.Alerts().error_alert(f"Failed to process data for model: {model}. Error_Info:{e}. Program will exit")
                 exit(1)
 
-            # Save the stocks to buy and stocks to sell to json files in utils/json_data
+            # Backup old stocks to buy and stocks to sell
             makedirs("/data/db/json_data", exist_ok=True)
+            try:
+                if path.exists("/data/db/json_data/stocks2buy.json"):
+                    makedirs("/data/db/json_data/old", exist_ok=True)
+                    makedirs(f"/data/db/json_data/old/{date_now()}", exist_ok=True)
+                    rename("/data/db/json_data/stocks2buy.json", f"/data/db/json_data/old/{date_now()}/stocks2buy.json")
+                    la.Logs().success_log(f"Successfully backed up old stocks to buy", log_directory)
+                    la.Alerts().success_alert(f"Successfully backed up old stocks to buy")
+                else:
+                    la.Logs().success_log(f"No existing stocks2buy.json yet, this is not an error", log_directory)
+                    la.Alerts().success_alert(f"No existing stocks2buy.json yet, this is not an error")
+                if path.exists("/data/db/json_data/stocks2sell.json"):
+                    makedirs("/data/db/json_data/old", exist_ok=True)
+                    makedirs(f"/data/db/json_data/old/{date_now()}", exist_ok=True)
+                    rename("/data/db/json_data/stocks2sell.json", f"/data/db/json_data/old/{date_now()}/stocks2sell.json")
+                    la.Logs().success_log(f"Successfully backed up old stocks to sell", log_directory)
+                    la.Alerts().success_alert(f"Successfully backed up old stocks to sell")
+                else:
+                    la.Logs().success_log(f"No existing stocks2sell.json yet, this is not an error", log_directory)
+                    la.Alerts().success_alert(f"No existing stocks2sell.json yet, this is not an error")
 
+            except Exception as e:
+                la.Logs().error_log(f"Failed to backup old stocks to buy or sell. Error_Info:{e}", log_directory)
+                la.Alerts().error_alert(f"Failed to backup old stocks to buy or sell. Error_Info:{e}")
+                exit(1)
+
+            
+            # Save the stocks to buy and stocks to sell to json files in utils/json_data
             try:
                 with open("/data/db/json_data/stocks2buy.json", "w") as f:
                     dump(stocks_to_buy, f)
