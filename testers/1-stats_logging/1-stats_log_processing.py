@@ -27,13 +27,13 @@ memory_stats_alamAPI_DB = []
 line_counter = 0
 for items in stats:
     counter = line_counter % 3
-    if counter == 0:
+    if counter == 2:
         cpu_stats_preprocessor.append(items[2])
         memory_stats_preprocessor.append(items[3])
     elif counter == 1:
         cpu_stats_alamAPI_API.append(items[2])
         memory_stats_alamAPI_API.append(items[3])
-    elif counter == 2:
+    elif counter == 0:
         cpu_stats_alamAPI_DB.append(items[2])
         memory_stats_alamAPI_DB.append(items[3])
     line_counter += 1
