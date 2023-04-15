@@ -14,11 +14,13 @@ the Gane-Sarson DFD symbols, which employ four basic symbols:
 (3) Process; and 
 (4) Data Store 
 \cite{VisualParadigm}
+
+
 % Context Diagram
 \subsubsection{Context Diagram}
 \label{subsubsec:context_dfd}
-The overview of the whole process is shown in a context diagram of the system,
-labelled as process 0, which can be seen in the provided in Figure 
+The overview of the entire process is depicted in a context diagram of the system, 
+labeled process 0, as shown in Figure
 \ref{fig:context_dfd}.
 \begin{figure}[ht]
     \centering
@@ -28,53 +30,55 @@ labelled as process 0, which can be seen in the provided in Figure
 \end{figure}
 \FloatBarrier
 \vspace{0.5cm}
-The above figure shows the root process (process 0), which is the underlying 
-system of the alamSYS which is connected to four external entities: (1) Scheduler, 
-which will be provided by CRON; (2) Stock Market Historical Data Provider, 
-which will be EODHD; (3) Machine Learning Model, which will be developed 
-along side the development of the system; and (4) Third-Party Application, 
-which will also be developed in the conduct of this special problem as the 
-test application for accessing, testing, and showcase of the features of alamSYS.
-\hfill \\
+The diagram above depicts the root process (0), which is the alamSYS itself, 
+and is linked to three external entities: 
+\begin{itemize}
+    \item[(a)] Stock Market Historical Data Provider - 
+    which was provided by EODHD.
+    \item[(b)] Deep Learning Model \& Trading Algorithm - these were 
+    developed alongside the alamSYS, specifically the DMD-LSTM Model and ALMACD, respectively.
+    \item[(c)] Internet Connected Application - these are any type of applications with internet access. 
+    Other applications may include a web-based application, a smart home speaker, and so on.
+\end{itemize}
+\hfill
 
-Moreover, all the necessary data flow lines can also be observed: 
-(1) Scheduled task, which is the committed task on schedule as indicated 
-in the CRON application; 
-(2) API Request: Stock Market Historical Data, which is the request 
-information passed by the root process to the historical market data provider; 
-(3) API Response: Stock Market Historical Data, which is the data passed by the 
-historical market data provider to the process after accepting its request; 
-(4) Trained Model, this is the object class from the Machine Learning model that 
-will be developed and used by the system; 
-(5) Stock Market Historical Data, as the name suggests this is the historical 
-market data which will also be used to train and improve the machine learning model; 
-(6) API Request: Stocks to Buy, which is the data passed from the third-party 
-application to the root process to request for which stocks are in the Buy 
-document of the database; 
-(7) API Response: Stocks to Buy, upon the request of the third-party application, 
-the root process will process the request to the API and sends back the 
-list of stocks to buy to the requester; 
-(8) API Request: Stocks to Sell, which is the data passed from the 
-third-party application to the root process to request for which stocks 
-are in the Sell document of the database; 
-(9) API Response: Stocks to Sell, upon the request of the third-party application, 
-the root process will process the request to the API and sends back the list of 
-stocks to sell to the requester; 
-(10) API Request: Stock Info, which is the data passed from the third-party 
-application to the root process to request for the general information about a 
-particular stock, this will be further discussed in the Object-Document Mapped 
-(ODM) diagram; and 
-(11) API Response: Stock Info, upon the request of the third-party application, 
-the root process will process the request to the API and sends back the information 
-of the stock based on what was requested.
+The data flow lines shown Figure \ref{fig:context_dfd} include the following:
+\begin{itemize}
+    \item[(a)] API Request(EODHD) - This is the request sent to the EODHD API to collect the 
+    stock market historical data.
+    \item[(b)] API Response(EODHD) - This is the response received from the 
+    EODHD API, which contains the end of day stock market data.
+    \item[(c)] API Request(alamAPI) - This are the requests sent by any 
+    internet connected application to the alamSYS via the alamAPI.
+    \item[(d)] API Response(alamAPI) - This are the responses sent by the alamSYS to 
+    any internet connected application via the alamAPI.
+    \\ Whereas, in connection to the alamAPI, the following API points may be requested by the internet connected application:
+    \begin{itemize}
+        \item Home - This API endpoint returns a greeting message. Which should notify the 
+        user that they have connected to the alamAPI successfully.
+        \item Stocks to Buy - This API endpoint returns a json data of recommended stocks to 
+        buy based on the current market price, the predicted price uptrend, and the entry signal of the
+        trading algorithm in use.
+        \item Stocks to Sell - This API endpoint returns a json data of recommended stocks to 
+        sell based on the current market price, the predicted price downtrend, and the exit signal of the
+        trading algorithm in use.
+        \item ML Model Info - This API endpoint returns a json data of the Machine Learning Models 
+        used in the alamSYS, as well as their associated information.
+        \item Stock Risks Profile - This API endpoint returns a json data of stocks in the 
+        alamSYS as well as their risk values based on value at risk (\%), volatility (\%), and drawdown (\%).
+    \end{itemize}
+    \item[(e)] Trained Model - This is the trained model, referring to the DMD-LSTM, that was used to predict the 
+    price movement of the stocks in the Philippine Stock Market.
+    \item[(f)] Trading Algorithm - This is the deployed trading algorithm, referring to the ALMACD,
+    that was used to determine the entry and exit signals of the stocks in the Philippine Stock Market.
+\end{itemize}
 
 % DFD 0
 \subsubsection{DFD of Diagram 0}
 \label{subsubsec:dfd0}
-To better understand how each data going in-and-out 
-of the root process, is being processed, it is essential that we look inside 
-the inner workings of the root process, which is shown in the DFD of Diagram 0, 
-as provided in Figure \ref{fig:dfd0}.
+To better understand how each data stream entering and exiting the root process is processed, 
+we must look inside the inner workings of the root process, which is illustrated in the DFD of Diagram 0, 
+as shown in Figure \ref{fig:dfd0}.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{./assets/Chapter_3/DFD/DFD_0.png}
@@ -83,17 +87,20 @@ as provided in Figure \ref{fig:dfd0}.
 \end{figure}
 \FloatBarrier
 
-From the figure above, the root process, has two main processes: 
-(1) alamSYS Preprocessor, which is the system’s data processing unit; and 
-(2) alamAPI module, which processes the API 
-requests and responses by utilizing the database of the system.
+From the figure above, the root process, has two main processes:
+\begin{itemize}
+    \item[(a)] alamSYS Preprocessor - which is the system’s stock market data processing unit, which deploys
+    the deep learning model (DMD-LSTM), and the trading algorithm (ALMACD) to predict the price movement of the
+    stocks in the Philippine Stock Market.
+    \item[(b)] alamAPI \& alamDB - which is the system’s API and database unit, which is responsible for
+    processing the API requests and responses, as well as storing the data of the system.
+\end{itemize}
 
 % DFD 1
 \subsubsection{DFD of Diagram 1}
 \label{subsubsec:dfd1}
-To better understand the internal workings of the 
-Process 1, it will be useful to check the DFD of that process, 
-which is provided in Figure \ref{fig:dfd1}
+To better understand the internal workings of the Process 1, 
+it is useful to check the DFD of that process, which is illustrated in Figure \ref{fig:dfd1}
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{./assets/Chapter_3/DFD/DFD_1.png}
@@ -103,26 +110,21 @@ which is provided in Figure \ref{fig:dfd1}
 \FloatBarrier
 
 From the figure shown above, it can be observed that Process 1 
-is composed of 4 internal processes, namely, 
-(1) Data Collector, which is the main process responsible 
-for collecting the historical market data; 
-(2) Pre-Database Processor, which is the processes that the collected 
-data goes into before being sent to the system’s database, the 
-internal processes of this process will be further discuss in the 
-succeeding part of this section; 
-(3) Machine Learning Model Processor, which is the training module or 
-process for the machine learning model that is used to externally train 
-the machine learning model that will be used by the system in the 
-pre-database processor; and 
-(4) Preprocessor Utilities, this will be the processes the process any 
-system utilities such as the database actions, database models, and 
-stores temporary data and system variables.
+is composed of three internal processes, which are as follows:
+\begin{itemize}
+    \item[(a)] Data Collector - which is the main process responsible 
+    for collecting the historical market data using EODHD End of Day Market Data API.
+    \item[(b)] Data Processor - which is the main process responsible for processing the collected 
+    stock market data using the DMD-LSTM Model and the ALMACD Trading Algorithm.
+    \item[(c)] Preprocessor Utilities - these processes contains the utilities used by the
+    data processor, such as the initialization of the database, database related actions, 
+    database models, stock symbols, and logs and alerts module.
+\end{itemize}
 
 % DFD 1.2
 \subsubsection{DFD of Diagram 1.2}
 \label{subsubsec: dfd1.2}
-This shows the processes inside the process 1.2: 
-Pre-database Processor.
+This shows the processes inside the process 1.2, which is the data processor.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{./assets/Chapter_3/DFD/DFD_1.2.png}
@@ -131,20 +133,22 @@ Pre-database Processor.
 \end{figure}
 \FloatBarrier
 
-As previously discussed, the pre-database processor consists of processes 
-inside that processes the data before it will be eventually sent to the database 
-of the system. Wherein the process and data flow is shown in the figure above. 
-Namely: (1) Machine Learning Applicator, which applies the trained machine learning 
-model to the collected data; and 
-(2) Database Updater, which processes the document outputs from the Machine 
-Learning Applicator process, to be used in the database of the system.
+The data processor is further composed of three processes, which are as follows:
+\begin{itemize}
+    \item[(a)] Deep Learning Applicator - This subprocess applies the DMD-LSTM model to 
+    the collected stock market end-of-day (eod) data.
+    \item[(b)] Trading Algorithm Applicator - The eod data alongside the list of predicted stock prices
+    composes the "DL Model Processed Data", which is sent to this subprocess. This subprocess applies
+    the ALMACD to better determine the entry (buy or hold), and exit (sell) signals for each stocks.
+    \item[(c)] Database Updater - A subprocess responsible for updating the contents of the database, 
+    based on the data processed by the Deep Learning Applicator and Trading Algorithm Applicator.
+\end{itemize}
 
 
 % DFD 2
 \subsubsection{DFD of Diagram 2}
 \label{subsubsec:dfd2}
-The final diagram will show the inner processes of 
-the Process 2: alamAPI module.
+Figure \ref{fig:dfd2} shows the inner processes of the process 2 (alamAPI \& alamDB).
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{./assets/Chapter_3/DFD/DFD_2.png}
@@ -153,8 +157,13 @@ the Process 2: alamAPI module.
 \end{figure}
 \FloatBarrier
 \vspace{0.5cm}
-The figure above shows two internal processes of the Process 2, namely, 
-(1) alamAPI: Database Module, which the database model that is used to process and 
-connect MongoDB to the Python program; and 
-(2) alamAPI: API Module, which is composed of the API endpoints that processes 
-the requests and response to and from the system, respectively.
+The figure above shows three internal processes of the Process 2, namely:
+\begin{itemize}
+    \item[(a)] alamDB - This process, processes the database request sent by the alamAPI as requested by the
+    Internet Connected Application through the utilization of alamAPI utilities. It also sends the database
+    response to the alamAPI via the same utilities module.
+    \item[(b)] alamAPI Utilities - This process serves as a mediator of database request and responses
+    between the alamDB and alamAPI.
+    \item[(c)] alamAPI - This process contains all the API endpoints for the alamAPI, which is responsible
+    for processing the requests and API responses from and to the connected users.
+\end{itemize}
