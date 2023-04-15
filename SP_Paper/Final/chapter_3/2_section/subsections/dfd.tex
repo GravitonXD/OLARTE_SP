@@ -1,16 +1,14 @@
 \subsection{Data-Flow Diagram (DFD)}
 \label{subsec:dfd}
-In this section the DFD of the alamSYS will be presented and discussed. 
-Whereas a data-flow diagram will help to better understand how the processes works, 
-and how data flows from one process to another. This is specifically important 
-as it shows the overview of the security of the data by showing how it can be 
-accessed. In the case of alamSYS, the data that can only be accessed publicly is 
-the listed stock to buy and sell, as well as the stock information as provided 
-in its database, and as allowed by the API endpoints.
+A data-flow diagram (DFD) helps to understand how processes work and how data flows 
+from one process to the next. This is especially important because it provides an 
+overview of the data's security by demonstrating how it can be accessed. 
+In the case of alamSYS, the only publicly accessible data is the listed stock to buy and sell, 
+as well as other functions as provided in its database and as permitted by the API endpoints.
 \hfill \\
 
-Moreover, the DFD paradigm used in the diagrams presented in this 
-section follows the Gane-Sarson DFD symbols, which utilizes four basic symbols: 
+Furthermore, the DFD paradigm used in the diagrams in this section adheres to 
+the Gane-Sarson DFD symbols, which employ four basic symbols: 
 (1) Entity / External Entity; 
 (2) Data Flow; 
 (3) Process; and 
@@ -24,7 +22,7 @@ labelled as process 0, which can be seen in the provided in Figure
 \ref{fig:context_dfd}.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{./assets/Data Flow Diagram-01.png}
+    \includegraphics[width=1\textwidth]{./assets/Chapter_3/DFD/DFD_Context.png}
     \caption{Context Diagram of the alamSYS}
     \label{fig:context_dfd}
 \end{figure}
@@ -79,7 +77,7 @@ the inner workings of the root process, which is shown in the DFD of Diagram 0,
 as provided in Figure \ref{fig:dfd0}.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{./assets//Data Flow Diagram-02.png}
+    \includegraphics[width=1\textwidth]{./assets/Chapter_3/DFD/DFD_0.png}
     \caption{DFD of Diagram 0}
     \label{fig:dfd0}
 \end{figure}
@@ -98,7 +96,7 @@ Process 1, it will be useful to check the DFD of that process,
 which is provided in Figure \ref{fig:dfd1}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{./assets/Data Flow Diagram-03.png}
+    \includegraphics[width=1\textwidth]{./assets/Chapter_3/DFD/DFD_1.png}
     \caption{DFD of Diagram 1}
     \label{fig:dfd1}
 \end{figure}
@@ -127,7 +125,7 @@ This shows the processes inside the process 1.2:
 Pre-database Processor.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{./assets/Data Flow Diagram-05.png}
+    \includegraphics[width=1\textwidth]{./assets/Chapter_3/DFD/DFD_1.2.png}
     \caption{DFD of Diagram 1.2}
     \label{fig:dfd1.2}
 \end{figure}
@@ -149,7 +147,7 @@ The final diagram will show the inner processes of
 the Process 2: alamAPI module.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{./assets/Data Flow Diagram-04.png}
+    \includegraphics[width=1\textwidth]{./assets/Chapter_3/DFD/DFD_2.png}
     \caption{DFD 2: Data-Flow Diagram for the alamSYS}
     \label{fig:dfd2}
 \end{figure}
