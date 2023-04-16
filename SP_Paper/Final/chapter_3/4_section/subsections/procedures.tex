@@ -1,37 +1,114 @@
 \subsection{Procedures}
 \label{subsec:procedures}
-In this section, the step-by-step procedures that 
-will be followed in line with the development and testing of the system; 
-alamSYS. Whereas the following are the procedures:
+This section provides a general overview of the steps conducted
+in the development of the different components developed in the
+whole duration of this special problem.
+
+% Procedure for the Development of the alamSYS and its Components
+\subsection{Procedures for the Development of the alamSYS and its Components}
+\label{subsec:proc_alamSYS}
+The following step-by-step procedures were conducted in the development
+of the alamSYS and its components (alamAPI, alamDB, and alamPREPROCESSOR):
 \begin{itemize}
-    \item[(a)]	Designing of the System Architecture for alamSYS
-    \item[(b)]	Designing of Machine Learning Model
-    \item[(c)]	Development of System Prototype
-    \item[(d)]	Training, Testing, and Evaluation of the Machine Learning Model
-    \item[(e)]	Integration of the Machine Learning Model to the alamSYS
-    \item[(f)]	Initial testing for alamSYS, this shall also include any debugging, 
-    bug fixing, and code refactoring.
-    \item[(g)]	Pre-deployment testing, this testing phase includes the 
-    following tests that will be done for a one-month continuous system operation:
-        \begin{itemize}
-            \item Functional Testing, by monitoring the functionality of 
-            the alamSYS over 30 days and checking the success and error logs at 
-            the end of the given timeframe.
-            \item Stress Testing, by creating ten-million artificial requests 
-            to the API everyday for 30 days.
-        \end{itemize}
-    \item[(h)]	Logging and summarization of results from all the prior 
-    tests conducted
-    \item[(i)]	Analysis and discussion of test data results.
-    \item[(j)]	Code Documentation
-    \item[(k)]	Maintenance, which will span beyond the time scope of the 
-    special problem.
+    \item[(a)] User Requirement and Analysis
+    \item[(b)] System Design and Architecture using DFD
+    \item[(c)] System Prototyping and Development.
+    \item[(d)] System Testing and Continuous Development and Integration.
+    Each of the components of the alamSYS were developed into smaller chunks,
+    and each chunks were tested and integrated with the other smaller chunks
+    until a component was functionally developed. Afterwards the same process for
+    the other components were conducted, until a whole working system was developed.
+    \item[(e)] System Deployment, Review, and Maintenance
+    \item[(f)] Steps (a) to (e) were repeated until the system was deemed
+    to be stable and ready for deployment within the scopes of this special
+    problem. Moreover, the system shall be maintained even after the submission
+    of this special problem such as the addition of new features.
 \end{itemize}
+\hfill \\
 
-% Procedure for the Development of the alamSYS and its components
 
-% Procedure for the Development of the DMD-LSTM Model and ALMACD
+% Procedure for the Development of the DMD-LSTM Model
+\subsection{Procedures for the Development of the DMD-LSTM Model}
+\label{subsec:proc_dmdlstm}
+The following step-by-step procedures were conducted in the development
+of the DMD-LSTM model:
+\begin{itemize}
+    \item[(a)] Collection of end-of-day Philippine Stock Market Data from the
+    20 selected stocks from the Philippine Stock Exchange (PSE) for the periods
+    until February 10, 2023.
+    \item[(b)] Data Preprocessing, Model Training, Testing, Cross-validation, and Evaluation
+    was conducted based on the DMD-LSTM methodology shown in Figure \ref{fig:ml_model}.
+    \item[(c)] The best performing DMD-LSTM model was deployed and integrated as part 
+    of the alamSYS, specifically used in the alamPREPROCESSOR component.
+\end{itemize}
+\hfill \\
+
+
+% Procedure for the Development of the ALMACD Trading Algorithm
+\subsection{Procedures for the Development of the ALMACD Trading Algorithm}
+\label{subsec:proc_almacd}
+The following step-by-step procedures were conducted in the development
+of the ALMACD trading algorithm:
+\begin{itemize}
+    \item[(a)] Collection of end-of-day Philippine Stock Market Data from the
+    20 selected stocks from the Philippine Stock Exchange (PSE) for the periods
+    until February 10, 2023.
+    \item[(b)] Using a Grid Search approach, the best ALMA parameters 
+    (\textit{i.e.} window size, sigma, and offset) for both slow and fast were
+    determined.
+    \item[(c)] Using the best ALMA parameters, a trading algorithm was developed
+    which takes in the convergence and divergence of the slow and fast ALMA as basis
+    for entry and exit signals. When the slow ALMA crosses above the fast ALMA, a
+    buy signal is generated. When the slow ALMA crosses below the fast ALMA, a sell
+    signal is generated.
+    \item[(d)] The trading algorithm was deployed and integrated as part of the
+    alamSYS, specifically used in the alamPREPROCESSOR component.
+\end{itemize}
+\hfill \\
+
 
 % Procedure for the Development of Mobile-based Test Application
+\subsection{Procedures for the Development of Mobile-based Test Application}
+\label{subsec:proc_mobdev}
+The following step-by-step procedures were conducted in the development
+of the mobile-based test application:
+\begin{itemize}
+    \item[(a)] User Interface Design and Development using Figma.
+    \item[(b)] Creation of Initial Prototype using Flutter.
+    \item[(c)] Continuation of Feature Development and Testing.
+    \item[(d)] Integration of HTTP methods with the alamAPI.
+\end{itemize}
+\hfill \\
+\textit{Note that the purpose of this application is to showcase the main feature of
+the alamSYS, as such it is not fit for user deployment. However it is further discussed
+in the recommendations on how it can be potentially deployed by future developers.}
 
 % Procedure for the System Testing
+\subsection{Procedures for the System Testing}
+\label{subsec:proc_mobdev}
+The following step-by-step procedures were conducted in the system testing:
+\begin{itemize}
+    \item[(a)] Development of tester application, which are as follows:
+    \begin{itemize}
+        \item System Statistics Logger - Using the docker stats stream command, the system 
+        CPU, memory, and network utilization stats were recorded. This logger was used
+        to determine the idle and on load performance of the alamSYS.
+        \item Deployment Tester - This tester application was used to test the deployment
+        reliability of the alamSYS. The test was conducted by deploying the alamSYS in a server
+        while then other computers requests for different functions to the alamSYS over the internet
+        using the HTTP methods. Further the tester also logs the overall response time to
+        process 10, 100, and 1000 requests in a row, as well as the success rate of the
+        requests.
+        \item Internal System Stress Tester - This tester application was used to test the
+        internal system reliability of the alamSYS. The test was conducted to run the processes
+        of the alamSYS in a loop for 100 consecutive times, and logs the overall response time
+        as well as success rate for each processes.
+    \end{itemize}
+    \item[(b)] Initial testing of the tester applications, to see if
+    they are working as intended
+    \item[(c)] Actual testing was done using these tester applications, and
+    all results and system logs were recorded.
+    \item[(d)] The results of the testing were then analyzed, compared, and summarized.
+    Further details regarding this are discussed on Chapter 4.
+\end{itemize}
+\hfill \\
