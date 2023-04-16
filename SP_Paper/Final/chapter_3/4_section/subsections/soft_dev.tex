@@ -1,188 +1,169 @@
 \subsection{Software Development Process}
 \label{subsec:soft_dev}
-Due to the expected heavy time constraints of the development of the system, 
-the author of this paper decided to follow an Agile Software Development Process, 
-primarily it will be using Agile Sprints for an efficient time management 
-during the whole software development process. Wherein the following are the 
-list of Sprints and sub-activities that will be followed are shown in the 
-Table below:
+Because of the expected tight time constraints during system 
+development, the author of this paper chose an Agile Software 
+Development Methodology. Agile Sprints were primarily used to manage 
+time efficiently during the software development process
+\cite{JavaTPointAgile, Milne2021}. Moreover, a modified Agile Development Methodology as
+shown in Figure \ref{fig:agile} was followed in the system
+development procedures for this special problem.
+
+% Agile Development
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{./assets/Chapter_3/agile.png}
+    \caption{Modified Agile Development Methodology}
+    \label{fig:agile}
+\end{figure}
+\FloatBarrier
+
+The modified agile development methodology shown above includes 
+additional and specific "feedback loops" such as a development 
+feedback loop that focuses on the continuous design and development 
+process; and a development testing loop that ensures that the 
+software being developed works as intended or better than expected.
+\hfill \\
+
+The Table \ref{summary-sprints} shows the list of sprints and 
+sub-activities that were followed:
+\hfill \\
 
 % TABLE: SPRINTS AND SUB-ACTIVITIES
 \begin{longtable}{|c|l|l|}
-    \caption{Summary of Sprints and Target Activities}
+    \caption{Summary of Sprints and Activities}
     \label{summary-sprints}\\
     \hline
     % Header
     \textbf{Sprint Number} & 
-    \multicolumn{1}{c|}{\textbf{Target Activities}} & 
-    \multicolumn{1}{c|}{\textbf{Allotted Time$^1$}} \\ \hline
+    \multicolumn{1}{c|}{\textbf{Activities}} & 
+    \multicolumn{1}{c|}{\textbf{Completion Date}} \\ \hline
     \endfirsthead
     % Continued Header
     \multicolumn{3}{c}%
     {{\bfseries Table \thetable\ continued from previous page}} \\
     \hline
     \textbf{Sprint Number} & 
-    \multicolumn{1}{c|}{\textbf{Target Activities}} & 
-    \multicolumn{1}{c|}{\textbf{Allotted Time$^1$}}\\ \hline
+    \multicolumn{1}{c|}{\textbf{Activities}} & 
+    \multicolumn{1}{c|}{\textbf{Completion Date}}\\ \hline
     \endhead
     % Row 1
     1 &
     \begin{tabular}{p{0.35\textwidth}}
-        \textbf{Main Activity:} System Planning and Evaluation \\
+        \textbf{Main Activity:} Requirement Analysis, System Planning, and Evaluation\\
         \vspace{0.5cm}
         \textbf{Sub-Activities:}
         \begin{itemize}
             \item Topic Proposal 
-            \item Drafting of Chapters 1 to 3 for the Special Problem Proposal
+            \item Drafted Chapters 1 to 3 for the Special Problem Proposal
             \item System Architecture and User Requirement Analysis
         \end{itemize}
     \end{tabular} &
     \begin{tabular}{p{0.20\textwidth}}
-        \textbf{12 Weeks}
-        \\Start: \\September 15, 2022
-        \\End: \\December 9, 2022
+        September 15, 2022 to December 9, 2022
     \end{tabular} \\ \hline
     % Row 2
     2 &
     \begin{tabular}{p{0.35\textwidth}}
-        \textbf{Main Activity:} System Prototyping \\
+        \textbf{Main Activity:} Development of Initiasl Sytem Prototype\\
         \vspace{0.5cm}
         \textbf{Sub-Activities:}
         \begin{itemize}
             \item Build the different component of the alamSYS as 
             indicated in the top-level overview diagram of the system, 
-            the following prototype will be developed:
+            the following prototype were initially developed:
             \subitem[1.] API endpoints
             \subitem[2.] Database
             \subitem[3.] Preprocessor
-            \item Testing of the build prototype. This also 
-            include creating unit test cases for each component.
-            \item Initial Documentations, this will be done 
-            inside the GitHub repository.
+            \item Tested the build prototype.
         \end{itemize}
     \end{tabular} &
     \begin{tabular}{p{0.20\textwidth}}
         \textbf{12 Weeks}
-        \\Start: \\September 30, 2022
-        \\End: \\April 3, 2023
+        September 30, 2022 to December 23, 2023
     \end{tabular} \\ \hline
     % Row 3
     3 &
     \begin{tabular}{p{0.35\textwidth}}
-        \textbf{Main Activity:} Machine Learning Model Training, 
-        Testing, and Evaluation \\
+        \textbf{Main Activity:} Development and Testing of
+        DMD-LSTM Model \\
         \vspace{0.5cm}
         \textbf{Sub-Activities:}
         \begin{itemize}
-            \item Collection of Historical Data, outside the 
-            Data Collector module of the system. As the full 
-            data will be needed for each stock for the training, 
-            rather the 200-day only historical data. Whereas the last 
-            date on the market data should be January 13, 2023.
-            \item Development of the Machine Learning Model. 
-            This includes data standardization, data splitting, 
-            and data training.
-            \item Machine Learning model testing and evaluation.
-            \item Revision of Chapter 1-3, in preparation 
-            for the final paper submission.
+            \item Stock Market Data until February 10, 2023 was
+            collected.
+            \item Development of the Deep Learning Model. following
+            the procedures as previously discussed on section
+            \ref{subsec:ml_diagram}.
+            \item Development of Baseline LSTM model for comparison
+            against DMD-LSTM Model.
+            \item Deep Learning model training, testing, cross-validation,
+            and evaluation.
+            \item Revised of Chapters 1 to 3.
         \end{itemize}
     \end{tabular} &
     \begin{tabular}{p{0.20\textwidth}}
-        \textbf{10 Weeks}
-        \\Start: \\January 15, 2023
-        \\End: \\March 30, 2023
+        January 1, 2023 to February 21, 2023
     \end{tabular} \\ \hline
     % Row 4
     4 &
     \begin{tabular}{p{0.35\textwidth}}
-        \textbf{Main Activity:} Integration of Machine Learning Model 
-        to the alamSYS and Additional Data Collection \\
+        \textbf{Main Activity:} Integration of DMD-LSTM Model 
+        to the alamSYS and System Testing\\
         \vspace{0.5cm}
         \textbf{Sub-Activities:}
         \begin{itemize}
-            \item Testing and Evaluation of alamSYS with the 
-            integration of the Machine Learning Model.
-            \item System Testing, this will be done to verify 
-            the functionality of the whole system, given a test 
-            deployment environment. Moreover, this will be done 
-            in a span of 4 weeks
-            \item Drafting of Chapter 4 and 5
+            \item Integrated DMD-LSTM to alamSYS.
+            \item Initial tests of the system.
+            \item Created System Tests and Loggers.
+            \item System Testing, Results Logging and Summarization.
         \end{itemize}
     \end{tabular} &
     \begin{tabular}{p{0.20\textwidth}}
-        \textbf{6 Weeks}
-        \\Start: \\March 31, 2023
-        \\End: \\May 12, 2023
+        January 15, 2023 to March 7, 2023
     \end{tabular} \\ \hline
     % Row 5
-    5$^2$ &
+    5 &
     \begin{tabular}{p{0.35\textwidth}}
-        \textbf{Main Activity:} System Documentation \\
+        \textbf{Main Activity:} System Testing, Analysis, Refactoring, and Deployment\\
         \vspace{0.5cm}
         \textbf{Sub-Activities:}
         \begin{itemize}
-            \item Updating and Finalization of Documentations 
-            included in the GitHub Repository.
-            \item Writing of the results, discussions, conclusions, 
-            and recommendations for Chapter 4 – 5
-            \item Special problem paper revisions
-            \item Start the development of the test application 
-            (for showcasing of the system features)
+            \item Development test loop was conducted.
+            \item System  Refactoring.
+            \item System Update and inclusion of additionl features.
+            \item Results Gathering and Summarization.
+            \item Started the development of the test application 
+            (for showcasing of the system features).
         \end{itemize}
     \end{tabular} &
     \begin{tabular}{p{0.20\textwidth}}
-        \textbf{6 Weeks}
-        \\Start: \\April 14, 2023
-        \\End: \\May 26, 2023
+        March 7, 2023 to April 13, 2023
     \end{tabular} \\ \hline
     % Row 6
-    6$^2$ &
+    6 &
     \begin{tabular}{p{0.35\textwidth}}
-        \textbf{Main Activity:} Preparation for Final 
-        Defense and System Presentation \\
+        \textbf{Main Activity:} Finalization of Paper, System Defense, and Presentation\\
         \vspace{0.5cm}
         \textbf{Sub-Activities:}
         \begin{itemize}
-            \item Finalization of the mobile-based test application
-            \item Revisions and Finalization of the special problem paper.
-            \item Creation of presentation slide deck for the presentation 
+            \item Revised Chapter 1 to 3.
+            \item Drafted Chapter 4 to 5.
+            \item Finalization of the mobile-based test application.
+            \item Reviewed the Content of this paper.
+            \item Revised and Finalized the special problem paper.
+            \item Created presentation slide deck for the presentation 
             of the special problem.
         \end{itemize}
     \end{tabular} &
     \begin{tabular}{p{0.20\textwidth}}
-        \textbf{3 Weeks}
-        \\Start: \\May 27, 2023
-        \\End: \\June 17, 2023
+        March 14, 2023 to May 12, 2023
     \end{tabular} \\ \hline
-    \caption*{
-        1. Start and End Dates are based on 
-        the University’s Academic Calendar 
-        and the Schedule provided by the 
-        Special Problem Adviser.\\
-        2. Sprints 5 and 6 are no longer part of the 
-        actual system development but is still included as 
-        a basis for the Gantt chart. Moreover, these 
-        activities can still be considered as part of the 
-        documentation process.
-    }
 \end{longtable}
 
-From Table \ref{summary-sprints}, it is 
-shown that there is a total of 39 weeks; from September 15, 2022, 
-to June 17, 2023, however it must be noted that an additional 1 week 
-was added to each sprint’s allotted time to compensate for any unforeseen 
-events during each sprint.
-\hfill \\
-
-It should also be noted that Sprint 1 and Sprint 2 overlaps as 
-the development of the prototype will start at Week 3, this will 
-be possible as there will already be an initial system design to be followed, 
-and any changes made during Sprint 1 can easily be adjusted to the creation of 
-the prototype of the system in Sprint 2. This is also the case for Sprints 4 and 5, 
-since their activities overlaps with each other, such that there are things in 
-Sprint 4 that are unsupervised, hence, to better manage the time it is reasonable 
-to start the activities of Sprint 5 along side the later parts of Sprint 4.
-\hfill \\
-
-Moreover, the full details about the scheduling will be 
-further discussed in the Gantt Chart of this chapter.
+From Table \ref{summary-sprints}, it was
+shown that it took a total of 34 weeks (from September 15, 2022, 
+to May 12, 2023) to develop the alamSYS and all its components, as
+well as to write the contents of this paper. This was 5 weeks
+better than the expected total weeks allotment for the completion
+of this whole project, as projected in the Gantt Charts shown in
+section \ref{sec:gantt_chart}.
