@@ -1,16 +1,165 @@
 \section{DMD-LSTM Model Results and Discussions}
 \label{sec:dmd_res}
-xxx
+This section presents and discusses the Deep Learning Model's 
+training, testing, and cross-validation results.
 
-
+In Table \ref{tab:dmd_lstm_training_scores} the training error metrics
+are shown for each of the window sizes tested. \\
+% tab:dmd_lstm_training_scores
 \input{{./chapter_4/tables/dmd_lstm_training.tex}}
-xxxx
+Where it is observed that the best performing model based on
+having the lowest MAPE score is the DMD-LSTM with a window
+size of 5. Morever, we can see the differences from each
+MAPE score for each window size in the Figure 
+\ref{fig:dmd_lstm_training_MAPE} shown below. \\
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{./assets/Chapter_4/DMD_LSTM_Training/DMD_LSTM_MAPE.png}
+    \caption{Comparison of MAPE Scores for DMD-LSTM Model Training Across Different Window Sizes}
+    \label{fig:dmd_lstm_training_MAPE}
+\end{figure}
+\FloatBarrier
+The figure above also shows that the MAPE score for window sizes 15 
+and 20 is higher than the MAPE score for window size 10. MAPE score 
+increases from window size 15 to size 20, indicating that increasing 
+window size may result in a lower performing model.
+\\
 
+Furthermore, as previously stated, the window size of 5 results in 
+the best MAPE score being the lowest. Where it outperforms the worst 
+performing model (DMD-LSTM with window size 10) by 0.000193 units. 
+As illustrated clearly in Figure \ref{fig:dmd_lstm_training_MAPE}.
+\\
+
+Knowing that the DMD-LSTM model performs as expected based on the 
+training data scores, it is critical that we also examine the 
+training data results from a baseline LSTM. The baseline LSTM is, 
+as the name implies, a simple LSTM model lacking the DMD component. 
+The table below shows the results of the baseline LSTM training.
+\\
+
+% tab:baseline_lstm_training
 \input{{./chapter_4/tables/baseline_lstm_training.tex}}
-xxx
+According to the table above, the baseline LSTM with window size 
+10 performs the best, with the lowest MAPE score of 0.002527 
+when compared to the other baseline LSTM models.
+\\
 
+However, the DMD-LSTM model with window size 5 outperforms it by 
+0.002526. 
+As a result, the alamSYS makes use of the DMD-LSTM model, 
+specifically the one with a window size of 5. 
+Where from now on, the DMD-LSTM model refers to 
+the DMD-LSTM model with a window size of 5.
+\\
+
+Nonetheless, the DMD-LSTM model's performance is limited to the 
+training dataset from PSEI, and it must be cross-validated using 
+data from other stocks, which includes the PSEI validation dataset.
+The results of this cross-validation is presented in Table
+\ref{tab:dmd-lstm_cross}. It should also be noted that 
+cross-validation uses logarithmic normalization as a data 
+preprocessing technique to make the dataset more normal, 
+which aids in analyzing the model's performance with the given 
+dataset. Normalization techniques, in particular, allow for closer 
+variation within the forecasted data.
+\cite{Patro2015}.
+
+% tab:dmd-lstm_cross
 \input{{./chapter_4/tables/dmd_lstm_cross.tex}}
-xxx
+As shown in the table above, the chosen DMD-LSTM model performs well 
+across all other stocks, demonstrating that the model is not 
+overfitted to the training dataset. This score additionally suggests 
+that the model works with non-training data.
+\\
 
+The figures below show a 100-day worth of predicted prices versus 
+actual prices to better visualize the performance of the DMD-LSTM 
+model for each stock.
+\\
+
+\input{{./chapter_4/2_section/dmd_lstm_100days.tex}}
+The figures above show that the predicted prices follow the actual 
+price trend. In addition, the discrepancy between predicted and 
+actual prices is relatively small, as evidenced by the error metrics 
+scores shown in Table \ref{tab:dmd-lstm_cross}.
+\\
+
+However, the MAPE scores for BLOOM, ICT, JGS, LTG, and MEG range from 
+ten billion to hundred billion. This outlier in the data is, 
+fortunately, just the result of the applied logarithmic normalization, 
+where some of the data in the datasets of the aforementioned stocks 
+are in the negative range, that influence the calculation of the 
+MAPE scores using the scikit-learn library. Because this library 
+handles the calculation of the MAPE scores, there is no way to fix 
+this bug. Moreover, if we take a look at the 
+graphs of the 100 days prediction versus the actual for the
+aforementioned stocks in Figures
+\ref{fig:crossval100_BLOOM},
+\ref{fig:crossval100_ICT},
+\ref{fig:crossval100_JGS},
+\ref{fig:crossval100_LTG}, and
+\ref{fig:crossval100_MEG}, respectively, it can still be observed
+that the model performs well on these stocks.
+\\
+
+Not to mention that the other error metrics used show the same 
+performance levels across the different stocks when the DMD-LSTM
+model is utilized. Meanwhile when the data normalization is removed, 
+the MAPE scores for BLOOM, ICT, JGS, LTG, and MEG become 0.068108, 
+0.037207, 0.039754, 0.057332, and 0.044411 units, respectively.
+\\
+
+The successive predictions for the following day and up to ten days 
+were tested using the price data from PSEI in order to make the 
+system's predictions more useful for actual utilization.
+Table \ref{tab:dmd-lstm_succpreds} shows 
+the MAPE scores for the successive predictions of the DMD-LSTM
+for each days.
+% tab:dmd-lstm_succpreds
 \input{{./chapter_4/tables/dmd_lstm_successive.tex}}
-xxx
+From the table above it must be noted that the ratio values highlighted in red 
+is to demonstrate that, despite the fact that negative ratio values shouldn't 
+exist, doing so simply indicates that the data used to forecast the subsequent 
+price data was overlapping by 2 to 5 times, depending on the ratio, and no 
+longer used any actual data.
+\\
+
+Moreover, in the integration of the DMD-LSTM model to the alamSYS, the
+5 days successive predictions was utilized. Where it is shown
+from the Table \ref{tab:dmd-lstm_succpreds} that it still performs
+well, even if the actual and predicted data ratio is only at 20\%.
+This is also to limit the effect of stock market volatility that
+might affect the accuracy of the successive predictions of the model.
+\\
+
+However, it can also be observed that the MAPE scores for
+successive days with zero to negative actual and predicted data
+ratio outperforms the MAPE scores from successive days 2 to 5
+as illustrated in Figure \ref{fig:MAPE_successive}, shown below.
+\hfill \\
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{./assets/Chapter_4/MAPE_successive.png}
+    \caption{MAPE Scores for 1 to 10 (Days) Successive Predictions}
+    \label{fig:MAPE_successive}
+\end{figure}
+\FloatBarrier
+
+Yet, since doing so might result in a poor generalization of data, 
+they were not chosen to be the maximum consecutive days of predictions 
+to be integrated in the alamSYS. As a matter of fact, it could be 
+argued that these data's MAPE scores are overfitted, rendering them 
+unreliable. On the contrary, it might also imply that the model 
+maintains its accuracy for a longer time, even if the majority of 
+the data used are those produced by the model itself. This could be 
+a good thing, and may be attributed to the use of the dynamic modes,
+as first suggested in the study of \citeA{Mann2015}.
+In light of these considerations, additional testing is required to 
+establish which of the two claims is true.
+
+Overall, the results from the model training, evaluation, and cross-validation
+shows that the DMD-LSTM model developed in this special problem performs
+on par with the other studies that utilizes dynamic modes, as mentioned in 
+Chapter \ref{chap:lit_review} of this paper.
