@@ -1,13 +1,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{DMD-LSTM Training Error Metrics Scores for Different Window Sizes}}{8}{}%
-\contentsline {table}{\numberline {2.2}{Baseline LSTM Training Error Metrics Scores for Different Window Sizes}}{10}{}%
-\contentsline {table}{\numberline {2.3}{DMD-LSTM Cross-Validation Error Metrics Scores}}{11}{}%
-\contentsline {table}{\numberline {2.4}{DMD-LSTM Successive Predictions}}{26}{}%
-\contentsline {table}{\numberline {2.5}{Optimal Alma Parameters Validation Results}}{29}{}%
-\contentsline {table}{\numberline {2.6}{Idle System Average Resource Usage Statistics}}{30}{}%
-\contentsline {table}{\numberline {2.7}{Internal Load Average Resource Usage Statistics}}{30}{}%
-\contentsline {table}{\numberline {2.8}{Deployment Load Test Results (Buy Requests)}}{31}{}%
-\contentsline {table}{\numberline {2.9}{Deployment Load Test Results (Sell Requests)}}{31}{}%
-\contentsline {table}{\numberline {2.10}{Return Performance Comparison Between alamSYS and PSEI}}{32}{}%
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{Idle System Average Resource Usage Statistics}}{12}{}%
+\contentsline {table}{\numberline {2.2}{Internal Load Average Resource Usage Statistics}}{13}{}%
+\contentsline {table}{\numberline {2.3}{Deployment Load Test Results (Buy Requests)}}{13}{}%
+\contentsline {table}{\numberline {2.4}{Deployment Load Test Results (Sell Requests)}}{14}{}%
+\contentsline {table}{\numberline {2.5}{DMD-LSTM Training Error Metrics Scores for Different Window Sizes}}{14}{}%
+\contentsline {table}{\numberline {2.6}{Baseline LSTM Training Error Metrics Scores for Different Window Sizes}}{16}{}%
+\contentsline {table}{\numberline {2.7}{DMD-LSTM Cross-Validation Error Metrics Scores}}{17}{}%
+\contentsline {table}{\numberline {2.8}{DMD-LSTM Successive Predictions}}{32}{}%
+\contentsline {table}{\numberline {2.9}{Optimal Alma Parameters Validation Results}}{34}{}%
+\contentsline {table}{\numberline {2.10}{Return Performance Comparison Between alamSYS and PSEI}}{36}{}%
