@@ -1,0 +1,19 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{ccc}
+    \caption{CPU and Memory Utilization Statistics of alamAPI and alamDB Under Deployment Load Testing}
+    \label{tab:buy_sell_util}\\
+    \hline
+                                                                                & \textbf{alamAPI} & \textbf{alamDB} \\ \hline
+    \endfirsthead
+    %
+    \multicolumn{3}{c}%
+    {{\bfseries Table \thetable\ continued from previous page}} \\
+    \hline
+                                                                                & \textbf{alamAPI} & \textbf{alamDB} \\ \hline
+    \endhead
+    %
+    \textbf{\begin{tabular}[c]{@{}c@{}}CPU\\ Utilization (\%)\end{tabular}}     & 17.725949        & 1.070133        \\
+    \textbf{\begin{tabular}[c]{@{}c@{}}Memory\\ Utilization (MiB)\end{tabular}} & 44.620837        & 129.273305      \\ \hline
+\end{longtable}
