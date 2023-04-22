@@ -1,6 +1,50 @@
 \section{ALMACD Results and Discussions}
 \label{sec:almacd_res}
-xxx
+The ability to predict consecutive days in the stock market is useless 
+without a trading strategy - which allows risk mitigation and increases 
+the probability of positive returns over time. Trading strategies, in 
+particular, are based on a predefined set of rules and criteria that 
+are used to determine when to buy and sell stocks.
+\cite{Hayes2022}.
+\\
+
+A variety of algorithmic trading, on the other hand, refers to the use of 
+mathematical and computational techniques to determine the best position to 
+take for a specific set of stocks. Additionally, the possibility of loss 
+due to the influence of human emotion is eliminated.
+\cite{WallStreetMojo}.
+\\
+
+Whereas, the author used the Arnaud Legoux Moving Average Convergence and Divergence 
+(ALMACD) trading strategy in this special problem and integrated it into the 
+alamSYS as the system's internal trading algorithm. ALAMCD uses predicted 
+prices for the next 5 days, as well as 200 days of actual stock price data, 
+to track the signals and output a simple flag indicating whether to buy or 
+sell that stock at that time.
+\\
+
+The compounded expected return after return backtesting is 
+provided for each stock in Table \ref{tab:optimal_alma_validation}
+using the optimized parameters for the fast and slow ALMA. 
+This was done to validate the potential returns for all stocks, not just the 
+PSEI, from which the best ALMA parameters were derived.
+\\
 
 \input{{./chapter_4/tables/alma_validation.tex}}
-xxx
+Based on the table of expected returns above, all stocks are expected to 
+return a positive yield over time when these optimal ALMA parameters are used. 
+It is also worth noting that the expected return is calculated for each unit 
+of stock, which means that if we use the expected compounded return value of 
+MPI at PHP 146.02, which appears to be the lowest - the actual return could 
+be at least PHP 146,020, assuming the minimum board lot required for the stocks 
+is 1000 shares \cite{Pesobility}.
+\\
+
+However, despite the high potential returns, investors should proceed with 
+caution for two reasons. First, the expected return is based on historical 
+price data, which may not follow the trend of future price data, potentially 
+rendering the trading algorithm obsolete \cite{QuantifiedStrategies}. 
+Second, the return calculation does not account for and compensate for the 
+additional fees associated with buying and selling the stock, which can 
+affect the overall actual returns.
+\\
