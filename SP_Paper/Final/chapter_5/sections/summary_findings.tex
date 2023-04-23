@@ -7,25 +7,25 @@ building on the discussions of the results in Chapter 4.
 \begin{itemize}
     \item[(a)] In connection to the development of the alamSYS:
         \begin{itemize}
-            \item When idle, the alamSYS's average CPU and memory utilization 
+            \item[1.] When idle, the alamSYS's average CPU and memory utilization 
             is 0.43\% and 525.29 MiB, respectively. Whereas the 
             alamPREPROCESSOR uses the least amount of CPU power, 
             it also uses the most memory due to the scheduling program being active.
-            \item Both alamAPI and alamPREPROCESSOR use a small amount of CPU power when idle, 
+            \item[2.] Both alamAPI and alamPREPROCESSOR use a small amount of CPU power when idle, 
             which is due to the low system requirements of their linux-based base images.
-            \item The alamPREPROCESSOR was able to process 100 consecutive data collection 
+            \item[3.] The alamPREPROCESSOR was able to process 100 consecutive data collection 
             and processing, indicating a 100 times higher working capacity than expected.
-            \item The alamPREPROCESSOR's average runtime is 48.30 seconds. Which have
+            \item[4.] The alamPREPROCESSOR's average runtime is 48.30 seconds. Which have
             been affected by the internet connection speed of 52.98Mbps on average.
-            \item It also uses an average of 20.03\% of the CPU power and 794.29 MiB of memory on load. 
+            \item[5.] It also uses an average of 20.03\% of the CPU power and 794.29 MiB of memory on load. 
             This means that the alamPREPROCESSOR can be used with low-end devices.
-            \item When alamPREPROCESSOR is loaded, its CPU and memory utilization are 
+            \item[6.] When alamPREPROCESSOR is loaded, its CPU and memory utilization are 
             99.95\% and 60.62\% higher, respectively, than when it is idle.
-            \item The average deployed API response time is 1.34 seconds, 
+            \item[7.] The average deployed API response time is 1.34 seconds, 
             which is within the acceptable range for avoiding user-perceived interruptions.
-            \item The delay from the tunneling service accounts for 99.30\% of the response time, 
+            \item[8.] The delay from the tunneling service accounts for 99.30\% of the response time, 
             and the actual response time of the alamAPI is only 0.009 seconds on average; and
-            \item The average CPU power utilization of alamAPI and alamDB on load is 
+            \item[9.] The average CPU power utilization of alamAPI and alamDB on load is 
             99.05\% and 76.24\% higher, respectively, than their idle CPU power 
             utilizations. This allows them to process 71,000 requests in about 
             an hour and 20 minutes. On a different note, onload memory utilization was 
@@ -39,20 +39,20 @@ building on the discussions of the results in Chapter 4.
 
     \item[(b)] In connection to the development of DMD-LSTM Model, and ALMACD Trading Algorithm:
         \begin{itemize}
-            \item The DMD-LSTM model with a window size of 5 outperformed the other eight 
+            \item[1.] The DMD-LSTM model with a window size of 5 outperformed the other eight 
             LSTM models that were trained and tested. 
             Where the MSE, RMSE, MAE, and MAPE values are 0.000037, 0.006106, 0.004175, and 0.000001,
             respectively.
-            \item Cross-validation of the selected DMD-LSTM model reveals acceptable 
+            \item[2.] Cross-validation of the selected DMD-LSTM model reveals acceptable 
             performance outside of its training data.
-            \item Up to ten days of consecutive predictions show that the DMD-LSTM model 
+            \item[3.] Up to ten days of consecutive predictions show that the DMD-LSTM model 
             still produces a range of acceptable MAPE scores. However, to avoid the possibility of 
             extrapolation problems affecting the predictions, the alamSYS only integrated up to 5 days of 
             successive predictions. The extrapolation problem on LSTM models were also demonstrated in the 
             studies by \citeA{s19183988}; and \citeA{rs15061529}.
-            \item The integration of optimized ALMACD on top of the DMD-LSTM model ensures that the alamSYS 
+            \item[4.] The integration of optimized ALMACD on top of the DMD-LSTM model ensures that the alamSYS 
             recommendations return positive yields for all stocks.
-            \item The DMD-LSTM and ALMACD applications in alamSYS were tested in real-world trading for a total 
+            \item[5.] The DMD-LSTM and ALMACD applications in alamSYS were tested in real-world trading for a total 
             of 10 trading days, outperforming the PSEI on cumulative return. Furthermore, the alamSYS is capable 
             of mitigating risk and reducing potential losses in its position due to its ability to react quickly 
             on potential price changes attributed to its 5 days in advance predictions and reactive ALMA parameters.
