@@ -9,29 +9,82 @@ applications or systems, and other applicable considerations.
 \begin{itemize}
     \item[(a)] In connection to the development of the alamSYS:
         \begin{itemize}
-            \item xxxx
-            \item xxxx
-            \item xxx
+            \item[1.] Automated Model and Trading Algorithm Evaluator and Trainer - 
+            Given the possibility of changes in market price trend data 
+            over time, the patterns on which the current DMD-LSTM is based may 
+            become obsolete. As a result, it may be advantageous to incorporate 
+            an additional component that would revalidate the deep learning 
+            model as well as the trading algorithm, and if it performs worse 
+            than 10\% of the current performance, it would automatically 
+            rerun the training with the new data until it finds a model and 
+            optimal parameters that performs inline or even better than the 
+            current one.
+            \item[2.] Alternative System Deployment Methods can be Explored - 
+            The tunneling service was found to be responsible for the 
+            majority of the delay in the alamSYS response time after deployment. 
+            As a result, it may be beneficial to investigate better alternatives, 
+            such as deploying the system on a server with a fast and reliable 
+            internet connection, though this may necessitate a larger budget. 
+            Another low-cost option is to deploy the system on cloud computing 
+            platforms such as AWS and Google Cloud.
+            \item[3.] Integration of other Models and Trading Algorithm - 
+            Initially, it was planned to integrate multiple combinations of 
+            machine learning models and trading algorithms into alamSYS, but due 
+            to time constraints, this was not pursued. However, the system was 
+            designed with this in mind, and the source code already allows for 
+            this feature to be integrated. Future developers, for example, can 
+            investigate the integration of ARIMA-based models in alamSYS. This 
+            provides users with multiple sources of data-driven information on 
+            the market's stocks. Where their decision is not limited to a single 
+            piece of information.
+            \item[4.] A Closer Examine on the Stock Suggestions of the System - 
+            Because the alamSYS currently only logs its daily predictions, it may 
+            be useful for future research to examine the trend of these predictions 
+            and try to see the accuracy of this suggestion, as well as potentially 
+            add improvements to the system; and
+            \item[5.] System Maintenance and Additional Features or Improvements
+            to the Current System - 
+            The completion of this paper does not indicate the end of the alamSYS's 
+            development lifetime; it is expected that the developer, and other 
+            developers in the future, will continue to work on improving the system 
+            from its initial deployment, using the continuous integration, continuous 
+            delivery, and deployment - CI/CD pipeline \cite{RedHat2022}.
         \end{itemize}
-        xxx
-        \hfill \\
-        
+
     \item[(b)] In connection to the development of DMD-LSTM Model, and ALMACD Trading Algorithm:
         \begin{itemize}
-            \item xxxx
-            \item xxxx
-            \item xxx
+            \item[1.] Solving for the Observed Prediction Offset - 
+            The figures comparing predicted and actual price data for each stock 
+            revealed a distinct offset pattern. With this in mind, it may be 
+            worthwhile to investigate further and add potential additional steps 
+            to the predictions to compensate for the offset and improve the model's 
+            performance. This could be done during training or as a post-processing 
+            technique.
+            \item[2.] Exploration of Other Machine Leaning Models - 
+            There are numerous machine learning models that can be investigated for 
+            their potential to predict stock market movement. As a result, it is 
+            recommended that future developers or researchers be able to devise novel 
+            approaches to creating and integrating other models based on the findings 
+            and limitations of this special problem.
+            \item[3.] Redefine the Optimal Fast, and Slow ALMA Parameters - 
+            The current optimal ALMA parameters, which do not account for the 
+            additional fees for buying and selling stock positions, could possibly 
+            not yield to the highest return potentials. As a result, future developers 
+            must investigate the possibility of including these fees from the 
+            Philippine Stock Exchange in order to better compute the optimal 
+            ALMA parameters, and then compare this results on the results of the
+            current optimized ALMA parameters deployed in the alamSYS; and
+            \item[4.] Exploration of Other Trading Strategies and Algorithms - 
+            The stock market strategies is not confined on the utilization of moving 
+            averages such as Arnaud Legoux Moving Average in creating simple yet 
+            effective trading strategies. Hence, it would be beneficial if other trading 
+            strategies were explored being integrated alongside the machine learning 
+            models to be developed as well.
         \end{itemize}
-        xxx
-        \hfill \\
-        
-    \item[(c)] In connection to the development of the mobile-based test application:
-        \begin{itemize}
-            \item xxxx
-            \item xxxx
-            \item xxx
-        \end{itemize}
-        xxx
-        \hfill \\
-        
+
+    \item[(c)] In connection to the development of the mobile-based test application, 
+    future developers are encouraged to use other internet-connected or 
+    Internet-of-Things (IoT) devices such as smart speakers, smartwatches, 
+    smart glasses, and so on. To create an application that makes effective 
+    use of the alamSYS. Making certain that it is widely used.
 \end{itemize}
