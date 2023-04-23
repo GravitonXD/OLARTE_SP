@@ -618,3 +618,30 @@
    year = {2022},
    urldate = {{April 22, 2023}}
 }
+@Article{s19183988,
+   AUTHOR = {Jing, Jinrui and Li, Qian and Peng, Xuan},
+   TITLE = {MLC-LSTM: Exploiting the Spatiotemporal Correlation between Multi-Level Weather Radar Echoes for Echo Sequence Extrapolation},
+   JOURNAL = {Sensors},
+   VOLUME = {19},
+   YEAR = {2019},
+   NUMBER = {18},
+   ARTICLE-NUMBER = {3988},
+   URL = {https://www.mdpi.com/1424-8220/19/18/3988},
+   PubMedID = {31540189},
+   ISSN = {1424-8220},
+   ABSTRACT = {Weather radar echo is the data detected by the weather radar sensor and reflects the intensity of meteorological targets. Using the technique of radar echo extrapolation, which is the prediction of future echoes based on historical echo observations, the approaching short-term weather conditions can be forecasted, and warnings can be raised with regard to disastrous weather. Recently, deep learning based extrapolation methods have been proposed and show significant application potential. However, there are two limitations of existing extrapolation methods which should be considered. First, few methods have investigated the impact of the evolutionary process of weather systems on extrapolation accuracy. Second, current deep learning methods usually encounter the problem of blurry echo prediction as extrapolation goes deeper. In this paper, we aim to address the two problems by proposing a Multi-Level Correlation Long Short-Term Memory (MLC-LSTM) and integrate the adversarial training into our approach. The MLC-LSTM can exploit the spatiotemporal correlation between multi-level radar echoes and model their evolution, while the adversarial training can help the model extrapolate realistic and sharp echoes. To train and test our model, we build a real-life multi-level weather radar echoes dataset based on raw CINRAD/SA radar observations provided by the National Meteorological Information Center, China. Extrapolation experiments show that our model can accurately forecast the motion and evolution of an echo while keeping the predicted echo looking realistic and fine-grained. For quantitative evaluation on probability of detection (POD), false alarm rate (FAR), critical success index (CSI), and Heidke skill score (HSS) metrics, our model can reach average scores of 0.6538 POD, 0.2818 FAR, 0.5348 CSI, and 0.6298 HSS, respectively when extrapolating 15 echoes into the future, which outperforms the current state-of-the-art extrapolation methods. Both the qualitative and quantitative experimental results demonstrate the effectiveness of our model, suggesting that it can be effectively applied to operational weather forecasting practice.},
+   DOI = {10.3390/s19183988}
+}
+@Article{rs15061529,
+   AUTHOR = {Guo, Shiqing and Sun, Nengli and Pei, Yanle and Li, Qian},
+   TITLE = {3D-UNet-LSTM: A Deep Learning-Based Radar Echo Extrapolation Model for Convective Nowcasting},
+   JOURNAL = {Remote Sensing},
+   VOLUME = {15},
+   YEAR = {2023},
+   NUMBER = {6},
+   ARTICLE-NUMBER = {1529},
+   URL = {https://www.mdpi.com/2072-4292/15/6/1529},
+   ISSN = {2072-4292},
+   ABSTRACT = {Radar echo extrapolation is a commonly used approach for convective nowcasting. The evolution of convective systems over a very short term can be foreseen according to the extrapolated reflectivity images. Recently, deep neural networks have been widely applied to radar echo extrapolation and have achieved better forecasting performance than traditional approaches. However, it is difficult for existing methods to combine predictive flexibility with the ability to capture temporal dependencies at the same time. To leverage the advantages of the previous networks while avoiding the mentioned limitations, a 3D-UNet-LSTM model, which has an extractor-forecaster architecture, is proposed in this paper. The extractor adopts 3D-UNet to extract comprehensive spatiotemporal features from the input radar images. In the forecaster, a newly designed Seq2Seq network exploits the extracted features and uses different convolutional long short-term memory (ConvLSTM) layers to iteratively generate hidden states for different future timestamps. Finally, the hidden states are transformed into predicted radar images through a convolutional layer. We conduct 0&ndash;1 h convective nowcasting experiments on the public MeteoNet dataset. Quantitative evaluations demonstrate the effectiveness of the 3D-UNet extractor, the newly designed forecaster, and their combination. In addition, case studies qualitatively demonstrate that the proposed model has a better spatiotemporal modeling ability for the complex nonlinear processes of convective echoes.},
+   DOI = {10.3390/rs15061529}
+}
