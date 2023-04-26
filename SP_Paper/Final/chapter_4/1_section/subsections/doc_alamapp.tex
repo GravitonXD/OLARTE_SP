@@ -1,11 +1,83 @@
 \subsection{Documentation for alamAPP}
 \label{subsec:doc_alamAPP}
-xxx
+The alamAPP is a mobile-based test application developed to 
+demonstrate the use of the alamSYS to external internet-connected 
+devices, such as a smartphone application. It was created with the 
+Dart-based Flutter SDK. The user interface and code snippets of how 
+the alamSYS was used in the alamAPP are shown in this section. 
+Furthermore, the full source code for the alamAPP is available 
+in the GitHub repository listed in Appendix A of this paper.
 
 \subsubsection{User Interface Showcase}
 \label{subsubsec:alamAPP_UI}
+This section displays the alamAPP's developed user interfaces. 
+It should be noted that this application only highlights the 
+alamSYS's two most important features, which are its ability 
+to recommend which stocks to buy and which to sell. Additional 
+enhancements to the application are discussed in Chapter 5 of 
+this paper.
+\\
+
+% Insert Buy UI Here 
 xxx
+\\
+
+% Insert Sell UI Here
+xxx
+\\
+
+% Insert UI when a card is selected
+xxx
+\\
+
+% Insert UI when the application is retrieving data from the alamAPI
+xxx
+\\
+
+% Insert UI when it encountered an error
+xxx
+\\
+
+Overall, the figures depicting the alamAPP's user interface 
+demonstrate that the alamAPI can be used by external applications 
+by connecting via the internet.
 
 \subsubsection{Utilization of alamSYS in the alamAPP}
 \label{subsubsec:utilization_alamSYS-alamAPP}
-xxx
+The following code snippet written in Dart, was used in the alamAPP's source 
+code to get the details of the stocks to buy from alamAPI.
+\textit{Note that the [reserved.domain] should be changed to
+the domain address used on the alamAPI deployment}.
+\hfill \\
+\begin{python}
+    Future<List<Stocks>> stocksToBuy() async {
+        var url = 'https://[reserved.domain]/stocks_to_buy/all';
+        var response = await http.get(Uri.parse(url));
+        var data = jsonDecode(response.body);
+        List<Stocks> stocksToBuy = [];
+        if (data['Stocks'] != null) {
+        data['Stocks'].forEach((v) {
+            stocksToBuy.add(new Stocks.fromJson(v));
+        });
+        }
+        return stocksToBuy;
+    }
+\end{python}
+
+Meanwhile for the stocks to sell, the following code
+snippet was used:
+\hfill \\
+\begin{python}
+Future<List<Stocks>> stocksToSell() async {
+      var url = 'https://[reserved.domain]/stocks_to_sell/all';
+      var response = await http.get(Uri.parse(url));
+      var data = jsonDecode(response.body);
+      List<Stocks> stocksToSell = [];
+      if (data['Stocks'] != null) {
+        data['Stocks'].forEach((v) {
+          stocksToSell.add(new Stocks.fromJson(v));
+        });
+      }
+      return stocksToSell;
+    }
+\end{python}

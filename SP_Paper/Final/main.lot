@@ -1,16 +1,16 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1.1}{Summary of Risk Profile for Each Stock in the alamSYS}}{15}{}%
-\contentsline {table}{\numberline {1.2}{Idle System Average Resource Usage Statistics}}{24}{}%
-\contentsline {table}{\numberline {1.3}{Internal Load Average Resource Usage Statistics}}{25}{}%
-\contentsline {table}{\numberline {1.4}{Deployment Load Test Results (Buy Requests)}}{28}{}%
-\contentsline {table}{\numberline {1.5}{Deployment Load Test Results (Sell Requests)}}{28}{}%
-\contentsline {table}{\numberline {1.6}{CPU and Memory Utilization Statistics of alamAPI and alamDB Under Deployment Load Testing}}{29}{}%
-\contentsline {table}{\numberline {1.7}{DMD-LSTM Training Error Metrics Scores for Different Window Sizes}}{31}{}%
-\contentsline {table}{\numberline {1.8}{Baseline LSTM Training Error Metrics Scores for Different Window Sizes}}{33}{}%
-\contentsline {table}{\numberline {1.9}{DMD-LSTM Cross-Validation Error Metrics Scores}}{34}{}%
-\contentsline {table}{\numberline {1.10}{DMD-LSTM Successive Predictions}}{49}{}%
-\contentsline {table}{\numberline {1.11}{Optimal Alma Parameters Validation Results}}{51}{}%
-\contentsline {table}{\numberline {1.12}{Return Performance Comparison Between alamSYS and PSEI}}{53}{}%
+\contentsline {table}{\numberline {1.2}{Idle System Average Resource Usage Statistics}}{25}{}%
+\contentsline {table}{\numberline {1.3}{Internal Load Average Resource Usage Statistics}}{27}{}%
+\contentsline {table}{\numberline {1.4}{Deployment Load Test Results (Buy Requests)}}{29}{}%
+\contentsline {table}{\numberline {1.5}{Deployment Load Test Results (Sell Requests)}}{29}{}%
+\contentsline {table}{\numberline {1.6}{CPU and Memory Utilization Statistics of alamAPI and alamDB Under Deployment Load Testing}}{30}{}%
+\contentsline {table}{\numberline {1.7}{DMD-LSTM Training Error Metrics Scores for Different Window Sizes}}{32}{}%
+\contentsline {table}{\numberline {1.8}{Baseline LSTM Training Error Metrics Scores for Different Window Sizes}}{34}{}%
+\contentsline {table}{\numberline {1.9}{DMD-LSTM Cross-Validation Error Metrics Scores}}{35}{}%
+\contentsline {table}{\numberline {1.10}{DMD-LSTM Successive Predictions}}{50}{}%
+\contentsline {table}{\numberline {1.11}{Optimal Alma Parameters Validation Results}}{52}{}%
+\contentsline {table}{\numberline {1.12}{Return Performance Comparison Between alamSYS and PSEI}}{54}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
