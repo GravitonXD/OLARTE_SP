@@ -1,3 +1,15 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}/alamAPP/alam_app/linux"
+    "cmake.sourceDirectory": "${workspaceFolder}/alamAPP/alam_app/linux",
+    "cSpell.ignoreWords": [
+        "FGEN",
+        "MAPE",
+        "PGOLD",
+        "PSEI",
+        "RMSE",
+        "RRHI"
+    ],
+    "cSpell.words": [
+        "alam",
+        "PIDS"
+    ]
 }
