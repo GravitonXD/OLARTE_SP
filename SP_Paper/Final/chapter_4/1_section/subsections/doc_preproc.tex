@@ -24,8 +24,8 @@ The current features implemented in the alamPREPROCESSOR are as follows:
     Some errors are also handled automatically if they are internally related, which means they are not affected 
     by external factors such as a slow and unstable internet connection, a downtime in the EODHD APIs, and so on.
     \item[(d)] In relation to item (c), all system logs are saved in the system's shared docker volume at '/data/db/', 
-    as discussed further in the subsequent section.
-    \item[(e)] The alamPREPROCESSOR is also in charge of adding the following data to the alamDB collection if 
+    as discussed further in the previous chapter.
+    \item[(e)] The alamPREPROCESSOR is also in-charge of adding the following data to the alamDB collection if 
     it does not already exist when the alamSYS starts up:
     \begin{itemize}
         \item[1.] Stock Info Collection
@@ -80,23 +80,23 @@ from '/preprocessor/' of the alamPROCESSOR docker container.
 On the other hand, the alamPREPROCESSOR shares the following directory paths related to error 
 logging and json directories with the other components of the alamSYS via the '/data/db' directory path:
 \begin{itemize}
-    \item[(a)] /data\_collector\_logs - This is the directory for all the successful operations ('/success\_log.csv')
+    \item[(a)] /data\_collector\_logs - this is the directory for all the successful operations ('/success\_log.csv')
     , and all the unsuccessful operations ('/error\_log.csv') conducted by the data collector.
-    \item[(b)] /data\_processor\_logs - This is the directory for all the successful operations ('/success\_log.csv')
+    \item[(b)] /data\_processor\_logs - this is the directory for all the successful operations ('/success\_log.csv')
     , and all the unsuccessful operations ('/error\_log.csv') conducted by the data processor.
-    \item[(c)] /manual\_run\_logs - This is the directory for all the successful operations ('/success\_log.csv')
+    \item[(c)] /manual\_run\_logs - this is the directory for all the successful operations ('/success\_log.csv')
     , and all the unsuccessful operations ('/error\_log.csv') conducted by manually running the operations of the 
     alamPREPROCESSOR using the command 'python3 manual\_run.py'.
-    \item[(d)] /preprocessor\_utils\_logs - This is the directory for all the logged actions conducted by utilities of alamPREPROCESSOR. 
+    \item[(d)] /preprocessor\_utils\_logs - this is the directory for all the logged actions conducted by utilities of alamPREPROCESSOR. 
     This is further divided into two directories, which are as follows:
     \begin{itemize}
-        \item[1.] db\_actions - Stores logs of successful operations ('/success\_log.csv')
-        , and all the unsuccessful operations ('/error\_log.csv') from the utilities related
+        \item[1.] db\_actions - stores logs of successful operations ('/success\_log.csv'), 
+        and all the unsuccessful operations ('/error\_log.csv') from the utilities related
         to database actions.
-        \item[2.] init\_db - Stores logs of successful operations ('/success\_log.csv')
+        \item[2.] init\_db - stores logs of successful operations ('/success\_log.csv')
         , and all the unsuccessful operations ('/error\_log.csv') from the utilities related
         to the initialization of the database.
     \end{itemize}
-    \item[(f)] /scheduled\_task\_logs - This is the directory for all the successful operations ('/success\_log.csv')
+    \item[(f)] /scheduled\_task\_logs - this is the directory for all the successful operations ('/success\_log.csv')
     , and all the unsuccessful operations ('/error\_log.csv') conducted by the scheduled operation of the alamPREPROCESSOR.
 \end{itemize}

@@ -60,16 +60,16 @@ of the DMD-LSTM model. The following are the specifics of the stocks gathered:
 \label{subsubsec:model_data_processing}
 Data preprocessing before model training and testing is composed of three main processes which are as follows:
 \begin{itemize}
-    \item[(a)] Data Cleaning - This was done to clean any missing values from the data.
-    \item[(b)] Feature Selection - Closing prices was selected as the main feature of the model.
-    \item[(c)] Splitting of Data - Data was split in the ratio of 80:20 for testing and training data, respectively.
+    \item[(a)] Data Cleaning - this was done to clean any missing values from the data.
+    \item[(b)] Feature Selection - closing prices was selected as the main feature of the model.
+    \item[(c)] Splitting of Data - data was split in the ratio of 80:20 for testing and training data, respectively.
 \end{itemize}
-\hfill \\
+
 Meanwhile for the data preprocessing for cross-validation, the following processes were done:
 \begin{itemize}
-    \item[(a)] Data Cleaning - This was done to clean any missing values from the data.
-    \item[(b)] Feature Selection - Closing prices was selected as the main feature of the model.
-    \item[(c)] Data Normalization - Using logarithmic normalization method, the data was normalized.
+    \item[(a)] Data Cleaning - this was done to clean any missing values from the data.
+    \item[(b)] Feature Selection - closing prices was selected as the main feature of the model.
+    \item[(c)] Data Normalization - using logarithmic normalization method, the data was normalized.
     Logarithmic normalization was utilized to help solved the problem with the data having extreme ranges,
     which affects the evaluation of the cross-validation. In essence it was used to enable data stability, and
     increase interpretability \cite{Baeldung2022, Bex2021, Andrew2019}.
@@ -93,26 +93,25 @@ There are a total of eight model variations trained and tested, which are as fol
 (8) DMD-LSTM with window size of 20.
 Where the best performing model was used for the cross-validation and was deployed to the system.
 
-
 \subsubsection{Model Evaluation}
 \label{subsubsec:model_evaluation}
 The DMD-LSTM Model was evaluated using the following error metrics:
 \begin{itemize}
-    \item[(a)] Mean Squared Error (MSE) - MSE is a well-known metric for assessing regression models. 
+    \item[(a)] Mean Squared Error (MSE) - a well-known metric for assessing regression models. 
     It calculates the average of the squared differences between predicted and true values. 
     MSE is useful because it penalizes large errors more severely than small errors, 
     which is important in some applications. A lower MSE indicates that the model performed better
     \cite{StephMSE}.
-    \item[(b)] Root Mean Squared Error (RMSE) - Another popular metric for evaluating regression models 
+    \item[(b)] Root Mean Squared Error (RMSE) - another popular metric for evaluating regression models 
     is the RMSE, which is the square root of the MSE. It, like MSE, computes the average of the 
     differences between predicted and true values. Because it is in the same unit as the target variable, 
     RMSE is easier to interpret. A lower RMSE indicates that the model is performing better
     \cite{StephRMSE}.
-    \item[(c)] Mean Absolute Error (MAE) - It calculates the average of the absolute differences 
+    \item[(c)] Mean Absolute Error (MAE) - it calculates the average of the absolute differences 
     between predicted and true values. MAE is advantageous because it is more resistant to 
     outliers than MSE and RMSE. A lower MAE indicates that the model is performing better
     \cite{SecretDataScientistMAE}.
-    \item[(d)] Mean Absolute Percentage Error (MAPE) - It computes the average percentage difference 
+    \item[(d)] Mean Absolute Percentage Error (MAPE) - it computes the average percentage difference 
     between predicted and true values. MAPE is useful because it provides a relative measure of error, 
     which makes comparing model performance across different target variable scales easier. 
     A lower MAPE indicates that the model is performing better
@@ -124,10 +123,10 @@ The DMD-LSTM Model was evaluated using the following error metrics:
 \label{subsubsec:model_cross_validation}
 The model selected for the cross-validation was the DMD-LSTM model with a window size of 5, due to it
 being the highest performing model based on having the lowest MAPE scores compared to the other models,
-this is further discussed on Chapter 4 of this paper.
+this is further discussed on Chapter 4 of this paper. 
 \hfill \\
 
-The cross-validation was conducted using the stock market data from the other stocks aside from the
+Model cross-validation was conducted using the stock market data from the other stocks aside from the
 training data from PSEI. Where cross-validation of an LSTM model must be done before deployment 
 to assess the model's generalization performance. LSTM models are well-known for their ability 
 to capture long-term dependencies in sequential data, but their performance varies greatly depending 

@@ -58,7 +58,7 @@ the domain address used on the alamAPI deployment}.
         if (data['Stocks'] != null) {
         data['Stocks'].forEach((v) {
             stocksToBuy.add(new Stocks.fromJson(v));
-        });
+          });
         }
         return stocksToBuy;
     }

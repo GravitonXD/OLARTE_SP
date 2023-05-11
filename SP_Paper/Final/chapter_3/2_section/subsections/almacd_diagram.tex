@@ -16,7 +16,7 @@ is shown in Figure \ref{fig:almacd_diagram}.
 % ALMACD Diagram
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{./assets/Chapter_3/alamcd.png}
+    \includegraphics[width=0.80\textwidth]{./assets/Chapter_3/alamcd.png}
     \caption{ALMACD Development Methodology for alamSYS}
     \label{fig:almacd_diagram}
 \end{figure}
@@ -30,6 +30,7 @@ set of optimal parameters, such as their window size, offset, and sigma.
 In order to find this optimal parameters, a grid search approach was
 used.
 \hfill \\
+
 Grid search is a machine learning technique used to fine-tune the
 hyperparameters of a model. It is a brute force approach that tries
 every combination of hyperparameters and evaluates the model performance
@@ -54,7 +55,8 @@ the following parameters were used for the grid search approach:
 \subsubsection{Validation of ALMACD Parameters Using Return Backtesting Approach}
 \label{subsubsec:almacd_validation}
 Before integrating the optimal ALMACD parameters to the alamSYS, it was
-first validated using the data from other stocks (Return Backtesting Approach). Once the
+first validated using the data from other stocks through backtesting, 
+and calculating the potential returns. Once the
 returns on the validation stocks were computed to be positive,
 the ALMACD indicator was then integrated to the alamSYS.
 

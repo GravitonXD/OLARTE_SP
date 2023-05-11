@@ -2,7 +2,7 @@
 \label{subsubsec:doc_API_DB}
 The alamAPI and alamDB documentation section discusses the currently implemented 
 features for the API and database, respectively. This should be used as a guide 
-for any future updates, maintenance, and testing.
+for any future updates, maintenance, and future testing.
 
 \subsubsection{alamAPI API Endpoints}
 \label{subsubsec:alamAPI_API_endpoints}
@@ -16,7 +16,7 @@ as shown in Figure \ref{fig:alamapi_swagger}.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.85\textwidth]{./assets/Chapter_4/Documentation/alamAPI_swagger.png}
+    \includegraphics[width=0.80\textwidth]{./assets/Chapter_4/Documentation/alamAPI_swagger.png}
     \caption{alamAPI Web-based API Documentation Using Swagger}
     \label{fig:alamapi_swagger}
 \end{figure}
@@ -24,7 +24,7 @@ as shown in Figure \ref{fig:alamapi_swagger}.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.85\textwidth]{./assets/Chapter_4/Documentation/alamAPI_redoc.png}
+    \includegraphics[width=0.80\textwidth]{./assets/Chapter_4/Documentation/alamAPI_redoc.png}
     \caption{alamAPI Web-based API Documentation Using Redocs}
     \label{fig:alamAPI_redoc}
 \end{figure}
@@ -38,7 +38,7 @@ an example request executed using this API endpoint.
 \\
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.85\textwidth]{./assets/Chapter_4/Documentation/alamAPI_home.png}
+    \includegraphics[width=0.80\textwidth]{./assets/Chapter_4/Documentation/alamAPI_home.png}
     \caption{Sample API Endpoint: Home Request}
     \label{fig:alamAPI_home}
 \end{figure}
@@ -55,7 +55,7 @@ A sample execution, specifically for
 /all is shown is shown in Figure \ref{fig:alamAPI_buy}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.85\textwidth]{./assets/Chapter_4/Documentation/alamAPI_buy.png}
+    \includegraphics[width=0.80\textwidth]{./assets/Chapter_4/Documentation/alamAPI_buy.png}
     \caption{Sample API Endpoint: Buy (all) Request}
     \label{fig:alamAPI_buy}
 \end{figure}
@@ -70,7 +70,7 @@ stocks to sell list, and a 'Stock not found' alert if it does not. Figure
 \ref{fig:alamAPI_sell} shows a sample execution, specifically for /all.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.85\textwidth]{./assets/Chapter_4/Documentation/alamAPI_sell.png}
+    \includegraphics[width=0.80\textwidth]{./assets/Chapter_4/Documentation/alamAPI_sell.png}
     \caption{Sample API Endpoint: Sell (all) Request}
     \label{fig:alamAPI_sell}
 \end{figure}
@@ -85,7 +85,7 @@ stock if it exists in the alamSYS, and a 'Stock not found' alert if it does not.
 Figure \ref{fig:alamAPI_info} shows a sample execution, specifically for /all.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.85\textwidth]{./assets/Chapter_4/Documentation/alamAPI_info.png}
+    \includegraphics[width=0.80\textwidth]{./assets/Chapter_4/Documentation/alamAPI_info.png}
     \caption{Sample API Endpoint: Stocks Info (all) Request}
     \label{fig:alamAPI_info}
 \end{figure}
@@ -94,15 +94,15 @@ Figure \ref{fig:alamAPI_info} shows a sample execution, specifically for /all.
 The fifth set of API endpoints is related to the 'ML Model Info', 
 which returns a list of machine learning models that have been deployed in 
 the alamSYS. In particular, in this iteration of the alamSYS, the current 
-deployed deep learning model is DMD-LSTS, as discussed in previous Chapters 
-of this paper. This API endpoint has two uses: users can use the /all path 
+deployed deep learning model is DMD-LSTS, as discussed in Chapter 3. 
+This API endpoint has two uses: users can use the /all path 
 to see information for all models, or they can use /model\_name, which requires 
 a model name and returns information for that specific model if it exists in 
 the alamSYS, and a 'Model not found' alert if it does not. Figure 
 \ref{fig:alamAPI_ml} shows a sample execution, specifically for /all.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.85\textwidth]{./assets/Chapter_4/Documentation/alamAPI_ml.png}
+    \includegraphics[width=0.80\textwidth]{./assets/Chapter_4/Documentation/alamAPI_ml.png}
     \caption{Sample API Endpoint: ML Model Info (all) Request}
     \label{fig:alamAPI_ml}
 \end{figure}
@@ -120,7 +120,7 @@ does not. Figure \ref{fig:alamAPI_risk} depicts a sample execution,
 specifically for /all.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.85\textwidth]{./assets/Chapter_4/Documentation/alamAPI_risk.png}
+    \includegraphics[width=0.80\textwidth]{./assets/Chapter_4/Documentation/alamAPI_risk.png}
     \caption{Sample API Endpoint: Stocks Risks Profile (all) Request}
     \label{fig:alamAPI_risk}
 \end{figure}
@@ -186,7 +186,7 @@ case diagram as published in \citeauthor{UseCaseDiagram}'s
 users in the alamAPI, and not to the whole alamSYS.}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.85\textwidth]{./assets/Chapter_4/Documentation/alam_api_usecase.png}
+    \includegraphics[width=0.40\textwidth]{./assets/Chapter_4/Documentation/alam_api_usecase.png}
     \caption{alamAPI End User UML Use Case Diagram}
     \label{fig:alamAPI_use_case}
 \end{figure}
@@ -218,15 +218,15 @@ time-consuming for system administrators or system managers,
 so it is best to use a GUI-based mongoDB management tool, 
 as discussed in the succeeding section.
 
-\subsubsection{alamDB MongoDBCompass Management}
+\subsubsection{alamDB MongoDB Compass Management}
 \label{subsubsec:alamBB_docker_management}
 The use of a GUI-based database management tool for alamDB is critical 
 in maintaining the system's ease of maintenance. As a result, the author 
 recommends that future system administrators or maintainers use software 
-such as MongoDBCompass, which is available for Windows users.
+such as MongoDB Compass, which is available for Windows users.
 
-% Discuss how to use MongoDBCompass to Manage the content of the alamDB
-Utilization of the MongoDBCompass is straightforward and is only composed of
+% Discuss how to use MongoDB Compass to Manage the content of the alamDB
+Utilization of the MongoDB Compass is straightforward and is only composed of
 these few steps:
 \begin{itemize}
     \item[(a)] First, indicate a new connection using the default URI: 
@@ -242,7 +242,7 @@ these few steps:
         \item[4.] local - which contains the startup\_log collection, and whose data is autogenerated by mongoDB.
         \begin{figure}[ht]
             \centering
-            \includegraphics[width=0.85\textwidth]{./assets/Chapter_4/Documentation/mongodb_compass.png}
+            \includegraphics[width=0.80\textwidth]{./assets/Chapter_4/Documentation/mongodb_compass.png}
             \caption{MongoDB Compass Database Management of alamDB}
             \label{fig:mongodb_compass}
         \end{figure}

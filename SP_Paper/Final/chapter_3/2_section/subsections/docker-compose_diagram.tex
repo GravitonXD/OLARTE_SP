@@ -7,7 +7,7 @@ deployment of the system.
 
 Figure \ref{fig:docker_compose_layout} shows a diagram based
 on Docker documentation, to better understand the containers and layers
-of the alamSYS. textit{Note that in the diagram the lowest level is the "Server Infrastructure"
+of the alamSYS. \textit{Note that in the diagram the lowest level is the "Server Infrastructure"
 and the highest level is the "Docker-Compose" layer.}
 % Docker-Compose Layer Diagram
 \begin{figure}[ht]
@@ -23,13 +23,13 @@ of three docker containers, which are as follows:
 \begin{itemize}
     \item[(a)] Docker 1 : alamPREPROCESSOR - This is the docker container that contains
     the alamPREPROCESSOR application. It uses Python 3.11.2 as its based image. Moreover,
-    it is not attached to any volume or network port.
+    this container is connected to the data/db volume, and there is no network port exposed.
     \item[(b)] Docker 2 : alamAPI - This is the docker container that contains the alamAPI
-    application. It uses a Python image as well, but is running on top of an Alpine 3.1 image.
+    application. It uses a Python image as well, but is running on top of an Alpine 3.16 image.
     This was done as Alpine images runs on minimal resources than other Linux based images.
-    Furthermore this container is connected to the data/db volume, and its network port
+    Furthermore, it is not attached to any volume, and its network port
     8000 is exposed.
     \item[(c)] Docker 3 : alamDB - This is the docker container that contains the alamDB application
-    which runs on top of the Mongo version 4.0 image. It is also connected to the data/db volume.
-    And its network port 27017 is exposed.
+    which runs on top of the Mongo version 4.0 image. Similarly to alamPREPROCESSOR, it is also 
+    connected to the data/db volume, while its network port 27017 is exposed.
 \end{itemize}
