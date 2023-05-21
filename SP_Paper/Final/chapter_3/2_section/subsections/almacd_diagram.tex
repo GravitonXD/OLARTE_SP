@@ -39,18 +39,26 @@ then selected as the optimal hyperparameters \cite{Joseph2018}.
 However in the case of the optimization of ALMACD, the grid search
 approach was utilized to find the optimal parameters for the 
 fast and slow alma, such that it yields a favorable performance
-by computing the expected return of the trading algorithm. Whereas
-the following parameters were used for the grid search approach:
-\begin{itemize}
-    \item For the fast ALMA:
-    \subitem window size: a range from 1 to 10
-    \subitem sigma: a range from 1 to 20
-    \subitem offset: 0.85, 0.90, and 0.95
-    \item For the slow ALMA:
-    \subitem window size: a range from 10 to 20
-    \subitem sigma: a range from 1 to 20
-    \subitem offset: 0.85, 0.90, and 0.95
-\end{itemize}
+by computing the expected return of the trading algorithm. Shown in Table
+\ref{tab:alma_gridsearch_params} are the parameters used for the grid search:
+
+\begin{longtable}[c]{|c|c|c|c|}
+    \caption{ALMA Grid Search Parameters}
+    \label{tab:alma_gridsearch_params}\\
+    \hline
+                       & \textbf{\begin{tabular}[c]{@{}c@{}}WINDOW\\ SIZE\end{tabular}} & \textbf{SIGMA}           & \textbf{OFFSET}                                                                 \\ \hline
+    \endfirsthead
+    %
+    \multicolumn{4}{c}%
+    {{\bfseries Table \thetable\ continued from previous page}} \\
+    \hline
+                       & \textbf{\begin{tabular}[c]{@{}c@{}}WINDOW\\ SIZE\end{tabular}} & \textbf{SIGMA}           & \textbf{OFFSET}                                                                 \\ \hline
+    \endhead
+    %
+    \textbf{FAST ALMA} & 1 to 10                                                        & \multirow{2}{*}{1 to 20} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}0.85, 0.90,\\ and 0.95\end{tabular}} \\ \cline{1-2}
+    \textbf{SLOW ALMA} & 10 to 20                                                       &                          &                                                                                 \\ \hline
+\end{longtable}
+
 
 \subsubsection{Validation of ALMACD Parameters Using Return Backtesting Approach}
 \label{subsubsec:almacd_validation}

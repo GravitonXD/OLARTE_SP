@@ -1,21 +1,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{Collected Market Data Details}}{42}{}%
-\contentsline {table}{\numberline {3.2}{Summary of Sprints and Activities}}{52}{}%
+\contentsline {table}{\numberline {3.1}{Collected Market Data Details}}{32}{}%
+\contentsline {table}{\numberline {3.2}{ALMA Grid Search Parameters}}{37}{}%
+\contentsline {table}{\numberline {3.3}{Summary of Sprints and Activities}}{41}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{Summary of Risk Profile for Each Stock in the alamSYS}}{78}{}%
-\contentsline {table}{\numberline {4.2}{Idle System Average Resource Usage Statistics}}{90}{}%
-\contentsline {table}{\numberline {4.3}{Internal Load Average Resource Usage Statistics}}{92}{}%
-\contentsline {table}{\numberline {4.4}{Deployment Load Test Results (Buy Requests)}}{94}{}%
-\contentsline {table}{\numberline {4.5}{Deployment Load Test Results (Sell Requests)}}{94}{}%
-\contentsline {table}{\numberline {4.6}{CPU and Memory Utilization Statistics of alamAPI and alamDB Under Deployment Load Testing}}{95}{}%
-\contentsline {table}{\numberline {4.7}{DMD-LSTM Training Error Metrics Scores for Different Window Sizes}}{97}{}%
-\contentsline {table}{\numberline {4.8}{Baseline LSTM Training Error Metrics Scores for Different Window Sizes}}{99}{}%
-\contentsline {table}{\numberline {4.9}{DMD-LSTM Cross-Validation Error Metrics Scores}}{100}{}%
-\contentsline {table}{\numberline {4.10}{DMD-LSTM Successive Predictions}}{115}{}%
-\contentsline {table}{\numberline {4.11}{Optimal Alma Parameters Validation Results}}{117}{}%
-\contentsline {table}{\numberline {4.12}{Return Performance Comparison Between alamSYS and PSEI}}{119}{}%
+\contentsline {table}{\numberline {4.1}{Summary of Risk Profile for Each Stock in the alamSYS}}{64}{}%
+\contentsline {table}{\numberline {4.2}{Idle System Average Resource Usage Statistics}}{76}{}%
+\contentsline {table}{\numberline {4.3}{Internal Load Average Resource Usage Statistics}}{78}{}%
+\contentsline {table}{\numberline {4.4}{Deployment Load Test Results (Buy Requests)}}{80}{}%
+\contentsline {table}{\numberline {4.5}{Deployment Load Test Results (Sell Requests)}}{80}{}%
+\contentsline {table}{\numberline {4.6}{CPU and Memory Utilization Statistics of alamAPI and alamDB Under Deployment Load Testing}}{81}{}%
+\contentsline {table}{\numberline {4.7}{DMD-LSTM Training Error Metrics Scores for Different Window Sizes}}{83}{}%
+\contentsline {table}{\numberline {4.8}{Baseline LSTM Training Error Metrics Scores for Different Window Sizes}}{85}{}%
+\contentsline {table}{\numberline {4.9}{DMD-LSTM Cross-Validation Error Metrics Scores}}{86}{}%
+\contentsline {table}{\numberline {4.10}{DMD-LSTM Successive Predictions}}{101}{}%
+\contentsline {table}{\numberline {4.11}{Optimal Alma Parameters Validation Results}}{103}{}%
+\contentsline {table}{\numberline {4.12}{Return Performance Comparison Between alamSYS and PSEI}}{105}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

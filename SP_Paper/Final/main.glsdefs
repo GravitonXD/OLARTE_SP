@@ -1,0 +1,28 @@
+\glsdefs@newdocentry{⟨label⟩}%
+{%
+name={⟨key⟩},%
+sort={⟨key⟩},%
+type={main},%
+first={⟨key⟩},%
+firstplural={⟨key⟩s},%
+text={⟨key⟩},%
+plural={⟨key⟩s},%
+description={⟨value⟩},%
+descriptionplural={⟨value⟩},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+

@@ -32,45 +32,46 @@ labeled process 0, as shown in Figure
 \vspace{0.5cm}
 The diagram above depicts the root process (0), which is the alamSYS itself, 
 and is linked to three external entities: 
-\begin{itemize}
-    \item[(a)] Stock Market Historical Data Provider - 
-    which was provided by EODHD.
-    \item[(b)] Deep Learning Model \& Trading Algorithm - these were 
-    developed alongside the alamSYS, specifically the DMD-LSTM Model and ALMACD, respectively.
-    \item[(c)] Internet Connected Application - these are any type of applications with internet access. 
-    Other applications may include a web-based application, a smart home speaker, and so on.
-\end{itemize}
+(a) Stock Market Historical Data Provider, which was provided by EODHD;
+(b) Deep Learning Model \& Trading Algorithm,these were developed alongside the 
+alamSYS, specifically the DMD-LSTM Model and ALMACD, respectively; and 
+(c) Internet Connected Applicatio, these are any type of applications with 
+internet access. Other applications may include a web-based application, a 
+smart home speaker, and so on.
+\\
 
 The data flow lines shown Figure \ref{fig:context_dfd} include the following:
-\begin{itemize}
-    \item[(a)] API Request(EODHD) - this is the request sent to the EODHD API to collect the 
-    stock market historical data.
-    \item[(b)] API Response(EODHD) - this is the response received from the 
-    EODHD API, which contains the end of day stock market data.
-    \item[(c)] API Request(alamAPI) - this are the requests sent by any 
-    internet connected application to the alamSYS via the alamAPI.
-    \item[(d)] API Response(alamAPI) - this are the responses sent by the alamSYS to 
-    any internet connected application via the alamAPI. Whereas, in connection to 
-    the alamAPI, the following API points may be requested by the internet connected application:
-    \begin{itemize}
-        \item[1.] Home - this API endpoint returns a greeting message. Which should notify the 
-        user that they have connected to the alamAPI successfully.
-        \item[2.] Stocks to Buy - these API endpoints return a json data of recommended stocks to 
-        buy based on the current market price, the predicted price uptrend, and the entry signal of the
-        trading algorithm in use.
-        \item[3.] Stocks to Sell - these API endpoints return a json data of recommended stocks to 
-        sell based on the current market price, the predicted price downtrend, and the exit signal of the
-        trading algorithm in use.
-        \item[4.] ML Model Info - these API endpoints return a json data of the Machine Learning Models 
-        used in the alamSYS, as well as their associated information.
-        \item[5.] Stock Risks Profile - these API endpoints return a json data of stocks in the 
-        alamSYS as well as their risk values based on value at risk (\%), volatility (\%), and drawdown (\%).
-    \end{itemize}
-    \item[(e)] Trained Model - this is the trained model, referring to the DMD-LSTM, that was used to predict the 
-    price movement of the stocks in the Philippine Stock Market.
-    \item[(f)] Trading Algorithm - this is the deployed trading algorithm, referring to the ALMACD,
-    that was used to determine the entry and exit signals of the stocks in the Philippine Stock Market.
-\end{itemize}
+(a) API Request(EODHD), this is the request sent to the EODHD API to collect the 
+stock market historical data; 
+(b) API Response(EODHD), this is the response received from the 
+EODHD API, which contains the end of day stock market data; 
+(c) API Request(alamAPI), this are the requests sent by any 
+internet connected application to the alamSYS via the alamAPI; 
+(d) API Response(alamAPI), this are the responses sent by the alamSYS to 
+any internet connected application via the alamAPI;
+(e) Trained Model, this is the trained model, referring to the DMD-LSTM, 
+that was used to predict the price movement of the stocks in the Philippine 
+Stock Market; and
+(f) Trading Algorithm, this is the deployed trading algorithm, referring to the ALMACD,
+that was used to determine the entry and exit signals of the stocks in the Philippine 
+Stock Market.
+\\
+
+In connection, the following are the API requests that can be utilized:
+(a) Home, this API endpoint returns a greeting message. Which should notify the 
+user that they have connected to the alamAPI successfully;
+(b) Stocks to Buy, these API endpoints return a json data of recommended stocks to 
+buy based on the current market price, the predicted price uptrend, and the entry signal of the
+trading algorithm in use;
+(c) Stocks to Sell, these API endpoints return a json data of recommended stocks to 
+sell based on the current market price, the predicted price downtrend, and the exit signal of the
+trading algorithm in use;
+(d) ML Model Info, these API endpoints return a json data of the Machine Learning Models 
+used in the alamSYS, as well as their associated information; and 
+(e) Stock Risks Profile, these API endpoints return a json data of stocks in the 
+alamSYS as well as their risk values based on value at risk (\%), volatility (\%), 
+and drawdown (\%).
+\\
 
 % DFD 0
 \subsubsection{DFD of Diagram 0}
@@ -87,14 +88,13 @@ as shown in Figure \ref{fig:dfd0}.
 \FloatBarrier
 
 From the figure above, the root process, has two main processes:
-\begin{itemize}
-    \item[(a)] alamSYS Preprocessor - which is the system’s stock market data processing unit, which deploys
-    the deep learning model (DMD-LSTM), and the trading algorithm (ALMACD) to predict the price movement of the
-    stocks in the Philippine Stock Market.
-    \item[(b)] alamAPI \& alamDB - which is the system’s API and database unit, which is responsible for
-    processing the API requests and responses, as well as storing the data of 
-    the system, respectively.
-\end{itemize}
+(a) alamSYS Preprocessor, which is the system’s stock market data processing unit, which deploys
+the deep learning model (DMD-LSTM), and the trading algorithm (ALMACD) to predict the price movement of the
+stocks in the Philippine Stock Market; and
+(b) alamAPI \& alamDB, which is the system’s API and database unit, which is responsible for
+processing the API requests and responses, as well as storing the data of 
+the system, respectively.
+\\
 
 % DFD 1
 \subsubsection{DFD of Diagram 1}
@@ -111,15 +111,14 @@ it is useful to check the DFD of that process, which is illustrated in Figure \r
 
 From the figure shown above, it can be observed that Process 1 
 is composed of three internal processes, which are as follows:
-\begin{itemize}
-    \item[(a)] Data Collector - which is the main process responsible 
-    for collecting the historical market data using EODHD End of Day Market Data API.
-    \item[(b)] Data Processor - which is the main process responsible for processing the collected 
-    stock market data using the DMD-LSTM Model and the ALMACD Trading Algorithm.
-    \item[(c)] Preprocessor Utilities - these are a set of tools that contains the 
-    utilities used by the data processor, such as the initialization of the database, database related actions, 
-    database models, stock symbols, and logs and alerts module.
-\end{itemize}
+(a) Data Collector, which is the main process responsible 
+for collecting the historical market data using EODHD End of Day Market Data API; 
+(b) Data Processor, which is the main process responsible for processing the collected 
+stock market data using the DMD-LSTM Model and the ALMACD Trading Algorithm; and
+(c) Preprocessor Utilities, these are a set of tools that contains the 
+utilities used by the data processor, such as the initialization of the database, database related actions, 
+database models, stock symbols, and logs and alerts module.
+\\
 
 % DFD 1.2
 \subsubsection{DFD of Diagram 1.2}
@@ -134,16 +133,15 @@ This shows the processes inside the process 1.2, which is the data processor.
 \FloatBarrier
 
 The data processor is further composed of three processes, which are as follows:
-\begin{itemize}
-    \item[(a)] Deep Learning Applicator - this subprocess applies the DMD-LSTM model to 
-    the collected stock market end-of-day (eod) data.
-    \item[(b)] Trading Algorithm Applicator - the eod data alongside the list of predicted stock prices
-    composes the "DL Model Processed Data", which is sent to this subprocess. This subprocess applies
-    the ALMACD to better determine the entry (buy or hold), and exit (sell) signals for each stocks.
-    \item[(c)] Database Updater - a subprocess responsible for updating the contents of the database, 
-    based on the data processed by the Deep Learning Applicator and Trading Algorithm Applicator.
-\end{itemize}
-
+(a) Deep Learning Applicator, this subprocess applies the DMD-LSTM model to 
+the collected stock market end-of-day (eod) data; 
+(b) Trading Algorithm Applicator, the eod data alongside the list of predicted stock prices
+composes the "DL Model Processed Data", which is sent to this subprocess. 
+This subprocess applies the ALMACD to better determine the entry (buy or hold), 
+and exit (sell) signals for each stocks; and 
+(c) Database Updater, a subprocess responsible for updating the contents of the database, 
+based on the data processed by the Deep Learning Applicator and Trading Algorithm Applicator.
+\\
 
 % DFD 2
 \subsubsection{DFD of Diagram 2}
@@ -156,14 +154,14 @@ Figure \ref{fig:dfd2} shows the inner processes of the Process 2 (alamAPI \& ala
     \label{fig:dfd2}
 \end{figure}
 \FloatBarrier
-\vspace{0.5cm}
+
+
 The figure above shows three internal processes of the Process 2, namely:
-\begin{itemize}
-    \item[(a)] alamDB - this process, processes the database request sent by the alamAPI as requested by the
-    Internet Connected Application through the utilization of alamAPI utilities. It also sends the database
-    response to the alamAPI via the same utilities module.
-    \item[(b)] alamAPI Utilities - this process serves as a mediator of database request and responses
-    between the alamDB and alamAPI.
-    \item[(c)] alamAPI - this process contains all the API endpoints for the alamAPI, which is responsible
-    for processing the requests and API responses from and to the connected users.
-\end{itemize}
+(a) alamDB, this process, processes the database request sent by the alamAPI as requested by the
+Internet Connected Application through the utilization of alamAPI utilities. It also sends the database
+response to the alamAPI via the same utilities module; 
+(b) alamAPI Utilities, this process serves as a mediator of database request and responses
+between the alamDB and alamAPI; and 
+(c) alamAPI, this process contains all the API endpoints for the alamAPI, which is responsible
+for processing the requests and API responses from and to the connected users.
+\\

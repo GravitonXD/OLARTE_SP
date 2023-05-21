@@ -59,28 +59,25 @@ of the DMD-LSTM model. The following are the specifics of the stocks gathered:
 \subsubsection{Data Preprocessing}
 \label{subsubsec:model_data_processing}
 Data preprocessing before model training and testing is composed of three main processes which are as follows:
-\begin{itemize}
-    \item[(a)] Data Cleaning - this was done to clean any missing values from the data.
-    \item[(b)] Feature Selection - closing prices was selected as the main feature of the model.
-    \item[(c)] Splitting of Data - data was split in the ratio of 80:20 for testing and training data, respectively.
-\end{itemize}
+(a) Data Cleaning, this was done to clean any missing values from the data;
+(b) Feature Selection, closing prices was selected as the main feature of the model; and
+(c) Splitting of Data, data was split in the ratio of 80:20 for testing and training data, respectively.
+\\
 
 Meanwhile for the data preprocessing for cross-validation, the following processes were done:
-\begin{itemize}
-    \item[(a)] Data Cleaning - this was done to clean any missing values from the data.
-    \item[(b)] Feature Selection - closing prices was selected as the main feature of the model.
-    \item[(c)] Data Normalization - using logarithmic normalization method, the data was normalized.
-    Logarithmic normalization was utilized to help solved the problem with the data having extreme ranges,
-    which affects the evaluation of the cross-validation. In essence it was used to enable data stability, and
-    increase interpretability \cite{Baeldung2022, Bex2021, Andrew2019}.
-\end{itemize}
+(a) Data Cleaning, this was done to clean any missing values from the data;
+(b) Feature Selection, closing prices was selected as the main feature of the model; and
+(c) Data Normalization, using logarithmic normalization method, the data was normalized
+Logarithmic normalization was utilized to help solved the problem with the data having extreme ranges,
+which affects the evaluation of the cross-validation. In essence it was used to enable data stability, and
+increase interpretability \cite{Baeldung2022, Bex2021, Andrew2019}.
 
 \subsubsection{Model Training and Testing}
 \label{subsubsec:model_training_testing}
 Using pyDMD the dynamic modes was extracted from the training and testing data,
 these extracted values alongside the actual closing price data were utilized for
 the training of an LSTM model using Tensorflow Keras Library.
-\hfill \\
+\\
 
 There are a total of eight model variations trained and tested, which are as follows:
 (1) Baseline LSTM with window size of 5;
