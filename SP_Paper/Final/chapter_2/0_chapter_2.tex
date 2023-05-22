@@ -1,22 +1,77 @@
 \chapter{Review of Related Works and Literature}
 \label{chap:lit_review}
-One of the challenges facing investors in the Philippine Stock Market 
-is the limited availability of resources and tools for 
-making market decisions. In contrast, other countries have begun 
-implementing machine learning techniques for stock market prediction and analysis, 
-which allows for more accurate decision-making and reduces the risk of poor 
-investment outcomes. As a result, these countries are likely to experience 
-better returns on their investments.
-\hfill \\
+Many online stock market analysis tools have recently been available, including: 
+(a) Investa Screener; (b) TradingView; (c) Stock Rover; and (d) Investagrams. 
+These tools can assist investors in performing fundamental and technical analysis on 
+various equities
+\cite{Benignos2020, Carey2023, DayTradingz, Investagrams}.
+\\
 
-In this literature review, the following general topics are reviewed, 
-discussed, and synthesized: (a) Integration of Machine Learning based 
-Trading Algorithms; and (b) Utilization of Dynamic Mode Decomposition on the 
-Financial markets.
+The use of technical analyses, in particular, provides the following 
+benefits: (a) the ability to generate profitable buy and sell signals; (b) the performance 
+of the technical analysis can be utilized and even show similar performance on different 
+markets; (c) can be used to test the significance predictive power of trading rules; and 
+(d) provides an easy-to-understand data analysis and visualization tool in conjunction 
+with fundamental stock analysis
+\cite{Abbad2014AdvantagesOU, Priatmojo2022TechnicalAT, Ausloos_2002, Tangsripairoj2020StockifyAW}.
+\\
 
-% Integration of Machine Learning based Trading Algorithms (integration_ml.tex)
-\input{{./chapter_2/1_section/integration_ml.tex}}
-% Utilization of Dynamic Mode Decomposition on the Financial markets (utilization_dmd.tex)
-\input{{./chapter_2/2_section/utilization_dmd.tex}}
-% Synthesis of Literature Review (synthesis.tex)
-\input{{./chapter_2/3_section/synthesis.tex}}
+However, the studies cited above show the following limitations to using 
+traditional stock market analysis techniques through the use of online tools: 
+(a) the amount of data becomes overwhelming, especially for new investors/traders; 
+(b) relying on fundamental and technical analysis alone may lead to missed 
+opportunities or incorrect market decisions; and (c) these tools and techniques 
+do not eliminate emotional trading.
+\\
+
+Moreover, there are currently no machine learning-based technologies accessible in the 
+Philippines, which according to studies aid to: (a) improve decision accuracy and efficiency; 
+(b) increase risk management; and (c) improve trader performance in the short term
+\cite{Lu2022MachineLI, Shaheen2020UseOM, Singh_2022, Prasad2021ImportanceOM, 
+Zhang2022ApplicationOB, Obthong2020}. In comparison, a number of studies in other nations have 
+produced machine learning models for stock market forecasting, some of which are as follows:
+\\
+
+The study of \citeA{Mann2015} in the utilization of DMD for financial stock market 
+prediction has become the foundation of the study by \citeA{Savas2017} 
+on the algorithmic trading strategies with Dynamic Mode Decomposition 
+for the Turkish Stock Market. Wherein, based on their results they found out 
+that the timing of DMD analysis was not significantly accurate, as such they 
+have used a simple moving average with genetic algorithm to improve the market 
+timing of DMD, which prevents 80\% of the false trade signals.
+\\
+
+In the study by \citeA{Cui2016}, they have found that DMD was able to capture the 
+dynamic patterns of the Chinese Stock Market, especially in a sideway trending market.
+\citeA{Fraz2022ModelingAF}, researchers from Pakistan and China, was able to 
+create a model for the KSE-100 and SSE-100 utilizing machine learning techniques, the GARCH 
+family, and non-linear regime-switching models. Based on Akaike's Information Criteria (AIC) 
+and Bayesian Information Criteria (BIC), their findings revealed that the standard GARCH model 
+is the best-fitted model, and that the LSTM model outperforms the other models in predicting 
+the SSE-100.
+\\
+
+More recently, \citeA{Sarangi2023ComputingSM}, researchers from India were able 
+to perform and analyze the activity of the Bombay Stock Exchange (BSE) using three machine learning models: 
+linear regression, polynomial regression, and support vector regression.
+\\
+
+These studies demonstrate how widely machine learning models are used in the stock market. 
+However, it also demonstrates some limitations of the models, such as: (a) these studies 
+are focused outside of the Philippines, so the model developed may not apply directly or 
+well to the Philippine Stock Exchange; and (b) as the \citeA{Shaheen2020UseOM} study suggests, the results 
+of these models may not necessarily apply to systems in the real world, where the models 
+may be unable to adapt to other situations and conditions.
+\\
+
+
+Overall, this review of the related literature and studies, shows that one of the issues 
+confronting investors in the Philippine Stock Exchange is the scarcity of resources and 
+instruments for making market decisions. Other countries, on the other hand, have begun to 
+adopt machine learning techniques for stock market prediction and analysis, allowing for 
+more accurate decision-making and lowering the chance of poor investment outcomes. 
+However, using these machine learning models does not guarantee profitable market decisions in 
+the actual world. As a result, alamSYS was created, with the goal of implementing a deep 
+learning model for the Philippine Stock Exchange and deploying this model for use in the 
+real world, accessible through an API.
+\\
