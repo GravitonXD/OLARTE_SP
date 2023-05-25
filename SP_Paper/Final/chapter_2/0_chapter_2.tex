@@ -24,6 +24,13 @@ opportunities or incorrect market decisions; and (c) these tools and techniques
 do not eliminate emotional trading.
 \\
 
+In recent years, 'artificial intelligence' (AI) has grown in popularity as a tool 
+for nearly every endeavor. Particularly in recent years, machine learning techniques 
+are increasingly being utilized in the stock market, specifically for: 
+(a) stock price predictions; (b) stock movement/trend prediction; and 
+(c) stock portfolio management
+\cite{Kumbure2022, Strader2020, Soni2022, Rea2020, Guo2022, Budiharto2021}. 
+
 Moreover, there are currently no machine learning-based technologies accessible in the 
 Philippines, which according to studies aid to: (a) improve decision accuracy and efficiency; 
 (b) increase risk management; and (c) improve trader performance in the short term
@@ -59,11 +66,49 @@ linear regression, polynomial regression, and support vector regression.
 These studies demonstrate how widely machine learning models are used in the stock market. 
 However, it also demonstrates some limitations of the models, such as: (a) these studies 
 are focused outside of the Philippines, so the model developed may not apply directly or 
-well to the Philippine Stock Exchange; and (b) as the study of \citeA{Shaheen2020UseOM} suggests, the results 
+well to the Philippine Stock Exchange; (b) as the study of \citeA{Shaheen2020UseOM} suggests, the results 
 of these models may not necessarily apply to systems in the real world, where the models 
-may be unable to adapt to other situations and conditions.
+may be unable to adapt to other situations and conditions; 
+(c) the utilization of these tools has its limitations. First, these tools
+are only based on the past market data, and may not be able to take account
+for other events and technical aspects, that can affect the stock market
+\cite{Concoda2020}; and (d) most of these tools are closed off to the public, or often behind a 
+payment or subscription walls, limiting the resources available for them.
+Lastly, there are no existing integrations of these developed machine learning
+models with other traditional stock market analysis tools, making them somewhat
+ineffective when utilized in a real-world scenario
+\cite{CHHAJER2022100015, zou2023stock}.
 \\
 
+These points are essential to take note, since investing in the stock market brings 
+significant financial benefits to individuals such as: 
+(a) it helps alleviate the effects of inflation over time. Whereas, it was noted 
+that the Philippines' inflation rate as of April 2023 was 6.6\% \cite{NEDA2023}, 
+while savings account  deposit interest rates are only 1-3\% annually \cite{BSP19}. 
+Meaning, savings in deposit banks may not keep pace with inflation, 
+potentially reducing an individual's purchasing power over time \cite{RBC, EdwardJones}; 
+and (b) investing in the stock market can provide individuals with the opportunity for 
+significant capital growth without the need for direct investment involvement in 
+business operations \cite{USSecAndExComm}.
+\\
+
+Also, the stock market is widely acknowledged to play an important role in economic 
+growth because it allocates and provides capital to businesses, which drives economic 
+activity and growth. This is evident from the fact that stock market performance 
+is frequently correlated with the gross domestic product (GDP) of the country
+\cite{TradeBrains, Hall2022, Bae2017}.
+Furthermore, historical stock price trends can provide insight 
+into broader economic movements
+\cite{Campbell2021}.
+\\
+
+In a study conducted by \citeA{Balaba2017}, they discovered that the stock market
+has a positive impact on the Philippines' economy. The study's findings showed that
+as the stock market rose, the unemployment rate fell. This is because the performance 
+of the stock market leads to job creation, which in turn leads to economic growth.
+This, in turn, drives economic growth. This relationship was observed
+in the Philippines from 2007 to 2017.
+\\
 
 Overall, this review of the related literature and studies, shows that one of the issues 
 confronting investors in the Philippine Stock Exchange is the scarcity of resources and 
@@ -75,3 +120,4 @@ the actual world. As a result, alamSYS was created, with the goal of implementin
 learning model for the Philippine Stock Exchange and deploying this model for use in the 
 real world, accessible through a web-based API.
 \\
+
