@@ -13,7 +13,19 @@ Model Cross-Validation.
     \caption{DMD-LSTM Model Development Methodology for alamSYS}
     \label{fig:ml_model}
 \end{figure}
-\FloatBarrier   
+\FloatBarrier
+
+% About the DMD-LSTM model
+Using the figure above, the DMD-LSTM model was trained, tested, 
+and cross-validated. The LSTM model, in particular, incorporates 
+the extracted dynamic modes from the training data as a hidden layer 
+of the LSTM. Dynamic Mode Decomposition (DMD) is a dimensionality 
+reduction algorithm that computes a set of modes based on time 
+series data. It is typically used in thermodynamics but has recently 
+been applied to stock market data. Moreover, The incorporation of the dynamic 
+mode as a hidden layer of the LSTM model helps by allowing the 
+model to learn the underlying dynamics of time-series data more efficiently, 
+thus improving overall prediction accuracy \cite{2020arXiv200502762E}
 
 \subsubsection{Data Collection}
 \label{subsubsec:model_data_collection}
@@ -61,7 +73,10 @@ of the DMD-LSTM model. The following are the specifics of the stocks gathered:
 \label{subsubsec:model_data_processing}
 Data preprocessing before model training and testing is composed of three main processes which are as follows:
 (a) Data Cleaning, this was done to clean any missing values from the data;
-(b) Feature Selection, closing prices was selected as the main feature of the model; and
+(b) Feature Selection, closing prices were chosen as the main data 
+used for model training because they provide the most accurate 
+valuation of a stock price when compared to high, low, and opening 
+prices \cite{AdamHayes2021}; and
 (c) Splitting of Data, data was split in the ratio of 80:20 for testing and training data, respectively.
 \\
 
